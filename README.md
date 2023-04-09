@@ -6,7 +6,7 @@ gr-aff3ct_codes is a GNU Radio module set of blocks that incorporates codes from
 
   2) Future: Add additional codes from MIT AFF3CT library into GNU Radio OOT decoder and encoder blocks.
   
-  3) This repository is associated with the gr-HighDataRate_modem repository. gr-aff3ct_codes is being kept separate from the gr-HighDataRate_Modem repository because extra steps/dependencies are required to add the MIT AFF3CT library to a GNU Radio block as listed below after cloning this repository.
+  3) This repository is associated with the gr-HighDataRate_Modem repository. gr-aff3ct_codes is being kept separate from the gr-HighDataRate_Modem repository because extra steps/dependencies are required to add the MIT AFF3CT library to a GNU Radio block as listed below after cloning this repository.
   
 
 Also, an example SQPSK/LDPC flowgraph that plays back a recorded I/Q file (about 500 frame duration) is located in the “examples” folder of this github repository. The Allen Antenna Array was used to record Orion moon vehicle IQ on the downlink (SQPSK with CCSDS LDPC) as stated at the following link that also provides recorded IQ data files and all the details about the SQPSK/LDPC flowgraph also:
@@ -47,17 +47,22 @@ There are some build dependencies for this GNU Radio out-of-tree module that mus
 
   1) The MIT AFF3CT Library (Header Files and Shared Object File) are already available in this repository, but must be placed in other folder locations before compiling/building so that they are found during build and execution.
                 a) aff3ct-3.0.2_Library_Header_Files (see folder)
-                    I placed in root location path and folder usr/include but other options exist 
+                    I placed in root location path and folder usr/include but other options exist
+                     
                 b) aff3ct-3.0.2_Library_Shared_Object_File (see folder): libaff3ct-3.0.2.so Shared Object
                     I placed in root location path and folder usr/lib but other options exist   
 
   2) 3 additional changes to cmake already are already in this repository:
-        a. CMakeLists.txt at top level of repository: Added lines 100-103
-        b. CMakeLists.txt in "lib" folder:  Modified line 30 at end of line
-        c. Added new file at location cmake/Modules: Findlibaff3ct-3.0.2.so.cmake
+     a) CMakeLists.txt at top level of repository: Added lines 100-103
+ 
+     b) CMakeLists.txt in "lib" folder:  Modified line 30 at end of line
+         
+     c) Added new file at location cmake/Modules: Findlibaff3ct-3.0.2.so.cmake 
   
   3) More information on the MIT AFF3CT Library can be found at the following 2 links if one wants to download AFF3CT files and manuals themselves:
+              
               https://aff3ct.github.io/index.html
+              
               https://aff3ct.github.io/download.html
               
 
