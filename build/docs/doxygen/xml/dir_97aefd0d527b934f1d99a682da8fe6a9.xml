@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="dir_97aefd0d527b934f1d99a682da8fe6a9" kind="dir">
+    <compoundname>lib</compoundname>
+    <innerfile refid="ccsds__ldpc__decoder__impl_8h">ccsds_ldpc_decoder_impl.h</innerfile>
+    <innerfile refid="CCSDS__Pseudo__Randomizer__impl_8h">CCSDS_Pseudo_Randomizer_impl.h</innerfile>
+    <innerfile refid="Frame__Extract2__impl_8h">Frame_Extract2_impl.h</innerfile>
+    <innerfile refid="Resolve__Phase2__impl_8h">Resolve_Phase2_impl.h</innerfile>
+    <innerfile refid="Tag__FrameASM64__ff__impl_8h">Tag_FrameASM64_ff_impl.h</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/davem/gr-aff3ct_codes/lib/"/>
+  </compounddef>
+</doxygen>

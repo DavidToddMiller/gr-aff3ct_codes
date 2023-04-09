@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="dir_b3af2a5ad9e7045b0f3258a019ab00d0" kind="dir">
+    <compoundname>aff3ct_codes</compoundname>
+    <innerfile refid="api_8h">api.h</innerfile>
+    <innerfile refid="ccsds__ldpc__decoder_8h">ccsds_ldpc_decoder.h</innerfile>
+    <innerfile refid="CCSDS__Pseudo__Randomizer_8h">CCSDS_Pseudo_Randomizer.h</innerfile>
+    <innerfile refid="Frame__Extract2_8h">Frame_Extract2.h</innerfile>
+    <innerfile refid="Resolve__Phase2_8h">Resolve_Phase2.h</innerfile>
+    <innerfile refid="Tag__FrameASM64__ff_8h">Tag_FrameASM64_ff.h</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/davem/gr-aff3ct_codes/include/gnuradio/aff3ct_codes/"/>
+  </compounddef>
+</doxygen>

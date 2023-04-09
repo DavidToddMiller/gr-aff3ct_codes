@@ -1,0 +1,240 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygenindex xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="index.xsd" version="1.9.1" xml:lang="en-US">
+  <compound refid="structgr_1_1aff3ct__codes_1_1ccsds__ldpc__decoder__impl_1_1buffers" kind="struct"><name>gr::aff3ct_codes::ccsds_ldpc_decoder_impl::buffers</name>
+    <member refid="structgr_1_1aff3ct__codes_1_1ccsds__ldpc__decoder__impl_1_1buffers_1af53f0cf33dcb3d6a96bd295a522d9bfd" kind="variable"><name>d_sigma</name></member>
+    <member refid="structgr_1_1aff3ct__codes_1_1ccsds__ldpc__decoder__impl_1_1buffers_1ab57dbf4485f358f9ff940c2835618abb" kind="variable"><name>d_noisy_symbols</name></member>
+    <member refid="structgr_1_1aff3ct__codes_1_1ccsds__ldpc__decoder__impl_1_1buffers_1a8bc0c65316cf091bf46c007d20cf10cd" kind="variable"><name>d_LLRs</name></member>
+    <member refid="structgr_1_1aff3ct__codes_1_1ccsds__ldpc__decoder__impl_1_1buffers_1a17e6a177b79a1e97f0a6f5284ca9d00f" kind="variable"><name>d_dec_bits</name></member>
+    <member refid="structgr_1_1aff3ct__codes_1_1ccsds__ldpc__decoder__impl_1_1buffers_1a994aa760adba4b84f08f5714469f6555" kind="variable"><name>d_dec_bits_packed</name></member>
+  </compound>
+  <compound refid="classgr_1_1aff3ct__codes_1_1ccsds__ldpc__decoder" kind="class"><name>gr::aff3ct_codes::ccsds_ldpc_decoder</name>
+    <member refid="classgr_1_1aff3ct__codes_1_1ccsds__ldpc__decoder_1a6cfc360da1655700d76b535fac8c8e46" kind="typedef"><name>sptr</name></member>
+    <member refid="classgr_1_1aff3ct__codes_1_1ccsds__ldpc__decoder_1a4e1bfa5eb79ddde8181552485a5986ce" kind="function"><name>make</name></member>
+  </compound>
+  <compound refid="classgr_1_1aff3ct__codes_1_1ccsds__ldpc__decoder__impl" kind="class"><name>gr::aff3ct_codes::ccsds_ldpc_decoder_impl</name>
+    <member refid="classgr_1_1aff3ct__codes_1_1ccsds__ldpc__decoder__impl_1a67b946651d9a03a39e66d4779f054b1a" kind="variable"><name>d_failed_frames</name></member>
+    <member refid="classgr_1_1aff3ct__codes_1_1ccsds__ldpc__decoder__impl_1a4cb82287198bfd524797ec003b500040" kind="variable"><name>d_passed_frames</name></member>
+    <member refid="classgr_1_1aff3ct__codes_1_1ccsds__ldpc__decoder__impl_1ab010c7b9365581df047d59207dd6533a" kind="variable"><name>d_p</name></member>
+    <member refid="classgr_1_1aff3ct__codes_1_1ccsds__ldpc__decoder__impl_1acc9eaa06c60b1c3725cc6f9a66e84706" kind="variable"><name>alist_file</name></member>
+    <member refid="classgr_1_1aff3ct__codes_1_1ccsds__ldpc__decoder__impl_1a7d23d78c8a426f6e555e5f60f853c30d" kind="variable"><name>d_m</name></member>
+    <member refid="classgr_1_1aff3ct__codes_1_1ccsds__ldpc__decoder__impl_1a1b62820236fc9071cfc7e131a990e349" kind="variable"><name>d_b</name></member>
+    <member refid="classgr_1_1aff3ct__codes_1_1ccsds__ldpc__decoder__impl_1a232c6a0e3d9117f8bef5864819671459" kind="function"><name>ccsds_ldpc_decoder_impl</name></member>
+    <member refid="classgr_1_1aff3ct__codes_1_1ccsds__ldpc__decoder__impl_1ad75d0fc9f6c8e6fad658df3e977a3a26" kind="function"><name>~ccsds_ldpc_decoder_impl</name></member>
+    <member refid="classgr_1_1aff3ct__codes_1_1ccsds__ldpc__decoder__impl_1afe7fd55352d24369e124baf77e8633dc" kind="function"><name>forecast</name></member>
+    <member refid="classgr_1_1aff3ct__codes_1_1ccsds__ldpc__decoder__impl_1aaff227f01b898bd768fea7b3fbc2cb81" kind="function"><name>general_work</name></member>
+  </compound>
+  <compound refid="classgr_1_1aff3ct__codes_1_1CCSDS__Pseudo__Randomizer" kind="class"><name>gr::aff3ct_codes::CCSDS_Pseudo_Randomizer</name>
+    <member refid="classgr_1_1aff3ct__codes_1_1CCSDS__Pseudo__Randomizer_1a37ef6a0600a5cc3319f9afb75e661125" kind="typedef"><name>sptr</name></member>
+    <member refid="classgr_1_1aff3ct__codes_1_1CCSDS__Pseudo__Randomizer_1aa4c1465f90897ad604b2a356654bb553" kind="function"><name>make</name></member>
+  </compound>
+  <compound refid="classgr_1_1aff3ct__codes_1_1CCSDS__Pseudo__Randomizer__impl" kind="class"><name>gr::aff3ct_codes::CCSDS_Pseudo_Randomizer_impl</name>
+    <member refid="classgr_1_1aff3ct__codes_1_1CCSDS__Pseudo__Randomizer__impl_1af5ea757c3bea73f1d8382ebcc57040de" kind="variable"><name>d_lfsr</name></member>
+    <member refid="classgr_1_1aff3ct__codes_1_1CCSDS__Pseudo__Randomizer__impl_1add1f6008d23c7ddd5f949fe9f39e5b77" kind="variable"><name>d_count</name></member>
+    <member refid="classgr_1_1aff3ct__codes_1_1CCSDS__Pseudo__Randomizer__impl_1a02d7762d702d1a8b2ef3718c83a8d5b2" kind="variable"><name>d_mask</name></member>
+    <member refid="classgr_1_1aff3ct__codes_1_1CCSDS__Pseudo__Randomizer__impl_1a1ee32eef0ffdce2d70be31372e4f0a09" kind="variable"><name>d_len</name></member>
+    <member refid="classgr_1_1aff3ct__codes_1_1CCSDS__Pseudo__Randomizer__impl_1af899293b83d88e44f3a3a9745610bd30" kind="variable"><name>d_seed</name></member>
+    <member refid="classgr_1_1aff3ct__codes_1_1CCSDS__Pseudo__Randomizer__impl_1ac0045664b50f8578b4567d548ba4e438" kind="variable"><name>d_bits_per_byte</name></member>
+    <member refid="classgr_1_1aff3ct__codes_1_1CCSDS__Pseudo__Randomizer__impl_1a4f0ff38f56203f8d4bf9b82e7622076a" kind="function"><name>CCSDS_Pseudo_Randomizer_impl</name></member>
+    <member refid="classgr_1_1aff3ct__codes_1_1CCSDS__Pseudo__Randomizer__impl_1a15a7d6aeadc2ed9e7f93ae0e7d334c56" kind="function"><name>~CCSDS_Pseudo_Randomizer_impl</name></member>
+    <member refid="classgr_1_1aff3ct__codes_1_1CCSDS__Pseudo__Randomizer__impl_1a8c28250add34e94cd00acd528fdbfc77" kind="function"><name>forecast</name></member>
+    <member refid="classgr_1_1aff3ct__codes_1_1CCSDS__Pseudo__Randomizer__impl_1a30a321c05852bc3dbd7c0f9a638ad89c" kind="function"><name>general_work</name></member>
+  </compound>
+  <compound refid="classgr_1_1aff3ct__codes_1_1Frame__Extract2" kind="class"><name>gr::aff3ct_codes::Frame_Extract2</name>
+    <member refid="classgr_1_1aff3ct__codes_1_1Frame__Extract2_1ac6cecb275bf37b3733d2251f71c7d94e" kind="typedef"><name>sptr</name></member>
+    <member refid="classgr_1_1aff3ct__codes_1_1Frame__Extract2_1ab5958ca47ceea9fe49539dfa8faba794" kind="function"><name>make</name></member>
+  </compound>
+  <compound refid="classgr_1_1aff3ct__codes_1_1Frame__Extract2__impl" kind="class"><name>gr::aff3ct_codes::Frame_Extract2_impl</name>
+    <member refid="classgr_1_1aff3ct__codes_1_1Frame__Extract2__impl_1abfb79e5ce088a335a9147e7ad4c77c98" kind="variable"><name>d_frame_length</name></member>
+    <member refid="classgr_1_1aff3ct__codes_1_1Frame__Extract2__impl_1a399a941eb1d34a09dc11c090ea9535ad" kind="variable"><name>d_buffer_length</name></member>
+    <member refid="classgr_1_1aff3ct__codes_1_1Frame__Extract2__impl_1a8cbc89ef4b22aa7d21aa15e28e7fb2de" kind="variable"><name>d_ASM_length</name></member>
+    <member refid="classgr_1_1aff3ct__codes_1_1Frame__Extract2__impl_1aa6cc534c9e7935c832df07dd6c97bada" kind="variable"><name>n_dropped_times</name></member>
+    <member refid="classgr_1_1aff3ct__codes_1_1Frame__Extract2__impl_1a5976788e3761b6ba6b0517c279e340d1" kind="function"><name>Frame_Extract2_impl</name></member>
+    <member refid="classgr_1_1aff3ct__codes_1_1Frame__Extract2__impl_1aa5c712e93eb8c91d35cceed7831aace4" kind="function"><name>~Frame_Extract2_impl</name></member>
+    <member refid="classgr_1_1aff3ct__codes_1_1Frame__Extract2__impl_1a4e0b439ffacaaf037ad5d9a3c89091b3" kind="function"><name>forecast</name></member>
+    <member refid="classgr_1_1aff3ct__codes_1_1Frame__Extract2__impl_1a272fd24ac5f9f3db4dc24ae6a75415d8" kind="function"><name>general_work</name></member>
+  </compound>
+  <compound refid="structgr_1_1aff3ct__codes_1_1ccsds__ldpc__decoder__impl_1_1modules" kind="struct"><name>gr::aff3ct_codes::ccsds_ldpc_decoder_impl::modules</name>
+    <member refid="structgr_1_1aff3ct__codes_1_1ccsds__ldpc__decoder__impl_1_1modules_1ac4f7506f360275d9e730bc5c76d5d3e1" kind="variable"><name>d_modem</name></member>
+    <member refid="structgr_1_1aff3ct__codes_1_1ccsds__ldpc__decoder__impl_1_1modules_1ae1387b6f02164c4a414b9c532e69d208" kind="variable"><name>d_decoder</name></member>
+  </compound>
+  <compound refid="structgr_1_1aff3ct__codes_1_1ccsds__ldpc__decoder__impl_1_1params" kind="struct"><name>gr::aff3ct_codes::ccsds_ldpc_decoder_impl::params</name>
+    <member refid="structgr_1_1aff3ct__codes_1_1ccsds__ldpc__decoder__impl_1_1params_1a7ebeb1954ee7f02e3657a2f45915a7ce" kind="variable"><name>d_K</name></member>
+    <member refid="structgr_1_1aff3ct__codes_1_1ccsds__ldpc__decoder__impl_1_1params_1a98021ffab521aef2887fa994c198587a" kind="variable"><name>d_N</name></member>
+    <member refid="structgr_1_1aff3ct__codes_1_1ccsds__ldpc__decoder__impl_1_1params_1adf7997f8af810f60f626be6bfdec822e" kind="variable"><name>d_puncturing</name></member>
+    <member refid="structgr_1_1aff3ct__codes_1_1ccsds__ldpc__decoder__impl_1_1params_1abbda296d111136c106f8d307d0600153" kind="variable"><name>d_n_ite</name></member>
+    <member refid="structgr_1_1aff3ct__codes_1_1ccsds__ldpc__decoder__impl_1_1params_1a20a8979b8d7a01a3290a3313e7138abe" kind="variable"><name>d_H</name></member>
+    <member refid="structgr_1_1aff3ct__codes_1_1ccsds__ldpc__decoder__impl_1_1params_1a3586e19a4a3cd2d141f07aaad846d188" kind="variable"><name>d_info_bits_pos</name></member>
+    <member refid="structgr_1_1aff3ct__codes_1_1ccsds__ldpc__decoder__impl_1_1params_1a18a42f792cf04e737b2a8e42fed0243d" kind="variable"><name>update_rule</name></member>
+  </compound>
+  <compound refid="classgr_1_1aff3ct__codes_1_1Resolve__Phase2" kind="class"><name>gr::aff3ct_codes::Resolve_Phase2</name>
+    <member refid="classgr_1_1aff3ct__codes_1_1Resolve__Phase2_1a41a19d2008ac106d126b4e54bd7be0a5" kind="typedef"><name>sptr</name></member>
+    <member refid="classgr_1_1aff3ct__codes_1_1Resolve__Phase2_1a211f95eb4007618b0c3f4656155a771f" kind="function"><name>make</name></member>
+  </compound>
+  <compound refid="classgr_1_1aff3ct__codes_1_1Resolve__Phase2__impl" kind="class"><name>gr::aff3ct_codes::Resolve_Phase2_impl</name>
+    <member refid="classgr_1_1aff3ct__codes_1_1Resolve__Phase2__impl_1a37c7e24ff768e8ddabb86a03fd2cb107" kind="variable"><name>s</name></member>
+    <member refid="classgr_1_1aff3ct__codes_1_1Resolve__Phase2__impl_1ae036edc18e8e9eb4960bb4360df29b47" kind="variable"><name>s90</name></member>
+    <member refid="classgr_1_1aff3ct__codes_1_1Resolve__Phase2__impl_1addf0292c3ef6f98e6c8b39ed4657548f" kind="variable"><name>d_waveform</name></member>
+    <member refid="classgr_1_1aff3ct__codes_1_1Resolve__Phase2__impl_1a5783319e713a2ede9273f78eedb3b854" kind="variable"><name>d_frame_length</name></member>
+    <member refid="classgr_1_1aff3ct__codes_1_1Resolve__Phase2__impl_1a1088b9012014e4e8ab204b82c577d911" kind="variable"><name>d_buffer_length</name></member>
+    <member refid="classgr_1_1aff3ct__codes_1_1Resolve__Phase2__impl_1ada1b30093c4ec361c6227b50d20ad0d8" kind="variable"><name>d_threshold</name></member>
+    <member refid="classgr_1_1aff3ct__codes_1_1Resolve__Phase2__impl_1a8bdbb752b26efefafe2d5b71040431fe" kind="function"><name>Resolve_Phase2_impl</name></member>
+    <member refid="classgr_1_1aff3ct__codes_1_1Resolve__Phase2__impl_1a882cd81882c3342138b1a06a1259f404" kind="function"><name>~Resolve_Phase2_impl</name></member>
+    <member refid="classgr_1_1aff3ct__codes_1_1Resolve__Phase2__impl_1a0a6f97695df4900ff2baa0d508004f16" kind="function"><name>forecast</name></member>
+    <member refid="classgr_1_1aff3ct__codes_1_1Resolve__Phase2__impl_1a827f41416074216c7893b4ce6e677ca3" kind="function"><name>general_work</name></member>
+  </compound>
+  <compound refid="classgr_1_1aff3ct__codes_1_1Tag__FrameASM64__ff" kind="class"><name>gr::aff3ct_codes::Tag_FrameASM64_ff</name>
+    <member refid="classgr_1_1aff3ct__codes_1_1Tag__FrameASM64__ff_1abb84ff451f23d0a9ae83033fc4ab9a92" kind="typedef"><name>sptr</name></member>
+    <member refid="classgr_1_1aff3ct__codes_1_1Tag__FrameASM64__ff_1a991d3c73006aa26fdeaa6e7d85c66e92" kind="function"><name>make</name></member>
+  </compound>
+  <compound refid="classgr_1_1aff3ct__codes_1_1Tag__FrameASM64__ff__impl" kind="class"><name>gr::aff3ct_codes::Tag_FrameASM64_ff_impl</name>
+    <member refid="classgr_1_1aff3ct__codes_1_1Tag__FrameASM64__ff__impl_1a7b69561fd22bbfe950beedb8177332c6" kind="variable"><name>d_access_code</name></member>
+    <member refid="classgr_1_1aff3ct__codes_1_1Tag__FrameASM64__ff__impl_1a95efcb9665b7631a468b358b02108b3f" kind="variable"><name>d_access_code90</name></member>
+    <member refid="classgr_1_1aff3ct__codes_1_1Tag__FrameASM64__ff__impl_1a85b1c029ed3b16d09652cdbc121faa27" kind="variable"><name>d_data_reg</name></member>
+    <member refid="classgr_1_1aff3ct__codes_1_1Tag__FrameASM64__ff__impl_1a314f1df31c1485ba4f7128faefbb3e31" kind="variable"><name>d_data_reg_bits</name></member>
+    <member refid="classgr_1_1aff3ct__codes_1_1Tag__FrameASM64__ff__impl_1a04034461b53aeabebca105638d04a9bf" kind="variable"><name>d_mask</name></member>
+    <member refid="classgr_1_1aff3ct__codes_1_1Tag__FrameASM64__ff__impl_1af18b26c56587fbf09139d462f9cf60fe" kind="variable"><name>d_mask90</name></member>
+    <member refid="classgr_1_1aff3ct__codes_1_1Tag__FrameASM64__ff__impl_1a2d8a6558dada275d3391b2fa53cb7327" kind="variable"><name>d_waveform</name></member>
+    <member refid="classgr_1_1aff3ct__codes_1_1Tag__FrameASM64__ff__impl_1a7ff07de895e20e48b651258fbef65f83" kind="variable"><name>d_len</name></member>
+    <member refid="classgr_1_1aff3ct__codes_1_1Tag__FrameASM64__ff__impl_1aa60906d33f6fcc279bdba60f4d20424d" kind="variable"><name>d_threshold</name></member>
+    <member refid="classgr_1_1aff3ct__codes_1_1Tag__FrameASM64__ff__impl_1a9d3d94c924ba631da1fd9068c26b6c0f" kind="variable"><name>s64</name></member>
+    <member refid="classgr_1_1aff3ct__codes_1_1Tag__FrameASM64__ff__impl_1a9d95fa9ab920f189e2366b46905acc4e" kind="variable"><name>s64rotate</name></member>
+    <member refid="classgr_1_1aff3ct__codes_1_1Tag__FrameASM64__ff__impl_1a33c7a25adb583816b78263f946814220" kind="variable"><name>d_key</name></member>
+    <member refid="classgr_1_1aff3ct__codes_1_1Tag__FrameASM64__ff__impl_1a3c218d2b64d680109043be456a5b7435" kind="variable"><name>d_me</name></member>
+    <member refid="classgr_1_1aff3ct__codes_1_1Tag__FrameASM64__ff__impl_1afc130fb728a0cf60eaddd4d56731d42a" kind="variable"><name>d_mutex_access_code</name></member>
+    <member refid="classgr_1_1aff3ct__codes_1_1Tag__FrameASM64__ff__impl_1aaa70b6e5cc13df68441a69e51c7f1b97" kind="variable"><name>d_mutex_access_code90</name></member>
+    <member refid="classgr_1_1aff3ct__codes_1_1Tag__FrameASM64__ff__impl_1a619ff5d272172296fa2aacbcad617ade" kind="variable"><name>d_mutex_access_code48</name></member>
+    <member refid="classgr_1_1aff3ct__codes_1_1Tag__FrameASM64__ff__impl_1aa496a26c17249494fd5be0900e37e9dc" kind="variable"><name>d_mutex_access_code4890</name></member>
+    <member refid="classgr_1_1aff3ct__codes_1_1Tag__FrameASM64__ff__impl_1a6f83218b97263e01c8bdad123f1f07f9" kind="variable"><name>access_code</name></member>
+    <member refid="classgr_1_1aff3ct__codes_1_1Tag__FrameASM64__ff__impl_1a52003b011fb528a1be26a1a192c4a38a" kind="variable"><name>access_code90</name></member>
+    <member refid="classgr_1_1aff3ct__codes_1_1Tag__FrameASM64__ff__impl_1a9baea00eea8e9faf9ecd549c210e0a64" kind="function"><name>Tag_FrameASM64_ff_impl</name></member>
+    <member refid="classgr_1_1aff3ct__codes_1_1Tag__FrameASM64__ff__impl_1ae6fa1f1266009b5bfb7b711fca078e21" kind="function"><name>~Tag_FrameASM64_ff_impl</name></member>
+    <member refid="classgr_1_1aff3ct__codes_1_1Tag__FrameASM64__ff__impl_1a802719910583bd742fdbcb1a0c7fe01e" kind="function"><name>work</name></member>
+    <member refid="classgr_1_1aff3ct__codes_1_1Tag__FrameASM64__ff__impl_1a2906a729a80638b9975eb680cbacd9af" kind="function"><name>set_access_code</name></member>
+    <member refid="classgr_1_1aff3ct__codes_1_1Tag__FrameASM64__ff__impl_1a074a085e02f2add61672573684f5892c" kind="function"><name>set_access_code90</name></member>
+  </compound>
+  <compound refid="namespacegr" kind="namespace"><name>gr</name>
+  </compound>
+  <compound refid="namespacegr_1_1aff3ct__codes" kind="namespace"><name>gr::aff3ct_codes</name>
+  </compound>
+  <compound refid="namespacestd" kind="namespace"><name>std</name>
+  </compound>
+  <compound refid="api_8h" kind="file"><name>api.h</name>
+    <member refid="api_8h_1a03c0f60b8b38dbd7e5d261610f2fd5f7" kind="define"><name>AFF3CT_CODES_API</name></member>
+  </compound>
+  <compound refid="ccsds__ldpc__decoder_8h" kind="file"><name>ccsds_ldpc_decoder.h</name>
+  </compound>
+  <compound refid="ccsds__ldpc__decoder__impl_8h" kind="file"><name>ccsds_ldpc_decoder_impl.h</name>
+  </compound>
+  <compound refid="ccsds__ldpc__decoder__pydoc__template_8h" kind="file"><name>ccsds_ldpc_decoder_pydoc_template.h</name>
+    <member refid="ccsds__ldpc__decoder__pydoc__template_8h_1a74021f021dcdfbb22891787b79c5529d" kind="define"><name>D</name></member>
+    <member refid="ccsds__ldpc__decoder__pydoc__template_8h_1aef70c737c3ec6a9f7e0aefa57e52b64c" kind="variable"><name>__doc_gr_aff3ct_codes_ccsds_ldpc_decoder</name></member>
+    <member refid="ccsds__ldpc__decoder__pydoc__template_8h_1afae0c76deeb962eccd7bed1b7e7ea7d5" kind="variable"><name>__doc_gr_aff3ct_codes_ccsds_ldpc_decoder_ccsds_ldpc_decoder</name></member>
+    <member refid="ccsds__ldpc__decoder__pydoc__template_8h_1a08826171c3ee620be6d61f39d05794c9" kind="variable"><name>__doc_gr_aff3ct_codes_ccsds_ldpc_decoder_make</name></member>
+  </compound>
+  <compound refid="CCSDS__Pseudo__Randomizer_8h" kind="file"><name>CCSDS_Pseudo_Randomizer.h</name>
+  </compound>
+  <compound refid="CCSDS__Pseudo__Randomizer__impl_8h" kind="file"><name>CCSDS_Pseudo_Randomizer_impl.h</name>
+  </compound>
+  <compound refid="CCSDS__Pseudo__Randomizer__pydoc__template_8h" kind="file"><name>CCSDS_Pseudo_Randomizer_pydoc_template.h</name>
+    <member refid="CCSDS__Pseudo__Randomizer__pydoc__template_8h_1a74021f021dcdfbb22891787b79c5529d" kind="define"><name>D</name></member>
+    <member refid="CCSDS__Pseudo__Randomizer__pydoc__template_8h_1ada8de5b080facd9ba29cc88b925fea1d" kind="variable"><name>__doc_gr_aff3ct_codes_CCSDS_Pseudo_Randomizer</name></member>
+    <member refid="CCSDS__Pseudo__Randomizer__pydoc__template_8h_1a6474133aa36399c5a361e14309502e4d" kind="variable"><name>__doc_gr_aff3ct_codes_CCSDS_Pseudo_Randomizer_CCSDS_Pseudo_Randomizer</name></member>
+    <member refid="CCSDS__Pseudo__Randomizer__pydoc__template_8h_1a1f9cdcf239f78a35c0a9d91cd72b4cdc" kind="variable"><name>__doc_gr_aff3ct_codes_CCSDS_Pseudo_Randomizer_make</name></member>
+  </compound>
+  <compound refid="Frame__Extract2_8h" kind="file"><name>Frame_Extract2.h</name>
+  </compound>
+  <compound refid="Frame__Extract2__impl_8h" kind="file"><name>Frame_Extract2_impl.h</name>
+  </compound>
+  <compound refid="Frame__Extract2__pydoc__template_8h" kind="file"><name>Frame_Extract2_pydoc_template.h</name>
+    <member refid="Frame__Extract2__pydoc__template_8h_1a74021f021dcdfbb22891787b79c5529d" kind="define"><name>D</name></member>
+    <member refid="Frame__Extract2__pydoc__template_8h_1a478d2066e4521bd809bd9da0a177c5a6" kind="variable"><name>__doc_gr_aff3ct_codes_Frame_Extract2</name></member>
+    <member refid="Frame__Extract2__pydoc__template_8h_1a1676c1b25bd98ee63deb2916a5d52b1c" kind="variable"><name>__doc_gr_aff3ct_codes_Frame_Extract2_Frame_Extract2</name></member>
+    <member refid="Frame__Extract2__pydoc__template_8h_1aa8a6c8fe1f4a2dd0f410467ed9839348" kind="variable"><name>__doc_gr_aff3ct_codes_Frame_Extract2_make</name></member>
+  </compound>
+  <compound refid="group__defs_8dox" kind="file"><name>group_defs.dox</name>
+  </compound>
+  <compound refid="main__page_8dox" kind="file"><name>main_page.dox</name>
+  </compound>
+  <compound refid="build_2python_2aff3ct__codes_2bindings_2pydoc__macros_8h" kind="file"><name>build/python/aff3ct_codes/bindings/pydoc_macros.h</name>
+    <member refid="build_2python_2aff3ct__codes_2bindings_2pydoc__macros_8h_1afa7cf06549cf7fd295f622ef6f376357" kind="define"><name>__EXPAND</name></member>
+    <member refid="build_2python_2aff3ct__codes_2bindings_2pydoc__macros_8h_1a251b23a2efed48ff2ba2d6f449ed33a3" kind="define"><name>__COUNT</name></member>
+    <member refid="build_2python_2aff3ct__codes_2bindings_2pydoc__macros_8h_1a2815f7ab197591ba9559415c694f9ce0" kind="define"><name>__VA_SIZE</name></member>
+    <member refid="build_2python_2aff3ct__codes_2bindings_2pydoc__macros_8h_1afdd58e017733f2235c227ef8dd3b2de8" kind="define"><name>__CAT1</name></member>
+    <member refid="build_2python_2aff3ct__codes_2bindings_2pydoc__macros_8h_1af08fe30f2a41cef10658f6a892d20543" kind="define"><name>__CAT2</name></member>
+    <member refid="build_2python_2aff3ct__codes_2bindings_2pydoc__macros_8h_1a43c147206df4346db5e9d6445aab28ae" kind="define"><name>__DOC1</name></member>
+    <member refid="build_2python_2aff3ct__codes_2bindings_2pydoc__macros_8h_1a53738db606593bc1554371d718695fed" kind="define"><name>__DOC2</name></member>
+    <member refid="build_2python_2aff3ct__codes_2bindings_2pydoc__macros_8h_1a21baf08c04d32485764f227c32b5bf5d" kind="define"><name>__DOC3</name></member>
+    <member refid="build_2python_2aff3ct__codes_2bindings_2pydoc__macros_8h_1a9463ba0ad86bcb4c59b5aecf8a37174c" kind="define"><name>__DOC4</name></member>
+    <member refid="build_2python_2aff3ct__codes_2bindings_2pydoc__macros_8h_1a942579d548421ddb2906af7094e5789c" kind="define"><name>__DOC5</name></member>
+    <member refid="build_2python_2aff3ct__codes_2bindings_2pydoc__macros_8h_1a31ea356761360e78d16525aa69d2dae6" kind="define"><name>__DOC6</name></member>
+    <member refid="build_2python_2aff3ct__codes_2bindings_2pydoc__macros_8h_1a6f1e731f1c6d2893ff1bf98582a7de6e" kind="define"><name>__DOC7</name></member>
+    <member refid="build_2python_2aff3ct__codes_2bindings_2pydoc__macros_8h_1a4e578031ec998eaeb933d5caa6a7d28a" kind="define"><name>DOC</name></member>
+  </compound>
+  <compound refid="docs_2doxygen_2pydoc__macros_8h" kind="file"><name>docs/doxygen/pydoc_macros.h</name>
+    <member refid="docs_2doxygen_2pydoc__macros_8h_1afa7cf06549cf7fd295f622ef6f376357" kind="define"><name>__EXPAND</name></member>
+    <member refid="docs_2doxygen_2pydoc__macros_8h_1a251b23a2efed48ff2ba2d6f449ed33a3" kind="define"><name>__COUNT</name></member>
+    <member refid="docs_2doxygen_2pydoc__macros_8h_1a2815f7ab197591ba9559415c694f9ce0" kind="define"><name>__VA_SIZE</name></member>
+    <member refid="docs_2doxygen_2pydoc__macros_8h_1afdd58e017733f2235c227ef8dd3b2de8" kind="define"><name>__CAT1</name></member>
+    <member refid="docs_2doxygen_2pydoc__macros_8h_1af08fe30f2a41cef10658f6a892d20543" kind="define"><name>__CAT2</name></member>
+    <member refid="docs_2doxygen_2pydoc__macros_8h_1a43c147206df4346db5e9d6445aab28ae" kind="define"><name>__DOC1</name></member>
+    <member refid="docs_2doxygen_2pydoc__macros_8h_1a53738db606593bc1554371d718695fed" kind="define"><name>__DOC2</name></member>
+    <member refid="docs_2doxygen_2pydoc__macros_8h_1a21baf08c04d32485764f227c32b5bf5d" kind="define"><name>__DOC3</name></member>
+    <member refid="docs_2doxygen_2pydoc__macros_8h_1a9463ba0ad86bcb4c59b5aecf8a37174c" kind="define"><name>__DOC4</name></member>
+    <member refid="docs_2doxygen_2pydoc__macros_8h_1a942579d548421ddb2906af7094e5789c" kind="define"><name>__DOC5</name></member>
+    <member refid="docs_2doxygen_2pydoc__macros_8h_1a31ea356761360e78d16525aa69d2dae6" kind="define"><name>__DOC6</name></member>
+    <member refid="docs_2doxygen_2pydoc__macros_8h_1a6f1e731f1c6d2893ff1bf98582a7de6e" kind="define"><name>__DOC7</name></member>
+    <member refid="docs_2doxygen_2pydoc__macros_8h_1a4e578031ec998eaeb933d5caa6a7d28a" kind="define"><name>DOC</name></member>
+  </compound>
+  <compound refid="Resolve__Phase2_8h" kind="file"><name>Resolve_Phase2.h</name>
+  </compound>
+  <compound refid="Resolve__Phase2__impl_8h" kind="file"><name>Resolve_Phase2_impl.h</name>
+  </compound>
+  <compound refid="Resolve__Phase2__pydoc__template_8h" kind="file"><name>Resolve_Phase2_pydoc_template.h</name>
+    <member refid="Resolve__Phase2__pydoc__template_8h_1a74021f021dcdfbb22891787b79c5529d" kind="define"><name>D</name></member>
+    <member refid="Resolve__Phase2__pydoc__template_8h_1ab1e6ab0356ab2a8fc58c0b6257a5ff2f" kind="variable"><name>__doc_gr_aff3ct_codes_Resolve_Phase2</name></member>
+    <member refid="Resolve__Phase2__pydoc__template_8h_1ab45dbbd80ef27e22eb90d803495613d4" kind="variable"><name>__doc_gr_aff3ct_codes_Resolve_Phase2_Resolve_Phase2</name></member>
+    <member refid="Resolve__Phase2__pydoc__template_8h_1a84934d743dceafd2b402a2e70eb67fe7" kind="variable"><name>__doc_gr_aff3ct_codes_Resolve_Phase2_make</name></member>
+  </compound>
+  <compound refid="Tag__FrameASM64__ff_8h" kind="file"><name>Tag_FrameASM64_ff.h</name>
+  </compound>
+  <compound refid="Tag__FrameASM64__ff__impl_8h" kind="file"><name>Tag_FrameASM64_ff_impl.h</name>
+  </compound>
+  <compound refid="Tag__FrameASM64__ff__pydoc__template_8h" kind="file"><name>Tag_FrameASM64_ff_pydoc_template.h</name>
+    <member refid="Tag__FrameASM64__ff__pydoc__template_8h_1a74021f021dcdfbb22891787b79c5529d" kind="define"><name>D</name></member>
+    <member refid="Tag__FrameASM64__ff__pydoc__template_8h_1a5d4420ed205ff01a3b1db3ca965e8ac5" kind="variable"><name>__doc_gr_aff3ct_codes_Tag_FrameASM64_ff</name></member>
+    <member refid="Tag__FrameASM64__ff__pydoc__template_8h_1aff09b7da78b0ef6c1735485d5d8c4887" kind="variable"><name>__doc_gr_aff3ct_codes_Tag_FrameASM64_ff_Tag_FrameASM64_ff</name></member>
+    <member refid="Tag__FrameASM64__ff__pydoc__template_8h_1ad4d4e6e2bac46f11a2f1cf10bd8b372b" kind="variable"><name>__doc_gr_aff3ct_codes_Tag_FrameASM64_ff_make</name></member>
+  </compound>
+  <compound refid="group__block" kind="group"><name>block</name>
+  </compound>
+  <compound refid="dir_b3af2a5ad9e7045b0f3258a019ab00d0" kind="dir"><name>aff3ct_codes</name>
+  </compound>
+  <compound refid="dir_e4e2326e61c037c241144c8a15b9a565" kind="dir"><name>aff3ct_codes</name>
+  </compound>
+  <compound refid="dir_b17d0ed8989743050fefc783317384cf" kind="dir"><name>aff3ct_codes</name>
+  </compound>
+  <compound refid="dir_141299b14142eaf916c9e7c9be44d8dc" kind="dir"><name>bindings</name>
+  </compound>
+  <compound refid="dir_d21ccef338d217d14afeb767ad67a342" kind="dir"><name>bindings</name>
+  </compound>
+  <compound refid="dir_49e56c817e5e54854c35e136979f97ca" kind="dir"><name>docs</name>
+  </compound>
+  <compound refid="dir_061be1a34c453ca23dc14487f02682e5" kind="dir"><name>docstrings</name>
+  </compound>
+  <compound refid="dir_359d2bec989c9a8deeeb9aee335c1c76" kind="dir"><name>doxygen</name>
+  </compound>
+  <compound refid="dir_902d6fe55786be073ae6681293cdb979" kind="dir"><name>gnuradio</name>
+  </compound>
+  <compound refid="dir_d44c64559bbebec7f509842c48db8b23" kind="dir"><name>include</name>
+  </compound>
+  <compound refid="dir_97aefd0d527b934f1d99a682da8fe6a9" kind="dir"><name>lib</name>
+  </compound>
+  <compound refid="dir_f2cd86917185299abf5a1f0679072f3c" kind="dir"><name>other</name>
+  </compound>
+  <compound refid="dir_7837fde3ab9c1fb2fc5be7b717af8d79" kind="dir"><name>python</name>
+  </compound>
+  <compound refid="dir_ab3dd591509f89c87d6a9fd8136a6d03" kind="dir"><name>python</name>
+  </compound>
+  <compound refid="indexpage" kind="page"><name>index</name>
+  </compound>
+</doxygenindex>

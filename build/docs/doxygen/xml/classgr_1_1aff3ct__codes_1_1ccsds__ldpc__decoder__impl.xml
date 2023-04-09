@@ -1,0 +1,234 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="classgr_1_1aff3ct__codes_1_1ccsds__ldpc__decoder__impl" kind="class" language="C++" prot="public">
+    <compoundname>gr::aff3ct_codes::ccsds_ldpc_decoder_impl</compoundname>
+    <basecompoundref refid="classgr_1_1aff3ct__codes_1_1ccsds__ldpc__decoder" prot="public" virt="non-virtual">gr::aff3ct_codes::ccsds_ldpc_decoder</basecompoundref>
+    <includes refid="ccsds__ldpc__decoder__impl_8h" local="no">ccsds_ldpc_decoder_impl.h</includes>
+    <innerclass refid="structgr_1_1aff3ct__codes_1_1ccsds__ldpc__decoder__impl_1_1buffers" prot="private">gr::aff3ct_codes::ccsds_ldpc_decoder_impl::buffers</innerclass>
+    <innerclass refid="structgr_1_1aff3ct__codes_1_1ccsds__ldpc__decoder__impl_1_1modules" prot="private">gr::aff3ct_codes::ccsds_ldpc_decoder_impl::modules</innerclass>
+    <innerclass refid="structgr_1_1aff3ct__codes_1_1ccsds__ldpc__decoder__impl_1_1params" prot="private">gr::aff3ct_codes::ccsds_ldpc_decoder_impl::params</innerclass>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classgr_1_1aff3ct__codes_1_1ccsds__ldpc__decoder__impl_1a67b946651d9a03a39e66d4779f054b1a" prot="private" static="no" mutable="no">
+        <type>size_t</type>
+        <definition>size_t gr::aff3ct_codes::ccsds_ldpc_decoder_impl::d_failed_frames</definition>
+        <argsstring></argsstring>
+        <name>d_failed_frames</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/davem/gr-aff3ct_codes/lib/ccsds_ldpc_decoder_impl.h" line="29" column="14" bodyfile="/home/davem/gr-aff3ct_codes/lib/ccsds_ldpc_decoder_impl.h" bodystart="29" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1aff3ct__codes_1_1ccsds__ldpc__decoder__impl_1a4cb82287198bfd524797ec003b500040" prot="private" static="no" mutable="no">
+        <type>size_t</type>
+        <definition>size_t gr::aff3ct_codes::ccsds_ldpc_decoder_impl::d_passed_frames</definition>
+        <argsstring></argsstring>
+        <name>d_passed_frames</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/davem/gr-aff3ct_codes/lib/ccsds_ldpc_decoder_impl.h" line="30" column="14" bodyfile="/home/davem/gr-aff3ct_codes/lib/ccsds_ldpc_decoder_impl.h" bodystart="30" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1aff3ct__codes_1_1ccsds__ldpc__decoder__impl_1ab010c7b9365581df047d59207dd6533a" prot="private" static="no" mutable="no">
+        <type>struct params</type>
+        <definition>struct params gr::aff3ct_codes::ccsds_ldpc_decoder_impl::d_p</definition>
+        <argsstring></argsstring>
+        <name>d_p</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/davem/gr-aff3ct_codes/lib/ccsds_ldpc_decoder_impl.h" line="30" column="14" bodyfile="/home/davem/gr-aff3ct_codes/lib/ccsds_ldpc_decoder_impl.h" bodystart="43" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1aff3ct__codes_1_1ccsds__ldpc__decoder__impl_1acc9eaa06c60b1c3725cc6f9a66e84706" prot="private" static="no" mutable="no">
+        <type>std::ifstream</type>
+        <definition>std::ifstream gr::aff3ct_codes::ccsds_ldpc_decoder_impl::alist_file</definition>
+        <argsstring></argsstring>
+        <name>alist_file</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/davem/gr-aff3ct_codes/lib/ccsds_ldpc_decoder_impl.h" line="45" column="19" bodyfile="/home/davem/gr-aff3ct_codes/lib/ccsds_ldpc_decoder_impl.h" bodystart="45" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1aff3ct__codes_1_1ccsds__ldpc__decoder__impl_1a7d23d78c8a426f6e555e5f60f853c30d" prot="private" static="no" mutable="no">
+        <type>struct params</type>
+        <definition>struct params gr::aff3ct_codes::ccsds_ldpc_decoder_impl::d_m</definition>
+        <argsstring></argsstring>
+        <name>d_m</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/davem/gr-aff3ct_codes/lib/ccsds_ldpc_decoder_impl.h" line="45" column="19" bodyfile="/home/davem/gr-aff3ct_codes/lib/ccsds_ldpc_decoder_impl.h" bodystart="53" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1aff3ct__codes_1_1ccsds__ldpc__decoder__impl_1a1b62820236fc9071cfc7e131a990e349" prot="private" static="no" mutable="no">
+        <type>struct buffers</type>
+        <definition>struct buffers gr::aff3ct_codes::ccsds_ldpc_decoder_impl::d_b</definition>
+        <argsstring></argsstring>
+        <name>d_b</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/davem/gr-aff3ct_codes/lib/ccsds_ldpc_decoder_impl.h" line="45" column="19" bodyfile="/home/davem/gr-aff3ct_codes/lib/ccsds_ldpc_decoder_impl.h" bodystart="62" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classgr_1_1aff3ct__codes_1_1ccsds__ldpc__decoder__impl_1a232c6a0e3d9117f8bef5864819671459" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>gr::aff3ct_codes::ccsds_ldpc_decoder_impl::ccsds_ldpc_decoder_impl</definition>
+        <argsstring>(int code_rate, bool data_rate, int decoder_iterations)</argsstring>
+        <name>ccsds_ldpc_decoder_impl</name>
+        <param>
+          <type>int</type>
+          <declname>code_rate</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>data_rate</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>decoder_iterations</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/davem/gr-aff3ct_codes/lib/ccsds_ldpc_decoder_impl.h" line="65" column="5"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1aff3ct__codes_1_1ccsds__ldpc__decoder__impl_1ad75d0fc9f6c8e6fad658df3e977a3a26" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>gr::aff3ct_codes::ccsds_ldpc_decoder_impl::~ccsds_ldpc_decoder_impl</definition>
+        <argsstring>()</argsstring>
+        <name>~ccsds_ldpc_decoder_impl</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/davem/gr-aff3ct_codes/lib/ccsds_ldpc_decoder_impl.h" line="66" column="5"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1aff3ct__codes_1_1ccsds__ldpc__decoder__impl_1afe7fd55352d24369e124baf77e8633dc" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void gr::aff3ct_codes::ccsds_ldpc_decoder_impl::forecast</definition>
+        <argsstring>(int noutput_items, gr_vector_int &amp;ninput_items_required)</argsstring>
+        <name>forecast</name>
+        <param>
+          <type>int</type>
+          <declname>noutput_items</declname>
+        </param>
+        <param>
+          <type>gr_vector_int &amp;</type>
+          <declname>ninput_items_required</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/davem/gr-aff3ct_codes/lib/ccsds_ldpc_decoder_impl.h" line="69" column="10"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1aff3ct__codes_1_1ccsds__ldpc__decoder__impl_1aaff227f01b898bd768fea7b3fbc2cb81" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int gr::aff3ct_codes::ccsds_ldpc_decoder_impl::general_work</definition>
+        <argsstring>(int noutput_items, gr_vector_int &amp;ninput_items, gr_vector_const_void_star &amp;input_items, gr_vector_void_star &amp;output_items)</argsstring>
+        <name>general_work</name>
+        <param>
+          <type>int</type>
+          <declname>noutput_items</declname>
+        </param>
+        <param>
+          <type>gr_vector_int &amp;</type>
+          <declname>ninput_items</declname>
+        </param>
+        <param>
+          <type>gr_vector_const_void_star &amp;</type>
+          <declname>input_items</declname>
+        </param>
+        <param>
+          <type>gr_vector_void_star &amp;</type>
+          <declname>output_items</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/davem/gr-aff3ct_codes/lib/ccsds_ldpc_decoder_impl.h" line="71" column="9"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>gr::aff3ct_codes::ccsds_ldpc_decoder</label>
+        <link refid="classgr_1_1aff3ct__codes_1_1ccsds__ldpc__decoder"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>gr::block</label>
+      </node>
+      <node id="1">
+        <label>gr::aff3ct_codes::ccsds_ldpc_decoder_impl</label>
+        <link refid="classgr_1_1aff3ct__codes_1_1ccsds__ldpc__decoder__impl"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>gr::aff3ct_codes::ccsds_ldpc_decoder</label>
+        <link refid="classgr_1_1aff3ct__codes_1_1ccsds__ldpc__decoder"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>gr::block</label>
+      </node>
+      <node id="1">
+        <label>gr::aff3ct_codes::ccsds_ldpc_decoder_impl</label>
+        <link refid="classgr_1_1aff3ct__codes_1_1ccsds__ldpc__decoder__impl"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/home/davem/gr-aff3ct_codes/lib/ccsds_ldpc_decoder_impl.h" line="25" column="1" bodyfile="/home/davem/gr-aff3ct_codes/lib/ccsds_ldpc_decoder_impl.h" bodystart="26" bodyend="75"/>
+    <listofallmembers>
+      <member refid="classgr_1_1aff3ct__codes_1_1ccsds__ldpc__decoder__impl_1acc9eaa06c60b1c3725cc6f9a66e84706" prot="private" virt="non-virtual"><scope>gr::aff3ct_codes::ccsds_ldpc_decoder_impl</scope><name>alist_file</name></member>
+      <member refid="classgr_1_1aff3ct__codes_1_1ccsds__ldpc__decoder__impl_1a232c6a0e3d9117f8bef5864819671459" prot="public" virt="non-virtual"><scope>gr::aff3ct_codes::ccsds_ldpc_decoder_impl</scope><name>ccsds_ldpc_decoder_impl</name></member>
+      <member refid="classgr_1_1aff3ct__codes_1_1ccsds__ldpc__decoder__impl_1a1b62820236fc9071cfc7e131a990e349" prot="private" virt="non-virtual"><scope>gr::aff3ct_codes::ccsds_ldpc_decoder_impl</scope><name>d_b</name></member>
+      <member refid="classgr_1_1aff3ct__codes_1_1ccsds__ldpc__decoder__impl_1a67b946651d9a03a39e66d4779f054b1a" prot="private" virt="non-virtual"><scope>gr::aff3ct_codes::ccsds_ldpc_decoder_impl</scope><name>d_failed_frames</name></member>
+      <member refid="classgr_1_1aff3ct__codes_1_1ccsds__ldpc__decoder__impl_1a7d23d78c8a426f6e555e5f60f853c30d" prot="private" virt="non-virtual"><scope>gr::aff3ct_codes::ccsds_ldpc_decoder_impl</scope><name>d_m</name></member>
+      <member refid="classgr_1_1aff3ct__codes_1_1ccsds__ldpc__decoder__impl_1ab010c7b9365581df047d59207dd6533a" prot="private" virt="non-virtual"><scope>gr::aff3ct_codes::ccsds_ldpc_decoder_impl</scope><name>d_p</name></member>
+      <member refid="classgr_1_1aff3ct__codes_1_1ccsds__ldpc__decoder__impl_1a4cb82287198bfd524797ec003b500040" prot="private" virt="non-virtual"><scope>gr::aff3ct_codes::ccsds_ldpc_decoder_impl</scope><name>d_passed_frames</name></member>
+      <member refid="classgr_1_1aff3ct__codes_1_1ccsds__ldpc__decoder__impl_1afe7fd55352d24369e124baf77e8633dc" prot="public" virt="non-virtual"><scope>gr::aff3ct_codes::ccsds_ldpc_decoder_impl</scope><name>forecast</name></member>
+      <member refid="classgr_1_1aff3ct__codes_1_1ccsds__ldpc__decoder__impl_1aaff227f01b898bd768fea7b3fbc2cb81" prot="public" virt="non-virtual"><scope>gr::aff3ct_codes::ccsds_ldpc_decoder_impl</scope><name>general_work</name></member>
+      <member refid="classgr_1_1aff3ct__codes_1_1ccsds__ldpc__decoder_1a4e1bfa5eb79ddde8181552485a5986ce" prot="public" virt="non-virtual"><scope>gr::aff3ct_codes::ccsds_ldpc_decoder_impl</scope><name>make</name></member>
+      <member refid="classgr_1_1aff3ct__codes_1_1ccsds__ldpc__decoder_1a6cfc360da1655700d76b535fac8c8e46" prot="public" virt="non-virtual"><scope>gr::aff3ct_codes::ccsds_ldpc_decoder_impl</scope><name>sptr</name></member>
+      <member refid="classgr_1_1aff3ct__codes_1_1ccsds__ldpc__decoder__impl_1ad75d0fc9f6c8e6fad658df3e977a3a26" prot="public" virt="non-virtual"><scope>gr::aff3ct_codes::ccsds_ldpc_decoder_impl</scope><name>~ccsds_ldpc_decoder_impl</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

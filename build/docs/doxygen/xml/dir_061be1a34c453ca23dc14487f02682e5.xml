@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="dir_061be1a34c453ca23dc14487f02682e5" kind="dir">
+    <compoundname>docstrings</compoundname>
+    <innerfile refid="ccsds__ldpc__decoder__pydoc__template_8h">ccsds_ldpc_decoder_pydoc_template.h</innerfile>
+    <innerfile refid="CCSDS__Pseudo__Randomizer__pydoc__template_8h">CCSDS_Pseudo_Randomizer_pydoc_template.h</innerfile>
+    <innerfile refid="Frame__Extract2__pydoc__template_8h">Frame_Extract2_pydoc_template.h</innerfile>
+    <innerfile refid="Resolve__Phase2__pydoc__template_8h">Resolve_Phase2_pydoc_template.h</innerfile>
+    <innerfile refid="Tag__FrameASM64__ff__pydoc__template_8h">Tag_FrameASM64_ff_pydoc_template.h</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/davem/gr-aff3ct_codes/python/aff3ct_codes/bindings/docstrings/"/>
+  </compounddef>
+</doxygen>

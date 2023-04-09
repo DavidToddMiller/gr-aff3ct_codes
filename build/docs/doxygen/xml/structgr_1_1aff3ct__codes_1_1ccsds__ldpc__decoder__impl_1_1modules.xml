@@ -1,0 +1,60 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="structgr_1_1aff3ct__codes_1_1ccsds__ldpc__decoder__impl_1_1modules" kind="struct" language="C++" prot="private">
+    <compoundname>gr::aff3ct_codes::ccsds_ldpc_decoder_impl::modules</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structgr_1_1aff3ct__codes_1_1ccsds__ldpc__decoder__impl_1_1modules_1ac4f7506f360275d9e730bc5c76d5d3e1" prot="public" static="no" mutable="no">
+        <type>std::unique_ptr&lt; aff3ct::module::Modem_BPSK&lt;&gt; &gt;</type>
+        <definition>std::unique_ptr&lt;aff3ct::module::Modem_BPSK&lt;&gt; &gt; gr::aff3ct_codes::ccsds_ldpc_decoder_impl::modules::d_modem</definition>
+        <argsstring></argsstring>
+        <name>d_modem</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/davem/gr-aff3ct_codes/lib/ccsds_ldpc_decoder_impl.h" line="50" column="25" bodyfile="/home/davem/gr-aff3ct_codes/lib/ccsds_ldpc_decoder_impl.h" bodystart="50" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structgr_1_1aff3ct__codes_1_1ccsds__ldpc__decoder__impl_1_1modules_1ae1387b6f02164c4a414b9c532e69d208" prot="public" static="no" mutable="no">
+        <type>std::unique_ptr&lt; aff3ct::module::Decoder_LDPC_BP_flooding&lt;&gt; &gt;</type>
+        <definition>std::unique_ptr&lt;aff3ct::module::Decoder_LDPC_BP_flooding&lt;&gt; &gt; gr::aff3ct_codes::ccsds_ldpc_decoder_impl::modules::d_decoder</definition>
+        <argsstring></argsstring>
+        <name>d_decoder</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/davem/gr-aff3ct_codes/lib/ccsds_ldpc_decoder_impl.h" line="51" column="25" bodyfile="/home/davem/gr-aff3ct_codes/lib/ccsds_ldpc_decoder_impl.h" bodystart="51" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1">
+        <label>gr::aff3ct_codes::ccsds_ldpc_decoder_impl::modules</label>
+        <childnode refid="2" relation="usage">
+          <edgelabel>d_modem</edgelabel>
+        </childnode>
+        <childnode refid="3" relation="usage">
+          <edgelabel>d_decoder</edgelabel>
+        </childnode>
+      </node>
+      <node id="3">
+        <label>std::unique_ptr&lt; aff3ct::module::Decoder_LDPC_BP_flooding&lt;&gt; &gt;</label>
+      </node>
+      <node id="2">
+        <label>std::unique_ptr&lt; aff3ct::module::Modem_BPSK&lt;&gt; &gt;</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/davem/gr-aff3ct_codes/lib/ccsds_ldpc_decoder_impl.h" line="49" column="5" bodyfile="/home/davem/gr-aff3ct_codes/lib/ccsds_ldpc_decoder_impl.h" bodystart="49" bodyend="52"/>
+    <listofallmembers>
+      <member refid="structgr_1_1aff3ct__codes_1_1ccsds__ldpc__decoder__impl_1_1modules_1ae1387b6f02164c4a414b9c532e69d208" prot="public" virt="non-virtual"><scope>gr::aff3ct_codes::ccsds_ldpc_decoder_impl::modules</scope><name>d_decoder</name></member>
+      <member refid="structgr_1_1aff3ct__codes_1_1ccsds__ldpc__decoder__impl_1_1modules_1ac4f7506f360275d9e730bc5c76d5d3e1" prot="public" virt="non-virtual"><scope>gr::aff3ct_codes::ccsds_ldpc_decoder_impl::modules</scope><name>d_modem</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

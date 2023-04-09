@@ -1,0 +1,91 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="classgr_1_1aff3ct__codes_1_1ccsds__ldpc__decoder" kind="class" language="C++" prot="public">
+    <compoundname>gr::aff3ct_codes::ccsds_ldpc_decoder</compoundname>
+    <basecompoundref prot="public" virt="virtual">gr::block</basecompoundref>
+    <derivedcompoundref refid="classgr_1_1aff3ct__codes_1_1ccsds__ldpc__decoder__impl" prot="public" virt="non-virtual">gr::aff3ct_codes::ccsds_ldpc_decoder_impl</derivedcompoundref>
+    <includes refid="ccsds__ldpc__decoder_8h" local="no">ccsds_ldpc_decoder.h</includes>
+      <sectiondef kind="public-type">
+      <memberdef kind="typedef" id="classgr_1_1aff3ct__codes_1_1ccsds__ldpc__decoder_1a6cfc360da1655700d76b535fac8c8e46" prot="public" static="no">
+        <type>std::shared_ptr&lt; <ref refid="classgr_1_1aff3ct__codes_1_1ccsds__ldpc__decoder" kindref="compound">ccsds_ldpc_decoder</ref> &gt;</type>
+        <definition>typedef std::shared_ptr&lt;ccsds_ldpc_decoder&gt; gr::aff3ct_codes::ccsds_ldpc_decoder::sptr</definition>
+        <argsstring></argsstring>
+        <name>sptr</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/davem/gr-aff3ct_codes/include/gnuradio/aff3ct_codes/ccsds_ldpc_decoder.h" line="25" column="29" bodyfile="/home/davem/gr-aff3ct_codes/include/gnuradio/aff3ct_codes/ccsds_ldpc_decoder.h" bodystart="25" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classgr_1_1aff3ct__codes_1_1ccsds__ldpc__decoder_1a4e1bfa5eb79ddde8181552485a5986ce" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classgr_1_1aff3ct__codes_1_1ccsds__ldpc__decoder_1a6cfc360da1655700d76b535fac8c8e46" kindref="member">sptr</ref></type>
+        <definition>static sptr gr::aff3ct_codes::ccsds_ldpc_decoder::make</definition>
+        <argsstring>(int code_rate, bool data_rate, int decoder_iterations)</argsstring>
+        <name>make</name>
+        <param>
+          <type>int</type>
+          <declname>code_rate</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>data_rate</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>decoder_iterations</declname>
+        </param>
+        <briefdescription>
+<para>Return a shared_ptr to a new instance of <ref refid="classgr_1_1aff3ct__codes_1_1ccsds__ldpc__decoder" kindref="compound">aff3ct_codes::ccsds_ldpc_decoder</ref>. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>To avoid accidental use of raw pointers, <ref refid="classgr_1_1aff3ct__codes_1_1ccsds__ldpc__decoder" kindref="compound">aff3ct_codes::ccsds_ldpc_decoder</ref>&apos;s constructor is in a private implementation class. <ref refid="classgr_1_1aff3ct__codes_1_1ccsds__ldpc__decoder_1a4e1bfa5eb79ddde8181552485a5986ce" kindref="member">aff3ct_codes::ccsds_ldpc_decoder::make</ref> is the public interface for creating new instances. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/davem/gr-aff3ct_codes/include/gnuradio/aff3ct_codes/ccsds_ldpc_decoder.h" line="35" column="17"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>&lt;+description of block+&gt; </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>gr::aff3ct_codes::ccsds_ldpc_decoder</label>
+        <link refid="classgr_1_1aff3ct__codes_1_1ccsds__ldpc__decoder"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>gr::block</label>
+      </node>
+      <node id="3">
+        <label>gr::aff3ct_codes::ccsds_ldpc_decoder_impl</label>
+        <link refid="classgr_1_1aff3ct__codes_1_1ccsds__ldpc__decoder__impl"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>gr::aff3ct_codes::ccsds_ldpc_decoder</label>
+        <link refid="classgr_1_1aff3ct__codes_1_1ccsds__ldpc__decoder"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>gr::block</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/davem/gr-aff3ct_codes/include/gnuradio/aff3ct_codes/ccsds_ldpc_decoder.h" line="22" column="1" bodyfile="/home/davem/gr-aff3ct_codes/include/gnuradio/aff3ct_codes/ccsds_ldpc_decoder.h" bodystart="23" bodyend="36"/>
+    <listofallmembers>
+      <member refid="classgr_1_1aff3ct__codes_1_1ccsds__ldpc__decoder_1a4e1bfa5eb79ddde8181552485a5986ce" prot="public" virt="non-virtual"><scope>gr::aff3ct_codes::ccsds_ldpc_decoder</scope><name>make</name></member>
+      <member refid="classgr_1_1aff3ct__codes_1_1ccsds__ldpc__decoder_1a6cfc360da1655700d76b535fac8c8e46" prot="public" virt="non-virtual"><scope>gr::aff3ct_codes::ccsds_ldpc_decoder</scope><name>sptr</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>
