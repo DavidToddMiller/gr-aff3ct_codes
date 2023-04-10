@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="ios_8h" kind="file" language="C++">
+    <compoundname>ios.h</compoundname>
+      <sectiondef kind="define">
+      <memberdef kind="define" id="ios_8h_1abc287ebc51a5d0a78a49bc3ba300b76e" prot="public" static="no">
+        <name>TARGET_OS_IPHONE</name>
+        <initializer>0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/davem/gr-aff3ct_codes/aff3ct-3.0.2_Library_Header_Files/date/ios.h" line="48" column="10" bodyfile="/home/davem/gr-aff3ct_codes/aff3ct-3.0.2_Library_Header_Files/date/ios.h" bodystart="48" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/davem/gr-aff3ct_codes/aff3ct-3.0.2_Library_Header_Files/date/ios.h"/>
+  </compounddef>
+</doxygen>

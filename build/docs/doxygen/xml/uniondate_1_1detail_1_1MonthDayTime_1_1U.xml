@@ -1,0 +1,162 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="uniondate_1_1detail_1_1MonthDayTime_1_1U" kind="union" language="C++" prot="private">
+    <compoundname>date::detail::MonthDayTime::U</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="uniondate_1_1detail_1_1MonthDayTime_1_1U_1a7bded920b923a3a51544c0537068fe81" prot="public" static="no" mutable="no">
+        <type><ref refid="classdate_1_1month__day" kindref="compound">date::month_day</ref></type>
+        <definition>date::month_day date::detail::MonthDayTime::U::month_day_</definition>
+        <argsstring></argsstring>
+        <name>month_day_</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/davem/gr-aff3ct_codes/aff3ct-3.0.2_Library_Header_Files/date/tz_private.h" line="79" column="34" bodyfile="/home/davem/gr-aff3ct_codes/aff3ct-3.0.2_Library_Header_Files/date/tz_private.h" bodystart="79" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="uniondate_1_1detail_1_1MonthDayTime_1_1U_1a186f2b89254e7bc702c4297bacb5a1bd" prot="public" static="no" mutable="no">
+        <type><ref refid="classdate_1_1month__weekday__last" kindref="compound">date::month_weekday_last</ref></type>
+        <definition>date::month_weekday_last date::detail::MonthDayTime::U::month_weekday_last_</definition>
+        <argsstring></argsstring>
+        <name>month_weekday_last_</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/davem/gr-aff3ct_codes/aff3ct-3.0.2_Library_Header_Files/date/tz_private.h" line="80" column="34" bodyfile="/home/davem/gr-aff3ct_codes/aff3ct-3.0.2_Library_Header_Files/date/tz_private.h" bodystart="80" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="uniondate_1_1detail_1_1MonthDayTime_1_1U_1a997b58c32c9abb055df8fa87a917610d" prot="public" static="no" mutable="no">
+        <type>pair</type>
+        <definition>pair date::detail::MonthDayTime::U::month_day_weekday_</definition>
+        <argsstring></argsstring>
+        <name>month_day_weekday_</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/davem/gr-aff3ct_codes/aff3ct-3.0.2_Library_Header_Files/date/tz_private.h" line="81" column="34" bodyfile="/home/davem/gr-aff3ct_codes/aff3ct-3.0.2_Library_Header_Files/date/tz_private.h" bodystart="81" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="uniondate_1_1detail_1_1MonthDayTime_1_1U_1adc9f22600fc199c34de40bd8113ba64d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>date::detail::MonthDayTime::U::U</definition>
+        <argsstring>()</argsstring>
+        <name>U</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/davem/gr-aff3ct_codes/aff3ct-3.0.2_Library_Header_Files/date/tz_private.h" line="84" column="9" bodyfile="/home/davem/gr-aff3ct_codes/aff3ct-3.0.2_Library_Header_Files/date/tz_private.h" bodystart="84" bodyend="84"/>
+      </memberdef>
+      <memberdef kind="function" id="uniondate_1_1detail_1_1MonthDayTime_1_1U_1a7f1c9d0fbc613490c12213d5986927be" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>U &amp;</type>
+        <definition>U&amp; date::detail::MonthDayTime::U::operator=</definition>
+        <argsstring>(const date::month_day &amp;x)</argsstring>
+        <name>operator=</name>
+        <param>
+          <type>const <ref refid="classdate_1_1month__day" kindref="compound">date::month_day</ref> &amp;</type>
+          <declname>x</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/davem/gr-aff3ct_codes/aff3ct-3.0.2_Library_Header_Files/date/tz_private.h" line="93" column="11"/>
+      </memberdef>
+      <memberdef kind="function" id="uniondate_1_1detail_1_1MonthDayTime_1_1U_1ad3c3ee90140c0bbec552a053b1929fc4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>U &amp;</type>
+        <definition>U&amp; date::detail::MonthDayTime::U::operator=</definition>
+        <argsstring>(const date::month_weekday_last &amp;x)</argsstring>
+        <name>operator=</name>
+        <param>
+          <type>const <ref refid="classdate_1_1month__weekday__last" kindref="compound">date::month_weekday_last</ref> &amp;</type>
+          <declname>x</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/davem/gr-aff3ct_codes/aff3ct-3.0.2_Library_Header_Files/date/tz_private.h" line="94" column="11"/>
+      </memberdef>
+      <memberdef kind="function" id="uniondate_1_1detail_1_1MonthDayTime_1_1U_1ae2de62a53a834a1705cb288df9a2b133" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>U &amp;</type>
+        <definition>U&amp; date::detail::MonthDayTime::U::operator=</definition>
+        <argsstring>(const pair &amp;x)</argsstring>
+        <name>operator=</name>
+        <param>
+          <type>const pair &amp;</type>
+          <declname>x</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/davem/gr-aff3ct_codes/aff3ct-3.0.2_Library_Header_Files/date/tz_private.h" line="95" column="11"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="5">
+        <label>date::weekday</label>
+        <link refid="classdate_1_1weekday"/>
+      </node>
+      <node id="3">
+        <label>date::month_weekday_last</label>
+        <link refid="classdate_1_1month__weekday__last"/>
+      </node>
+      <node id="4">
+        <label>date::detail::MonthDayTime::pair</label>
+        <childnode refid="2" relation="usage">
+          <edgelabel>month_day_</edgelabel>
+        </childnode>
+        <childnode refid="5" relation="usage">
+          <edgelabel>weekday_</edgelabel>
+        </childnode>
+      </node>
+      <node id="1">
+        <label>date::detail::MonthDayTime::U</label>
+        <childnode refid="2" relation="usage">
+          <edgelabel>month_day_</edgelabel>
+        </childnode>
+        <childnode refid="3" relation="usage">
+          <edgelabel>month_weekday_last_</edgelabel>
+        </childnode>
+        <childnode refid="4" relation="usage">
+          <edgelabel>month_day_weekday_</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>date::month_day</label>
+        <link refid="classdate_1_1month__day"/>
+      </node>
+    </collaborationgraph>
+    <location file="/home/davem/gr-aff3ct_codes/aff3ct-3.0.2_Library_Header_Files/date/tz_private.h" line="74" column="5" bodyfile="/home/davem/gr-aff3ct_codes/aff3ct-3.0.2_Library_Header_Files/date/tz_private.h" bodystart="78" bodyend="96"/>
+    <listofallmembers>
+      <member refid="uniondate_1_1detail_1_1MonthDayTime_1_1U_1a7bded920b923a3a51544c0537068fe81" prot="public" virt="non-virtual"><scope>date::detail::MonthDayTime::U</scope><name>month_day_</name></member>
+      <member refid="uniondate_1_1detail_1_1MonthDayTime_1_1U_1a997b58c32c9abb055df8fa87a917610d" prot="public" virt="non-virtual"><scope>date::detail::MonthDayTime::U</scope><name>month_day_weekday_</name></member>
+      <member refid="uniondate_1_1detail_1_1MonthDayTime_1_1U_1a186f2b89254e7bc702c4297bacb5a1bd" prot="public" virt="non-virtual"><scope>date::detail::MonthDayTime::U</scope><name>month_weekday_last_</name></member>
+      <member refid="uniondate_1_1detail_1_1MonthDayTime_1_1U_1a7f1c9d0fbc613490c12213d5986927be" prot="public" virt="non-virtual"><scope>date::detail::MonthDayTime::U</scope><name>operator=</name></member>
+      <member refid="uniondate_1_1detail_1_1MonthDayTime_1_1U_1ad3c3ee90140c0bbec552a053b1929fc4" prot="public" virt="non-virtual"><scope>date::detail::MonthDayTime::U</scope><name>operator=</name></member>
+      <member refid="uniondate_1_1detail_1_1MonthDayTime_1_1U_1ae2de62a53a834a1705cb288df9a2b133" prot="public" virt="non-virtual"><scope>date::detail::MonthDayTime::U</scope><name>operator=</name></member>
+      <member refid="uniondate_1_1detail_1_1MonthDayTime_1_1U_1adc9f22600fc199c34de40bd8113ba64d" prot="public" virt="non-virtual"><scope>date::detail::MonthDayTime::U</scope><name>U</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

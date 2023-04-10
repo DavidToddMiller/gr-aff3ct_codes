@@ -84,11 +84,11 @@ blocks:
     bus_sink: false
     bus_source: false
     bus_structure: null
-    coordinate: [832, 1052.0]
+    coordinate: [824, 1060.0]
     rotation: 180
-    state: true
-- name: aff3ct_codes_Frame_Extract2_0
-  id: aff3ct_codes_Frame_Extract2
+    state: enabled
+- name: aff3ct_codes_Frame_ExtractOQPSK_0
+  id: aff3ct_codes_Frame_ExtractOQPSK
   parameters:
     ASM_length: '64'
     affinity: ''
@@ -102,7 +102,7 @@ blocks:
     bus_sink: false
     bus_source: false
     bus_structure: null
-    coordinate: [848, 668.0]
+    coordinate: [1016, 672.0]
     rotation: 0
     state: true
 - name: aff3ct_codes_Resolve_Phase2_0
@@ -121,7 +121,7 @@ blocks:
     bus_sink: false
     bus_source: false
     bus_structure: null
-    coordinate: [1088, 668.0]
+    coordinate: [1264, 684.0]
     rotation: 0
     state: true
 - name: aff3ct_codes_Tag_FrameASM64_ff_0
@@ -139,7 +139,25 @@ blocks:
     bus_sink: false
     bus_source: false
     bus_structure: null
-    coordinate: [584, 668.0]
+    coordinate: [752, 668.0]
+    rotation: 0
+    state: true
+- name: aff3ct_codes_Tag_FrameASM64_ff_0_0
+  id: aff3ct_codes_Tag_FrameASM64_ff
+  parameters:
+    ASM_length: '64'
+    affinity: ''
+    alias: ''
+    comment: ''
+    maxoutbuf: '0'
+    minoutbuf: '0'
+    threshold: '1'
+    waveform: '1'
+  states:
+    bus_sink: false
+    bus_source: false
+    bus_structure: null
+    coordinate: [776, 796.0]
     rotation: 0
     state: true
 - name: aff3ct_codes_ccsds_ldpc_decoder_0
@@ -157,7 +175,7 @@ blocks:
     bus_sink: false
     bus_source: false
     bus_structure: null
-    coordinate: [560, 1052.0]
+    coordinate: [432, 1060.0]
     rotation: 180
     state: true
 - name: blocks_complex_to_float_0
@@ -175,7 +193,7 @@ blocks:
     bus_structure: null
     coordinate: [40, 656.0]
     rotation: 0
-    state: true
+    state: enabled
 - name: blocks_complex_to_float_0_0
   id: blocks_complex_to_float
   parameters:
@@ -208,7 +226,7 @@ blocks:
     bus_sink: false
     bus_source: false
     bus_structure: null
-    coordinate: [304, 744.0]
+    coordinate: [240, 744.0]
     rotation: 0
     state: enabled
 - name: blocks_delay_0_0
@@ -245,7 +263,7 @@ blocks:
     bus_sink: false
     bus_source: false
     bus_structure: null
-    coordinate: [56, 1028.0]
+    coordinate: [64, 1036.0]
     rotation: 180
     state: enabled
 - name: blocks_file_sink_1
@@ -278,7 +296,7 @@ blocks:
     maxoutbuf: '0'
     minoutbuf: '0'
     offset: '0'
-    repeat: 'False'
+    repeat: 'True'
     type: complex
     vlen: '1'
   states:
@@ -322,7 +340,7 @@ blocks:
     bus_structure: null
     coordinate: [344, 656.0]
     rotation: 0
-    state: true
+    state: enabled
 - name: blocks_interleave_0_0
   id: blocks_interleave
   parameters:
@@ -339,7 +357,7 @@ blocks:
     bus_sink: false
     bus_source: false
     bus_structure: null
-    coordinate: [472, 808.0]
+    coordinate: [392, 784.0]
     rotation: 0
     state: enabled
 - name: blocks_multiply_const_vxx_1
@@ -357,41 +375,7 @@ blocks:
     bus_sink: false
     bus_source: false
     bus_structure: null
-    coordinate: [184, 828.0]
-    rotation: 0
-    state: enabled
-- name: blocks_null_sink_0_0
-  id: blocks_null_sink
-  parameters:
-    affinity: ''
-    alias: ''
-    bus_structure_sink: '[[0,],]'
-    comment: ''
-    num_inputs: '1'
-    type: float
-    vlen: '1'
-  states:
-    bus_sink: false
-    bus_source: false
-    bus_structure: null
-    coordinate: [808, 820.0]
-    rotation: 0
-    state: true
-- name: blocks_null_sink_0_1
-  id: blocks_null_sink
-  parameters:
-    affinity: ''
-    alias: ''
-    bus_structure_sink: '[[0,],]'
-    comment: ''
-    num_inputs: '1'
-    type: float
-    vlen: '1'
-  states:
-    bus_sink: false
-    bus_source: false
-    bus_structure: null
-    coordinate: [512, 612.0]
+    coordinate: [144, 828.0]
     rotation: 0
     state: enabled
 - name: blocks_null_sink_1
@@ -408,24 +392,8 @@ blocks:
     bus_sink: false
     bus_source: false
     bus_structure: null
-    coordinate: [1096, 844.0]
+    coordinate: [1144, 956.0]
     rotation: 0
-    state: enabled
-- name: blocks_pack_k_bits_bb_0
-  id: blocks_pack_k_bits_bb
-  parameters:
-    affinity: ''
-    alias: ''
-    comment: ''
-    k: '8'
-    maxoutbuf: '0'
-    minoutbuf: '0'
-  states:
-    bus_sink: false
-    bus_source: false
-    bus_structure: null
-    coordinate: [296, 1044.0]
-    rotation: 180
     state: enabled
 - name: blocks_pack_k_bits_bb_0_0
   id: blocks_pack_k_bits_bb
@@ -459,7 +427,7 @@ blocks:
     bus_sink: false
     bus_source: false
     bus_structure: null
-    coordinate: [1104, 1024.0]
+    coordinate: [1176, 1032.0]
     rotation: 180
     state: enabled
 - name: blocks_tag_gate_0
@@ -478,7 +446,26 @@ blocks:
     bus_sink: false
     bus_source: false
     bus_structure: null
-    coordinate: [480, 724.0]
+    coordinate: [600, 780.0]
+    rotation: 0
+    state: enabled
+- name: blocks_tag_gate_0_0
+  id: blocks_tag_gate
+  parameters:
+    affinity: ''
+    alias: ''
+    comment: ''
+    maxoutbuf: '0'
+    minoutbuf: '0'
+    propagate_tags: 'False'
+    single_key: '""'
+    type: float
+    vlen: '1'
+  states:
+    bus_sink: false
+    bus_source: false
+    bus_structure: null
+    coordinate: [536, 652.0]
     rotation: 0
     state: enabled
 - name: blocks_throttle_0
@@ -533,7 +520,7 @@ blocks:
     coordinate: [456, 232.0]
     rotation: 0
     state: enabled
-- name: digital_symbol_sync_xx_0_0_0
+- name: digital_symbol_sync_xx_0_0_0_0
   id: digital_symbol_sync_xx
   parameters:
     affinity: ''
@@ -557,7 +544,7 @@ blocks:
     bus_sink: false
     bus_source: false
     bus_structure: null
-    coordinate: [288, 412.0]
+    coordinate: [312, 452.0]
     rotation: 180
     state: enabled
 - name: fir_filter_xxx_0_0
@@ -765,7 +752,7 @@ blocks:
     bus_sink: false
     bus_source: false
     bus_structure: null
-    coordinate: [488, 916.0]
+    coordinate: [352, 884.0]
     rotation: 180
     state: enabled
 
@@ -773,10 +760,12 @@ connections:
 - [aff3ct_codes_CCSDS_Pseudo_Randomizer_0, '0', aff3ct_codes_ccsds_ldpc_decoder_0,
   '0']
 - [aff3ct_codes_CCSDS_Pseudo_Randomizer_0, '0', digital_binary_slicer_fb_0_0, '0']
-- [aff3ct_codes_Frame_Extract2_0, '0', aff3ct_codes_Resolve_Phase2_0, '0']
+- [aff3ct_codes_Frame_ExtractOQPSK_0, '0', aff3ct_codes_Resolve_Phase2_0, '0']
 - [aff3ct_codes_Resolve_Phase2_0, '0', blocks_stream_demux_0, '0']
-- [aff3ct_codes_Tag_FrameASM64_ff_0, '0', aff3ct_codes_Frame_Extract2_0, '0']
-- [aff3ct_codes_ccsds_ldpc_decoder_0, '0', blocks_pack_k_bits_bb_0, '0']
+- [aff3ct_codes_Tag_FrameASM64_ff_0, '0', aff3ct_codes_Frame_ExtractOQPSK_0, '0']
+- [aff3ct_codes_Tag_FrameASM64_ff_0_0, '0', aff3ct_codes_Frame_ExtractOQPSK_0, '1']
+- [aff3ct_codes_ccsds_ldpc_decoder_0, '0', blocks_file_sink_0, '0']
+- [blocks_complex_to_float_0, '0', blocks_interleave_0, '0']
 - [blocks_complex_to_float_0, '0', blocks_multiply_const_vxx_1, '0']
 - [blocks_complex_to_float_0, '1', blocks_delay_0, '0']
 - [blocks_complex_to_float_0, '1', blocks_interleave_0, '1']
@@ -786,23 +775,21 @@ connections:
 - [blocks_delay_0_0, '0', blocks_float_to_complex_0_0, '0']
 - [blocks_file_source_0_0, '0', blocks_throttle_0, '0']
 - [blocks_float_to_complex_0_0, '0', fir_filter_xxx_0_0, '0']
-- [blocks_interleave_0, '0', blocks_null_sink_0_1, '0']
-- [blocks_interleave_0_0, '0', blocks_null_sink_0_0, '0']
+- [blocks_interleave_0, '0', blocks_tag_gate_0_0, '0']
 - [blocks_interleave_0_0, '0', blocks_tag_gate_0, '0']
 - [blocks_interleave_0_0, '0', qtgui_time_sink_x_0, '0']
-- [blocks_multiply_const_vxx_1, '0', blocks_interleave_0, '0']
 - [blocks_multiply_const_vxx_1, '0', blocks_interleave_0_0, '1']
-- [blocks_pack_k_bits_bb_0, '0', blocks_file_sink_0, '0']
 - [blocks_pack_k_bits_bb_0_0, '0', blocks_file_sink_1, '0']
 - [blocks_stream_demux_0, '0', blocks_null_sink_1, '0']
 - [blocks_stream_demux_0, '1', aff3ct_codes_CCSDS_Pseudo_Randomizer_0, '0']
-- [blocks_tag_gate_0, '0', aff3ct_codes_Tag_FrameASM64_ff_0, '0']
+- [blocks_tag_gate_0, '0', aff3ct_codes_Tag_FrameASM64_ff_0_0, '0']
+- [blocks_tag_gate_0_0, '0', aff3ct_codes_Tag_FrameASM64_ff_0, '0']
 - [blocks_throttle_0, '0', digital_costas_loop_cc_0_0_0, '0']
 - [digital_binary_slicer_fb_0_0, '0', blocks_pack_k_bits_bb_0_0, '0']
 - [digital_costas_loop_cc_0_0_0, '0', blocks_complex_to_float_0_0, '0']
-- [digital_symbol_sync_xx_0_0_0, '0', blocks_complex_to_float_0, '0']
-- [digital_symbol_sync_xx_0_0_0, '0', qtgui_const_sink_x_0, '0']
-- [fir_filter_xxx_0_0, '0', digital_symbol_sync_xx_0_0_0, '0']
+- [digital_symbol_sync_xx_0_0_0_0, '0', blocks_complex_to_float_0, '0']
+- [digital_symbol_sync_xx_0_0_0_0, '0', qtgui_const_sink_x_0, '0']
+- [fir_filter_xxx_0_0, '0', digital_symbol_sync_xx_0_0_0_0, '0']
 
 metadata:
   file_format: 1

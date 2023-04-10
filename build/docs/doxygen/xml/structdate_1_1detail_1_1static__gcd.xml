@@ -1,0 +1,43 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="structdate_1_1detail_1_1static__gcd" kind="struct" language="C++" prot="public">
+    <compoundname>date::detail::static_gcd</compoundname>
+    <includes refid="date_8h" local="no">date.h</includes>
+    <templateparamlist>
+      <param>
+        <type>std::intmax_t</type>
+        <declname>Xp</declname>
+        <defname>Xp</defname>
+      </param>
+      <param>
+        <type>std::intmax_t</type>
+        <declname>Yp</declname>
+        <defname>Yp</defname>
+      </param>
+    </templateparamlist>
+      <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="structdate_1_1detail_1_1static__gcd_1a546cd3f2a6d2e8ecd54d7319f6877299" prot="public" static="yes" mutable="no">
+        <type>const std::intmax_t</type>
+        <definition>const std::intmax_t date::detail::static_gcd&lt; Xp, Yp &gt;::value</definition>
+        <argsstring></argsstring>
+        <name>value</name>
+        <initializer>= <ref refid="structdate_1_1detail_1_1static__gcd" kindref="compound">static_gcd</ref>&lt;Yp, Xp % Yp&gt;::value</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/davem/gr-aff3ct_codes/aff3ct-3.0.2_Library_Header_Files/date/date.h" line="1037" column="32" bodyfile="/home/davem/gr-aff3ct_codes/aff3ct-3.0.2_Library_Header_Files/date/date.h" bodystart="1037" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/davem/gr-aff3ct_codes/aff3ct-3.0.2_Library_Header_Files/date/date.h" line="1035" column="1" bodyfile="/home/davem/gr-aff3ct_codes/aff3ct-3.0.2_Library_Header_Files/date/date.h" bodystart="1036" bodyend="1038"/>
+    <listofallmembers>
+      <member refid="structdate_1_1detail_1_1static__gcd_1a546cd3f2a6d2e8ecd54d7319f6877299" prot="public" virt="non-virtual"><scope>date::detail::static_gcd</scope><name>value</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

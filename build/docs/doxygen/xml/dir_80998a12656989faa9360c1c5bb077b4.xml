@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="dir_80998a12656989faa9360c1c5bb077b4" kind="dir">
+    <compoundname>aff3ct-3.0.2_Library_Header_Files</compoundname>
+    <innerdir refid="dir_0568845de064b430ce5a4071fec4b4dc">date</innerdir>
+    <innerdir refid="dir_c5e32d201a145d187df7d890a40c46e3">math</innerdir>
+    <innerdir refid="dir_45a5cfb1a6c7cc9cd38b1ab59ce1fcc3">Tools</innerdir>
+    <innerfile refid="mipp_8h">mipp.h</innerfile>
+    <innerfile refid="mipp__scalar__op_8h">mipp_scalar_op.h</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/davem/gr-aff3ct_codes/aff3ct-3.0.2_Library_Header_Files/"/>
+  </compounddef>
+</doxygen>

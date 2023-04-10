@@ -1,0 +1,54 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="structaff3ct_1_1tools_1_1h0__inter__8bit__bitpacking" kind="struct" language="C++" prot="public">
+    <compoundname>aff3ct::tools::h0_inter_8bit_bitpacking</compoundname>
+    <includes refid="functions__polar__inter__8bit__bitpacking_8h" local="no">functions_polar_inter_8bit_bitpacking.h</includes>
+    <templateparamlist>
+      <param>
+        <type>typename <ref refid="types_8h_1aea10d97f1102e86fa7f1fef5a0eb78ae" kindref="member">B</ref></type>
+      </param>
+      <param>
+        <type>int</type>
+        <declname>N_ELMTS</declname>
+        <defname>N_ELMTS</defname>
+        <defval>0</defval>
+      </param>
+    </templateparamlist>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="structaff3ct_1_1tools_1_1h0__inter__8bit__bitpacking_1acdd3764e1bf81c32504a18e255faf744" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>static void aff3ct::tools::h0_inter_8bit_bitpacking&lt; B, N_ELMTS &gt;::apply</definition>
+        <argsstring>(B *__restrict s_a, const int init_shift, const int n_elmts=0)</argsstring>
+        <name>apply</name>
+        <param>
+          <type><ref refid="types_8h_1aea10d97f1102e86fa7f1fef5a0eb78ae" kindref="member">B</ref> *__restrict</type>
+          <declname>s_a</declname>
+        </param>
+        <param>
+          <type>const int</type>
+          <declname>init_shift</declname>
+        </param>
+        <param>
+          <type>const int</type>
+          <declname>n_elmts</declname>
+          <defval>0</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/davem/gr-aff3ct_codes/aff3ct-3.0.2_Library_Header_Files/Tools/Code/Polar/API/internal_functions/functions_polar_inter_8bit_bitpacking.h" line="114" column="13"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/davem/gr-aff3ct_codes/aff3ct-3.0.2_Library_Header_Files/Tools/Code/Polar/API/internal_functions/functions_polar_inter_8bit_bitpacking.h" line="112" column="1" bodyfile="/home/davem/gr-aff3ct_codes/aff3ct-3.0.2_Library_Header_Files/Tools/Code/Polar/API/internal_functions/functions_polar_inter_8bit_bitpacking.h" bodystart="113" bodyend="115"/>
+    <listofallmembers>
+      <member refid="structaff3ct_1_1tools_1_1h0__inter__8bit__bitpacking_1acdd3764e1bf81c32504a18e255faf744" prot="public" virt="non-virtual"><scope>aff3ct::tools::h0_inter_8bit_bitpacking</scope><name>apply</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

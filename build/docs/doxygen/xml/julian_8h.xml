@@ -1,0 +1,157 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="julian_8h" kind="file" language="C++">
+    <compoundname>julian.h</compoundname>
+    <includes refid="date_8h" local="yes">date.h</includes>
+    <incdepgraph>
+      <node id="17">
+        <label>locale</label>
+      </node>
+      <node id="16">
+        <label>limits</label>
+      </node>
+      <node id="15">
+        <label>iterator</label>
+      </node>
+      <node id="10">
+        <label>cstdint</label>
+      </node>
+      <node id="8">
+        <label>cmath</label>
+      </node>
+      <node id="3">
+        <label>cassert</label>
+      </node>
+      <node id="22">
+        <label>stdexcept</label>
+      </node>
+      <node id="23">
+        <label>string</label>
+      </node>
+      <node id="19">
+        <label>ostream</label>
+      </node>
+      <node id="2">
+        <label>date.h</label>
+        <link refid="date_8h"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="8" relation="include">
+        </childnode>
+        <childnode refid="9" relation="include">
+        </childnode>
+        <childnode refid="10" relation="include">
+        </childnode>
+        <childnode refid="11" relation="include">
+        </childnode>
+        <childnode refid="12" relation="include">
+        </childnode>
+        <childnode refid="13" relation="include">
+        </childnode>
+        <childnode refid="14" relation="include">
+        </childnode>
+        <childnode refid="15" relation="include">
+        </childnode>
+        <childnode refid="16" relation="include">
+        </childnode>
+        <childnode refid="17" relation="include">
+        </childnode>
+        <childnode refid="18" relation="include">
+        </childnode>
+        <childnode refid="19" relation="include">
+        </childnode>
+        <childnode refid="20" relation="include">
+        </childnode>
+        <childnode refid="21" relation="include">
+        </childnode>
+        <childnode refid="22" relation="include">
+        </childnode>
+        <childnode refid="23" relation="include">
+        </childnode>
+        <childnode refid="24" relation="include">
+        </childnode>
+        <childnode refid="25" relation="include">
+        </childnode>
+      </node>
+      <node id="20">
+        <label>ratio</label>
+      </node>
+      <node id="13">
+        <label>ios</label>
+      </node>
+      <node id="12">
+        <label>ctime</label>
+      </node>
+      <node id="24">
+        <label>utility</label>
+      </node>
+      <node id="21">
+        <label>sstream</label>
+      </node>
+      <node id="1">
+        <label>julian.h</label>
+        <link refid="julian_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+      </node>
+      <node id="11">
+        <label>cstdlib</label>
+      </node>
+      <node id="5">
+        <label>cctype</label>
+      </node>
+      <node id="9">
+        <label>cstddef</label>
+      </node>
+      <node id="7">
+        <label>climits</label>
+      </node>
+      <node id="6">
+        <label>chrono</label>
+      </node>
+      <node id="25">
+        <label>type_traits</label>
+      </node>
+      <node id="4">
+        <label>algorithm</label>
+      </node>
+      <node id="18">
+        <label>memory</label>
+      </node>
+      <node id="14">
+        <label>istream</label>
+      </node>
+    </incdepgraph>
+    <innerclass refid="structjulian_1_1last__spec" prot="public">julian::last_spec</innerclass>
+    <innerclass refid="classjulian_1_1day" prot="public">julian::day</innerclass>
+    <innerclass refid="classjulian_1_1month" prot="public">julian::month</innerclass>
+    <innerclass refid="classjulian_1_1year" prot="public">julian::year</innerclass>
+    <innerclass refid="classjulian_1_1weekday" prot="public">julian::weekday</innerclass>
+    <innerclass refid="classjulian_1_1weekday__indexed" prot="public">julian::weekday_indexed</innerclass>
+    <innerclass refid="classjulian_1_1weekday__last" prot="public">julian::weekday_last</innerclass>
+    <innerclass refid="classjulian_1_1year__month" prot="public">julian::year_month</innerclass>
+    <innerclass refid="classjulian_1_1month__day" prot="public">julian::month_day</innerclass>
+    <innerclass refid="classjulian_1_1month__day__last" prot="public">julian::month_day_last</innerclass>
+    <innerclass refid="classjulian_1_1month__weekday" prot="public">julian::month_weekday</innerclass>
+    <innerclass refid="classjulian_1_1month__weekday__last" prot="public">julian::month_weekday_last</innerclass>
+    <innerclass refid="classjulian_1_1year__month__day" prot="public">julian::year_month_day</innerclass>
+    <innerclass refid="classjulian_1_1year__month__day__last" prot="public">julian::year_month_day_last</innerclass>
+    <innerclass refid="classjulian_1_1year__month__weekday" prot="public">julian::year_month_weekday</innerclass>
+    <innerclass refid="classjulian_1_1year__month__weekday__last" prot="public">julian::year_month_weekday_last</innerclass>
+    <innernamespace refid="namespacejulian">julian</innernamespace>
+    <innernamespace refid="namespacejulian_1_1literals" inline="yes">julian::literals</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/davem/gr-aff3ct_codes/aff3ct-3.0.2_Library_Header_Files/date/julian.h"/>
+  </compounddef>
+</doxygen>

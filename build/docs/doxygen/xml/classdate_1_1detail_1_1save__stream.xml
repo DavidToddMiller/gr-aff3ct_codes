@@ -1,0 +1,163 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="classdate_1_1detail_1_1save__stream" kind="class" language="C++" prot="public">
+    <compoundname>date::detail::save_stream</compoundname>
+    <includes refid="date_8h" local="no">date.h</includes>
+    <templateparamlist>
+      <param>
+        <type>class CharT</type>
+      </param>
+      <param>
+        <type>class Traits</type>
+        <defval>std::char_traits&lt;CharT&gt;</defval>
+      </param>
+    </templateparamlist>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classdate_1_1detail_1_1save__stream_1a7156960dff5e47d880798cc68899b868" prot="private" static="no" mutable="no">
+        <type>std::basic_ios&lt; CharT, Traits &gt; &amp;</type>
+        <definition>std::basic_ios&lt;CharT, Traits&gt;&amp; date::detail::save_stream&lt; CharT, Traits &gt;::os_</definition>
+        <argsstring></argsstring>
+        <name>os_</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/davem/gr-aff3ct_codes/aff3ct-3.0.2_Library_Header_Files/date/date.h" line="947" column="20" bodyfile="/home/davem/gr-aff3ct_codes/aff3ct-3.0.2_Library_Header_Files/date/date.h" bodystart="947" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classdate_1_1detail_1_1save__stream_1a58292321b20e05b4c631612624120e57" prot="private" static="no" mutable="no">
+        <type>CharT</type>
+        <definition>CharT date::detail::save_stream&lt; CharT, Traits &gt;::fill_</definition>
+        <argsstring></argsstring>
+        <name>fill_</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/davem/gr-aff3ct_codes/aff3ct-3.0.2_Library_Header_Files/date/date.h" line="948" column="11" bodyfile="/home/davem/gr-aff3ct_codes/aff3ct-3.0.2_Library_Header_Files/date/date.h" bodystart="948" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classdate_1_1detail_1_1save__stream_1a59d7e473faedb74f812f7999b10687ec" prot="private" static="no" mutable="no">
+        <type>std::ios::fmtflags</type>
+        <definition>std::ios::fmtflags date::detail::save_stream&lt; CharT, Traits &gt;::flags_</definition>
+        <argsstring></argsstring>
+        <name>flags_</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/davem/gr-aff3ct_codes/aff3ct-3.0.2_Library_Header_Files/date/date.h" line="949" column="24" bodyfile="/home/davem/gr-aff3ct_codes/aff3ct-3.0.2_Library_Header_Files/date/date.h" bodystart="949" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classdate_1_1detail_1_1save__stream_1a316fd782337f86d8110ea5f635da5597" prot="private" static="no" mutable="no">
+        <type>std::streamsize</type>
+        <definition>std::streamsize date::detail::save_stream&lt; CharT, Traits &gt;::width_</definition>
+        <argsstring></argsstring>
+        <name>width_</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/davem/gr-aff3ct_codes/aff3ct-3.0.2_Library_Header_Files/date/date.h" line="950" column="21" bodyfile="/home/davem/gr-aff3ct_codes/aff3ct-3.0.2_Library_Header_Files/date/date.h" bodystart="950" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classdate_1_1detail_1_1save__stream_1aa59b450bc9675eb0548718006f29edb1" prot="private" static="no" mutable="no">
+        <type>std::locale</type>
+        <definition>std::locale date::detail::save_stream&lt; CharT, Traits &gt;::loc_</definition>
+        <argsstring></argsstring>
+        <name>loc_</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/davem/gr-aff3ct_codes/aff3ct-3.0.2_Library_Header_Files/date/date.h" line="951" column="17" bodyfile="/home/davem/gr-aff3ct_codes/aff3ct-3.0.2_Library_Header_Files/date/date.h" bodystart="951" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classdate_1_1detail_1_1save__stream_1a5f9ea5e47463e1f75d68c3a4fb5a2317" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>date::detail::save_stream&lt; CharT, Traits &gt;::~save_stream</definition>
+        <argsstring>()</argsstring>
+        <name>~save_stream</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/davem/gr-aff3ct_codes/aff3ct-3.0.2_Library_Header_Files/date/date.h" line="954" column="5" bodyfile="/home/davem/gr-aff3ct_codes/aff3ct-3.0.2_Library_Header_Files/date/date.h" bodystart="954" bodyend="960"/>
+      </memberdef>
+      <memberdef kind="function" id="classdate_1_1detail_1_1save__stream_1ab1798017d61cbbb680f160fc63580e7d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>date::detail::save_stream&lt; CharT, Traits &gt;::save_stream</definition>
+        <argsstring>(const save_stream &amp;)=delete</argsstring>
+        <name>save_stream</name>
+        <param>
+          <type>const <ref refid="classdate_1_1detail_1_1save__stream" kindref="compound">save_stream</ref> &amp;</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/davem/gr-aff3ct_codes/aff3ct-3.0.2_Library_Header_Files/date/date.h" line="962" column="5"/>
+      </memberdef>
+      <memberdef kind="function" id="classdate_1_1detail_1_1save__stream_1ab0b15db5f1b8ecee88d0db7ca6907e33" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classdate_1_1detail_1_1save__stream" kindref="compound">save_stream</ref> &amp;</type>
+        <definition>save_stream&amp; date::detail::save_stream&lt; CharT, Traits &gt;::operator=</definition>
+        <argsstring>(const save_stream &amp;)=delete</argsstring>
+        <name>operator=</name>
+        <param>
+          <type>const <ref refid="classdate_1_1detail_1_1save__stream" kindref="compound">save_stream</ref> &amp;</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/davem/gr-aff3ct_codes/aff3ct-3.0.2_Library_Header_Files/date/date.h" line="963" column="17"/>
+      </memberdef>
+      <memberdef kind="function" id="classdate_1_1detail_1_1save__stream_1aae3b6a5599b9bd871ed9fe28852ec313" prot="public" static="no" const="no" explicit="yes" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>date::detail::save_stream&lt; CharT, Traits &gt;::save_stream</definition>
+        <argsstring>(std::basic_ios&lt; CharT, Traits &gt; &amp;os)</argsstring>
+        <name>save_stream</name>
+        <param>
+          <type>std::basic_ios&lt; CharT, Traits &gt; &amp;</type>
+          <declname>os</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/davem/gr-aff3ct_codes/aff3ct-3.0.2_Library_Header_Files/date/date.h" line="965" column="14" bodyfile="/home/davem/gr-aff3ct_codes/aff3ct-3.0.2_Library_Header_Files/date/date.h" bodystart="965" bodyend="971"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/davem/gr-aff3ct_codes/aff3ct-3.0.2_Library_Header_Files/date/date.h" line="945" column="1" bodyfile="/home/davem/gr-aff3ct_codes/aff3ct-3.0.2_Library_Header_Files/date/date.h" bodystart="946" bodyend="972"/>
+    <listofallmembers>
+      <member refid="classdate_1_1detail_1_1save__stream_1a58292321b20e05b4c631612624120e57" prot="private" virt="non-virtual"><scope>date::detail::save_stream</scope><name>fill_</name></member>
+      <member refid="classdate_1_1detail_1_1save__stream_1a59d7e473faedb74f812f7999b10687ec" prot="private" virt="non-virtual"><scope>date::detail::save_stream</scope><name>flags_</name></member>
+      <member refid="classdate_1_1detail_1_1save__stream_1aa59b450bc9675eb0548718006f29edb1" prot="private" virt="non-virtual"><scope>date::detail::save_stream</scope><name>loc_</name></member>
+      <member refid="classdate_1_1detail_1_1save__stream_1ab0b15db5f1b8ecee88d0db7ca6907e33" prot="public" virt="non-virtual"><scope>date::detail::save_stream</scope><name>operator=</name></member>
+      <member refid="classdate_1_1detail_1_1save__stream_1a7156960dff5e47d880798cc68899b868" prot="private" virt="non-virtual"><scope>date::detail::save_stream</scope><name>os_</name></member>
+      <member refid="classdate_1_1detail_1_1save__stream_1ab1798017d61cbbb680f160fc63580e7d" prot="public" virt="non-virtual"><scope>date::detail::save_stream</scope><name>save_stream</name></member>
+      <member refid="classdate_1_1detail_1_1save__stream_1aae3b6a5599b9bd871ed9fe28852ec313" prot="public" virt="non-virtual"><scope>date::detail::save_stream</scope><name>save_stream</name></member>
+      <member refid="classdate_1_1detail_1_1save__stream_1a316fd782337f86d8110ea5f635da5597" prot="private" virt="non-virtual"><scope>date::detail::save_stream</scope><name>width_</name></member>
+      <member refid="classdate_1_1detail_1_1save__stream_1a5f9ea5e47463e1f75d68c3a4fb5a2317" prot="public" virt="non-virtual"><scope>date::detail::save_stream</scope><name>~save_stream</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

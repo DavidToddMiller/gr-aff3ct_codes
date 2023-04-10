@@ -1,0 +1,81 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="Tag__FrameASM64__ff__pydoc__template_8h" kind="file" language="C++">
+    <compoundname>Tag_FrameASM64_ff_pydoc_template.h</compoundname>
+    <includes local="yes">pydoc_macros.h</includes>
+    <incdepgraph>
+      <node id="1">
+        <label>Tag_FrameASM64_ff_pydoc_template.h</label>
+        <link refid="Tag__FrameASM64__ff__pydoc__template_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>pydoc_macros.h</label>
+      </node>
+    </incdepgraph>
+      <sectiondef kind="define">
+      <memberdef kind="define" id="Tag__FrameASM64__ff__pydoc__template_8h_1a74021f021dcdfbb22891787b79c5529d" prot="public" static="no">
+        <name>D</name>
+        <param><defname>...</defname></param>
+        <initializer><ref refid="docs_2doxygen_2pydoc__macros_8h_1a4e578031ec998eaeb933d5caa6a7d28a" kindref="member">DOC</ref>(gr, aff3ct_codes, __VA_ARGS__)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/davem/gr-aff3ct_codes/python/aff3ct_codes/bindings/docstrings/Tag_FrameASM64_ff_pydoc_template.h" line="10" column="10" bodyfile="/home/davem/gr-aff3ct_codes/python/aff3ct_codes/bindings/docstrings/Tag_FrameASM64_ff_pydoc_template.h" bodystart="10" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="var">
+      <memberdef kind="variable" id="Tag__FrameASM64__ff__pydoc__template_8h_1a5d4420ed205ff01a3b1db3ca965e8ac5" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_aff3ct_codes_Tag_FrameASM64_ff</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_aff3ct_codes_Tag_FrameASM64_ff</name>
+        <initializer>= <ref refid="types_8h_1ac936a396bcfd78f82a9b140f35dc2c7a" kindref="member">R</ref>&quot;doc()doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/davem/gr-aff3ct_codes/python/aff3ct_codes/bindings/docstrings/Tag_FrameASM64_ff_pydoc_template.h" line="19" column="20" bodyfile="/home/davem/gr-aff3ct_codes/python/aff3ct_codes/bindings/docstrings/Tag_FrameASM64_ff_pydoc_template.h" bodystart="19" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="Tag__FrameASM64__ff__pydoc__template_8h_1aff09b7da78b0ef6c1735485d5d8c4887" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_aff3ct_codes_Tag_FrameASM64_ff_Tag_FrameASM64_ff</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_aff3ct_codes_Tag_FrameASM64_ff_Tag_FrameASM64_ff</name>
+        <initializer>= <ref refid="types_8h_1ac936a396bcfd78f82a9b140f35dc2c7a" kindref="member">R</ref>&quot;doc()doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/davem/gr-aff3ct_codes/python/aff3ct_codes/bindings/docstrings/Tag_FrameASM64_ff_pydoc_template.h" line="22" column="20" bodyfile="/home/davem/gr-aff3ct_codes/python/aff3ct_codes/bindings/docstrings/Tag_FrameASM64_ff_pydoc_template.h" bodystart="22" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="Tag__FrameASM64__ff__pydoc__template_8h_1ad4d4e6e2bac46f11a2f1cf10bd8b372b" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_aff3ct_codes_Tag_FrameASM64_ff_make</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_aff3ct_codes_Tag_FrameASM64_ff_make</name>
+        <initializer>= <ref refid="types_8h_1ac936a396bcfd78f82a9b140f35dc2c7a" kindref="member">R</ref>&quot;doc()doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/davem/gr-aff3ct_codes/python/aff3ct_codes/bindings/docstrings/Tag_FrameASM64_ff_pydoc_template.h" line="25" column="20" bodyfile="/home/davem/gr-aff3ct_codes/python/aff3ct_codes/bindings/docstrings/Tag_FrameASM64_ff_pydoc_template.h" bodystart="25" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/davem/gr-aff3ct_codes/python/aff3ct_codes/bindings/docstrings/Tag_FrameASM64_ff_pydoc_template.h"/>
+  </compounddef>
+</doxygen>

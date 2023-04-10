@@ -1,0 +1,2435 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="namespaceiso__week" kind="namespace" language="C++">
+    <compoundname>iso_week</compoundname>
+    <innerclass refid="structiso__week_1_1last__week" prot="public">iso_week::last_week</innerclass>
+    <innerclass refid="classiso__week_1_1weekday" prot="public">iso_week::weekday</innerclass>
+    <innerclass refid="classiso__week_1_1year" prot="public">iso_week::year</innerclass>
+    <innerclass refid="classiso__week_1_1weeknum" prot="public">iso_week::weeknum</innerclass>
+    <innerclass refid="classiso__week_1_1year__weeknum" prot="public">iso_week::year_weeknum</innerclass>
+    <innerclass refid="classiso__week_1_1year__lastweek" prot="public">iso_week::year_lastweek</innerclass>
+    <innerclass refid="classiso__week_1_1weeknum__weekday" prot="public">iso_week::weeknum_weekday</innerclass>
+    <innerclass refid="classiso__week_1_1lastweek__weekday" prot="public">iso_week::lastweek_weekday</innerclass>
+    <innerclass refid="classiso__week_1_1year__lastweek__weekday" prot="public">iso_week::year_lastweek_weekday</innerclass>
+    <innerclass refid="classiso__week_1_1year__weeknum__weekday" prot="public">iso_week::year_weeknum_weekday</innerclass>
+    <innernamespace refid="namespaceiso__week_1_1literals" inline="yes">iso_week::literals</innernamespace>
+      <sectiondef kind="typedef">
+      <memberdef kind="typedef" id="namespaceiso__week_1a0c343a304a27d1e3166d7e7667dabf87" prot="public" static="no">
+        <type><ref refid="namespacedate_1a399ab4c5166221fd7685cb90f6c81eab" kindref="member">date::days</ref></type>
+        <definition>using iso_week::days = typedef date::days</definition>
+        <argsstring></argsstring>
+        <name>days</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/davem/gr-aff3ct_codes/aff3ct-3.0.2_Library_Header_Files/date/iso_week.h" line="37" column="1" bodyfile="/home/davem/gr-aff3ct_codes/aff3ct-3.0.2_Library_Header_Files/date/iso_week.h" bodystart="37" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="namespaceiso__week_1aff8b883f6fd1c5cd6fabf7f7564ae19a" prot="public" static="no">
+        <type><ref refid="namespacedate_1a467b1dc4e76d93bf9b2f642407b37984" kindref="member">date::weeks</ref></type>
+        <definition>using iso_week::weeks = typedef date::weeks</definition>
+        <argsstring></argsstring>
+        <name>weeks</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/davem/gr-aff3ct_codes/aff3ct-3.0.2_Library_Header_Files/date/iso_week.h" line="38" column="1" bodyfile="/home/davem/gr-aff3ct_codes/aff3ct-3.0.2_Library_Header_Files/date/iso_week.h" bodystart="38" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="namespaceiso__week_1ab0d916e7f0a5605c6eb379e19063c4f7" prot="public" static="no">
+        <type><ref refid="namespacedate_1a922cbbac979349ecd4e7e85cc2188aa8" kindref="member">date::years</ref></type>
+        <definition>using iso_week::years = typedef date::years</definition>
+        <argsstring></argsstring>
+        <name>years</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/davem/gr-aff3ct_codes/aff3ct-3.0.2_Library_Header_Files/date/iso_week.h" line="39" column="1" bodyfile="/home/davem/gr-aff3ct_codes/aff3ct-3.0.2_Library_Header_Files/date/iso_week.h" bodystart="39" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="namespaceiso__week_1a0ff629b02d1134a22c1bd91e83f451d8" prot="public" static="no">
+        <type><ref refid="namespacedate_1ae5b7953f5a7367396877454e5a88b809" kindref="member">date::sys_days</ref></type>
+        <definition>using iso_week::sys_days = typedef date::sys_days</definition>
+        <argsstring></argsstring>
+        <name>sys_days</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/davem/gr-aff3ct_codes/aff3ct-3.0.2_Library_Header_Files/date/iso_week.h" line="43" column="1" bodyfile="/home/davem/gr-aff3ct_codes/aff3ct-3.0.2_Library_Header_Files/date/iso_week.h" bodystart="43" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="namespaceiso__week_1af927fb6ce937ff1ddab60323706af037" prot="public" static="no">
+        <type><ref refid="namespacedate_1a396e62efd18a8a3544e9f09d91ef7eb3" kindref="member">date::local_days</ref></type>
+        <definition>using iso_week::local_days = typedef date::local_days</definition>
+        <argsstring></argsstring>
+        <name>local_days</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/davem/gr-aff3ct_codes/aff3ct-3.0.2_Library_Header_Files/date/iso_week.h" line="44" column="1" bodyfile="/home/davem/gr-aff3ct_codes/aff3ct-3.0.2_Library_Header_Files/date/iso_week.h" bodystart="44" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="var">
+      <memberdef kind="variable" id="namespaceiso__week_1_1literals_1a2adf7c5ae836af7fdb08df2eca2e3204" prot="public" static="no" mutable="no">
+        <type><ref refid="date_8h_1a1262e7cef5d1d56fb1f1ed2a43bfe4d1" kindref="member">CONSTDATA</ref> <ref refid="structiso__week_1_1last__week" kindref="compound">iso_week::last_week</ref></type>
+        <definition>CONSTDATA iso_week::last_week iso_week::literals::last</definition>
+        <argsstring></argsstring>
+        <name>last</name>
+        <initializer>{}</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/davem/gr-aff3ct_codes/aff3ct-3.0.2_Library_Header_Files/date/iso_week.h" line="746" column="31" bodyfile="/home/davem/gr-aff3ct_codes/aff3ct-3.0.2_Library_Header_Files/date/iso_week.h" bodystart="746" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespaceiso__week_1_1literals_1a3a471e63bfb2743bd6ccb6ae85f6d94e" prot="public" static="no" mutable="no">
+        <type><ref refid="date_8h_1a1262e7cef5d1d56fb1f1ed2a43bfe4d1" kindref="member">CONSTDATA</ref> <ref refid="classiso__week_1_1weekday" kindref="compound">iso_week::weekday</ref></type>
+        <definition>CONSTDATA iso_week::weekday iso_week::literals::sun</definition>
+        <argsstring></argsstring>
+        <name>sun</name>
+        <initializer>{7u}</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/davem/gr-aff3ct_codes/aff3ct-3.0.2_Library_Header_Files/date/iso_week.h" line="748" column="29" bodyfile="/home/davem/gr-aff3ct_codes/aff3ct-3.0.2_Library_Header_Files/date/iso_week.h" bodystart="748" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespaceiso__week_1_1literals_1aea5b7365f99e74a2583785463caeb450" prot="public" static="no" mutable="no">
+        <type><ref refid="date_8h_1a1262e7cef5d1d56fb1f1ed2a43bfe4d1" kindref="member">CONSTDATA</ref> <ref refid="classiso__week_1_1weekday" kindref="compound">iso_week::weekday</ref></type>
+        <definition>CONSTDATA iso_week::weekday iso_week::literals::mon</definition>
+        <argsstring></argsstring>
+        <name>mon</name>
+        <initializer>{1u}</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/davem/gr-aff3ct_codes/aff3ct-3.0.2_Library_Header_Files/date/iso_week.h" line="749" column="29" bodyfile="/home/davem/gr-aff3ct_codes/aff3ct-3.0.2_Library_Header_Files/date/iso_week.h" bodystart="749" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespaceiso__week_1_1literals_1a3024c673daf1f9316eb8c480b8895369" prot="public" static="no" mutable="no">
+        <type><ref refid="date_8h_1a1262e7cef5d1d56fb1f1ed2a43bfe4d1" kindref="member">CONSTDATA</ref> <ref refid="classiso__week_1_1weekday" kindref="compound">iso_week::weekday</ref></type>
+        <definition>CONSTDATA iso_week::weekday iso_week::literals::tue</definition>
+        <argsstring></argsstring>
+        <name>tue</name>
+        <initializer>{2u}</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/davem/gr-aff3ct_codes/aff3ct-3.0.2_Library_Header_Files/date/iso_week.h" line="750" column="29" bodyfile="/home/davem/gr-aff3ct_codes/aff3ct-3.0.2_Library_Header_Files/date/iso_week.h" bodystart="750" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespaceiso__week_1_1literals_1a21d8f66c57a71ea76c848df0f8ea5b42" prot="public" static="no" mutable="no">
+        <type><ref refid="date_8h_1a1262e7cef5d1d56fb1f1ed2a43bfe4d1" kindref="member">CONSTDATA</ref> <ref refid="classiso__week_1_1weekday" kindref="compound">iso_week::weekday</ref></type>
+        <definition>CONSTDATA iso_week::weekday iso_week::literals::wed</definition>
+        <argsstring></argsstring>
+        <name>wed</name>
+        <initializer>{3u}</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/davem/gr-aff3ct_codes/aff3ct-3.0.2_Library_Header_Files/date/iso_week.h" line="751" column="29" bodyfile="/home/davem/gr-aff3ct_codes/aff3ct-3.0.2_Library_Header_Files/date/iso_week.h" bodystart="751" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespaceiso__week_1_1literals_1aa9c03b66c5aeab32baeb660d465f3cbe" prot="public" static="no" mutable="no">
+        <type><ref refid="date_8h_1a1262e7cef5d1d56fb1f1ed2a43bfe4d1" kindref="member">CONSTDATA</ref> <ref refid="classiso__week_1_1weekday" kindref="compound">iso_week::weekday</ref></type>
+        <definition>CONSTDATA iso_week::weekday iso_week::literals::thu</definition>
+        <argsstring></argsstring>
+        <name>thu</name>
+        <initializer>{4u}</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/davem/gr-aff3ct_codes/aff3ct-3.0.2_Library_Header_Files/date/iso_week.h" line="752" column="29" bodyfile="/home/davem/gr-aff3ct_codes/aff3ct-3.0.2_Library_Header_Files/date/iso_week.h" bodystart="752" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespaceiso__week_1_1literals_1a35a4ede2de4931b6c13276374e355960" prot="public" static="no" mutable="no">
+        <type><ref refid="date_8h_1a1262e7cef5d1d56fb1f1ed2a43bfe4d1" kindref="member">CONSTDATA</ref> <ref refid="classiso__week_1_1weekday" kindref="compound">iso_week::weekday</ref></type>
+        <definition>CONSTDATA iso_week::weekday iso_week::literals::fri</definition>
+        <argsstring></argsstring>
+        <name>fri</name>
+        <initializer>{5u}</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/davem/gr-aff3ct_codes/aff3ct-3.0.2_Library_Header_Files/date/iso_week.h" line="753" column="29" bodyfile="/home/davem/gr-aff3ct_codes/aff3ct-3.0.2_Library_Header_Files/date/iso_week.h" bodystart="753" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespaceiso__week_1_1literals_1a7e5527952866a8d140476457ad39dc14" prot="public" static="no" mutable="no">
+        <type><ref refid="date_8h_1a1262e7cef5d1d56fb1f1ed2a43bfe4d1" kindref="member">CONSTDATA</ref> <ref refid="classiso__week_1_1weekday" kindref="compound">iso_week::weekday</ref></type>
+        <definition>CONSTDATA iso_week::weekday iso_week::literals::sat</definition>
+        <argsstring></argsstring>
+        <name>sat</name>
+        <initializer>{6u}</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/davem/gr-aff3ct_codes/aff3ct-3.0.2_Library_Header_Files/date/iso_week.h" line="754" column="29" bodyfile="/home/davem/gr-aff3ct_codes/aff3ct-3.0.2_Library_Header_Files/date/iso_week.h" bodystart="754" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="func">
+      <memberdef kind="function" id="namespaceiso__week_1a34e63bcd1c3670cc8cc7efd6a0875b7c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="date_8h_1a98c025909efef28d356780da89fc44b6" kindref="member">CONSTCD11</ref> <ref refid="classiso__week_1_1year__weeknum" kindref="compound">year_weeknum</ref></type>
+        <definition>CONSTCD11 year_weeknum iso_week::operator/</definition>
+        <argsstring>(const year &amp;y, const weeknum &amp;wn) NOEXCEPT</argsstring>
+        <name>operator/</name>
+        <param>
+          <type>const <ref refid="classiso__week_1_1year" kindref="compound">year</ref> &amp;</type>
+          <declname>y</declname>
+        </param>
+        <param>
+          <type>const <ref refid="classiso__week_1_1weeknum" kindref="compound">weeknum</ref> &amp;</type>
+          <declname>wn</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/davem/gr-aff3ct_codes/aff3ct-3.0.2_Library_Header_Files/date/iso_week.h" line="1602" column="1" bodyfile="/home/davem/gr-aff3ct_codes/aff3ct-3.0.2_Library_Header_Files/date/iso_week.h" bodystart="1602" bodyend="1605" declfile="/home/davem/gr-aff3ct_codes/aff3ct-3.0.2_Library_Header_Files/date/iso_week.h" declline="67" declcolumn="24"/>
+      </memberdef>
+      <memberdef kind="function" id="namespaceiso__week_1acc5f00c95f72098a5d588ec45b174650" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="date_8h_1a98c025909efef28d356780da89fc44b6" kindref="member">CONSTCD11</ref> <ref refid="classiso__week_1_1year__weeknum" kindref="compound">year_weeknum</ref></type>
+        <definition>CONSTCD11 year_weeknum iso_week::operator/</definition>
+        <argsstring>(const year &amp;y, int wn) NOEXCEPT</argsstring>
+        <name>operator/</name>
+        <param>
+          <type>const <ref refid="classiso__week_1_1year" kindref="compound">year</ref> &amp;</type>
+          <declname>y</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>wn</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/davem/gr-aff3ct_codes/aff3ct-3.0.2_Library_Header_Files/date/iso_week.h" line="1610" column="1" bodyfile="/home/davem/gr-aff3ct_codes/aff3ct-3.0.2_Library_Header_Files/date/iso_week.h" bodystart="1610" bodyend="1613" declfile="/home/davem/gr-aff3ct_codes/aff3ct-3.0.2_Library_Header_Files/date/iso_week.h" declline="68" declcolumn="24"/>
+      </memberdef>
+      <memberdef kind="function" id="namespaceiso__week_1ace6d715e973da940738744ea5435a9fe" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="date_8h_1a98c025909efef28d356780da89fc44b6" kindref="member">CONSTCD11</ref> <ref refid="classiso__week_1_1year__lastweek" kindref="compound">year_lastweek</ref></type>
+        <definition>CONSTCD11 year_lastweek iso_week::operator/</definition>
+        <argsstring>(const year &amp;y, last_week wn) NOEXCEPT</argsstring>
+        <name>operator/</name>
+        <param>
+          <type>const <ref refid="classiso__week_1_1year" kindref="compound">year</ref> &amp;</type>
+          <declname>y</declname>
+        </param>
+        <param>
+          <type><ref refid="structiso__week_1_1last__week" kindref="compound">last_week</ref></type>
+          <declname>wn</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/davem/gr-aff3ct_codes/aff3ct-3.0.2_Library_Header_Files/date/iso_week.h" line="1618" column="1" bodyfile="/home/davem/gr-aff3ct_codes/aff3ct-3.0.2_Library_Header_Files/date/iso_week.h" bodystart="1618" bodyend="1621" declfile="/home/davem/gr-aff3ct_codes/aff3ct-3.0.2_Library_Header_Files/date/iso_week.h" declline="70" declcolumn="25"/>
+      </memberdef>
+      <memberdef kind="function" id="namespaceiso__week_1aa8bd511b52639c1e55fc9c0749c5f45e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="date_8h_1a98c025909efef28d356780da89fc44b6" kindref="member">CONSTCD11</ref> <ref refid="classiso__week_1_1weeknum__weekday" kindref="compound">weeknum_weekday</ref></type>
+        <definition>CONSTCD11 weeknum_weekday iso_week::operator/</definition>
+        <argsstring>(const weeknum &amp;wn, const weekday &amp;wd) NOEXCEPT</argsstring>
+        <name>operator/</name>
+        <param>
+          <type>const <ref refid="classiso__week_1_1weeknum" kindref="compound">weeknum</ref> &amp;</type>
+          <declname>wn</declname>
+        </param>
+        <param>
+          <type>const <ref refid="classiso__week_1_1weekday" kindref="compound">weekday</ref> &amp;</type>
+          <declname>wd</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/davem/gr-aff3ct_codes/aff3ct-3.0.2_Library_Header_Files/date/iso_week.h" line="1626" column="1" bodyfile="/home/davem/gr-aff3ct_codes/aff3ct-3.0.2_Library_Header_Files/date/iso_week.h" bodystart="1626" bodyend="1629" declfile="/home/davem/gr-aff3ct_codes/aff3ct-3.0.2_Library_Header_Files/date/iso_week.h" declline="72" declcolumn="27"/>
+      </memberdef>
+      <memberdef kind="function" id="namespaceiso__week_1a10a52d955cae57729403384bfc5fedd0" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="date_8h_1a98c025909efef28d356780da89fc44b6" kindref="member">CONSTCD11</ref> <ref refid="classiso__week_1_1weeknum__weekday" kindref="compound">weeknum_weekday</ref></type>
+        <definition>CONSTCD11 weeknum_weekday iso_week::operator/</definition>
+        <argsstring>(const weeknum &amp;wn, int wd) NOEXCEPT</argsstring>
+        <name>operator/</name>
+        <param>
+          <type>const <ref refid="classiso__week_1_1weeknum" kindref="compound">weeknum</ref> &amp;</type>
+          <declname>wn</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>wd</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/davem/gr-aff3ct_codes/aff3ct-3.0.2_Library_Header_Files/date/iso_week.h" line="1634" column="1" bodyfile="/home/davem/gr-aff3ct_codes/aff3ct-3.0.2_Library_Header_Files/date/iso_week.h" bodystart="1634" bodyend="1637" declfile="/home/davem/gr-aff3ct_codes/aff3ct-3.0.2_Library_Header_Files/date/iso_week.h" declline="73" declcolumn="27"/>
+      </memberdef>
+      <memberdef kind="function" id="namespaceiso__week_1a026da5a730bac7af38269ebbc45c6bcb" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="date_8h_1a98c025909efef28d356780da89fc44b6" kindref="member">CONSTCD11</ref> <ref refid="classiso__week_1_1weeknum__weekday" kindref="compound">weeknum_weekday</ref></type>
+        <definition>CONSTCD11 weeknum_weekday iso_week::operator/</definition>
+        <argsstring>(const weekday &amp;wd, const weeknum &amp;wn) NOEXCEPT</argsstring>
+        <name>operator/</name>
+        <param>
+          <type>const <ref refid="classiso__week_1_1weekday" kindref="compound">weekday</ref> &amp;</type>
+          <declname>wd</declname>
+        </param>
+        <param>
+          <type>const <ref refid="classiso__week_1_1weeknum" kindref="compound">weeknum</ref> &amp;</type>
+          <declname>wn</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/davem/gr-aff3ct_codes/aff3ct-3.0.2_Library_Header_Files/date/iso_week.h" line="1642" column="1" bodyfile="/home/davem/gr-aff3ct_codes/aff3ct-3.0.2_Library_Header_Files/date/iso_week.h" bodystart="1642" bodyend="1645" declfile="/home/davem/gr-aff3ct_codes/aff3ct-3.0.2_Library_Header_Files/date/iso_week.h" declline="74" declcolumn="27"/>
+      </memberdef>
+      <memberdef kind="function" id="namespaceiso__week_1a5568cfba9c46eb091eb6f15f49f932e8" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="date_8h_1a98c025909efef28d356780da89fc44b6" kindref="member">CONSTCD11</ref> <ref refid="classiso__week_1_1weeknum__weekday" kindref="compound">weeknum_weekday</ref></type>
+        <definition>CONSTCD11 weeknum_weekday iso_week::operator/</definition>
+        <argsstring>(const weekday &amp;wd, int wn) NOEXCEPT</argsstring>
+        <name>operator/</name>
+        <param>
+          <type>const <ref refid="classiso__week_1_1weekday" kindref="compound">weekday</ref> &amp;</type>
+          <declname>wd</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>wn</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/davem/gr-aff3ct_codes/aff3ct-3.0.2_Library_Header_Files/date/iso_week.h" line="1650" column="1" bodyfile="/home/davem/gr-aff3ct_codes/aff3ct-3.0.2_Library_Header_Files/date/iso_week.h" bodystart="1650" bodyend="1653" declfile="/home/davem/gr-aff3ct_codes/aff3ct-3.0.2_Library_Header_Files/date/iso_week.h" declline="75" declcolumn="27"/>
+      </memberdef>
+      <memberdef kind="function" id="namespaceiso__week_1ac36dacfbc70e1a9901d6c7bcb2a91aa9" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="date_8h_1a98c025909efef28d356780da89fc44b6" kindref="member">CONSTCD11</ref> <ref refid="classiso__week_1_1lastweek__weekday" kindref="compound">lastweek_weekday</ref></type>
+        <definition>CONSTCD11 lastweek_weekday iso_week::operator/</definition>
+        <argsstring>(const last_week &amp;wn, const weekday &amp;wd) NOEXCEPT</argsstring>
+        <name>operator/</name>
+        <param>
+          <type>const <ref refid="structiso__week_1_1last__week" kindref="compound">last_week</ref> &amp;</type>
+          <declname>wn</declname>
+        </param>
+        <param>
+          <type>const <ref refid="classiso__week_1_1weekday" kindref="compound">weekday</ref> &amp;</type>
+          <declname>wd</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/davem/gr-aff3ct_codes/aff3ct-3.0.2_Library_Header_Files/date/iso_week.h" line="1658" column="1" bodyfile="/home/davem/gr-aff3ct_codes/aff3ct-3.0.2_Library_Header_Files/date/iso_week.h" bodystart="1658" bodyend="1661" declfile="/home/davem/gr-aff3ct_codes/aff3ct-3.0.2_Library_Header_Files/date/iso_week.h" declline="77" declcolumn="28"/>
+      </memberdef>
+      <memberdef kind="function" id="namespaceiso__week_1a922ed8e5c9ea024cacb93b217f2eb7ab" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="date_8h_1a98c025909efef28d356780da89fc44b6" kindref="member">CONSTCD11</ref> <ref refid="classiso__week_1_1lastweek__weekday" kindref="compound">lastweek_weekday</ref></type>
+        <definition>CONSTCD11 lastweek_weekday iso_week::operator/</definition>
+        <argsstring>(const last_week &amp;wn, int wd) NOEXCEPT</argsstring>
+        <name>operator/</name>
+        <param>
+          <type>const <ref refid="structiso__week_1_1last__week" kindref="compound">last_week</ref> &amp;</type>
+          <declname>wn</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>wd</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/davem/gr-aff3ct_codes/aff3ct-3.0.2_Library_Header_Files/date/iso_week.h" line="1666" column="1" bodyfile="/home/davem/gr-aff3ct_codes/aff3ct-3.0.2_Library_Header_Files/date/iso_week.h" bodystart="1666" bodyend="1669" declfile="/home/davem/gr-aff3ct_codes/aff3ct-3.0.2_Library_Header_Files/date/iso_week.h" declline="78" declcolumn="28"/>
+      </memberdef>
+      <memberdef kind="function" id="namespaceiso__week_1ad3934c470ceb68e9a3c347dd21dbb310" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="date_8h_1a98c025909efef28d356780da89fc44b6" kindref="member">CONSTCD11</ref> <ref refid="classiso__week_1_1lastweek__weekday" kindref="compound">lastweek_weekday</ref></type>
+        <definition>CONSTCD11 lastweek_weekday iso_week::operator/</definition>
+        <argsstring>(const weekday &amp;wd, const last_week &amp;wn) NOEXCEPT</argsstring>
+        <name>operator/</name>
+        <param>
+          <type>const <ref refid="classiso__week_1_1weekday" kindref="compound">weekday</ref> &amp;</type>
+          <declname>wd</declname>
+        </param>
+        <param>
+          <type>const <ref refid="structiso__week_1_1last__week" kindref="compound">last_week</ref> &amp;</type>
+          <declname>wn</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/davem/gr-aff3ct_codes/aff3ct-3.0.2_Library_Header_Files/date/iso_week.h" line="1674" column="1" bodyfile="/home/davem/gr-aff3ct_codes/aff3ct-3.0.2_Library_Header_Files/date/iso_week.h" bodystart="1674" bodyend="1677" declfile="/home/davem/gr-aff3ct_codes/aff3ct-3.0.2_Library_Header_Files/date/iso_week.h" declline="79" declcolumn="28"/>
+      </memberdef>
+      <memberdef kind="function" id="namespaceiso__week_1a00a3b64e19ba3c34516ddc672c54ef82" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="date_8h_1a98c025909efef28d356780da89fc44b6" kindref="member">CONSTCD11</ref> <ref refid="classiso__week_1_1year__weeknum__weekday" kindref="compound">year_weeknum_weekday</ref></type>
+        <definition>CONSTCD11 year_weeknum_weekday iso_week::operator/</definition>
+        <argsstring>(const year_weeknum &amp;ywn, const weekday &amp;wd) NOEXCEPT</argsstring>
+        <name>operator/</name>
+        <param>
+          <type>const <ref refid="classiso__week_1_1year__weeknum" kindref="compound">year_weeknum</ref> &amp;</type>
+          <declname>ywn</declname>
+        </param>
+        <param>
+          <type>const <ref refid="classiso__week_1_1weekday" kindref="compound">weekday</ref> &amp;</type>
+          <declname>wd</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/davem/gr-aff3ct_codes/aff3ct-3.0.2_Library_Header_Files/date/iso_week.h" line="1682" column="1" bodyfile="/home/davem/gr-aff3ct_codes/aff3ct-3.0.2_Library_Header_Files/date/iso_week.h" bodystart="1682" bodyend="1685" declfile="/home/davem/gr-aff3ct_codes/aff3ct-3.0.2_Library_Header_Files/date/iso_week.h" declline="81" declcolumn="32"/>
+      </memberdef>
+      <memberdef kind="function" id="namespaceiso__week_1ae144bf43a707cb2668832dfc5763e62c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="date_8h_1a98c025909efef28d356780da89fc44b6" kindref="member">CONSTCD11</ref> <ref refid="classiso__week_1_1year__weeknum__weekday" kindref="compound">year_weeknum_weekday</ref></type>
+        <definition>CONSTCD11 year_weeknum_weekday iso_week::operator/</definition>
+        <argsstring>(const year_weeknum &amp;ywn, int wd) NOEXCEPT</argsstring>
+        <name>operator/</name>
+        <param>
+          <type>const <ref refid="classiso__week_1_1year__weeknum" kindref="compound">year_weeknum</ref> &amp;</type>
+          <declname>ywn</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>wd</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/davem/gr-aff3ct_codes/aff3ct-3.0.2_Library_Header_Files/date/iso_week.h" line="1690" column="1" bodyfile="/home/davem/gr-aff3ct_codes/aff3ct-3.0.2_Library_Header_Files/date/iso_week.h" bodystart="1690" bodyend="1693" declfile="/home/davem/gr-aff3ct_codes/aff3ct-3.0.2_Library_Header_Files/date/iso_week.h" declline="82" declcolumn="32"/>
+        <references refid="classiso__week_1_1weekday_1adaf4091b23038489a30e34767098c2be" compoundref="iso__week_8h" startline="447" endline="449">iso_week::weekday::weekday</references>
+      </memberdef>
+      <memberdef kind="function" id="namespaceiso__week_1a94bcf84d67d6ecbf048e9657e3075c0b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="date_8h_1a98c025909efef28d356780da89fc44b6" kindref="member">CONSTCD11</ref> <ref refid="classiso__week_1_1year__weeknum__weekday" kindref="compound">year_weeknum_weekday</ref></type>
+        <definition>CONSTCD11 year_weeknum_weekday iso_week::operator/</definition>
+        <argsstring>(const weeknum_weekday &amp;wnwd, const year &amp;y) NOEXCEPT</argsstring>
+        <name>operator/</name>
+        <param>
+          <type>const <ref refid="classiso__week_1_1weeknum__weekday" kindref="compound">weeknum_weekday</ref> &amp;</type>
+          <declname>wnwd</declname>
+        </param>
+        <param>
+          <type>const <ref refid="classiso__week_1_1year" kindref="compound">year</ref> &amp;</type>
+          <declname>y</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/davem/gr-aff3ct_codes/aff3ct-3.0.2_Library_Header_Files/date/iso_week.h" line="1698" column="1" bodyfile="/home/davem/gr-aff3ct_codes/aff3ct-3.0.2_Library_Header_Files/date/iso_week.h" bodystart="1698" bodyend="1701" declfile="/home/davem/gr-aff3ct_codes/aff3ct-3.0.2_Library_Header_Files/date/iso_week.h" declline="83" declcolumn="32"/>
+      </memberdef>
+      <memberdef kind="function" id="namespaceiso__week_1a73634d4c2f18a08bfcdae2683872d3fb" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="date_8h_1a98c025909efef28d356780da89fc44b6" kindref="member">CONSTCD11</ref> <ref refid="classiso__week_1_1year__weeknum__weekday" kindref="compound">year_weeknum_weekday</ref></type>
+        <definition>CONSTCD11 year_weeknum_weekday iso_week::operator/</definition>
+        <argsstring>(const weeknum_weekday &amp;wnwd, int y) NOEXCEPT</argsstring>
+        <name>operator/</name>
+        <param>
+          <type>const <ref refid="classiso__week_1_1weeknum__weekday" kindref="compound">weeknum_weekday</ref> &amp;</type>
+          <declname>wnwd</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>y</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/davem/gr-aff3ct_codes/aff3ct-3.0.2_Library_Header_Files/date/iso_week.h" line="1706" column="1" bodyfile="/home/davem/gr-aff3ct_codes/aff3ct-3.0.2_Library_Header_Files/date/iso_week.h" bodystart="1706" bodyend="1709" declfile="/home/davem/gr-aff3ct_codes/aff3ct-3.0.2_Library_Header_Files/date/iso_week.h" declline="84" declcolumn="32"/>
+      </memberdef>
+      <memberdef kind="function" id="namespaceiso__week_1a880fae9093d0e13de56f0d136481cc99" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="date_8h_1a98c025909efef28d356780da89fc44b6" kindref="member">CONSTCD11</ref> <ref refid="classiso__week_1_1year__lastweek__weekday" kindref="compound">year_lastweek_weekday</ref></type>
+        <definition>CONSTCD11 year_lastweek_weekday iso_week::operator/</definition>
+        <argsstring>(const year_lastweek &amp;ylw, const weekday &amp;wd) NOEXCEPT</argsstring>
+        <name>operator/</name>
+        <param>
+          <type>const <ref refid="classiso__week_1_1year__lastweek" kindref="compound">year_lastweek</ref> &amp;</type>
+          <declname>ylw</declname>
+        </param>
+        <param>
+          <type>const <ref refid="classiso__week_1_1weekday" kindref="compound">weekday</ref> &amp;</type>
+          <declname>wd</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/davem/gr-aff3ct_codes/aff3ct-3.0.2_Library_Header_Files/date/iso_week.h" line="1714" column="1" bodyfile="/home/davem/gr-aff3ct_codes/aff3ct-3.0.2_Library_Header_Files/date/iso_week.h" bodystart="1714" bodyend="1717" declfile="/home/davem/gr-aff3ct_codes/aff3ct-3.0.2_Library_Header_Files/date/iso_week.h" declline="86" declcolumn="33"/>
+      </memberdef>
+      <memberdef kind="function" id="namespaceiso__week_1a2d249829c7a72336d35d5cf94e6edc94" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="date_8h_1a98c025909efef28d356780da89fc44b6" kindref="member">CONSTCD11</ref> <ref refid="classiso__week_1_1year__lastweek__weekday" kindref="compound">year_lastweek_weekday</ref></type>
+        <definition>CONSTCD11 year_lastweek_weekday iso_week::operator/</definition>
+        <argsstring>(const year_lastweek &amp;ylw, int wd) NOEXCEPT</argsstring>
+        <name>operator/</name>
+        <param>
+          <type>const <ref refid="classiso__week_1_1year__lastweek" kindref="compound">year_lastweek</ref> &amp;</type>
+          <declname>ylw</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>wd</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/davem/gr-aff3ct_codes/aff3ct-3.0.2_Library_Header_Files/date/iso_week.h" line="1722" column="1" bodyfile="/home/davem/gr-aff3ct_codes/aff3ct-3.0.2_Library_Header_Files/date/iso_week.h" bodystart="1722" bodyend="1725" declfile="/home/davem/gr-aff3ct_codes/aff3ct-3.0.2_Library_Header_Files/date/iso_week.h" declline="87" declcolumn="33"/>
+        <references refid="classiso__week_1_1weekday_1adaf4091b23038489a30e34767098c2be" compoundref="iso__week_8h" startline="447" endline="449">iso_week::weekday::weekday</references>
+      </memberdef>
+      <memberdef kind="function" id="namespaceiso__week_1af72c6bdc083d48a34b0a0de4bf7f35ed" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="date_8h_1a98c025909efef28d356780da89fc44b6" kindref="member">CONSTCD11</ref> <ref refid="classiso__week_1_1year__lastweek__weekday" kindref="compound">year_lastweek_weekday</ref></type>
+        <definition>CONSTCD11 year_lastweek_weekday iso_week::operator/</definition>
+        <argsstring>(const lastweek_weekday &amp;lwwd, const year &amp;y) NOEXCEPT</argsstring>
+        <name>operator/</name>
+        <param>
+          <type>const <ref refid="classiso__week_1_1lastweek__weekday" kindref="compound">lastweek_weekday</ref> &amp;</type>
+          <declname>lwwd</declname>
+        </param>
+        <param>
+          <type>const <ref refid="classiso__week_1_1year" kindref="compound">year</ref> &amp;</type>
+          <declname>y</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/davem/gr-aff3ct_codes/aff3ct-3.0.2_Library_Header_Files/date/iso_week.h" line="1730" column="1" bodyfile="/home/davem/gr-aff3ct_codes/aff3ct-3.0.2_Library_Header_Files/date/iso_week.h" bodystart="1730" bodyend="1733" declfile="/home/davem/gr-aff3ct_codes/aff3ct-3.0.2_Library_Header_Files/date/iso_week.h" declline="89" declcolumn="33"/>
+      </memberdef>
+      <memberdef kind="function" id="namespaceiso__week_1a250cf1e06847c1c3a24ea66dfe3bcf2e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="date_8h_1a98c025909efef28d356780da89fc44b6" kindref="member">CONSTCD11</ref> <ref refid="classiso__week_1_1year__lastweek__weekday" kindref="compound">year_lastweek_weekday</ref></type>
+        <definition>CONSTCD11 year_lastweek_weekday iso_week::operator/</definition>
+        <argsstring>(const lastweek_weekday &amp;lwwd, int y) NOEXCEPT</argsstring>
+        <name>operator/</name>
+        <param>
+          <type>const <ref refid="classiso__week_1_1lastweek__weekday" kindref="compound">lastweek_weekday</ref> &amp;</type>
+          <declname>lwwd</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>y</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/davem/gr-aff3ct_codes/aff3ct-3.0.2_Library_Header_Files/date/iso_week.h" line="1738" column="1" bodyfile="/home/davem/gr-aff3ct_codes/aff3ct-3.0.2_Library_Header_Files/date/iso_week.h" bodystart="1738" bodyend="1741" declfile="/home/davem/gr-aff3ct_codes/aff3ct-3.0.2_Library_Header_Files/date/iso_week.h" declline="90" declcolumn="33"/>
+      </memberdef>
+      <memberdef kind="function" id="namespaceiso__week_1ab44cd3091b322f792aefedef118f71b5" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="date_8h_1a98c025909efef28d356780da89fc44b6" kindref="member">CONSTCD11</ref> bool</type>
+        <definition>CONSTCD11 bool iso_week::operator==</definition>
+        <argsstring>(const weekday &amp;x, const weekday &amp;y) NOEXCEPT</argsstring>
+        <name>operator==</name>
+        <param>
+          <type>const <ref refid="classiso__week_1_1weekday" kindref="compound">weekday</ref> &amp;</type>
+          <declname>x</declname>
+        </param>
+        <param>
+          <type>const <ref refid="classiso__week_1_1weekday" kindref="compound">weekday</ref> &amp;</type>
+          <declname>y</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/davem/gr-aff3ct_codes/aff3ct-3.0.2_Library_Header_Files/date/iso_week.h" line="509" column="1" bodyfile="/home/davem/gr-aff3ct_codes/aff3ct-3.0.2_Library_Header_Files/date/iso_week.h" bodystart="509" bodyend="512" declfile="/home/davem/gr-aff3ct_codes/aff3ct-3.0.2_Library_Header_Files/date/iso_week.h" declline="122" declcolumn="16"/>
+      </memberdef>
+      <memberdef kind="function" id="namespaceiso__week_1a67c92eedd4050ab8691da7c10892c2f9" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="date_8h_1a98c025909efef28d356780da89fc44b6" kindref="member">CONSTCD11</ref> bool</type>
+        <definition>CONSTCD11 bool iso_week::operator!=</definition>
+        <argsstring>(const weekday &amp;x, const weekday &amp;y) NOEXCEPT</argsstring>
+        <name>operator!=</name>
+        <param>
+          <type>const <ref refid="classiso__week_1_1weekday" kindref="compound">weekday</ref> &amp;</type>
+          <declname>x</declname>
+        </param>
+        <param>
+          <type>const <ref refid="classiso__week_1_1weekday" kindref="compound">weekday</ref> &amp;</type>
+          <declname>y</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/davem/gr-aff3ct_codes/aff3ct-3.0.2_Library_Header_Files/date/iso_week.h" line="517" column="1" bodyfile="/home/davem/gr-aff3ct_codes/aff3ct-3.0.2_Library_Header_Files/date/iso_week.h" bodystart="517" bodyend="520" declfile="/home/davem/gr-aff3ct_codes/aff3ct-3.0.2_Library_Header_Files/date/iso_week.h" declline="123" declcolumn="16"/>
+      </memberdef>
+      <memberdef kind="function" id="namespaceiso__week_1af6add8bdbfff09560602cf84e4f08a82" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="date_8h_1a3893ed763f820a91f169a2e9777aa325" kindref="member">CONSTCD14</ref> <ref refid="classiso__week_1_1weekday" kindref="compound">weekday</ref></type>
+        <definition>CONSTCD14 weekday iso_week::operator+</definition>
+        <argsstring>(const weekday &amp;x, const days &amp;y) NOEXCEPT</argsstring>
+        <name>operator+</name>
+        <param>
+          <type>const <ref refid="classiso__week_1_1weekday" kindref="compound">weekday</ref> &amp;</type>
+          <declname>x</declname>
+        </param>
+        <param>
+          <type>const <ref refid="namespaceiso__week_1a0c343a304a27d1e3166d7e7667dabf87" kindref="member">days</ref> &amp;</type>
+          <declname>y</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/davem/gr-aff3ct_codes/aff3ct-3.0.2_Library_Header_Files/date/iso_week.h" line="534" column="1" bodyfile="/home/davem/gr-aff3ct_codes/aff3ct-3.0.2_Library_Header_Files/date/iso_week.h" bodystart="534" bodyend="539" declfile="/home/davem/gr-aff3ct_codes/aff3ct-3.0.2_Library_Header_Files/date/iso_week.h" declline="125" declcolumn="19"/>
+      </memberdef>
+      <memberdef kind="function" id="namespaceiso__week_1a2d7d62a4378f3f0ff63179a2b660effa" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="date_8h_1a3893ed763f820a91f169a2e9777aa325" kindref="member">CONSTCD14</ref> <ref refid="classiso__week_1_1weekday" kindref="compound">weekday</ref></type>
+        <definition>CONSTCD14 weekday iso_week::operator+</definition>
+        <argsstring>(const days &amp;x, const weekday &amp;y) NOEXCEPT</argsstring>
+        <name>operator+</name>
+        <param>
+          <type>const <ref refid="namespaceiso__week_1a0c343a304a27d1e3166d7e7667dabf87" kindref="member">days</ref> &amp;</type>
+          <declname>x</declname>
+        </param>
+        <param>
+          <type>const <ref refid="classiso__week_1_1weekday" kindref="compound">weekday</ref> &amp;</type>
+          <declname>y</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/davem/gr-aff3ct_codes/aff3ct-3.0.2_Library_Header_Files/date/iso_week.h" line="544" column="1" bodyfile="/home/davem/gr-aff3ct_codes/aff3ct-3.0.2_Library_Header_Files/date/iso_week.h" bodystart="544" bodyend="547" declfile="/home/davem/gr-aff3ct_codes/aff3ct-3.0.2_Library_Header_Files/date/iso_week.h" declline="126" declcolumn="19"/>
+      </memberdef>
+      <memberdef kind="function" id="namespaceiso__week_1a45297d2113da654791fbd9e9fc818858" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="date_8h_1a3893ed763f820a91f169a2e9777aa325" kindref="member">CONSTCD14</ref> <ref refid="classiso__week_1_1weekday" kindref="compound">weekday</ref></type>
+        <definition>CONSTCD14 weekday iso_week::operator-</definition>
+        <argsstring>(const weekday &amp;x, const days &amp;y) NOEXCEPT</argsstring>
+        <name>operator-</name>
+        <param>
+          <type>const <ref refid="classiso__week_1_1weekday" kindref="compound">weekday</ref> &amp;</type>
+          <declname>x</declname>
+        </param>
+        <param>
+          <type>const <ref refid="namespaceiso__week_1a0c343a304a27d1e3166d7e7667dabf87" kindref="member">days</ref> &amp;</type>
+          <declname>y</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/davem/gr-aff3ct_codes/aff3ct-3.0.2_Library_Header_Files/date/iso_week.h" line="552" column="1" bodyfile="/home/davem/gr-aff3ct_codes/aff3ct-3.0.2_Library_Header_Files/date/iso_week.h" bodystart="552" bodyend="555" declfile="/home/davem/gr-aff3ct_codes/aff3ct-3.0.2_Library_Header_Files/date/iso_week.h" declline="127" declcolumn="19"/>
+      </memberdef>
+      <memberdef kind="function" id="namespaceiso__week_1a2851d27da6bd3a3d998f555b197c17e1" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="date_8h_1a3893ed763f820a91f169a2e9777aa325" kindref="member">CONSTCD14</ref> <ref refid="namespaceiso__week_1a0c343a304a27d1e3166d7e7667dabf87" kindref="member">days</ref></type>
+        <definition>CONSTCD14 days iso_week::operator-</definition>
+        <argsstring>(const weekday &amp;x, const weekday &amp;y) NOEXCEPT</argsstring>
+        <name>operator-</name>
+        <param>
+          <type>const <ref refid="classiso__week_1_1weekday" kindref="compound">weekday</ref> &amp;</type>
+          <declname>x</declname>
+        </param>
+        <param>
+          <type>const <ref refid="classiso__week_1_1weekday" kindref="compound">weekday</ref> &amp;</type>
+          <declname>y</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/davem/gr-aff3ct_codes/aff3ct-3.0.2_Library_Header_Files/date/iso_week.h" line="525" column="1" bodyfile="/home/davem/gr-aff3ct_codes/aff3ct-3.0.2_Library_Header_Files/date/iso_week.h" bodystart="525" bodyend="529" declfile="/home/davem/gr-aff3ct_codes/aff3ct-3.0.2_Library_Header_Files/date/iso_week.h" declline="128" declcolumn="19"/>
+      </memberdef>
+      <memberdef kind="function" id="namespaceiso__week_1ac8b30c092783bd4ec76ada80d40e9226" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>class CharT</type>
+          </param>
+          <param>
+            <type>class Traits</type>
+          </param>
+        </templateparamlist>
+        <type>std::basic_ostream&lt; CharT, Traits &gt; &amp;</type>
+        <definition>std::basic_ostream&lt; CharT, Traits &gt; &amp; iso_week::operator&lt;&lt;</definition>
+        <argsstring>(std::basic_ostream&lt; CharT, Traits &gt; &amp;os, const weekday &amp;wd)</argsstring>
+        <name>operator&lt;&lt;</name>
+        <param>
+          <type>std::basic_ostream&lt; CharT, Traits &gt; &amp;</type>
+          <declname>os</declname>
+        </param>
+        <param>
+          <type>const <ref refid="classiso__week_1_1weekday" kindref="compound">weekday</ref> &amp;</type>
+          <declname>wd</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/davem/gr-aff3ct_codes/aff3ct-3.0.2_Library_Header_Files/date/iso_week.h" line="552" column="1" bodyfile="/home/davem/gr-aff3ct_codes/aff3ct-3.0.2_Library_Header_Files/date/iso_week.h" bodystart="560" bodyend="590" declfile="/home/davem/gr-aff3ct_codes/aff3ct-3.0.2_Library_Header_Files/date/iso_week.h" declline="128" declcolumn="19"/>
+      </memberdef>
+      <memberdef kind="function" id="namespaceiso__week_1ac35e4805752790a60ebb4242d53f7614" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="date_8h_1a98c025909efef28d356780da89fc44b6" kindref="member">CONSTCD11</ref> bool</type>
+        <definition>CONSTCD11 bool iso_week::operator==</definition>
+        <argsstring>(const year &amp;x, const year &amp;y) NOEXCEPT</argsstring>
+        <name>operator==</name>
+        <param>
+          <type>const <ref refid="classiso__week_1_1year" kindref="compound">year</ref> &amp;</type>
+          <declname>x</declname>
+        </param>
+        <param>
+          <type>const <ref refid="classiso__week_1_1year" kindref="compound">year</ref> &amp;</type>
+          <declname>y</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/davem/gr-aff3ct_codes/aff3ct-3.0.2_Library_Header_Files/date/iso_week.h" line="634" column="1" bodyfile="/home/davem/gr-aff3ct_codes/aff3ct-3.0.2_Library_Header_Files/date/iso_week.h" bodystart="634" bodyend="637" declfile="/home/davem/gr-aff3ct_codes/aff3ct-3.0.2_Library_Header_Files/date/iso_week.h" declline="158" declcolumn="16"/>
+      </memberdef>
+      <memberdef kind="function" id="namespaceiso__week_1a876194b116f6fd079b3b30f745fd0cc1" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="date_8h_1a98c025909efef28d356780da89fc44b6" kindref="member">CONSTCD11</ref> bool</type>
+        <definition>CONSTCD11 bool iso_week::operator!=</definition>
+        <argsstring>(const year &amp;x, const year &amp;y) NOEXCEPT</argsstring>
+        <name>operator!=</name>
+        <param>
+          <type>const <ref refid="classiso__week_1_1year" kindref="compound">year</ref> &amp;</type>
+          <declname>x</declname>
+        </param>
+        <param>
+          <type>const <ref refid="classiso__week_1_1year" kindref="compound">year</ref> &amp;</type>
+          <declname>y</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/davem/gr-aff3ct_codes/aff3ct-3.0.2_Library_Header_Files/date/iso_week.h" line="642" column="1" bodyfile="/home/davem/gr-aff3ct_codes/aff3ct-3.0.2_Library_Header_Files/date/iso_week.h" bodystart="642" bodyend="645" declfile="/home/davem/gr-aff3ct_codes/aff3ct-3.0.2_Library_Header_Files/date/iso_week.h" declline="159" declcolumn="16"/>
+      </memberdef>
+      <memberdef kind="function" id="namespaceiso__week_1a1303c1255da4b654cc7ad9b422bfd8c6" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="date_8h_1a98c025909efef28d356780da89fc44b6" kindref="member">CONSTCD11</ref> bool</type>
+        <definition>CONSTCD11 bool iso_week::operator&lt;</definition>
+        <argsstring>(const year &amp;x, const year &amp;y) NOEXCEPT</argsstring>
+        <name>operator&lt;</name>
+        <param>
+          <type>const <ref refid="classiso__week_1_1year" kindref="compound">year</ref> &amp;</type>
+          <declname>x</declname>
+        </param>
+        <param>
+          <type>const <ref refid="classiso__week_1_1year" kindref="compound">year</ref> &amp;</type>
+          <declname>y</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/davem/gr-aff3ct_codes/aff3ct-3.0.2_Library_Header_Files/date/iso_week.h" line="649" column="1" bodyfile="/home/davem/gr-aff3ct_codes/aff3ct-3.0.2_Library_Header_Files/date/iso_week.h" bodystart="650" bodyend="653" declfile="/home/davem/gr-aff3ct_codes/aff3ct-3.0.2_Library_Header_Files/date/iso_week.h" declline="160" declcolumn="11"/>
+      </memberdef>
+      <memberdef kind="function" id="namespaceiso__week_1a5a80dee816d38c4a86c7e282a4946d78" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="date_8h_1a98c025909efef28d356780da89fc44b6" kindref="member">CONSTCD11</ref> bool</type>
+        <definition>CONSTCD11 bool iso_week::operator&gt;</definition>
+        <argsstring>(const year &amp;x, const year &amp;y) NOEXCEPT</argsstring>
+        <name>operator&gt;</name>
+        <param>
+          <type>const <ref refid="classiso__week_1_1year" kindref="compound">year</ref> &amp;</type>
+          <declname>x</declname>
+        </param>
+        <param>
+          <type>const <ref refid="classiso__week_1_1year" kindref="compound">year</ref> &amp;</type>
+          <declname>y</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/davem/gr-aff3ct_codes/aff3ct-3.0.2_Library_Header_Files/date/iso_week.h" line="658" column="1" bodyfile="/home/davem/gr-aff3ct_codes/aff3ct-3.0.2_Library_Header_Files/date/iso_week.h" bodystart="658" bodyend="661" declfile="/home/davem/gr-aff3ct_codes/aff3ct-3.0.2_Library_Header_Files/date/iso_week.h" declline="161" declcolumn="16"/>
+      </memberdef>
+      <memberdef kind="function" id="namespaceiso__week_1ad50518d61e0e17db57d9a5b122052cd2" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="date_8h_1a98c025909efef28d356780da89fc44b6" kindref="member">CONSTCD11</ref> bool</type>
+        <definition>CONSTCD11 bool iso_week::operator&lt;=</definition>
+        <argsstring>(const year &amp;x, const year &amp;y) NOEXCEPT</argsstring>
+        <name>operator&lt;=</name>
+        <param>
+          <type>const <ref refid="classiso__week_1_1year" kindref="compound">year</ref> &amp;</type>
+          <declname>x</declname>
+        </param>
+        <param>
+          <type>const <ref refid="classiso__week_1_1year" kindref="compound">year</ref> &amp;</type>
+          <declname>y</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/davem/gr-aff3ct_codes/aff3ct-3.0.2_Library_Header_Files/date/iso_week.h" line="665" column="1" bodyfile="/home/davem/gr-aff3ct_codes/aff3ct-3.0.2_Library_Header_Files/date/iso_week.h" bodystart="666" bodyend="669" declfile="/home/davem/gr-aff3ct_codes/aff3ct-3.0.2_Library_Header_Files/date/iso_week.h" declline="162" declcolumn="11"/>
+      </memberdef>
+      <memberdef kind="function" id="namespaceiso__week_1a16f6ca6abbd3e8385a8fc6562e8c59bc" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="date_8h_1a98c025909efef28d356780da89fc44b6" kindref="member">CONSTCD11</ref> bool</type>
+        <definition>CONSTCD11 bool iso_week::operator&gt;=</definition>
+        <argsstring>(const year &amp;x, const year &amp;y) NOEXCEPT</argsstring>
+        <name>operator&gt;=</name>
+        <param>
+          <type>const <ref refid="classiso__week_1_1year" kindref="compound">year</ref> &amp;</type>
+          <declname>x</declname>
+        </param>
+        <param>
+          <type>const <ref refid="classiso__week_1_1year" kindref="compound">year</ref> &amp;</type>
+          <declname>y</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/davem/gr-aff3ct_codes/aff3ct-3.0.2_Library_Header_Files/date/iso_week.h" line="674" column="1" bodyfile="/home/davem/gr-aff3ct_codes/aff3ct-3.0.2_Library_Header_Files/date/iso_week.h" bodystart="674" bodyend="677" declfile="/home/davem/gr-aff3ct_codes/aff3ct-3.0.2_Library_Header_Files/date/iso_week.h" declline="163" declcolumn="16"/>
+      </memberdef>
+      <memberdef kind="function" id="namespaceiso__week_1ae59cb47867fecb58a09766870f225406" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="date_8h_1a98c025909efef28d356780da89fc44b6" kindref="member">CONSTCD11</ref> <ref refid="classiso__week_1_1year" kindref="compound">year</ref></type>
+        <definition>CONSTCD11 year iso_week::operator+</definition>
+        <argsstring>(const year &amp;x, const years &amp;y) NOEXCEPT</argsstring>
+        <name>operator+</name>
+        <param>
+          <type>const <ref refid="classiso__week_1_1year" kindref="compound">year</ref> &amp;</type>
+          <declname>x</declname>
+        </param>
+        <param>
+          <type>const <ref refid="namespaceiso__week_1ab0d916e7f0a5605c6eb379e19063c4f7" kindref="member">years</ref> &amp;</type>
+          <declname>y</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/davem/gr-aff3ct_codes/aff3ct-3.0.2_Library_Header_Files/date/iso_week.h" line="690" column="1" bodyfile="/home/davem/gr-aff3ct_codes/aff3ct-3.0.2_Library_Header_Files/date/iso_week.h" bodystart="690" bodyend="693" declfile="/home/davem/gr-aff3ct_codes/aff3ct-3.0.2_Library_Header_Files/date/iso_week.h" declline="165" declcolumn="17"/>
+      </memberdef>
+      <memberdef kind="function" id="namespaceiso__week_1aaa26a960af9c4192b4fa0e9454da6847" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="date_8h_1a98c025909efef28d356780da89fc44b6" kindref="member">CONSTCD11</ref> <ref refid="classiso__week_1_1year" kindref="compound">year</ref></type>
+        <definition>CONSTCD11 year iso_week::operator+</definition>
+        <argsstring>(const years &amp;x, const year &amp;y) NOEXCEPT</argsstring>
+        <name>operator+</name>
+        <param>
+          <type>const <ref refid="namespaceiso__week_1ab0d916e7f0a5605c6eb379e19063c4f7" kindref="member">years</ref> &amp;</type>
+          <declname>x</declname>
+        </param>
+        <param>
+          <type>const <ref refid="classiso__week_1_1year" kindref="compound">year</ref> &amp;</type>
+          <declname>y</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/davem/gr-aff3ct_codes/aff3ct-3.0.2_Library_Header_Files/date/iso_week.h" line="698" column="1" bodyfile="/home/davem/gr-aff3ct_codes/aff3ct-3.0.2_Library_Header_Files/date/iso_week.h" bodystart="698" bodyend="701" declfile="/home/davem/gr-aff3ct_codes/aff3ct-3.0.2_Library_Header_Files/date/iso_week.h" declline="166" declcolumn="17"/>
+      </memberdef>
+      <memberdef kind="function" id="namespaceiso__week_1a5233985435b89a497b029603a241eca6" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="date_8h_1a98c025909efef28d356780da89fc44b6" kindref="member">CONSTCD11</ref> <ref refid="classiso__week_1_1year" kindref="compound">year</ref></type>
+        <definition>CONSTCD11 year iso_week::operator-</definition>
+        <argsstring>(const year &amp;x, const years &amp;y) NOEXCEPT</argsstring>
+        <name>operator-</name>
+        <param>
+          <type>const <ref refid="classiso__week_1_1year" kindref="compound">year</ref> &amp;</type>
+          <declname>x</declname>
+        </param>
+        <param>
+          <type>const <ref refid="namespaceiso__week_1ab0d916e7f0a5605c6eb379e19063c4f7" kindref="member">years</ref> &amp;</type>
+          <declname>y</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/davem/gr-aff3ct_codes/aff3ct-3.0.2_Library_Header_Files/date/iso_week.h" line="706" column="1" bodyfile="/home/davem/gr-aff3ct_codes/aff3ct-3.0.2_Library_Header_Files/date/iso_week.h" bodystart="706" bodyend="709" declfile="/home/davem/gr-aff3ct_codes/aff3ct-3.0.2_Library_Header_Files/date/iso_week.h" declline="167" declcolumn="17"/>
+      </memberdef>
+      <memberdef kind="function" id="namespaceiso__week_1a27eb5f449f65f796f8ed2013fc993172" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="date_8h_1a98c025909efef28d356780da89fc44b6" kindref="member">CONSTCD11</ref> <ref refid="namespaceiso__week_1ab0d916e7f0a5605c6eb379e19063c4f7" kindref="member">years</ref></type>
+        <definition>CONSTCD11 years iso_week::operator-</definition>
+        <argsstring>(const year &amp;x, const year &amp;y) NOEXCEPT</argsstring>
+        <name>operator-</name>
+        <param>
+          <type>const <ref refid="classiso__week_1_1year" kindref="compound">year</ref> &amp;</type>
+          <declname>x</declname>
+        </param>
+        <param>
+          <type>const <ref refid="classiso__week_1_1year" kindref="compound">year</ref> &amp;</type>
+          <declname>y</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/davem/gr-aff3ct_codes/aff3ct-3.0.2_Library_Header_Files/date/iso_week.h" line="682" column="1" bodyfile="/home/davem/gr-aff3ct_codes/aff3ct-3.0.2_Library_Header_Files/date/iso_week.h" bodystart="682" bodyend="685" declfile="/home/davem/gr-aff3ct_codes/aff3ct-3.0.2_Library_Header_Files/date/iso_week.h" declline="168" declcolumn="17"/>
+      </memberdef>
+      <memberdef kind="function" id="namespaceiso__week_1a6dec2ecba0447d2abd7d86fc1acd0f84" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>class CharT</type>
+          </param>
+          <param>
+            <type>class Traits</type>
+          </param>
+        </templateparamlist>
+        <type>std::basic_ostream&lt; CharT, Traits &gt; &amp;</type>
+        <definition>std::basic_ostream&lt; CharT, Traits &gt; &amp; iso_week::operator&lt;&lt;</definition>
+        <argsstring>(std::basic_ostream&lt; CharT, Traits &gt; &amp;os, const year &amp;y)</argsstring>
+        <name>operator&lt;&lt;</name>
+        <param>
+          <type>std::basic_ostream&lt; CharT, Traits &gt; &amp;</type>
+          <declname>os</declname>
+        </param>
+        <param>
+          <type>const <ref refid="classiso__week_1_1year" kindref="compound">year</ref> &amp;</type>
+          <declname>y</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/davem/gr-aff3ct_codes/aff3ct-3.0.2_Library_Header_Files/date/iso_week.h" line="706" column="1" bodyfile="/home/davem/gr-aff3ct_codes/aff3ct-3.0.2_Library_Header_Files/date/iso_week.h" bodystart="714" bodyend="722" declfile="/home/davem/gr-aff3ct_codes/aff3ct-3.0.2_Library_Header_Files/date/iso_week.h" declline="168" declcolumn="17"/>
+      </memberdef>
+      <memberdef kind="function" id="namespaceiso__week_1ab45bdf149f83377a1cac469b7fce0390" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="date_8h_1a98c025909efef28d356780da89fc44b6" kindref="member">CONSTCD11</ref> bool</type>
+        <definition>CONSTCD11 bool iso_week::operator==</definition>
+        <argsstring>(const weeknum &amp;x, const weeknum &amp;y) NOEXCEPT</argsstring>
+        <name>operator==</name>
+        <param>
+          <type>const <ref refid="classiso__week_1_1weeknum" kindref="compound">weeknum</ref> &amp;</type>
+          <declname>x</declname>
+        </param>
+        <param>
+          <type>const <ref refid="classiso__week_1_1weeknum" kindref="compound">weeknum</ref> &amp;</type>
+          <declname>y</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/davem/gr-aff3ct_codes/aff3ct-3.0.2_Library_Header_Files/date/iso_week.h" line="795" column="1" bodyfile="/home/davem/gr-aff3ct_codes/aff3ct-3.0.2_Library_Header_Files/date/iso_week.h" bodystart="795" bodyend="798" declfile="/home/davem/gr-aff3ct_codes/aff3ct-3.0.2_Library_Header_Files/date/iso_week.h" declline="195" declcolumn="16"/>
+      </memberdef>
+      <memberdef kind="function" id="namespaceiso__week_1a459acb6be77353f65930655045b6c9b9" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="date_8h_1a98c025909efef28d356780da89fc44b6" kindref="member">CONSTCD11</ref> bool</type>
+        <definition>CONSTCD11 bool iso_week::operator!=</definition>
+        <argsstring>(const weeknum &amp;x, const weeknum &amp;y) NOEXCEPT</argsstring>
+        <name>operator!=</name>
+        <param>
+          <type>const <ref refid="classiso__week_1_1weeknum" kindref="compound">weeknum</ref> &amp;</type>
+          <declname>x</declname>
+        </param>
+        <param>
+          <type>const <ref refid="classiso__week_1_1weeknum" kindref="compound">weeknum</ref> &amp;</type>
+          <declname>y</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/davem/gr-aff3ct_codes/aff3ct-3.0.2_Library_Header_Files/date/iso_week.h" line="803" column="1" bodyfile="/home/davem/gr-aff3ct_codes/aff3ct-3.0.2_Library_Header_Files/date/iso_week.h" bodystart="803" bodyend="806" declfile="/home/davem/gr-aff3ct_codes/aff3ct-3.0.2_Library_Header_Files/date/iso_week.h" declline="196" declcolumn="16"/>
+      </memberdef>
+      <memberdef kind="function" id="namespaceiso__week_1ae71df91b3a19d4ac463669137850ea84" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="date_8h_1a98c025909efef28d356780da89fc44b6" kindref="member">CONSTCD11</ref> bool</type>
+        <definition>CONSTCD11 bool iso_week::operator&lt;</definition>
+        <argsstring>(const weeknum &amp;x, const weeknum &amp;y) NOEXCEPT</argsstring>
+        <name>operator&lt;</name>
+        <param>
+          <type>const <ref refid="classiso__week_1_1weeknum" kindref="compound">weeknum</ref> &amp;</type>
+          <declname>x</declname>
+        </param>
+        <param>
+          <type>const <ref refid="classiso__week_1_1weeknum" kindref="compound">weeknum</ref> &amp;</type>
+          <declname>y</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/davem/gr-aff3ct_codes/aff3ct-3.0.2_Library_Header_Files/date/iso_week.h" line="810" column="1" bodyfile="/home/davem/gr-aff3ct_codes/aff3ct-3.0.2_Library_Header_Files/date/iso_week.h" bodystart="811" bodyend="814" declfile="/home/davem/gr-aff3ct_codes/aff3ct-3.0.2_Library_Header_Files/date/iso_week.h" declline="197" declcolumn="11"/>
+      </memberdef>
+      <memberdef kind="function" id="namespaceiso__week_1adf6d1c67aff42aebf0ce41ba3c7031de" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="date_8h_1a98c025909efef28d356780da89fc44b6" kindref="member">CONSTCD11</ref> bool</type>
+        <definition>CONSTCD11 bool iso_week::operator&gt;</definition>
+        <argsstring>(const weeknum &amp;x, const weeknum &amp;y) NOEXCEPT</argsstring>
+        <name>operator&gt;</name>
+        <param>
+          <type>const <ref refid="classiso__week_1_1weeknum" kindref="compound">weeknum</ref> &amp;</type>
+          <declname>x</declname>
+        </param>
+        <param>
+          <type>const <ref refid="classiso__week_1_1weeknum" kindref="compound">weeknum</ref> &amp;</type>
+          <declname>y</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/davem/gr-aff3ct_codes/aff3ct-3.0.2_Library_Header_Files/date/iso_week.h" line="819" column="1" bodyfile="/home/davem/gr-aff3ct_codes/aff3ct-3.0.2_Library_Header_Files/date/iso_week.h" bodystart="819" bodyend="822" declfile="/home/davem/gr-aff3ct_codes/aff3ct-3.0.2_Library_Header_Files/date/iso_week.h" declline="198" declcolumn="16"/>
+      </memberdef>
+      <memberdef kind="function" id="namespaceiso__week_1ab0392b131ec42d03d705a581a3c6b278" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="date_8h_1a98c025909efef28d356780da89fc44b6" kindref="member">CONSTCD11</ref> bool</type>
+        <definition>CONSTCD11 bool iso_week::operator&lt;=</definition>
+        <argsstring>(const weeknum &amp;x, const weeknum &amp;y) NOEXCEPT</argsstring>
+        <name>operator&lt;=</name>
+        <param>
+          <type>const <ref refid="classiso__week_1_1weeknum" kindref="compound">weeknum</ref> &amp;</type>
+          <declname>x</declname>
+        </param>
+        <param>
+          <type>const <ref refid="classiso__week_1_1weeknum" kindref="compound">weeknum</ref> &amp;</type>
+          <declname>y</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/davem/gr-aff3ct_codes/aff3ct-3.0.2_Library_Header_Files/date/iso_week.h" line="826" column="1" bodyfile="/home/davem/gr-aff3ct_codes/aff3ct-3.0.2_Library_Header_Files/date/iso_week.h" bodystart="827" bodyend="830" declfile="/home/davem/gr-aff3ct_codes/aff3ct-3.0.2_Library_Header_Files/date/iso_week.h" declline="199" declcolumn="11"/>
+      </memberdef>
+      <memberdef kind="function" id="namespaceiso__week_1a399105c13e3dc245c90c05f61b568121" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="date_8h_1a98c025909efef28d356780da89fc44b6" kindref="member">CONSTCD11</ref> bool</type>
+        <definition>CONSTCD11 bool iso_week::operator&gt;=</definition>
+        <argsstring>(const weeknum &amp;x, const weeknum &amp;y) NOEXCEPT</argsstring>
+        <name>operator&gt;=</name>
+        <param>
+          <type>const <ref refid="classiso__week_1_1weeknum" kindref="compound">weeknum</ref> &amp;</type>
+          <declname>x</declname>
+        </param>
+        <param>
+          <type>const <ref refid="classiso__week_1_1weeknum" kindref="compound">weeknum</ref> &amp;</type>
+          <declname>y</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/davem/gr-aff3ct_codes/aff3ct-3.0.2_Library_Header_Files/date/iso_week.h" line="835" column="1" bodyfile="/home/davem/gr-aff3ct_codes/aff3ct-3.0.2_Library_Header_Files/date/iso_week.h" bodystart="835" bodyend="838" declfile="/home/davem/gr-aff3ct_codes/aff3ct-3.0.2_Library_Header_Files/date/iso_week.h" declline="200" declcolumn="16"/>
+      </memberdef>
+      <memberdef kind="function" id="namespaceiso__week_1ad3d4b911102241edfc5ba237d7405762" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="date_8h_1a98c025909efef28d356780da89fc44b6" kindref="member">CONSTCD11</ref> <ref refid="classiso__week_1_1weeknum" kindref="compound">weeknum</ref></type>
+        <definition>CONSTCD11 weeknum iso_week::operator+</definition>
+        <argsstring>(const weeknum &amp;x, const weeks &amp;y) NOEXCEPT</argsstring>
+        <name>operator+</name>
+        <param>
+          <type>const <ref refid="classiso__week_1_1weeknum" kindref="compound">weeknum</ref> &amp;</type>
+          <declname>x</declname>
+        </param>
+        <param>
+          <type>const <ref refid="namespaceiso__week_1aff8b883f6fd1c5cd6fabf7f7564ae19a" kindref="member">weeks</ref> &amp;</type>
+          <declname>y</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/davem/gr-aff3ct_codes/aff3ct-3.0.2_Library_Header_Files/date/iso_week.h" line="852" column="1" bodyfile="/home/davem/gr-aff3ct_codes/aff3ct-3.0.2_Library_Header_Files/date/iso_week.h" bodystart="852" bodyend="855" declfile="/home/davem/gr-aff3ct_codes/aff3ct-3.0.2_Library_Header_Files/date/iso_week.h" declline="202" declcolumn="20"/>
+      </memberdef>
+      <memberdef kind="function" id="namespaceiso__week_1af93a3c578448ef26148723e4972f0ae6" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="date_8h_1a98c025909efef28d356780da89fc44b6" kindref="member">CONSTCD11</ref> <ref refid="classiso__week_1_1weeknum" kindref="compound">weeknum</ref></type>
+        <definition>CONSTCD11 weeknum iso_week::operator+</definition>
+        <argsstring>(const weeks &amp;x, const weeknum &amp;y) NOEXCEPT</argsstring>
+        <name>operator+</name>
+        <param>
+          <type>const <ref refid="namespaceiso__week_1aff8b883f6fd1c5cd6fabf7f7564ae19a" kindref="member">weeks</ref> &amp;</type>
+          <declname>x</declname>
+        </param>
+        <param>
+          <type>const <ref refid="classiso__week_1_1weeknum" kindref="compound">weeknum</ref> &amp;</type>
+          <declname>y</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/davem/gr-aff3ct_codes/aff3ct-3.0.2_Library_Header_Files/date/iso_week.h" line="860" column="1" bodyfile="/home/davem/gr-aff3ct_codes/aff3ct-3.0.2_Library_Header_Files/date/iso_week.h" bodystart="860" bodyend="863" declfile="/home/davem/gr-aff3ct_codes/aff3ct-3.0.2_Library_Header_Files/date/iso_week.h" declline="203" declcolumn="20"/>
+      </memberdef>
+      <memberdef kind="function" id="namespaceiso__week_1afe3bc75655ad7c059bba4ac82d17866f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="date_8h_1a98c025909efef28d356780da89fc44b6" kindref="member">CONSTCD11</ref> <ref refid="classiso__week_1_1weeknum" kindref="compound">weeknum</ref></type>
+        <definition>CONSTCD11 weeknum iso_week::operator-</definition>
+        <argsstring>(const weeknum &amp;x, const weeks &amp;y) NOEXCEPT</argsstring>
+        <name>operator-</name>
+        <param>
+          <type>const <ref refid="classiso__week_1_1weeknum" kindref="compound">weeknum</ref> &amp;</type>
+          <declname>x</declname>
+        </param>
+        <param>
+          <type>const <ref refid="namespaceiso__week_1aff8b883f6fd1c5cd6fabf7f7564ae19a" kindref="member">weeks</ref> &amp;</type>
+          <declname>y</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/davem/gr-aff3ct_codes/aff3ct-3.0.2_Library_Header_Files/date/iso_week.h" line="868" column="1" bodyfile="/home/davem/gr-aff3ct_codes/aff3ct-3.0.2_Library_Header_Files/date/iso_week.h" bodystart="868" bodyend="871" declfile="/home/davem/gr-aff3ct_codes/aff3ct-3.0.2_Library_Header_Files/date/iso_week.h" declline="204" declcolumn="20"/>
+      </memberdef>
+      <memberdef kind="function" id="namespaceiso__week_1aa177769f20e43df2b681fb91dd3c0aa2" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="date_8h_1a98c025909efef28d356780da89fc44b6" kindref="member">CONSTCD11</ref> <ref refid="namespaceiso__week_1aff8b883f6fd1c5cd6fabf7f7564ae19a" kindref="member">weeks</ref></type>
+        <definition>CONSTCD11 weeks iso_week::operator-</definition>
+        <argsstring>(const weeknum &amp;x, const weeknum &amp;y) NOEXCEPT</argsstring>
+        <name>operator-</name>
+        <param>
+          <type>const <ref refid="classiso__week_1_1weeknum" kindref="compound">weeknum</ref> &amp;</type>
+          <declname>x</declname>
+        </param>
+        <param>
+          <type>const <ref refid="classiso__week_1_1weeknum" kindref="compound">weeknum</ref> &amp;</type>
+          <declname>y</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/davem/gr-aff3ct_codes/aff3ct-3.0.2_Library_Header_Files/date/iso_week.h" line="843" column="1" bodyfile="/home/davem/gr-aff3ct_codes/aff3ct-3.0.2_Library_Header_Files/date/iso_week.h" bodystart="843" bodyend="847" declfile="/home/davem/gr-aff3ct_codes/aff3ct-3.0.2_Library_Header_Files/date/iso_week.h" declline="205" declcolumn="20"/>
+      </memberdef>
+      <memberdef kind="function" id="namespaceiso__week_1aff8946526c6e79dd97387dd4340c0e41" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>class CharT</type>
+          </param>
+          <param>
+            <type>class Traits</type>
+          </param>
+        </templateparamlist>
+        <type>std::basic_ostream&lt; CharT, Traits &gt; &amp;</type>
+        <definition>std::basic_ostream&lt; CharT, Traits &gt; &amp; iso_week::operator&lt;&lt;</definition>
+        <argsstring>(std::basic_ostream&lt; CharT, Traits &gt; &amp;os, const weeknum &amp;wn)</argsstring>
+        <name>operator&lt;&lt;</name>
+        <param>
+          <type>std::basic_ostream&lt; CharT, Traits &gt; &amp;</type>
+          <declname>os</declname>
+        </param>
+        <param>
+          <type>const <ref refid="classiso__week_1_1weeknum" kindref="compound">weeknum</ref> &amp;</type>
+          <declname>wn</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/davem/gr-aff3ct_codes/aff3ct-3.0.2_Library_Header_Files/date/iso_week.h" line="868" column="1" bodyfile="/home/davem/gr-aff3ct_codes/aff3ct-3.0.2_Library_Header_Files/date/iso_week.h" bodystart="876" bodyend="885" declfile="/home/davem/gr-aff3ct_codes/aff3ct-3.0.2_Library_Header_Files/date/iso_week.h" declline="205" declcolumn="20"/>
+      </memberdef>
+      <memberdef kind="function" id="namespaceiso__week_1a300190c7bc4d91ba1c1505f8348de4ef" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="date_8h_1a98c025909efef28d356780da89fc44b6" kindref="member">CONSTCD11</ref> bool</type>
+        <definition>CONSTCD11 bool iso_week::operator==</definition>
+        <argsstring>(const year_weeknum &amp;x, const year_weeknum &amp;y) NOEXCEPT</argsstring>
+        <name>operator==</name>
+        <param>
+          <type>const <ref refid="classiso__week_1_1year__weeknum" kindref="compound">year_weeknum</ref> &amp;</type>
+          <declname>x</declname>
+        </param>
+        <param>
+          <type>const <ref refid="classiso__week_1_1year__weeknum" kindref="compound">year_weeknum</ref> &amp;</type>
+          <declname>y</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/davem/gr-aff3ct_codes/aff3ct-3.0.2_Library_Header_Files/date/iso_week.h" line="922" column="1" bodyfile="/home/davem/gr-aff3ct_codes/aff3ct-3.0.2_Library_Header_Files/date/iso_week.h" bodystart="922" bodyend="925" declfile="/home/davem/gr-aff3ct_codes/aff3ct-3.0.2_Library_Header_Files/date/iso_week.h" declline="230" declcolumn="16"/>
+      </memberdef>
+      <memberdef kind="function" id="namespaceiso__week_1a371672fd1eb56caea7c999ad2df2f81d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="date_8h_1a98c025909efef28d356780da89fc44b6" kindref="member">CONSTCD11</ref> bool</type>
+        <definition>CONSTCD11 bool iso_week::operator!=</definition>
+        <argsstring>(const year_weeknum &amp;x, const year_weeknum &amp;y) NOEXCEPT</argsstring>
+        <name>operator!=</name>
+        <param>
+          <type>const <ref refid="classiso__week_1_1year__weeknum" kindref="compound">year_weeknum</ref> &amp;</type>
+          <declname>x</declname>
+        </param>
+        <param>
+          <type>const <ref refid="classiso__week_1_1year__weeknum" kindref="compound">year_weeknum</ref> &amp;</type>
+          <declname>y</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/davem/gr-aff3ct_codes/aff3ct-3.0.2_Library_Header_Files/date/iso_week.h" line="930" column="1" bodyfile="/home/davem/gr-aff3ct_codes/aff3ct-3.0.2_Library_Header_Files/date/iso_week.h" bodystart="930" bodyend="933" declfile="/home/davem/gr-aff3ct_codes/aff3ct-3.0.2_Library_Header_Files/date/iso_week.h" declline="231" declcolumn="16"/>
+      </memberdef>
+      <memberdef kind="function" id="namespaceiso__week_1af4b62f242beea18f31e117462d3e088d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="date_8h_1a98c025909efef28d356780da89fc44b6" kindref="member">CONSTCD11</ref> bool</type>
+        <definition>CONSTCD11 bool iso_week::operator&lt;</definition>
+        <argsstring>(const year_weeknum &amp;x, const year_weeknum &amp;y) NOEXCEPT</argsstring>
+        <name>operator&lt;</name>
+        <param>
+          <type>const <ref refid="classiso__week_1_1year__weeknum" kindref="compound">year_weeknum</ref> &amp;</type>
+          <declname>x</declname>
+        </param>
+        <param>
+          <type>const <ref refid="classiso__week_1_1year__weeknum" kindref="compound">year_weeknum</ref> &amp;</type>
+          <declname>y</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/davem/gr-aff3ct_codes/aff3ct-3.0.2_Library_Header_Files/date/iso_week.h" line="937" column="1" bodyfile="/home/davem/gr-aff3ct_codes/aff3ct-3.0.2_Library_Header_Files/date/iso_week.h" bodystart="938" bodyend="943" declfile="/home/davem/gr-aff3ct_codes/aff3ct-3.0.2_Library_Header_Files/date/iso_week.h" declline="232" declcolumn="11"/>
+      </memberdef>
+      <memberdef kind="function" id="namespaceiso__week_1ab6761fe0e56d1258caed2b363568d572" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="date_8h_1a98c025909efef28d356780da89fc44b6" kindref="member">CONSTCD11</ref> bool</type>
+        <definition>CONSTCD11 bool iso_week::operator&gt;</definition>
+        <argsstring>(const year_weeknum &amp;x, const year_weeknum &amp;y) NOEXCEPT</argsstring>
+        <name>operator&gt;</name>
+        <param>
+          <type>const <ref refid="classiso__week_1_1year__weeknum" kindref="compound">year_weeknum</ref> &amp;</type>
+          <declname>x</declname>
+        </param>
+        <param>
+          <type>const <ref refid="classiso__week_1_1year__weeknum" kindref="compound">year_weeknum</ref> &amp;</type>
+          <declname>y</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/davem/gr-aff3ct_codes/aff3ct-3.0.2_Library_Header_Files/date/iso_week.h" line="948" column="1" bodyfile="/home/davem/gr-aff3ct_codes/aff3ct-3.0.2_Library_Header_Files/date/iso_week.h" bodystart="948" bodyend="951" declfile="/home/davem/gr-aff3ct_codes/aff3ct-3.0.2_Library_Header_Files/date/iso_week.h" declline="233" declcolumn="16"/>
+      </memberdef>
+      <memberdef kind="function" id="namespaceiso__week_1a7d82a5cf840e1617cc5c6ed252257a1b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="date_8h_1a98c025909efef28d356780da89fc44b6" kindref="member">CONSTCD11</ref> bool</type>
+        <definition>CONSTCD11 bool iso_week::operator&lt;=</definition>
+        <argsstring>(const year_weeknum &amp;x, const year_weeknum &amp;y) NOEXCEPT</argsstring>
+        <name>operator&lt;=</name>
+        <param>
+          <type>const <ref refid="classiso__week_1_1year__weeknum" kindref="compound">year_weeknum</ref> &amp;</type>
+          <declname>x</declname>
+        </param>
+        <param>
+          <type>const <ref refid="classiso__week_1_1year__weeknum" kindref="compound">year_weeknum</ref> &amp;</type>
+          <declname>y</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/davem/gr-aff3ct_codes/aff3ct-3.0.2_Library_Header_Files/date/iso_week.h" line="955" column="1" bodyfile="/home/davem/gr-aff3ct_codes/aff3ct-3.0.2_Library_Header_Files/date/iso_week.h" bodystart="956" bodyend="959" declfile="/home/davem/gr-aff3ct_codes/aff3ct-3.0.2_Library_Header_Files/date/iso_week.h" declline="234" declcolumn="11"/>
+      </memberdef>
+      <memberdef kind="function" id="namespaceiso__week_1ad4a9190a3aa6eb3c6dfc981bc3abcbfe" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="date_8h_1a98c025909efef28d356780da89fc44b6" kindref="member">CONSTCD11</ref> bool</type>
+        <definition>CONSTCD11 bool iso_week::operator&gt;=</definition>
+        <argsstring>(const year_weeknum &amp;x, const year_weeknum &amp;y) NOEXCEPT</argsstring>
+        <name>operator&gt;=</name>
+        <param>
+          <type>const <ref refid="classiso__week_1_1year__weeknum" kindref="compound">year_weeknum</ref> &amp;</type>
+          <declname>x</declname>
+        </param>
+        <param>
+          <type>const <ref refid="classiso__week_1_1year__weeknum" kindref="compound">year_weeknum</ref> &amp;</type>
+          <declname>y</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/davem/gr-aff3ct_codes/aff3ct-3.0.2_Library_Header_Files/date/iso_week.h" line="964" column="1" bodyfile="/home/davem/gr-aff3ct_codes/aff3ct-3.0.2_Library_Header_Files/date/iso_week.h" bodystart="964" bodyend="967" declfile="/home/davem/gr-aff3ct_codes/aff3ct-3.0.2_Library_Header_Files/date/iso_week.h" declline="235" declcolumn="16"/>
+      </memberdef>
+      <memberdef kind="function" id="namespaceiso__week_1a51e31f8eccb5bb9b2bcb7fc3e2ecd3c7" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="date_8h_1a98c025909efef28d356780da89fc44b6" kindref="member">CONSTCD11</ref> <ref refid="classiso__week_1_1year__weeknum" kindref="compound">year_weeknum</ref></type>
+        <definition>CONSTCD11 year_weeknum iso_week::operator+</definition>
+        <argsstring>(const year_weeknum &amp;ym, const years &amp;dy) NOEXCEPT</argsstring>
+        <name>operator+</name>
+        <param>
+          <type>const <ref refid="classiso__week_1_1year__weeknum" kindref="compound">year_weeknum</ref> &amp;</type>
+          <declname>ym</declname>
+        </param>
+        <param>
+          <type>const <ref refid="namespaceiso__week_1ab0d916e7f0a5605c6eb379e19063c4f7" kindref="member">years</ref> &amp;</type>
+          <declname>dy</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/davem/gr-aff3ct_codes/aff3ct-3.0.2_Library_Header_Files/date/iso_week.h" line="972" column="1" bodyfile="/home/davem/gr-aff3ct_codes/aff3ct-3.0.2_Library_Header_Files/date/iso_week.h" bodystart="972" bodyend="975" declfile="/home/davem/gr-aff3ct_codes/aff3ct-3.0.2_Library_Header_Files/date/iso_week.h" declline="237" declcolumn="24"/>
+      </memberdef>
+      <memberdef kind="function" id="namespaceiso__week_1abf98af827048a85a5a0d6c04d1fdb622" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="date_8h_1a98c025909efef28d356780da89fc44b6" kindref="member">CONSTCD11</ref> <ref refid="classiso__week_1_1year__weeknum" kindref="compound">year_weeknum</ref></type>
+        <definition>CONSTCD11 year_weeknum iso_week::operator+</definition>
+        <argsstring>(const years &amp;dy, const year_weeknum &amp;ym) NOEXCEPT</argsstring>
+        <name>operator+</name>
+        <param>
+          <type>const <ref refid="namespaceiso__week_1ab0d916e7f0a5605c6eb379e19063c4f7" kindref="member">years</ref> &amp;</type>
+          <declname>dy</declname>
+        </param>
+        <param>
+          <type>const <ref refid="classiso__week_1_1year__weeknum" kindref="compound">year_weeknum</ref> &amp;</type>
+          <declname>ym</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/davem/gr-aff3ct_codes/aff3ct-3.0.2_Library_Header_Files/date/iso_week.h" line="980" column="1" bodyfile="/home/davem/gr-aff3ct_codes/aff3ct-3.0.2_Library_Header_Files/date/iso_week.h" bodystart="980" bodyend="983" declfile="/home/davem/gr-aff3ct_codes/aff3ct-3.0.2_Library_Header_Files/date/iso_week.h" declline="238" declcolumn="24"/>
+      </memberdef>
+      <memberdef kind="function" id="namespaceiso__week_1a50cc97d278b6df05b41b0af173a66808" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="date_8h_1a98c025909efef28d356780da89fc44b6" kindref="member">CONSTCD11</ref> <ref refid="classiso__week_1_1year__weeknum" kindref="compound">year_weeknum</ref></type>
+        <definition>CONSTCD11 year_weeknum iso_week::operator-</definition>
+        <argsstring>(const year_weeknum &amp;ym, const years &amp;dy) NOEXCEPT</argsstring>
+        <name>operator-</name>
+        <param>
+          <type>const <ref refid="classiso__week_1_1year__weeknum" kindref="compound">year_weeknum</ref> &amp;</type>
+          <declname>ym</declname>
+        </param>
+        <param>
+          <type>const <ref refid="namespaceiso__week_1ab0d916e7f0a5605c6eb379e19063c4f7" kindref="member">years</ref> &amp;</type>
+          <declname>dy</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/davem/gr-aff3ct_codes/aff3ct-3.0.2_Library_Header_Files/date/iso_week.h" line="988" column="1" bodyfile="/home/davem/gr-aff3ct_codes/aff3ct-3.0.2_Library_Header_Files/date/iso_week.h" bodystart="988" bodyend="991" declfile="/home/davem/gr-aff3ct_codes/aff3ct-3.0.2_Library_Header_Files/date/iso_week.h" declline="239" declcolumn="24"/>
+      </memberdef>
+      <memberdef kind="function" id="namespaceiso__week_1a17ce391e72df27fb2f95c987a936660a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>class CharT</type>
+          </param>
+          <param>
+            <type>class Traits</type>
+          </param>
+        </templateparamlist>
+        <type>std::basic_ostream&lt; CharT, Traits &gt; &amp;</type>
+        <definition>std::basic_ostream&lt; CharT, Traits &gt; &amp; iso_week::operator&lt;&lt;</definition>
+        <argsstring>(std::basic_ostream&lt; CharT, Traits &gt; &amp;os, const year_weeknum &amp;ym)</argsstring>
+        <name>operator&lt;&lt;</name>
+        <param>
+          <type>std::basic_ostream&lt; CharT, Traits &gt; &amp;</type>
+          <declname>os</declname>
+        </param>
+        <param>
+          <type>const <ref refid="classiso__week_1_1year__weeknum" kindref="compound">year_weeknum</ref> &amp;</type>
+          <declname>ym</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/davem/gr-aff3ct_codes/aff3ct-3.0.2_Library_Header_Files/date/iso_week.h" line="988" column="1" bodyfile="/home/davem/gr-aff3ct_codes/aff3ct-3.0.2_Library_Header_Files/date/iso_week.h" bodystart="996" bodyend="999" declfile="/home/davem/gr-aff3ct_codes/aff3ct-3.0.2_Library_Header_Files/date/iso_week.h" declline="239" declcolumn="24"/>
+      </memberdef>
+      <memberdef kind="function" id="namespaceiso__week_1aa2f1cccf0f5cad69a480b58e270308a6" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="date_8h_1a98c025909efef28d356780da89fc44b6" kindref="member">CONSTCD11</ref> bool</type>
+        <definition>CONSTCD11 bool iso_week::operator==</definition>
+        <argsstring>(const year_lastweek &amp;x, const year_lastweek &amp;y) NOEXCEPT</argsstring>
+        <name>operator==</name>
+        <param>
+          <type>const <ref refid="classiso__week_1_1year__lastweek" kindref="compound">year_lastweek</ref> &amp;</type>
+          <declname>x</declname>
+        </param>
+        <param>
+          <type>const <ref refid="classiso__week_1_1year__lastweek" kindref="compound">year_lastweek</ref> &amp;</type>
+          <declname>y</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/davem/gr-aff3ct_codes/aff3ct-3.0.2_Library_Header_Files/date/iso_week.h" line="1044" column="1" bodyfile="/home/davem/gr-aff3ct_codes/aff3ct-3.0.2_Library_Header_Files/date/iso_week.h" bodystart="1044" bodyend="1047" declfile="/home/davem/gr-aff3ct_codes/aff3ct-3.0.2_Library_Header_Files/date/iso_week.h" declline="263" declcolumn="16"/>
+      </memberdef>
+      <memberdef kind="function" id="namespaceiso__week_1a557fb32298eef8b2c5ded209b4e4341a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="date_8h_1a98c025909efef28d356780da89fc44b6" kindref="member">CONSTCD11</ref> bool</type>
+        <definition>CONSTCD11 bool iso_week::operator!=</definition>
+        <argsstring>(const year_lastweek &amp;x, const year_lastweek &amp;y) NOEXCEPT</argsstring>
+        <name>operator!=</name>
+        <param>
+          <type>const <ref refid="classiso__week_1_1year__lastweek" kindref="compound">year_lastweek</ref> &amp;</type>
+          <declname>x</declname>
+        </param>
+        <param>
+          <type>const <ref refid="classiso__week_1_1year__lastweek" kindref="compound">year_lastweek</ref> &amp;</type>
+          <declname>y</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/davem/gr-aff3ct_codes/aff3ct-3.0.2_Library_Header_Files/date/iso_week.h" line="1052" column="1" bodyfile="/home/davem/gr-aff3ct_codes/aff3ct-3.0.2_Library_Header_Files/date/iso_week.h" bodystart="1052" bodyend="1055" declfile="/home/davem/gr-aff3ct_codes/aff3ct-3.0.2_Library_Header_Files/date/iso_week.h" declline="264" declcolumn="16"/>
+      </memberdef>
+      <memberdef kind="function" id="namespaceiso__week_1a9b5aaa00c82760809840a74b8dc3a956" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="date_8h_1a98c025909efef28d356780da89fc44b6" kindref="member">CONSTCD11</ref> bool</type>
+        <definition>CONSTCD11 bool iso_week::operator&lt;</definition>
+        <argsstring>(const year_lastweek &amp;x, const year_lastweek &amp;y) NOEXCEPT</argsstring>
+        <name>operator&lt;</name>
+        <param>
+          <type>const <ref refid="classiso__week_1_1year__lastweek" kindref="compound">year_lastweek</ref> &amp;</type>
+          <declname>x</declname>
+        </param>
+        <param>
+          <type>const <ref refid="classiso__week_1_1year__lastweek" kindref="compound">year_lastweek</ref> &amp;</type>
+          <declname>y</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/davem/gr-aff3ct_codes/aff3ct-3.0.2_Library_Header_Files/date/iso_week.h" line="1059" column="1" bodyfile="/home/davem/gr-aff3ct_codes/aff3ct-3.0.2_Library_Header_Files/date/iso_week.h" bodystart="1060" bodyend="1063" declfile="/home/davem/gr-aff3ct_codes/aff3ct-3.0.2_Library_Header_Files/date/iso_week.h" declline="265" declcolumn="11"/>
+      </memberdef>
+      <memberdef kind="function" id="namespaceiso__week_1a9772beac6d6b9fa64cfba485d0117e6a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="date_8h_1a98c025909efef28d356780da89fc44b6" kindref="member">CONSTCD11</ref> bool</type>
+        <definition>CONSTCD11 bool iso_week::operator&gt;</definition>
+        <argsstring>(const year_lastweek &amp;x, const year_lastweek &amp;y) NOEXCEPT</argsstring>
+        <name>operator&gt;</name>
+        <param>
+          <type>const <ref refid="classiso__week_1_1year__lastweek" kindref="compound">year_lastweek</ref> &amp;</type>
+          <declname>x</declname>
+        </param>
+        <param>
+          <type>const <ref refid="classiso__week_1_1year__lastweek" kindref="compound">year_lastweek</ref> &amp;</type>
+          <declname>y</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/davem/gr-aff3ct_codes/aff3ct-3.0.2_Library_Header_Files/date/iso_week.h" line="1068" column="1" bodyfile="/home/davem/gr-aff3ct_codes/aff3ct-3.0.2_Library_Header_Files/date/iso_week.h" bodystart="1068" bodyend="1071" declfile="/home/davem/gr-aff3ct_codes/aff3ct-3.0.2_Library_Header_Files/date/iso_week.h" declline="266" declcolumn="16"/>
+      </memberdef>
+      <memberdef kind="function" id="namespaceiso__week_1abff761935bf0cdfffd4517422ed6d3e3" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="date_8h_1a98c025909efef28d356780da89fc44b6" kindref="member">CONSTCD11</ref> bool</type>
+        <definition>CONSTCD11 bool iso_week::operator&lt;=</definition>
+        <argsstring>(const year_lastweek &amp;x, const year_lastweek &amp;y) NOEXCEPT</argsstring>
+        <name>operator&lt;=</name>
+        <param>
+          <type>const <ref refid="classiso__week_1_1year__lastweek" kindref="compound">year_lastweek</ref> &amp;</type>
+          <declname>x</declname>
+        </param>
+        <param>
+          <type>const <ref refid="classiso__week_1_1year__lastweek" kindref="compound">year_lastweek</ref> &amp;</type>
+          <declname>y</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/davem/gr-aff3ct_codes/aff3ct-3.0.2_Library_Header_Files/date/iso_week.h" line="1075" column="1" bodyfile="/home/davem/gr-aff3ct_codes/aff3ct-3.0.2_Library_Header_Files/date/iso_week.h" bodystart="1076" bodyend="1079" declfile="/home/davem/gr-aff3ct_codes/aff3ct-3.0.2_Library_Header_Files/date/iso_week.h" declline="267" declcolumn="11"/>
+      </memberdef>
+      <memberdef kind="function" id="namespaceiso__week_1a07f9ccc8df3585e69db1c69650b7ad5e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="date_8h_1a98c025909efef28d356780da89fc44b6" kindref="member">CONSTCD11</ref> bool</type>
+        <definition>CONSTCD11 bool iso_week::operator&gt;=</definition>
+        <argsstring>(const year_lastweek &amp;x, const year_lastweek &amp;y) NOEXCEPT</argsstring>
+        <name>operator&gt;=</name>
+        <param>
+          <type>const <ref refid="classiso__week_1_1year__lastweek" kindref="compound">year_lastweek</ref> &amp;</type>
+          <declname>x</declname>
+        </param>
+        <param>
+          <type>const <ref refid="classiso__week_1_1year__lastweek" kindref="compound">year_lastweek</ref> &amp;</type>
+          <declname>y</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/davem/gr-aff3ct_codes/aff3ct-3.0.2_Library_Header_Files/date/iso_week.h" line="1084" column="1" bodyfile="/home/davem/gr-aff3ct_codes/aff3ct-3.0.2_Library_Header_Files/date/iso_week.h" bodystart="1084" bodyend="1087" declfile="/home/davem/gr-aff3ct_codes/aff3ct-3.0.2_Library_Header_Files/date/iso_week.h" declline="268" declcolumn="16"/>
+      </memberdef>
+      <memberdef kind="function" id="namespaceiso__week_1adebe8f7c459cc07dc58caa126d7099b1" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="date_8h_1a98c025909efef28d356780da89fc44b6" kindref="member">CONSTCD11</ref> <ref refid="classiso__week_1_1year__lastweek" kindref="compound">year_lastweek</ref></type>
+        <definition>CONSTCD11 year_lastweek iso_week::operator+</definition>
+        <argsstring>(const year_lastweek &amp;ym, const years &amp;dy) NOEXCEPT</argsstring>
+        <name>operator+</name>
+        <param>
+          <type>const <ref refid="classiso__week_1_1year__lastweek" kindref="compound">year_lastweek</ref> &amp;</type>
+          <declname>ym</declname>
+        </param>
+        <param>
+          <type>const <ref refid="namespaceiso__week_1ab0d916e7f0a5605c6eb379e19063c4f7" kindref="member">years</ref> &amp;</type>
+          <declname>dy</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/davem/gr-aff3ct_codes/aff3ct-3.0.2_Library_Header_Files/date/iso_week.h" line="1092" column="1" bodyfile="/home/davem/gr-aff3ct_codes/aff3ct-3.0.2_Library_Header_Files/date/iso_week.h" bodystart="1092" bodyend="1095" declfile="/home/davem/gr-aff3ct_codes/aff3ct-3.0.2_Library_Header_Files/date/iso_week.h" declline="270" declcolumn="25"/>
+        <references refid="classiso__week_1_1year__lastweek_1a55e7669cf55975525fc92368a0c77352" compoundref="iso__week_8h" startline="1010" endline="1010">iso_week::year_lastweek::year</references>
+      </memberdef>
+      <memberdef kind="function" id="namespaceiso__week_1a8c0b3c497100f629234dca92477c1d9a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="date_8h_1a98c025909efef28d356780da89fc44b6" kindref="member">CONSTCD11</ref> <ref refid="classiso__week_1_1year__lastweek" kindref="compound">year_lastweek</ref></type>
+        <definition>CONSTCD11 year_lastweek iso_week::operator+</definition>
+        <argsstring>(const years &amp;dy, const year_lastweek &amp;ym) NOEXCEPT</argsstring>
+        <name>operator+</name>
+        <param>
+          <type>const <ref refid="namespaceiso__week_1ab0d916e7f0a5605c6eb379e19063c4f7" kindref="member">years</ref> &amp;</type>
+          <declname>dy</declname>
+        </param>
+        <param>
+          <type>const <ref refid="classiso__week_1_1year__lastweek" kindref="compound">year_lastweek</ref> &amp;</type>
+          <declname>ym</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/davem/gr-aff3ct_codes/aff3ct-3.0.2_Library_Header_Files/date/iso_week.h" line="1100" column="1" bodyfile="/home/davem/gr-aff3ct_codes/aff3ct-3.0.2_Library_Header_Files/date/iso_week.h" bodystart="1100" bodyend="1103" declfile="/home/davem/gr-aff3ct_codes/aff3ct-3.0.2_Library_Header_Files/date/iso_week.h" declline="271" declcolumn="25"/>
+      </memberdef>
+      <memberdef kind="function" id="namespaceiso__week_1a4a572ab98d069fd37ef175263945faf0" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="date_8h_1a98c025909efef28d356780da89fc44b6" kindref="member">CONSTCD11</ref> <ref refid="classiso__week_1_1year__lastweek" kindref="compound">year_lastweek</ref></type>
+        <definition>CONSTCD11 year_lastweek iso_week::operator-</definition>
+        <argsstring>(const year_lastweek &amp;ym, const years &amp;dy) NOEXCEPT</argsstring>
+        <name>operator-</name>
+        <param>
+          <type>const <ref refid="classiso__week_1_1year__lastweek" kindref="compound">year_lastweek</ref> &amp;</type>
+          <declname>ym</declname>
+        </param>
+        <param>
+          <type>const <ref refid="namespaceiso__week_1ab0d916e7f0a5605c6eb379e19063c4f7" kindref="member">years</ref> &amp;</type>
+          <declname>dy</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/davem/gr-aff3ct_codes/aff3ct-3.0.2_Library_Header_Files/date/iso_week.h" line="1108" column="1" bodyfile="/home/davem/gr-aff3ct_codes/aff3ct-3.0.2_Library_Header_Files/date/iso_week.h" bodystart="1108" bodyend="1111" declfile="/home/davem/gr-aff3ct_codes/aff3ct-3.0.2_Library_Header_Files/date/iso_week.h" declline="272" declcolumn="25"/>
+      </memberdef>
+      <memberdef kind="function" id="namespaceiso__week_1a680d6cfe2d43829ca672406f295beb49" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>class CharT</type>
+          </param>
+          <param>
+            <type>class Traits</type>
+          </param>
+        </templateparamlist>
+        <type>std::basic_ostream&lt; CharT, Traits &gt; &amp;</type>
+        <definition>std::basic_ostream&lt; CharT, Traits &gt; &amp; iso_week::operator&lt;&lt;</definition>
+        <argsstring>(std::basic_ostream&lt; CharT, Traits &gt; &amp;os, const year_lastweek &amp;ym)</argsstring>
+        <name>operator&lt;&lt;</name>
+        <param>
+          <type>std::basic_ostream&lt; CharT, Traits &gt; &amp;</type>
+          <declname>os</declname>
+        </param>
+        <param>
+          <type>const <ref refid="classiso__week_1_1year__lastweek" kindref="compound">year_lastweek</ref> &amp;</type>
+          <declname>ym</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/davem/gr-aff3ct_codes/aff3ct-3.0.2_Library_Header_Files/date/iso_week.h" line="1108" column="1" bodyfile="/home/davem/gr-aff3ct_codes/aff3ct-3.0.2_Library_Header_Files/date/iso_week.h" bodystart="1116" bodyend="1119" declfile="/home/davem/gr-aff3ct_codes/aff3ct-3.0.2_Library_Header_Files/date/iso_week.h" declline="272" declcolumn="25"/>
+      </memberdef>
+      <memberdef kind="function" id="namespaceiso__week_1a7f753fbd0d465db415b071c0a7b0dbb5" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="date_8h_1a98c025909efef28d356780da89fc44b6" kindref="member">CONSTCD11</ref> bool</type>
+        <definition>CONSTCD11 bool iso_week::operator==</definition>
+        <argsstring>(const weeknum_weekday &amp;x, const weeknum_weekday &amp;y) NOEXCEPT</argsstring>
+        <name>operator==</name>
+        <param>
+          <type>const <ref refid="classiso__week_1_1weeknum__weekday" kindref="compound">weeknum_weekday</ref> &amp;</type>
+          <declname>x</declname>
+        </param>
+        <param>
+          <type>const <ref refid="classiso__week_1_1weeknum__weekday" kindref="compound">weeknum_weekday</ref> &amp;</type>
+          <declname>y</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/davem/gr-aff3ct_codes/aff3ct-3.0.2_Library_Header_Files/date/iso_week.h" line="1145" column="1" bodyfile="/home/davem/gr-aff3ct_codes/aff3ct-3.0.2_Library_Header_Files/date/iso_week.h" bodystart="1145" bodyend="1148" declfile="/home/davem/gr-aff3ct_codes/aff3ct-3.0.2_Library_Header_Files/date/iso_week.h" declline="295" declcolumn="16"/>
+      </memberdef>
+      <memberdef kind="function" id="namespaceiso__week_1abb1e5ebeb27ea0d150adc66be28c4a23" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="date_8h_1a98c025909efef28d356780da89fc44b6" kindref="member">CONSTCD11</ref> bool</type>
+        <definition>CONSTCD11 bool iso_week::operator!=</definition>
+        <argsstring>(const weeknum_weekday &amp;x, const weeknum_weekday &amp;y) NOEXCEPT</argsstring>
+        <name>operator!=</name>
+        <param>
+          <type>const <ref refid="classiso__week_1_1weeknum__weekday" kindref="compound">weeknum_weekday</ref> &amp;</type>
+          <declname>x</declname>
+        </param>
+        <param>
+          <type>const <ref refid="classiso__week_1_1weeknum__weekday" kindref="compound">weeknum_weekday</ref> &amp;</type>
+          <declname>y</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/davem/gr-aff3ct_codes/aff3ct-3.0.2_Library_Header_Files/date/iso_week.h" line="1153" column="1" bodyfile="/home/davem/gr-aff3ct_codes/aff3ct-3.0.2_Library_Header_Files/date/iso_week.h" bodystart="1153" bodyend="1156" declfile="/home/davem/gr-aff3ct_codes/aff3ct-3.0.2_Library_Header_Files/date/iso_week.h" declline="296" declcolumn="16"/>
+      </memberdef>
+      <memberdef kind="function" id="namespaceiso__week_1adcdb0e07c69b6cea10bce76574134875" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="date_8h_1a98c025909efef28d356780da89fc44b6" kindref="member">CONSTCD11</ref> bool</type>
+        <definition>CONSTCD11 bool iso_week::operator&lt;</definition>
+        <argsstring>(const weeknum_weekday &amp;x, const weeknum_weekday &amp;y) NOEXCEPT</argsstring>
+        <name>operator&lt;</name>
+        <param>
+          <type>const <ref refid="classiso__week_1_1weeknum__weekday" kindref="compound">weeknum_weekday</ref> &amp;</type>
+          <declname>x</declname>
+        </param>
+        <param>
+          <type>const <ref refid="classiso__week_1_1weeknum__weekday" kindref="compound">weeknum_weekday</ref> &amp;</type>
+          <declname>y</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/davem/gr-aff3ct_codes/aff3ct-3.0.2_Library_Header_Files/date/iso_week.h" line="1160" column="1" bodyfile="/home/davem/gr-aff3ct_codes/aff3ct-3.0.2_Library_Header_Files/date/iso_week.h" bodystart="1161" bodyend="1166" declfile="/home/davem/gr-aff3ct_codes/aff3ct-3.0.2_Library_Header_Files/date/iso_week.h" declline="297" declcolumn="11"/>
+      </memberdef>
+      <memberdef kind="function" id="namespaceiso__week_1a688f4918ab6270da0714a2f66ecc4f73" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="date_8h_1a98c025909efef28d356780da89fc44b6" kindref="member">CONSTCD11</ref> bool</type>
+        <definition>CONSTCD11 bool iso_week::operator&gt;</definition>
+        <argsstring>(const weeknum_weekday &amp;x, const weeknum_weekday &amp;y) NOEXCEPT</argsstring>
+        <name>operator&gt;</name>
+        <param>
+          <type>const <ref refid="classiso__week_1_1weeknum__weekday" kindref="compound">weeknum_weekday</ref> &amp;</type>
+          <declname>x</declname>
+        </param>
+        <param>
+          <type>const <ref refid="classiso__week_1_1weeknum__weekday" kindref="compound">weeknum_weekday</ref> &amp;</type>
+          <declname>y</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/davem/gr-aff3ct_codes/aff3ct-3.0.2_Library_Header_Files/date/iso_week.h" line="1171" column="1" bodyfile="/home/davem/gr-aff3ct_codes/aff3ct-3.0.2_Library_Header_Files/date/iso_week.h" bodystart="1171" bodyend="1174" declfile="/home/davem/gr-aff3ct_codes/aff3ct-3.0.2_Library_Header_Files/date/iso_week.h" declline="298" declcolumn="16"/>
+      </memberdef>
+      <memberdef kind="function" id="namespaceiso__week_1a9f95707d12efebbb5a2140af3620b244" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="date_8h_1a98c025909efef28d356780da89fc44b6" kindref="member">CONSTCD11</ref> bool</type>
+        <definition>CONSTCD11 bool iso_week::operator&lt;=</definition>
+        <argsstring>(const weeknum_weekday &amp;x, const weeknum_weekday &amp;y) NOEXCEPT</argsstring>
+        <name>operator&lt;=</name>
+        <param>
+          <type>const <ref refid="classiso__week_1_1weeknum__weekday" kindref="compound">weeknum_weekday</ref> &amp;</type>
+          <declname>x</declname>
+        </param>
+        <param>
+          <type>const <ref refid="classiso__week_1_1weeknum__weekday" kindref="compound">weeknum_weekday</ref> &amp;</type>
+          <declname>y</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/davem/gr-aff3ct_codes/aff3ct-3.0.2_Library_Header_Files/date/iso_week.h" line="1178" column="1" bodyfile="/home/davem/gr-aff3ct_codes/aff3ct-3.0.2_Library_Header_Files/date/iso_week.h" bodystart="1179" bodyend="1182" declfile="/home/davem/gr-aff3ct_codes/aff3ct-3.0.2_Library_Header_Files/date/iso_week.h" declline="299" declcolumn="11"/>
+      </memberdef>
+      <memberdef kind="function" id="namespaceiso__week_1aae8bc3e7d7ec53aadb8ef6617a3d13c2" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="date_8h_1a98c025909efef28d356780da89fc44b6" kindref="member">CONSTCD11</ref> bool</type>
+        <definition>CONSTCD11 bool iso_week::operator&gt;=</definition>
+        <argsstring>(const weeknum_weekday &amp;x, const weeknum_weekday &amp;y) NOEXCEPT</argsstring>
+        <name>operator&gt;=</name>
+        <param>
+          <type>const <ref refid="classiso__week_1_1weeknum__weekday" kindref="compound">weeknum_weekday</ref> &amp;</type>
+          <declname>x</declname>
+        </param>
+        <param>
+          <type>const <ref refid="classiso__week_1_1weeknum__weekday" kindref="compound">weeknum_weekday</ref> &amp;</type>
+          <declname>y</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/davem/gr-aff3ct_codes/aff3ct-3.0.2_Library_Header_Files/date/iso_week.h" line="1187" column="1" bodyfile="/home/davem/gr-aff3ct_codes/aff3ct-3.0.2_Library_Header_Files/date/iso_week.h" bodystart="1187" bodyend="1190" declfile="/home/davem/gr-aff3ct_codes/aff3ct-3.0.2_Library_Header_Files/date/iso_week.h" declline="300" declcolumn="16"/>
+      </memberdef>
+      <memberdef kind="function" id="namespaceiso__week_1a0c0d739f90aae5d72dae5517eaefe9e7" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>class CharT</type>
+          </param>
+          <param>
+            <type>class Traits</type>
+          </param>
+        </templateparamlist>
+        <type>std::basic_ostream&lt; CharT, Traits &gt; &amp;</type>
+        <definition>std::basic_ostream&lt; CharT, Traits &gt; &amp; iso_week::operator&lt;&lt;</definition>
+        <argsstring>(std::basic_ostream&lt; CharT, Traits &gt; &amp;os, const weeknum_weekday &amp;md)</argsstring>
+        <name>operator&lt;&lt;</name>
+        <param>
+          <type>std::basic_ostream&lt; CharT, Traits &gt; &amp;</type>
+          <declname>os</declname>
+        </param>
+        <param>
+          <type>const <ref refid="classiso__week_1_1weeknum__weekday" kindref="compound">weeknum_weekday</ref> &amp;</type>
+          <declname>md</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/davem/gr-aff3ct_codes/aff3ct-3.0.2_Library_Header_Files/date/iso_week.h" line="1187" column="1" bodyfile="/home/davem/gr-aff3ct_codes/aff3ct-3.0.2_Library_Header_Files/date/iso_week.h" bodystart="1195" bodyend="1198" declfile="/home/davem/gr-aff3ct_codes/aff3ct-3.0.2_Library_Header_Files/date/iso_week.h" declline="300" declcolumn="16"/>
+      </memberdef>
+      <memberdef kind="function" id="namespaceiso__week_1a95983a9010c6951b8932615c36e1e681" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="date_8h_1a98c025909efef28d356780da89fc44b6" kindref="member">CONSTCD11</ref> bool</type>
+        <definition>CONSTCD11 bool iso_week::operator==</definition>
+        <argsstring>(const lastweek_weekday &amp;x, const lastweek_weekday &amp;y) NOEXCEPT</argsstring>
+        <name>operator==</name>
+        <param>
+          <type>const <ref refid="classiso__week_1_1lastweek__weekday" kindref="compound">lastweek_weekday</ref> &amp;</type>
+          <declname>x</declname>
+        </param>
+        <param>
+          <type>const <ref refid="classiso__week_1_1lastweek__weekday" kindref="compound">lastweek_weekday</ref> &amp;</type>
+          <declname>y</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/davem/gr-aff3ct_codes/aff3ct-3.0.2_Library_Header_Files/date/iso_week.h" line="1221" column="1" bodyfile="/home/davem/gr-aff3ct_codes/aff3ct-3.0.2_Library_Header_Files/date/iso_week.h" bodystart="1221" bodyend="1224" declfile="/home/davem/gr-aff3ct_codes/aff3ct-3.0.2_Library_Header_Files/date/iso_week.h" declline="320" declcolumn="16"/>
+      </memberdef>
+      <memberdef kind="function" id="namespaceiso__week_1a52c130064db132c9ab99f98ad05f984d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="date_8h_1a98c025909efef28d356780da89fc44b6" kindref="member">CONSTCD11</ref> bool</type>
+        <definition>CONSTCD11 bool iso_week::operator!=</definition>
+        <argsstring>(const lastweek_weekday &amp;x, const lastweek_weekday &amp;y) NOEXCEPT</argsstring>
+        <name>operator!=</name>
+        <param>
+          <type>const <ref refid="classiso__week_1_1lastweek__weekday" kindref="compound">lastweek_weekday</ref> &amp;</type>
+          <declname>x</declname>
+        </param>
+        <param>
+          <type>const <ref refid="classiso__week_1_1lastweek__weekday" kindref="compound">lastweek_weekday</ref> &amp;</type>
+          <declname>y</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/davem/gr-aff3ct_codes/aff3ct-3.0.2_Library_Header_Files/date/iso_week.h" line="1229" column="1" bodyfile="/home/davem/gr-aff3ct_codes/aff3ct-3.0.2_Library_Header_Files/date/iso_week.h" bodystart="1229" bodyend="1232" declfile="/home/davem/gr-aff3ct_codes/aff3ct-3.0.2_Library_Header_Files/date/iso_week.h" declline="321" declcolumn="16"/>
+      </memberdef>
+      <memberdef kind="function" id="namespaceiso__week_1a0cb5c991f56ced1907b36e7cbb3f96cc" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="date_8h_1a98c025909efef28d356780da89fc44b6" kindref="member">CONSTCD11</ref> bool</type>
+        <definition>CONSTCD11 bool iso_week::operator&lt;</definition>
+        <argsstring>(const lastweek_weekday &amp;x, const lastweek_weekday &amp;y) NOEXCEPT</argsstring>
+        <name>operator&lt;</name>
+        <param>
+          <type>const <ref refid="classiso__week_1_1lastweek__weekday" kindref="compound">lastweek_weekday</ref> &amp;</type>
+          <declname>x</declname>
+        </param>
+        <param>
+          <type>const <ref refid="classiso__week_1_1lastweek__weekday" kindref="compound">lastweek_weekday</ref> &amp;</type>
+          <declname>y</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/davem/gr-aff3ct_codes/aff3ct-3.0.2_Library_Header_Files/date/iso_week.h" line="1236" column="1" bodyfile="/home/davem/gr-aff3ct_codes/aff3ct-3.0.2_Library_Header_Files/date/iso_week.h" bodystart="1237" bodyend="1240" declfile="/home/davem/gr-aff3ct_codes/aff3ct-3.0.2_Library_Header_Files/date/iso_week.h" declline="322" declcolumn="11"/>
+      </memberdef>
+      <memberdef kind="function" id="namespaceiso__week_1ad95b77f75bbcd16d235fe1e945b36df3" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="date_8h_1a98c025909efef28d356780da89fc44b6" kindref="member">CONSTCD11</ref> bool</type>
+        <definition>CONSTCD11 bool iso_week::operator&gt;</definition>
+        <argsstring>(const lastweek_weekday &amp;x, const lastweek_weekday &amp;y) NOEXCEPT</argsstring>
+        <name>operator&gt;</name>
+        <param>
+          <type>const <ref refid="classiso__week_1_1lastweek__weekday" kindref="compound">lastweek_weekday</ref> &amp;</type>
+          <declname>x</declname>
+        </param>
+        <param>
+          <type>const <ref refid="classiso__week_1_1lastweek__weekday" kindref="compound">lastweek_weekday</ref> &amp;</type>
+          <declname>y</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/davem/gr-aff3ct_codes/aff3ct-3.0.2_Library_Header_Files/date/iso_week.h" line="1245" column="1" bodyfile="/home/davem/gr-aff3ct_codes/aff3ct-3.0.2_Library_Header_Files/date/iso_week.h" bodystart="1245" bodyend="1248" declfile="/home/davem/gr-aff3ct_codes/aff3ct-3.0.2_Library_Header_Files/date/iso_week.h" declline="323" declcolumn="16"/>
+      </memberdef>
+      <memberdef kind="function" id="namespaceiso__week_1a19f7b4ef19c58f91b0f1d9c6c3080d80" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="date_8h_1a98c025909efef28d356780da89fc44b6" kindref="member">CONSTCD11</ref> bool</type>
+        <definition>CONSTCD11 bool iso_week::operator&lt;=</definition>
+        <argsstring>(const lastweek_weekday &amp;x, const lastweek_weekday &amp;y) NOEXCEPT</argsstring>
+        <name>operator&lt;=</name>
+        <param>
+          <type>const <ref refid="classiso__week_1_1lastweek__weekday" kindref="compound">lastweek_weekday</ref> &amp;</type>
+          <declname>x</declname>
+        </param>
+        <param>
+          <type>const <ref refid="classiso__week_1_1lastweek__weekday" kindref="compound">lastweek_weekday</ref> &amp;</type>
+          <declname>y</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/davem/gr-aff3ct_codes/aff3ct-3.0.2_Library_Header_Files/date/iso_week.h" line="1252" column="1" bodyfile="/home/davem/gr-aff3ct_codes/aff3ct-3.0.2_Library_Header_Files/date/iso_week.h" bodystart="1253" bodyend="1256" declfile="/home/davem/gr-aff3ct_codes/aff3ct-3.0.2_Library_Header_Files/date/iso_week.h" declline="324" declcolumn="11"/>
+      </memberdef>
+      <memberdef kind="function" id="namespaceiso__week_1aa1d26eaf03f89808cd07d2f4b1546f37" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="date_8h_1a98c025909efef28d356780da89fc44b6" kindref="member">CONSTCD11</ref> bool</type>
+        <definition>CONSTCD11 bool iso_week::operator&gt;=</definition>
+        <argsstring>(const lastweek_weekday &amp;x, const lastweek_weekday &amp;y) NOEXCEPT</argsstring>
+        <name>operator&gt;=</name>
+        <param>
+          <type>const <ref refid="classiso__week_1_1lastweek__weekday" kindref="compound">lastweek_weekday</ref> &amp;</type>
+          <declname>x</declname>
+        </param>
+        <param>
+          <type>const <ref refid="classiso__week_1_1lastweek__weekday" kindref="compound">lastweek_weekday</ref> &amp;</type>
+          <declname>y</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/davem/gr-aff3ct_codes/aff3ct-3.0.2_Library_Header_Files/date/iso_week.h" line="1261" column="1" bodyfile="/home/davem/gr-aff3ct_codes/aff3ct-3.0.2_Library_Header_Files/date/iso_week.h" bodystart="1261" bodyend="1264" declfile="/home/davem/gr-aff3ct_codes/aff3ct-3.0.2_Library_Header_Files/date/iso_week.h" declline="325" declcolumn="16"/>
+      </memberdef>
+      <memberdef kind="function" id="namespaceiso__week_1ad086aa89ee8899f652704595e9dfafad" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>class CharT</type>
+          </param>
+          <param>
+            <type>class Traits</type>
+          </param>
+        </templateparamlist>
+        <type>std::basic_ostream&lt; CharT, Traits &gt; &amp;</type>
+        <definition>std::basic_ostream&lt; CharT, Traits &gt; &amp; iso_week::operator&lt;&lt;</definition>
+        <argsstring>(std::basic_ostream&lt; CharT, Traits &gt; &amp;os, const lastweek_weekday &amp;md)</argsstring>
+        <name>operator&lt;&lt;</name>
+        <param>
+          <type>std::basic_ostream&lt; CharT, Traits &gt; &amp;</type>
+          <declname>os</declname>
+        </param>
+        <param>
+          <type>const <ref refid="classiso__week_1_1lastweek__weekday" kindref="compound">lastweek_weekday</ref> &amp;</type>
+          <declname>md</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/davem/gr-aff3ct_codes/aff3ct-3.0.2_Library_Header_Files/date/iso_week.h" line="1261" column="1" bodyfile="/home/davem/gr-aff3ct_codes/aff3ct-3.0.2_Library_Header_Files/date/iso_week.h" bodystart="1269" bodyend="1272" declfile="/home/davem/gr-aff3ct_codes/aff3ct-3.0.2_Library_Header_Files/date/iso_week.h" declline="325" declcolumn="16"/>
+      </memberdef>
+      <memberdef kind="function" id="namespaceiso__week_1a60f0595e44fe508632fe045d0968acec" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="date_8h_1a98c025909efef28d356780da89fc44b6" kindref="member">CONSTCD11</ref> bool</type>
+        <definition>CONSTCD11 bool iso_week::operator==</definition>
+        <argsstring>(const year_lastweek_weekday &amp;x, const year_lastweek_weekday &amp;y) NOEXCEPT</argsstring>
+        <name>operator==</name>
+        <param>
+          <type>const <ref refid="classiso__week_1_1year__lastweek__weekday" kindref="compound">year_lastweek_weekday</ref> &amp;</type>
+          <declname>x</declname>
+        </param>
+        <param>
+          <type>const <ref refid="classiso__week_1_1year__lastweek__weekday" kindref="compound">year_lastweek_weekday</ref> &amp;</type>
+          <declname>y</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/davem/gr-aff3ct_codes/aff3ct-3.0.2_Library_Header_Files/date/iso_week.h" line="1339" column="1" bodyfile="/home/davem/gr-aff3ct_codes/aff3ct-3.0.2_Library_Header_Files/date/iso_week.h" bodystart="1339" bodyend="1342" declfile="/home/davem/gr-aff3ct_codes/aff3ct-3.0.2_Library_Header_Files/date/iso_week.h" declline="354" declcolumn="16"/>
+      </memberdef>
+      <memberdef kind="function" id="namespaceiso__week_1adfbcea152c7c8a82cdcb55bd8fee97ec" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="date_8h_1a98c025909efef28d356780da89fc44b6" kindref="member">CONSTCD11</ref> bool</type>
+        <definition>CONSTCD11 bool iso_week::operator!=</definition>
+        <argsstring>(const year_lastweek_weekday &amp;x, const year_lastweek_weekday &amp;y) NOEXCEPT</argsstring>
+        <name>operator!=</name>
+        <param>
+          <type>const <ref refid="classiso__week_1_1year__lastweek__weekday" kindref="compound">year_lastweek_weekday</ref> &amp;</type>
+          <declname>x</declname>
+        </param>
+        <param>
+          <type>const <ref refid="classiso__week_1_1year__lastweek__weekday" kindref="compound">year_lastweek_weekday</ref> &amp;</type>
+          <declname>y</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/davem/gr-aff3ct_codes/aff3ct-3.0.2_Library_Header_Files/date/iso_week.h" line="1347" column="1" bodyfile="/home/davem/gr-aff3ct_codes/aff3ct-3.0.2_Library_Header_Files/date/iso_week.h" bodystart="1347" bodyend="1350" declfile="/home/davem/gr-aff3ct_codes/aff3ct-3.0.2_Library_Header_Files/date/iso_week.h" declline="355" declcolumn="16"/>
+      </memberdef>
+      <memberdef kind="function" id="namespaceiso__week_1ad8ddbf96f80a9c12bab0b766dc686b0a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="date_8h_1a98c025909efef28d356780da89fc44b6" kindref="member">CONSTCD11</ref> bool</type>
+        <definition>CONSTCD11 bool iso_week::operator&lt;</definition>
+        <argsstring>(const year_lastweek_weekday &amp;x, const year_lastweek_weekday &amp;y) NOEXCEPT</argsstring>
+        <name>operator&lt;</name>
+        <param>
+          <type>const <ref refid="classiso__week_1_1year__lastweek__weekday" kindref="compound">year_lastweek_weekday</ref> &amp;</type>
+          <declname>x</declname>
+        </param>
+        <param>
+          <type>const <ref refid="classiso__week_1_1year__lastweek__weekday" kindref="compound">year_lastweek_weekday</ref> &amp;</type>
+          <declname>y</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/davem/gr-aff3ct_codes/aff3ct-3.0.2_Library_Header_Files/date/iso_week.h" line="1354" column="1" bodyfile="/home/davem/gr-aff3ct_codes/aff3ct-3.0.2_Library_Header_Files/date/iso_week.h" bodystart="1355" bodyend="1360" declfile="/home/davem/gr-aff3ct_codes/aff3ct-3.0.2_Library_Header_Files/date/iso_week.h" declline="356" declcolumn="11"/>
+      </memberdef>
+      <memberdef kind="function" id="namespaceiso__week_1ab436d7b882d0ec94378cc0b60c01d829" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="date_8h_1a98c025909efef28d356780da89fc44b6" kindref="member">CONSTCD11</ref> bool</type>
+        <definition>CONSTCD11 bool iso_week::operator&gt;</definition>
+        <argsstring>(const year_lastweek_weekday &amp;x, const year_lastweek_weekday &amp;y) NOEXCEPT</argsstring>
+        <name>operator&gt;</name>
+        <param>
+          <type>const <ref refid="classiso__week_1_1year__lastweek__weekday" kindref="compound">year_lastweek_weekday</ref> &amp;</type>
+          <declname>x</declname>
+        </param>
+        <param>
+          <type>const <ref refid="classiso__week_1_1year__lastweek__weekday" kindref="compound">year_lastweek_weekday</ref> &amp;</type>
+          <declname>y</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/davem/gr-aff3ct_codes/aff3ct-3.0.2_Library_Header_Files/date/iso_week.h" line="1365" column="1" bodyfile="/home/davem/gr-aff3ct_codes/aff3ct-3.0.2_Library_Header_Files/date/iso_week.h" bodystart="1365" bodyend="1368" declfile="/home/davem/gr-aff3ct_codes/aff3ct-3.0.2_Library_Header_Files/date/iso_week.h" declline="357" declcolumn="16"/>
+      </memberdef>
+      <memberdef kind="function" id="namespaceiso__week_1a989fe309cd1f867b3b1c55ad876d4a98" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="date_8h_1a98c025909efef28d356780da89fc44b6" kindref="member">CONSTCD11</ref> bool</type>
+        <definition>CONSTCD11 bool iso_week::operator&lt;=</definition>
+        <argsstring>(const year_lastweek_weekday &amp;x, const year_lastweek_weekday &amp;y) NOEXCEPT</argsstring>
+        <name>operator&lt;=</name>
+        <param>
+          <type>const <ref refid="classiso__week_1_1year__lastweek__weekday" kindref="compound">year_lastweek_weekday</ref> &amp;</type>
+          <declname>x</declname>
+        </param>
+        <param>
+          <type>const <ref refid="classiso__week_1_1year__lastweek__weekday" kindref="compound">year_lastweek_weekday</ref> &amp;</type>
+          <declname>y</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/davem/gr-aff3ct_codes/aff3ct-3.0.2_Library_Header_Files/date/iso_week.h" line="1372" column="1" bodyfile="/home/davem/gr-aff3ct_codes/aff3ct-3.0.2_Library_Header_Files/date/iso_week.h" bodystart="1373" bodyend="1376" declfile="/home/davem/gr-aff3ct_codes/aff3ct-3.0.2_Library_Header_Files/date/iso_week.h" declline="358" declcolumn="11"/>
+      </memberdef>
+      <memberdef kind="function" id="namespaceiso__week_1a848929c542e7cdd7ed2f99413ae62c34" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="date_8h_1a98c025909efef28d356780da89fc44b6" kindref="member">CONSTCD11</ref> bool</type>
+        <definition>CONSTCD11 bool iso_week::operator&gt;=</definition>
+        <argsstring>(const year_lastweek_weekday &amp;x, const year_lastweek_weekday &amp;y) NOEXCEPT</argsstring>
+        <name>operator&gt;=</name>
+        <param>
+          <type>const <ref refid="classiso__week_1_1year__lastweek__weekday" kindref="compound">year_lastweek_weekday</ref> &amp;</type>
+          <declname>x</declname>
+        </param>
+        <param>
+          <type>const <ref refid="classiso__week_1_1year__lastweek__weekday" kindref="compound">year_lastweek_weekday</ref> &amp;</type>
+          <declname>y</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/davem/gr-aff3ct_codes/aff3ct-3.0.2_Library_Header_Files/date/iso_week.h" line="1381" column="1" bodyfile="/home/davem/gr-aff3ct_codes/aff3ct-3.0.2_Library_Header_Files/date/iso_week.h" bodystart="1381" bodyend="1384" declfile="/home/davem/gr-aff3ct_codes/aff3ct-3.0.2_Library_Header_Files/date/iso_week.h" declline="359" declcolumn="16"/>
+      </memberdef>
+      <memberdef kind="function" id="namespaceiso__week_1a0d683c2655ad3df859fdab07a3aad443" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="date_8h_1a98c025909efef28d356780da89fc44b6" kindref="member">CONSTCD11</ref> <ref refid="classiso__week_1_1year__lastweek__weekday" kindref="compound">year_lastweek_weekday</ref></type>
+        <definition>CONSTCD11 year_lastweek_weekday iso_week::operator+</definition>
+        <argsstring>(const year_lastweek_weekday &amp;ywnwd, const years &amp;y) NOEXCEPT</argsstring>
+        <name>operator+</name>
+        <param>
+          <type>const <ref refid="classiso__week_1_1year__lastweek__weekday" kindref="compound">year_lastweek_weekday</ref> &amp;</type>
+          <declname>ywnwd</declname>
+        </param>
+        <param>
+          <type>const <ref refid="namespaceiso__week_1ab0d916e7f0a5605c6eb379e19063c4f7" kindref="member">years</ref> &amp;</type>
+          <declname>y</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/davem/gr-aff3ct_codes/aff3ct-3.0.2_Library_Header_Files/date/iso_week.h" line="1389" column="1" bodyfile="/home/davem/gr-aff3ct_codes/aff3ct-3.0.2_Library_Header_Files/date/iso_week.h" bodystart="1389" bodyend="1392" declfile="/home/davem/gr-aff3ct_codes/aff3ct-3.0.2_Library_Header_Files/date/iso_week.h" declline="361" declcolumn="33"/>
+      </memberdef>
+      <memberdef kind="function" id="namespaceiso__week_1ad2e472398aaee9271155ee5f3c3891b0" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="date_8h_1a98c025909efef28d356780da89fc44b6" kindref="member">CONSTCD11</ref> <ref refid="classiso__week_1_1year__lastweek__weekday" kindref="compound">year_lastweek_weekday</ref></type>
+        <definition>CONSTCD11 year_lastweek_weekday iso_week::operator+</definition>
+        <argsstring>(const years &amp;y, const year_lastweek_weekday &amp;ywnwd) NOEXCEPT</argsstring>
+        <name>operator+</name>
+        <param>
+          <type>const <ref refid="namespaceiso__week_1ab0d916e7f0a5605c6eb379e19063c4f7" kindref="member">years</ref> &amp;</type>
+          <declname>y</declname>
+        </param>
+        <param>
+          <type>const <ref refid="classiso__week_1_1year__lastweek__weekday" kindref="compound">year_lastweek_weekday</ref> &amp;</type>
+          <declname>ywnwd</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/davem/gr-aff3ct_codes/aff3ct-3.0.2_Library_Header_Files/date/iso_week.h" line="1397" column="1" bodyfile="/home/davem/gr-aff3ct_codes/aff3ct-3.0.2_Library_Header_Files/date/iso_week.h" bodystart="1397" bodyend="1400" declfile="/home/davem/gr-aff3ct_codes/aff3ct-3.0.2_Library_Header_Files/date/iso_week.h" declline="362" declcolumn="33"/>
+      </memberdef>
+      <memberdef kind="function" id="namespaceiso__week_1a7643479cc3b92b736e097d188c65645d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="date_8h_1a98c025909efef28d356780da89fc44b6" kindref="member">CONSTCD11</ref> <ref refid="classiso__week_1_1year__lastweek__weekday" kindref="compound">year_lastweek_weekday</ref></type>
+        <definition>CONSTCD11 year_lastweek_weekday iso_week::operator-</definition>
+        <argsstring>(const year_lastweek_weekday &amp;ywnwd, const years &amp;y) NOEXCEPT</argsstring>
+        <name>operator-</name>
+        <param>
+          <type>const <ref refid="classiso__week_1_1year__lastweek__weekday" kindref="compound">year_lastweek_weekday</ref> &amp;</type>
+          <declname>ywnwd</declname>
+        </param>
+        <param>
+          <type>const <ref refid="namespaceiso__week_1ab0d916e7f0a5605c6eb379e19063c4f7" kindref="member">years</ref> &amp;</type>
+          <declname>y</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/davem/gr-aff3ct_codes/aff3ct-3.0.2_Library_Header_Files/date/iso_week.h" line="1405" column="1" bodyfile="/home/davem/gr-aff3ct_codes/aff3ct-3.0.2_Library_Header_Files/date/iso_week.h" bodystart="1405" bodyend="1408" declfile="/home/davem/gr-aff3ct_codes/aff3ct-3.0.2_Library_Header_Files/date/iso_week.h" declline="363" declcolumn="33"/>
+      </memberdef>
+      <memberdef kind="function" id="namespaceiso__week_1a6aaef500e26d3620ff7f5ff39cba8297" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>class CharT</type>
+          </param>
+          <param>
+            <type>class Traits</type>
+          </param>
+        </templateparamlist>
+        <type>std::basic_ostream&lt; CharT, Traits &gt; &amp;</type>
+        <definition>std::basic_ostream&lt; CharT, Traits &gt; &amp; iso_week::operator&lt;&lt;</definition>
+        <argsstring>(std::basic_ostream&lt; CharT, Traits &gt; &amp;os, const year_lastweek_weekday &amp;ywnwd)</argsstring>
+        <name>operator&lt;&lt;</name>
+        <param>
+          <type>std::basic_ostream&lt; CharT, Traits &gt; &amp;</type>
+          <declname>os</declname>
+        </param>
+        <param>
+          <type>const <ref refid="classiso__week_1_1year__lastweek__weekday" kindref="compound">year_lastweek_weekday</ref> &amp;</type>
+          <declname>ywnwd</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/davem/gr-aff3ct_codes/aff3ct-3.0.2_Library_Header_Files/date/iso_week.h" line="1405" column="1" bodyfile="/home/davem/gr-aff3ct_codes/aff3ct-3.0.2_Library_Header_Files/date/iso_week.h" bodystart="1413" bodyend="1416" declfile="/home/davem/gr-aff3ct_codes/aff3ct-3.0.2_Library_Header_Files/date/iso_week.h" declline="363" declcolumn="33"/>
+      </memberdef>
+      <memberdef kind="function" id="namespaceiso__week_1a8cbb248c93a7f4378d1ce8da7e2eeaa7" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="date_8h_1a98c025909efef28d356780da89fc44b6" kindref="member">CONSTCD11</ref> bool</type>
+        <definition>CONSTCD11 bool iso_week::operator==</definition>
+        <argsstring>(const year_weeknum_weekday &amp;x, const year_weeknum_weekday &amp;y) NOEXCEPT</argsstring>
+        <name>operator==</name>
+        <param>
+          <type>const <ref refid="classiso__week_1_1year__weeknum__weekday" kindref="compound">year_weeknum_weekday</ref> &amp;</type>
+          <declname>x</declname>
+        </param>
+        <param>
+          <type>const <ref refid="classiso__week_1_1year__weeknum__weekday" kindref="compound">year_weeknum_weekday</ref> &amp;</type>
+          <declname>y</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/davem/gr-aff3ct_codes/aff3ct-3.0.2_Library_Header_Files/date/iso_week.h" line="1516" column="1" bodyfile="/home/davem/gr-aff3ct_codes/aff3ct-3.0.2_Library_Header_Files/date/iso_week.h" bodystart="1516" bodyend="1519" declfile="/home/davem/gr-aff3ct_codes/aff3ct-3.0.2_Library_Header_Files/date/iso_week.h" declline="399" declcolumn="16"/>
+      </memberdef>
+      <memberdef kind="function" id="namespaceiso__week_1ae93dba619c79a55085f7c362c6e79023" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="date_8h_1a98c025909efef28d356780da89fc44b6" kindref="member">CONSTCD11</ref> bool</type>
+        <definition>CONSTCD11 bool iso_week::operator!=</definition>
+        <argsstring>(const year_weeknum_weekday &amp;x, const year_weeknum_weekday &amp;y) NOEXCEPT</argsstring>
+        <name>operator!=</name>
+        <param>
+          <type>const <ref refid="classiso__week_1_1year__weeknum__weekday" kindref="compound">year_weeknum_weekday</ref> &amp;</type>
+          <declname>x</declname>
+        </param>
+        <param>
+          <type>const <ref refid="classiso__week_1_1year__weeknum__weekday" kindref="compound">year_weeknum_weekday</ref> &amp;</type>
+          <declname>y</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/davem/gr-aff3ct_codes/aff3ct-3.0.2_Library_Header_Files/date/iso_week.h" line="1524" column="1" bodyfile="/home/davem/gr-aff3ct_codes/aff3ct-3.0.2_Library_Header_Files/date/iso_week.h" bodystart="1524" bodyend="1527" declfile="/home/davem/gr-aff3ct_codes/aff3ct-3.0.2_Library_Header_Files/date/iso_week.h" declline="400" declcolumn="16"/>
+      </memberdef>
+      <memberdef kind="function" id="namespaceiso__week_1a4aac93ee5ede12e1fc2d36575ff3f8c9" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="date_8h_1a98c025909efef28d356780da89fc44b6" kindref="member">CONSTCD11</ref> bool</type>
+        <definition>CONSTCD11 bool iso_week::operator&lt;</definition>
+        <argsstring>(const year_weeknum_weekday &amp;x, const year_weeknum_weekday &amp;y) NOEXCEPT</argsstring>
+        <name>operator&lt;</name>
+        <param>
+          <type>const <ref refid="classiso__week_1_1year__weeknum__weekday" kindref="compound">year_weeknum_weekday</ref> &amp;</type>
+          <declname>x</declname>
+        </param>
+        <param>
+          <type>const <ref refid="classiso__week_1_1year__weeknum__weekday" kindref="compound">year_weeknum_weekday</ref> &amp;</type>
+          <declname>y</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/davem/gr-aff3ct_codes/aff3ct-3.0.2_Library_Header_Files/date/iso_week.h" line="1531" column="1" bodyfile="/home/davem/gr-aff3ct_codes/aff3ct-3.0.2_Library_Header_Files/date/iso_week.h" bodystart="1532" bodyend="1539" declfile="/home/davem/gr-aff3ct_codes/aff3ct-3.0.2_Library_Header_Files/date/iso_week.h" declline="401" declcolumn="11"/>
+      </memberdef>
+      <memberdef kind="function" id="namespaceiso__week_1a8466b805208d5894b17113e1dc46b1d0" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="date_8h_1a98c025909efef28d356780da89fc44b6" kindref="member">CONSTCD11</ref> bool</type>
+        <definition>CONSTCD11 bool iso_week::operator&gt;</definition>
+        <argsstring>(const year_weeknum_weekday &amp;x, const year_weeknum_weekday &amp;y) NOEXCEPT</argsstring>
+        <name>operator&gt;</name>
+        <param>
+          <type>const <ref refid="classiso__week_1_1year__weeknum__weekday" kindref="compound">year_weeknum_weekday</ref> &amp;</type>
+          <declname>x</declname>
+        </param>
+        <param>
+          <type>const <ref refid="classiso__week_1_1year__weeknum__weekday" kindref="compound">year_weeknum_weekday</ref> &amp;</type>
+          <declname>y</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/davem/gr-aff3ct_codes/aff3ct-3.0.2_Library_Header_Files/date/iso_week.h" line="1544" column="1" bodyfile="/home/davem/gr-aff3ct_codes/aff3ct-3.0.2_Library_Header_Files/date/iso_week.h" bodystart="1544" bodyend="1547" declfile="/home/davem/gr-aff3ct_codes/aff3ct-3.0.2_Library_Header_Files/date/iso_week.h" declline="402" declcolumn="16"/>
+      </memberdef>
+      <memberdef kind="function" id="namespaceiso__week_1a46d6c090d6cef3e76d442bb378c4369d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="date_8h_1a98c025909efef28d356780da89fc44b6" kindref="member">CONSTCD11</ref> bool</type>
+        <definition>CONSTCD11 bool iso_week::operator&lt;=</definition>
+        <argsstring>(const year_weeknum_weekday &amp;x, const year_weeknum_weekday &amp;y) NOEXCEPT</argsstring>
+        <name>operator&lt;=</name>
+        <param>
+          <type>const <ref refid="classiso__week_1_1year__weeknum__weekday" kindref="compound">year_weeknum_weekday</ref> &amp;</type>
+          <declname>x</declname>
+        </param>
+        <param>
+          <type>const <ref refid="classiso__week_1_1year__weeknum__weekday" kindref="compound">year_weeknum_weekday</ref> &amp;</type>
+          <declname>y</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/davem/gr-aff3ct_codes/aff3ct-3.0.2_Library_Header_Files/date/iso_week.h" line="1551" column="1" bodyfile="/home/davem/gr-aff3ct_codes/aff3ct-3.0.2_Library_Header_Files/date/iso_week.h" bodystart="1552" bodyend="1555" declfile="/home/davem/gr-aff3ct_codes/aff3ct-3.0.2_Library_Header_Files/date/iso_week.h" declline="403" declcolumn="11"/>
+      </memberdef>
+      <memberdef kind="function" id="namespaceiso__week_1a205a36d88bdc0c1f5c9118275d5c7a4b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="date_8h_1a98c025909efef28d356780da89fc44b6" kindref="member">CONSTCD11</ref> bool</type>
+        <definition>CONSTCD11 bool iso_week::operator&gt;=</definition>
+        <argsstring>(const year_weeknum_weekday &amp;x, const year_weeknum_weekday &amp;y) NOEXCEPT</argsstring>
+        <name>operator&gt;=</name>
+        <param>
+          <type>const <ref refid="classiso__week_1_1year__weeknum__weekday" kindref="compound">year_weeknum_weekday</ref> &amp;</type>
+          <declname>x</declname>
+        </param>
+        <param>
+          <type>const <ref refid="classiso__week_1_1year__weeknum__weekday" kindref="compound">year_weeknum_weekday</ref> &amp;</type>
+          <declname>y</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/davem/gr-aff3ct_codes/aff3ct-3.0.2_Library_Header_Files/date/iso_week.h" line="1560" column="1" bodyfile="/home/davem/gr-aff3ct_codes/aff3ct-3.0.2_Library_Header_Files/date/iso_week.h" bodystart="1560" bodyend="1563" declfile="/home/davem/gr-aff3ct_codes/aff3ct-3.0.2_Library_Header_Files/date/iso_week.h" declline="404" declcolumn="16"/>
+      </memberdef>
+      <memberdef kind="function" id="namespaceiso__week_1a46540a3ea801a418a097d50fb63972a2" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="date_8h_1a98c025909efef28d356780da89fc44b6" kindref="member">CONSTCD11</ref> <ref refid="classiso__week_1_1year__weeknum__weekday" kindref="compound">year_weeknum_weekday</ref></type>
+        <definition>CONSTCD11 year_weeknum_weekday iso_week::operator+</definition>
+        <argsstring>(const year_weeknum_weekday &amp;ywnwd, const years &amp;y) NOEXCEPT</argsstring>
+        <name>operator+</name>
+        <param>
+          <type>const <ref refid="classiso__week_1_1year__weeknum__weekday" kindref="compound">year_weeknum_weekday</ref> &amp;</type>
+          <declname>ywnwd</declname>
+        </param>
+        <param>
+          <type>const <ref refid="namespaceiso__week_1ab0d916e7f0a5605c6eb379e19063c4f7" kindref="member">years</ref> &amp;</type>
+          <declname>y</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/davem/gr-aff3ct_codes/aff3ct-3.0.2_Library_Header_Files/date/iso_week.h" line="1568" column="1" bodyfile="/home/davem/gr-aff3ct_codes/aff3ct-3.0.2_Library_Header_Files/date/iso_week.h" bodystart="1568" bodyend="1571" declfile="/home/davem/gr-aff3ct_codes/aff3ct-3.0.2_Library_Header_Files/date/iso_week.h" declline="406" declcolumn="32"/>
+      </memberdef>
+      <memberdef kind="function" id="namespaceiso__week_1a6c5b1cafd62d8bb7134ed83b947c67ad" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="date_8h_1a98c025909efef28d356780da89fc44b6" kindref="member">CONSTCD11</ref> <ref refid="classiso__week_1_1year__weeknum__weekday" kindref="compound">year_weeknum_weekday</ref></type>
+        <definition>CONSTCD11 year_weeknum_weekday iso_week::operator+</definition>
+        <argsstring>(const years &amp;y, const year_weeknum_weekday &amp;ywnwd) NOEXCEPT</argsstring>
+        <name>operator+</name>
+        <param>
+          <type>const <ref refid="namespaceiso__week_1ab0d916e7f0a5605c6eb379e19063c4f7" kindref="member">years</ref> &amp;</type>
+          <declname>y</declname>
+        </param>
+        <param>
+          <type>const <ref refid="classiso__week_1_1year__weeknum__weekday" kindref="compound">year_weeknum_weekday</ref> &amp;</type>
+          <declname>ywnwd</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/davem/gr-aff3ct_codes/aff3ct-3.0.2_Library_Header_Files/date/iso_week.h" line="1576" column="1" bodyfile="/home/davem/gr-aff3ct_codes/aff3ct-3.0.2_Library_Header_Files/date/iso_week.h" bodystart="1576" bodyend="1579" declfile="/home/davem/gr-aff3ct_codes/aff3ct-3.0.2_Library_Header_Files/date/iso_week.h" declline="407" declcolumn="32"/>
+      </memberdef>
+      <memberdef kind="function" id="namespaceiso__week_1a067ed7738038c97cb174957cc41d1192" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="date_8h_1a98c025909efef28d356780da89fc44b6" kindref="member">CONSTCD11</ref> <ref refid="classiso__week_1_1year__weeknum__weekday" kindref="compound">year_weeknum_weekday</ref></type>
+        <definition>CONSTCD11 year_weeknum_weekday iso_week::operator-</definition>
+        <argsstring>(const year_weeknum_weekday &amp;ywnwd, const years &amp;y) NOEXCEPT</argsstring>
+        <name>operator-</name>
+        <param>
+          <type>const <ref refid="classiso__week_1_1year__weeknum__weekday" kindref="compound">year_weeknum_weekday</ref> &amp;</type>
+          <declname>ywnwd</declname>
+        </param>
+        <param>
+          <type>const <ref refid="namespaceiso__week_1ab0d916e7f0a5605c6eb379e19063c4f7" kindref="member">years</ref> &amp;</type>
+          <declname>y</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/davem/gr-aff3ct_codes/aff3ct-3.0.2_Library_Header_Files/date/iso_week.h" line="1584" column="1" bodyfile="/home/davem/gr-aff3ct_codes/aff3ct-3.0.2_Library_Header_Files/date/iso_week.h" bodystart="1584" bodyend="1587" declfile="/home/davem/gr-aff3ct_codes/aff3ct-3.0.2_Library_Header_Files/date/iso_week.h" declline="408" declcolumn="32"/>
+      </memberdef>
+      <memberdef kind="function" id="namespaceiso__week_1acea75cc604d9a6e053ca068f10f60a1c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>class CharT</type>
+          </param>
+          <param>
+            <type>class Traits</type>
+          </param>
+        </templateparamlist>
+        <type>std::basic_ostream&lt; CharT, Traits &gt; &amp;</type>
+        <definition>std::basic_ostream&lt; CharT, Traits &gt; &amp; iso_week::operator&lt;&lt;</definition>
+        <argsstring>(std::basic_ostream&lt; CharT, Traits &gt; &amp;os, const year_weeknum_weekday &amp;ywnwd)</argsstring>
+        <name>operator&lt;&lt;</name>
+        <param>
+          <type>std::basic_ostream&lt; CharT, Traits &gt; &amp;</type>
+          <declname>os</declname>
+        </param>
+        <param>
+          <type>const <ref refid="classiso__week_1_1year__weeknum__weekday" kindref="compound">year_weeknum_weekday</ref> &amp;</type>
+          <declname>ywnwd</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/davem/gr-aff3ct_codes/aff3ct-3.0.2_Library_Header_Files/date/iso_week.h" line="1584" column="1" bodyfile="/home/davem/gr-aff3ct_codes/aff3ct-3.0.2_Library_Header_Files/date/iso_week.h" bodystart="1592" bodyend="1595" declfile="/home/davem/gr-aff3ct_codes/aff3ct-3.0.2_Library_Header_Files/date/iso_week.h" declline="408" declcolumn="32"/>
+      </memberdef>
+      <memberdef kind="function" id="namespaceiso__week_1_1literals_1ae8697c4c8be78a7f3cc1932045e330f3" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="date_8h_1a98c025909efef28d356780da89fc44b6" kindref="member">CONSTCD11</ref> <ref refid="classiso__week_1_1year" kindref="compound">iso_week::year</ref></type>
+        <definition>CONSTCD11 iso_week::year iso_week::literals::operator&quot;&quot;_y</definition>
+        <argsstring>(unsigned long long y) NOEXCEPT</argsstring>
+        <name>operator&quot;&quot;_y</name>
+        <param>
+          <type>unsigned long long</type>
+          <declname>y</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/davem/gr-aff3ct_codes/aff3ct-3.0.2_Library_Header_Files/date/iso_week.h" line="731" column="1" bodyfile="/home/davem/gr-aff3ct_codes/aff3ct-3.0.2_Library_Header_Files/date/iso_week.h" bodystart="731" bodyend="734"/>
+      </memberdef>
+      <memberdef kind="function" id="namespaceiso__week_1_1literals_1a293f71a0d82b8b465333ab461055507f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="date_8h_1a98c025909efef28d356780da89fc44b6" kindref="member">CONSTCD11</ref> <ref refid="classiso__week_1_1weeknum" kindref="compound">iso_week::weeknum</ref></type>
+        <definition>CONSTCD11 iso_week::weeknum iso_week::literals::operator&quot;&quot;_w</definition>
+        <argsstring>(unsigned long long wn) NOEXCEPT</argsstring>
+        <name>operator&quot;&quot;_w</name>
+        <param>
+          <type>unsigned long long</type>
+          <declname>wn</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/davem/gr-aff3ct_codes/aff3ct-3.0.2_Library_Header_Files/date/iso_week.h" line="739" column="1" bodyfile="/home/davem/gr-aff3ct_codes/aff3ct-3.0.2_Library_Header_Files/date/iso_week.h" bodystart="739" bodyend="742"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/davem/gr-aff3ct_codes/aff3ct-3.0.2_Library_Header_Files/date/iso_week.h" line="30" column="1"/>
+  </compounddef>
+</doxygen>

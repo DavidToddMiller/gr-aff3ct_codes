@@ -11,5 +11,6 @@ install(FILES
     aff3ct_codes_Tag_FrameASM64_ff.block.yml
     aff3ct_codes_Frame_Extract2.block.yml
     aff3ct_codes_Resolve_Phase2.block.yml
-    aff3ct_codes_CCSDS_Pseudo_Randomizer.block.yml DESTINATION share/gnuradio/grc/blocks
+    aff3ct_codes_CCSDS_Pseudo_Randomizer.block.yml
+    aff3ct_codes_Frame_ExtractOQPSK.block.yml DESTINATION share/gnuradio/grc/blocks
 )

@@ -3,7 +3,7 @@ brief: Short description of gr-aff3ct_codes
 tags: # Tags are arbitrary, but look at CGRAN what other authors are using
   - sdr
 author:
-  - Author Name <authors@email.address>
+  - Author Name <Dave.Todd.Miller@gmail.com>
 copyright_owner:
   - Copyright Owner 1
 license:

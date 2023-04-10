@@ -1,0 +1,239 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="classjulian_1_1year__month__day__last" kind="class" language="C++" prot="public">
+    <compoundname>julian::year_month_day_last</compoundname>
+    <includes refid="julian_8h" local="no">julian.h</includes>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classjulian_1_1year__month__day__last_1a60222f8f7671377bc19c53167bf7907b" prot="private" static="no" mutable="no">
+        <type><ref refid="classjulian_1_1year" kindref="compound">julian::year</ref></type>
+        <definition>julian::year julian::year_month_day_last::y_</definition>
+        <argsstring></argsstring>
+        <name>y_</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/davem/gr-aff3ct_codes/aff3ct-3.0.2_Library_Header_Files/date/julian.h" line="561" column="28" bodyfile="/home/davem/gr-aff3ct_codes/aff3ct-3.0.2_Library_Header_Files/date/julian.h" bodystart="561" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classjulian_1_1year__month__day__last_1a5bd1a192506008dea30ad5d2a1606811" prot="private" static="no" mutable="no">
+        <type><ref refid="classjulian_1_1month__day__last" kindref="compound">julian::month_day_last</ref></type>
+        <definition>julian::month_day_last julian::year_month_day_last::mdl_</definition>
+        <argsstring></argsstring>
+        <name>mdl_</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/davem/gr-aff3ct_codes/aff3ct-3.0.2_Library_Header_Files/date/julian.h" line="562" column="28" bodyfile="/home/davem/gr-aff3ct_codes/aff3ct-3.0.2_Library_Header_Files/date/julian.h" bodystart="562" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classjulian_1_1year__month__day__last_1a99220f74872156c34f16eb5e04c52558" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="date_8h_1a98c025909efef28d356780da89fc44b6" kindref="member">CONSTCD11</ref></type>
+        <definition>CONSTCD11 julian::year_month_day_last::year_month_day_last</definition>
+        <argsstring>(const julian::year &amp;y, const julian::month_day_last &amp;mdl) NOEXCEPT</argsstring>
+        <name>year_month_day_last</name>
+        <param>
+          <type>const <ref refid="classjulian_1_1year" kindref="compound">julian::year</ref> &amp;</type>
+          <declname>y</declname>
+        </param>
+        <param>
+          <type>const <ref refid="classjulian_1_1month__day__last" kindref="compound">julian::month_day_last</ref> &amp;</type>
+          <declname>mdl</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/davem/gr-aff3ct_codes/aff3ct-3.0.2_Library_Header_Files/date/julian.h" line="565" column="15" bodyfile="/home/davem/gr-aff3ct_codes/aff3ct-3.0.2_Library_Header_Files/date/julian.h" bodystart="1891" bodyend="1895"/>
+      </memberdef>
+      <memberdef kind="function" id="classjulian_1_1year__month__day__last_1ad1819fc6e8c1707358e19bc3f6b45bb3" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="date_8h_1a3893ed763f820a91f169a2e9777aa325" kindref="member">CONSTCD14</ref> <ref refid="classjulian_1_1year__month__day__last" kindref="compound">year_month_day_last</ref> &amp;</type>
+        <definition>CONSTCD14 year_month_day_last &amp; julian::year_month_day_last::operator+=</definition>
+        <argsstring>(const months &amp;m) NOEXCEPT</argsstring>
+        <name>operator+=</name>
+        <param>
+          <type>const <ref refid="namespacejulian_1afcb157623a6a5c076015a88137755be8" kindref="member">months</ref> &amp;</type>
+          <declname>m</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/davem/gr-aff3ct_codes/aff3ct-3.0.2_Library_Header_Files/date/julian.h" line="568" column="35" bodyfile="/home/davem/gr-aff3ct_codes/aff3ct-3.0.2_Library_Header_Files/date/julian.h" bodystart="1900" bodyend="1904"/>
+      </memberdef>
+      <memberdef kind="function" id="classjulian_1_1year__month__day__last_1ad374b50cc62c0f16731eccb13b0ee52b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="date_8h_1a3893ed763f820a91f169a2e9777aa325" kindref="member">CONSTCD14</ref> <ref refid="classjulian_1_1year__month__day__last" kindref="compound">year_month_day_last</ref> &amp;</type>
+        <definition>CONSTCD14 year_month_day_last &amp; julian::year_month_day_last::operator-=</definition>
+        <argsstring>(const months &amp;m) NOEXCEPT</argsstring>
+        <name>operator-=</name>
+        <param>
+          <type>const <ref refid="namespacejulian_1afcb157623a6a5c076015a88137755be8" kindref="member">months</ref> &amp;</type>
+          <declname>m</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/davem/gr-aff3ct_codes/aff3ct-3.0.2_Library_Header_Files/date/julian.h" line="569" column="35" bodyfile="/home/davem/gr-aff3ct_codes/aff3ct-3.0.2_Library_Header_Files/date/julian.h" bodystart="1909" bodyend="1913"/>
+      </memberdef>
+      <memberdef kind="function" id="classjulian_1_1year__month__day__last_1a53862fbf2f20d68ea90bfa5316fb82bf" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="date_8h_1a3893ed763f820a91f169a2e9777aa325" kindref="member">CONSTCD14</ref> <ref refid="classjulian_1_1year__month__day__last" kindref="compound">year_month_day_last</ref> &amp;</type>
+        <definition>CONSTCD14 year_month_day_last &amp; julian::year_month_day_last::operator+=</definition>
+        <argsstring>(const years &amp;y) NOEXCEPT</argsstring>
+        <name>operator+=</name>
+        <param>
+          <type>const <ref refid="namespacejulian_1a569bcf5b3d468681560601d66ba5dad0" kindref="member">years</ref> &amp;</type>
+          <declname>y</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/davem/gr-aff3ct_codes/aff3ct-3.0.2_Library_Header_Files/date/julian.h" line="570" column="35" bodyfile="/home/davem/gr-aff3ct_codes/aff3ct-3.0.2_Library_Header_Files/date/julian.h" bodystart="1918" bodyend="1922"/>
+      </memberdef>
+      <memberdef kind="function" id="classjulian_1_1year__month__day__last_1a1d6716cf4260290e8428aad122946b6a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="date_8h_1a3893ed763f820a91f169a2e9777aa325" kindref="member">CONSTCD14</ref> <ref refid="classjulian_1_1year__month__day__last" kindref="compound">year_month_day_last</ref> &amp;</type>
+        <definition>CONSTCD14 year_month_day_last &amp; julian::year_month_day_last::operator-=</definition>
+        <argsstring>(const years &amp;y) NOEXCEPT</argsstring>
+        <name>operator-=</name>
+        <param>
+          <type>const <ref refid="namespacejulian_1a569bcf5b3d468681560601d66ba5dad0" kindref="member">years</ref> &amp;</type>
+          <declname>y</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/davem/gr-aff3ct_codes/aff3ct-3.0.2_Library_Header_Files/date/julian.h" line="571" column="35" bodyfile="/home/davem/gr-aff3ct_codes/aff3ct-3.0.2_Library_Header_Files/date/julian.h" bodystart="1927" bodyend="1931"/>
+      </memberdef>
+      <memberdef kind="function" id="classjulian_1_1year__month__day__last_1a8e27ba2fead050df4234407365bb23c8" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="date_8h_1a98c025909efef28d356780da89fc44b6" kindref="member">CONSTCD11</ref> <ref refid="classjulian_1_1year" kindref="compound">julian::year</ref></type>
+        <definition>CONSTCD11 year julian::year_month_day_last::year</definition>
+        <argsstring>() const NOEXCEPT</argsstring>
+        <name>year</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/davem/gr-aff3ct_codes/aff3ct-3.0.2_Library_Header_Files/date/julian.h" line="573" column="38" bodyfile="/home/davem/gr-aff3ct_codes/aff3ct-3.0.2_Library_Header_Files/date/julian.h" bodystart="1933" bodyend="1933"/>
+      </memberdef>
+      <memberdef kind="function" id="classjulian_1_1year__month__day__last_1a8c08235d4e1ecfb2ca4e240f656f9799" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="date_8h_1a98c025909efef28d356780da89fc44b6" kindref="member">CONSTCD11</ref> <ref refid="classjulian_1_1month" kindref="compound">julian::month</ref></type>
+        <definition>CONSTCD11 month julian::year_month_day_last::month</definition>
+        <argsstring>() const NOEXCEPT</argsstring>
+        <name>month</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/davem/gr-aff3ct_codes/aff3ct-3.0.2_Library_Header_Files/date/julian.h" line="574" column="38" bodyfile="/home/davem/gr-aff3ct_codes/aff3ct-3.0.2_Library_Header_Files/date/julian.h" bodystart="1934" bodyend="1934"/>
+      </memberdef>
+      <memberdef kind="function" id="classjulian_1_1year__month__day__last_1ad120d9e87a0fbf221c9a81f141fb7119" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="date_8h_1a98c025909efef28d356780da89fc44b6" kindref="member">CONSTCD11</ref> <ref refid="classjulian_1_1month__day__last" kindref="compound">julian::month_day_last</ref></type>
+        <definition>CONSTCD11 month_day_last julian::year_month_day_last::month_day_last</definition>
+        <argsstring>() const NOEXCEPT</argsstring>
+        <name>month_day_last</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/davem/gr-aff3ct_codes/aff3ct-3.0.2_Library_Header_Files/date/julian.h" line="575" column="38" bodyfile="/home/davem/gr-aff3ct_codes/aff3ct-3.0.2_Library_Header_Files/date/julian.h" bodystart="1939" bodyend="1942"/>
+      </memberdef>
+      <memberdef kind="function" id="classjulian_1_1year__month__day__last_1ac639f06b8da8f069e87aa644efd93c80" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="date_8h_1a3893ed763f820a91f169a2e9777aa325" kindref="member">CONSTCD14</ref> <ref refid="classjulian_1_1day" kindref="compound">julian::day</ref></type>
+        <definition>CONSTCD14 day julian::year_month_day_last::day</definition>
+        <argsstring>() const NOEXCEPT</argsstring>
+        <name>day</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/davem/gr-aff3ct_codes/aff3ct-3.0.2_Library_Header_Files/date/julian.h" line="576" column="38" bodyfile="/home/davem/gr-aff3ct_codes/aff3ct-3.0.2_Library_Header_Files/date/julian.h" bodystart="1947" bodyend="1952"/>
+        <references refid="date_8h_1a1262e7cef5d1d56fb1f1ed2a43bfe4d1" compoundref="date_8h" startline="121">CONSTDATA</references>
+      </memberdef>
+      <memberdef kind="function" id="classjulian_1_1year__month__day__last_1a0189eadc7d794406a9f4bd251567d383" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="date_8h_1a3893ed763f820a91f169a2e9777aa325" kindref="member">CONSTCD14</ref></type>
+        <definition>CONSTCD14 julian::year_month_day_last::operator sys_days</definition>
+        <argsstring>() const NOEXCEPT</argsstring>
+        <name>operator sys_days</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/davem/gr-aff3ct_codes/aff3ct-3.0.2_Library_Header_Files/date/julian.h" line="578" column="15" bodyfile="/home/davem/gr-aff3ct_codes/aff3ct-3.0.2_Library_Header_Files/date/julian.h" bodystart="1956" bodyend="1959"/>
+      </memberdef>
+      <memberdef kind="function" id="classjulian_1_1year__month__day__last_1af6b43fb5b3011775a878349e9b84703c" prot="public" static="no" const="yes" explicit="yes" inline="yes" virt="non-virtual">
+        <type><ref refid="date_8h_1a3893ed763f820a91f169a2e9777aa325" kindref="member">CONSTCD14</ref></type>
+        <definition>CONSTCD14 julian::year_month_day_last::operator local_days</definition>
+        <argsstring>() const NOEXCEPT</argsstring>
+        <name>operator local_days</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/davem/gr-aff3ct_codes/aff3ct-3.0.2_Library_Header_Files/date/julian.h" line="579" column="24" bodyfile="/home/davem/gr-aff3ct_codes/aff3ct-3.0.2_Library_Header_Files/date/julian.h" bodystart="1963" bodyend="1966"/>
+      </memberdef>
+      <memberdef kind="function" id="classjulian_1_1year__month__day__last_1abc74b7f985711be2a10e6c226c47f7b9" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="date_8h_1a98c025909efef28d356780da89fc44b6" kindref="member">CONSTCD11</ref> bool</type>
+        <definition>CONSTCD11 bool julian::year_month_day_last::ok</definition>
+        <argsstring>() const NOEXCEPT</argsstring>
+        <name>ok</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/davem/gr-aff3ct_codes/aff3ct-3.0.2_Library_Header_Files/date/julian.h" line="580" column="20" bodyfile="/home/davem/gr-aff3ct_codes/aff3ct-3.0.2_Library_Header_Files/date/julian.h" bodystart="1971" bodyend="1974"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/davem/gr-aff3ct_codes/aff3ct-3.0.2_Library_Header_Files/date/julian.h" line="559" column="1" bodyfile="/home/davem/gr-aff3ct_codes/aff3ct-3.0.2_Library_Header_Files/date/julian.h" bodystart="560" bodyend="581"/>
+    <listofallmembers>
+      <member refid="classjulian_1_1year__month__day__last_1ac639f06b8da8f069e87aa644efd93c80" prot="public" virt="non-virtual"><scope>julian::year_month_day_last</scope><name>day</name></member>
+      <member refid="classjulian_1_1year__month__day__last_1a5bd1a192506008dea30ad5d2a1606811" prot="private" virt="non-virtual"><scope>julian::year_month_day_last</scope><name>mdl_</name></member>
+      <member refid="classjulian_1_1year__month__day__last_1a8c08235d4e1ecfb2ca4e240f656f9799" prot="public" virt="non-virtual"><scope>julian::year_month_day_last</scope><name>month</name></member>
+      <member refid="classjulian_1_1year__month__day__last_1ad120d9e87a0fbf221c9a81f141fb7119" prot="public" virt="non-virtual"><scope>julian::year_month_day_last</scope><name>month_day_last</name></member>
+      <member refid="classjulian_1_1year__month__day__last_1abc74b7f985711be2a10e6c226c47f7b9" prot="public" virt="non-virtual"><scope>julian::year_month_day_last</scope><name>ok</name></member>
+      <member refid="classjulian_1_1year__month__day__last_1af6b43fb5b3011775a878349e9b84703c" prot="public" virt="non-virtual"><scope>julian::year_month_day_last</scope><name>operator local_days</name></member>
+      <member refid="classjulian_1_1year__month__day__last_1a0189eadc7d794406a9f4bd251567d383" prot="public" virt="non-virtual"><scope>julian::year_month_day_last</scope><name>operator sys_days</name></member>
+      <member refid="classjulian_1_1year__month__day__last_1ad1819fc6e8c1707358e19bc3f6b45bb3" prot="public" virt="non-virtual"><scope>julian::year_month_day_last</scope><name>operator+=</name></member>
+      <member refid="classjulian_1_1year__month__day__last_1a53862fbf2f20d68ea90bfa5316fb82bf" prot="public" virt="non-virtual"><scope>julian::year_month_day_last</scope><name>operator+=</name></member>
+      <member refid="classjulian_1_1year__month__day__last_1ad374b50cc62c0f16731eccb13b0ee52b" prot="public" virt="non-virtual"><scope>julian::year_month_day_last</scope><name>operator-=</name></member>
+      <member refid="classjulian_1_1year__month__day__last_1a1d6716cf4260290e8428aad122946b6a" prot="public" virt="non-virtual"><scope>julian::year_month_day_last</scope><name>operator-=</name></member>
+      <member refid="classjulian_1_1year__month__day__last_1a60222f8f7671377bc19c53167bf7907b" prot="private" virt="non-virtual"><scope>julian::year_month_day_last</scope><name>y_</name></member>
+      <member refid="classjulian_1_1year__month__day__last_1a8e27ba2fead050df4234407365bb23c8" prot="public" virt="non-virtual"><scope>julian::year_month_day_last</scope><name>year</name></member>
+      <member refid="classjulian_1_1year__month__day__last_1a99220f74872156c34f16eb5e04c52558" prot="public" virt="non-virtual"><scope>julian::year_month_day_last</scope><name>year_month_day_last</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

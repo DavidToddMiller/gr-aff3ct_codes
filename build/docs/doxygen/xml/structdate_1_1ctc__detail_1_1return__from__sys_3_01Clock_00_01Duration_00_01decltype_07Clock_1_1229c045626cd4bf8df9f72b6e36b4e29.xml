@@ -1,0 +1,49 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="structdate_1_1ctc__detail_1_1return__from__sys_3_01Clock_00_01Duration_00_01decltype_07Clock_1_1229c045626cd4bf8df9f72b6e36b4e29" kind="struct" language="C++" prot="public">
+    <compoundname>date::ctc_detail::return_from_sys&lt; Clock, Duration, decltype(Clock::from_sys(declval&lt; time_point&lt; system_clock, Duration &gt; const &amp; &gt;()), void()) &gt;</compoundname>
+    <basecompoundref refid="structdate_1_1ctc__detail_1_1return__clock__time" prot="public" virt="non-virtual">date::ctc_detail::return_clock_time&lt; Clock, decltype(Clock::from_sys(declval&lt; time_point&lt; system_clock, Duration &gt; const &amp; &gt;())) &gt;</basecompoundref>
+    <includes refid="tz_8h" local="no">tz.h</includes>
+    <templateparamlist>
+      <param>
+        <type>class Clock</type>
+      </param>
+      <param>
+        <type>class Duration</type>
+      </param>
+    </templateparamlist>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>date::ctc_detail::return_from_sys&lt; Clock, Duration, decltype(Clock::from_sys(declval&lt; time_point&lt; system_clock, Duration &gt; const &amp; &gt;()), void()) &gt;</label>
+        <link refid="structdate_1_1ctc__detail_1_1return__from__sys_3_01Clock_00_01Duration_00_01decltype_07Clock_1_1229c045626cd4bf8df9f72b6e36b4e29"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>date::ctc_detail::return_clock_time&lt; Clock, decltype(Clock::from_sys(declval&lt; time_point&lt; system_clock, Duration &gt; const &amp; &gt;())) &gt;</label>
+        <link refid="structdate_1_1ctc__detail_1_1return__clock__time"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>date::ctc_detail::return_from_sys&lt; Clock, Duration, decltype(Clock::from_sys(declval&lt; time_point&lt; system_clock, Duration &gt; const &amp; &gt;()), void()) &gt;</label>
+        <link refid="structdate_1_1ctc__detail_1_1return__from__sys_3_01Clock_00_01Duration_00_01decltype_07Clock_1_1229c045626cd4bf8df9f72b6e36b4e29"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>date::ctc_detail::return_clock_time&lt; Clock, decltype(Clock::from_sys(declval&lt; time_point&lt; system_clock, Duration &gt; const &amp; &gt;())) &gt;</label>
+        <link refid="structdate_1_1ctc__detail_1_1return__clock__time"/>
+      </node>
+    </collaborationgraph>
+    <location file="/home/davem/gr-aff3ct_codes/aff3ct-3.0.2_Library_Header_Files/date/tz.h" line="2303" column="1" bodyfile="/home/davem/gr-aff3ct_codes/aff3ct-3.0.2_Library_Header_Files/date/tz.h" bodystart="2314" bodyend="2314"/>
+    <listofallmembers>
+      <member refid="structdate_1_1ctc__detail_1_1return__clock__time_1af23ce4e69382ef59d4787be727476e26" prot="public" virt="non-virtual"><scope>date::ctc_detail::return_from_sys&lt; Clock, Duration, decltype(Clock::from_sys(declval&lt; time_point&lt; system_clock, Duration &gt; const &amp; &gt;()), void()) &gt;</scope><name>clock_time_point</name></member>
+      <member refid="structdate_1_1ctc__detail_1_1return__clock__time_1a2f44c864a26683f04c9082056d713d70" prot="public" virt="non-virtual"><scope>date::ctc_detail::return_from_sys&lt; Clock, Duration, decltype(Clock::from_sys(declval&lt; time_point&lt; system_clock, Duration &gt; const &amp; &gt;()), void()) &gt;</scope><name>type</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

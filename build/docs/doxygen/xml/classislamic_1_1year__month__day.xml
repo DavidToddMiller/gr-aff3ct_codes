@@ -1,0 +1,332 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="classislamic_1_1year__month__day" kind="class" language="C++" prot="public">
+    <compoundname>islamic::year_month_day</compoundname>
+    <includes refid="islamic_8h" local="no">islamic.h</includes>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classislamic_1_1year__month__day_1ab577a8341bdfd1659e01afb494240d74" prot="private" static="no" mutable="no">
+        <type><ref refid="classislamic_1_1year" kindref="compound">islamic::year</ref></type>
+        <definition>islamic::year islamic::year_month_day::y_</definition>
+        <argsstring></argsstring>
+        <name>y_</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/davem/gr-aff3ct_codes/aff3ct-3.0.2_Library_Header_Files/date/islamic.h" line="509" column="20" bodyfile="/home/davem/gr-aff3ct_codes/aff3ct-3.0.2_Library_Header_Files/date/islamic.h" bodystart="509" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classislamic_1_1year__month__day_1a0a55315077306057b0e28c657d1c58fb" prot="private" static="no" mutable="no">
+        <type><ref refid="classislamic_1_1month" kindref="compound">islamic::month</ref></type>
+        <definition>islamic::month islamic::year_month_day::m_</definition>
+        <argsstring></argsstring>
+        <name>m_</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/davem/gr-aff3ct_codes/aff3ct-3.0.2_Library_Header_Files/date/islamic.h" line="510" column="20" bodyfile="/home/davem/gr-aff3ct_codes/aff3ct-3.0.2_Library_Header_Files/date/islamic.h" bodystart="510" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classislamic_1_1year__month__day_1a408dff52f1c3d0e56c807fabdd3ca115" prot="private" static="no" mutable="no">
+        <type><ref refid="classislamic_1_1day" kindref="compound">islamic::day</ref></type>
+        <definition>islamic::day islamic::year_month_day::d_</definition>
+        <argsstring></argsstring>
+        <name>d_</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/davem/gr-aff3ct_codes/aff3ct-3.0.2_Library_Header_Files/date/islamic.h" line="511" column="20" bodyfile="/home/davem/gr-aff3ct_codes/aff3ct-3.0.2_Library_Header_Files/date/islamic.h" bodystart="511" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classislamic_1_1year__month__day_1aea95d2f6ce7030cf019e60ce9f4f0324" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="date_8h_1a98c025909efef28d356780da89fc44b6" kindref="member">CONSTCD11</ref></type>
+        <definition>CONSTCD11 islamic::year_month_day::year_month_day</definition>
+        <argsstring>(const islamic::year &amp;y, const islamic::month &amp;m, const islamic::day &amp;d) NOEXCEPT</argsstring>
+        <name>year_month_day</name>
+        <param>
+          <type>const <ref refid="classislamic_1_1year" kindref="compound">islamic::year</ref> &amp;</type>
+          <declname>y</declname>
+        </param>
+        <param>
+          <type>const <ref refid="classislamic_1_1month" kindref="compound">islamic::month</ref> &amp;</type>
+          <declname>m</declname>
+        </param>
+        <param>
+          <type>const <ref refid="classislamic_1_1day" kindref="compound">islamic::day</ref> &amp;</type>
+          <declname>d</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/davem/gr-aff3ct_codes/aff3ct-3.0.2_Library_Header_Files/date/islamic.h" line="514" column="15" bodyfile="/home/davem/gr-aff3ct_codes/aff3ct-3.0.2_Library_Header_Files/date/islamic.h" bodystart="2072" bodyend="2077"/>
+      </memberdef>
+      <memberdef kind="function" id="classislamic_1_1year__month__day_1afd359487af951198fefda513bb4d53fd" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="date_8h_1a3893ed763f820a91f169a2e9777aa325" kindref="member">CONSTCD14</ref></type>
+        <definition>CONSTCD14 islamic::year_month_day::year_month_day</definition>
+        <argsstring>(const year_month_day_last &amp;ymdl) NOEXCEPT</argsstring>
+        <name>year_month_day</name>
+        <param>
+          <type>const <ref refid="classislamic_1_1year__month__day__last" kindref="compound">year_month_day_last</ref> &amp;</type>
+          <declname>ymdl</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/davem/gr-aff3ct_codes/aff3ct-3.0.2_Library_Header_Files/date/islamic.h" line="516" column="15" bodyfile="/home/davem/gr-aff3ct_codes/aff3ct-3.0.2_Library_Header_Files/date/islamic.h" bodystart="2081" bodyend="2085"/>
+      </memberdef>
+      <memberdef kind="function" id="classislamic_1_1year__month__day_1aee32e9e2fc1dc4e2a29c02f21fa2b988" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="date_8h_1a3893ed763f820a91f169a2e9777aa325" kindref="member">CONSTCD14</ref></type>
+        <definition>CONSTCD14 islamic::year_month_day::year_month_day</definition>
+        <argsstring>(sys_days dp) NOEXCEPT</argsstring>
+        <name>year_month_day</name>
+        <param>
+          <type><ref refid="namespaceislamic_1abb448484d32f7fd52b79a551994d96a2" kindref="member">sys_days</ref></type>
+          <declname>dp</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/davem/gr-aff3ct_codes/aff3ct-3.0.2_Library_Header_Files/date/islamic.h" line="518" column="15" bodyfile="/home/davem/gr-aff3ct_codes/aff3ct-3.0.2_Library_Header_Files/date/islamic.h" bodystart="2089" bodyend="2091"/>
+      </memberdef>
+      <memberdef kind="function" id="classislamic_1_1year__month__day_1a1768db3411a7bf1937ea60a802d8f753" prot="public" static="no" const="no" explicit="yes" inline="yes" virt="non-virtual">
+        <type><ref refid="date_8h_1a3893ed763f820a91f169a2e9777aa325" kindref="member">CONSTCD14</ref></type>
+        <definition>CONSTCD14 islamic::year_month_day::year_month_day</definition>
+        <argsstring>(local_days dp) NOEXCEPT</argsstring>
+        <name>year_month_day</name>
+        <param>
+          <type><ref refid="namespaceislamic_1add5c69fd20bea9ce7a9c1bcd45915ea7" kindref="member">local_days</ref></type>
+          <declname>dp</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/davem/gr-aff3ct_codes/aff3ct-3.0.2_Library_Header_Files/date/islamic.h" line="519" column="24" bodyfile="/home/davem/gr-aff3ct_codes/aff3ct-3.0.2_Library_Header_Files/date/islamic.h" bodystart="2095" bodyend="2097"/>
+      </memberdef>
+      <memberdef kind="function" id="classislamic_1_1year__month__day_1a5e8c416b7cb7c470d887c02016a26f86" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="date_8h_1a3893ed763f820a91f169a2e9777aa325" kindref="member">CONSTCD14</ref> <ref refid="classislamic_1_1year__month__day" kindref="compound">year_month_day</ref> &amp;</type>
+        <definition>CONSTCD14 year_month_day &amp; islamic::year_month_day::operator+=</definition>
+        <argsstring>(const months &amp;m) NOEXCEPT</argsstring>
+        <name>operator+=</name>
+        <param>
+          <type>const <ref refid="namespaceislamic_1aaf14a725a8b5bf80285ac768228dbafb" kindref="member">months</ref> &amp;</type>
+          <declname>m</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/davem/gr-aff3ct_codes/aff3ct-3.0.2_Library_Header_Files/date/islamic.h" line="521" column="30" bodyfile="/home/davem/gr-aff3ct_codes/aff3ct-3.0.2_Library_Header_Files/date/islamic.h" bodystart="2106" bodyend="2110"/>
+      </memberdef>
+      <memberdef kind="function" id="classislamic_1_1year__month__day_1ae56be6f7399bfa6a70769df68a67dc92" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="date_8h_1a3893ed763f820a91f169a2e9777aa325" kindref="member">CONSTCD14</ref> <ref refid="classislamic_1_1year__month__day" kindref="compound">year_month_day</ref> &amp;</type>
+        <definition>CONSTCD14 year_month_day &amp; islamic::year_month_day::operator-=</definition>
+        <argsstring>(const months &amp;m) NOEXCEPT</argsstring>
+        <name>operator-=</name>
+        <param>
+          <type>const <ref refid="namespaceislamic_1aaf14a725a8b5bf80285ac768228dbafb" kindref="member">months</ref> &amp;</type>
+          <declname>m</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/davem/gr-aff3ct_codes/aff3ct-3.0.2_Library_Header_Files/date/islamic.h" line="522" column="30" bodyfile="/home/davem/gr-aff3ct_codes/aff3ct-3.0.2_Library_Header_Files/date/islamic.h" bodystart="2115" bodyend="2119"/>
+      </memberdef>
+      <memberdef kind="function" id="classislamic_1_1year__month__day_1a1cec344b9034a57d5899ba4e632b549b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="date_8h_1a3893ed763f820a91f169a2e9777aa325" kindref="member">CONSTCD14</ref> <ref refid="classislamic_1_1year__month__day" kindref="compound">year_month_day</ref> &amp;</type>
+        <definition>CONSTCD14 year_month_day &amp; islamic::year_month_day::operator+=</definition>
+        <argsstring>(const years &amp;y) NOEXCEPT</argsstring>
+        <name>operator+=</name>
+        <param>
+          <type>const <ref refid="namespaceislamic_1aac2378fc58466b4fdbfcc19403c490a3" kindref="member">years</ref> &amp;</type>
+          <declname>y</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/davem/gr-aff3ct_codes/aff3ct-3.0.2_Library_Header_Files/date/islamic.h" line="523" column="30" bodyfile="/home/davem/gr-aff3ct_codes/aff3ct-3.0.2_Library_Header_Files/date/islamic.h" bodystart="2124" bodyend="2128"/>
+      </memberdef>
+      <memberdef kind="function" id="classislamic_1_1year__month__day_1a06010eae05bf913697c2dc555799cf9f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="date_8h_1a3893ed763f820a91f169a2e9777aa325" kindref="member">CONSTCD14</ref> <ref refid="classislamic_1_1year__month__day" kindref="compound">year_month_day</ref> &amp;</type>
+        <definition>CONSTCD14 year_month_day &amp; islamic::year_month_day::operator-=</definition>
+        <argsstring>(const years &amp;y) NOEXCEPT</argsstring>
+        <name>operator-=</name>
+        <param>
+          <type>const <ref refid="namespaceislamic_1aac2378fc58466b4fdbfcc19403c490a3" kindref="member">years</ref> &amp;</type>
+          <declname>y</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/davem/gr-aff3ct_codes/aff3ct-3.0.2_Library_Header_Files/date/islamic.h" line="524" column="30" bodyfile="/home/davem/gr-aff3ct_codes/aff3ct-3.0.2_Library_Header_Files/date/islamic.h" bodystart="2133" bodyend="2137"/>
+      </memberdef>
+      <memberdef kind="function" id="classislamic_1_1year__month__day_1aa7de01003cc92faaf8f4455f601bed30" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="date_8h_1a98c025909efef28d356780da89fc44b6" kindref="member">CONSTCD11</ref> <ref refid="classislamic_1_1year" kindref="compound">islamic::year</ref></type>
+        <definition>CONSTCD11 year islamic::year_month_day::year</definition>
+        <argsstring>() const NOEXCEPT</argsstring>
+        <name>year</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/davem/gr-aff3ct_codes/aff3ct-3.0.2_Library_Header_Files/date/islamic.h" line="526" column="30" bodyfile="/home/davem/gr-aff3ct_codes/aff3ct-3.0.2_Library_Header_Files/date/islamic.h" bodystart="2099" bodyend="2099"/>
+      </memberdef>
+      <memberdef kind="function" id="classislamic_1_1year__month__day_1ab7177e275f4754a795cff96b116990c1" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="date_8h_1a98c025909efef28d356780da89fc44b6" kindref="member">CONSTCD11</ref> <ref refid="classislamic_1_1month" kindref="compound">islamic::month</ref></type>
+        <definition>CONSTCD11 month islamic::year_month_day::month</definition>
+        <argsstring>() const NOEXCEPT</argsstring>
+        <name>month</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/davem/gr-aff3ct_codes/aff3ct-3.0.2_Library_Header_Files/date/islamic.h" line="527" column="30" bodyfile="/home/davem/gr-aff3ct_codes/aff3ct-3.0.2_Library_Header_Files/date/islamic.h" bodystart="2100" bodyend="2100"/>
+      </memberdef>
+      <memberdef kind="function" id="classislamic_1_1year__month__day_1a29ab0ea3c51041da5189f4827be70fec" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="date_8h_1a98c025909efef28d356780da89fc44b6" kindref="member">CONSTCD11</ref> <ref refid="classislamic_1_1day" kindref="compound">islamic::day</ref></type>
+        <definition>CONSTCD11 day islamic::year_month_day::day</definition>
+        <argsstring>() const NOEXCEPT</argsstring>
+        <name>day</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/davem/gr-aff3ct_codes/aff3ct-3.0.2_Library_Header_Files/date/islamic.h" line="528" column="30" bodyfile="/home/davem/gr-aff3ct_codes/aff3ct-3.0.2_Library_Header_Files/date/islamic.h" bodystart="2101" bodyend="2101"/>
+      </memberdef>
+      <memberdef kind="function" id="classislamic_1_1year__month__day_1a82314dbb17eb51955a6a611214851f38" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="date_8h_1a3893ed763f820a91f169a2e9777aa325" kindref="member">CONSTCD14</ref></type>
+        <definition>CONSTCD14 islamic::year_month_day::operator sys_days</definition>
+        <argsstring>() const NOEXCEPT</argsstring>
+        <name>operator sys_days</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/davem/gr-aff3ct_codes/aff3ct-3.0.2_Library_Header_Files/date/islamic.h" line="530" column="15" bodyfile="/home/davem/gr-aff3ct_codes/aff3ct-3.0.2_Library_Header_Files/date/islamic.h" bodystart="2160" bodyend="2163"/>
+      </memberdef>
+      <memberdef kind="function" id="classislamic_1_1year__month__day_1a7c1263463d23dd90a522a769a44fe844" prot="public" static="no" const="yes" explicit="yes" inline="yes" virt="non-virtual">
+        <type><ref refid="date_8h_1a3893ed763f820a91f169a2e9777aa325" kindref="member">CONSTCD14</ref></type>
+        <definition>CONSTCD14 islamic::year_month_day::operator local_days</definition>
+        <argsstring>() const NOEXCEPT</argsstring>
+        <name>operator local_days</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/davem/gr-aff3ct_codes/aff3ct-3.0.2_Library_Header_Files/date/islamic.h" line="531" column="24" bodyfile="/home/davem/gr-aff3ct_codes/aff3ct-3.0.2_Library_Header_Files/date/islamic.h" bodystart="2167" bodyend="2170"/>
+      </memberdef>
+      <memberdef kind="function" id="classislamic_1_1year__month__day_1ae9df99800beb873a0c3100d14cf4aecf" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="date_8h_1a3893ed763f820a91f169a2e9777aa325" kindref="member">CONSTCD14</ref> bool</type>
+        <definition>CONSTCD14 bool islamic::year_month_day::ok</definition>
+        <argsstring>() const NOEXCEPT</argsstring>
+        <name>ok</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/davem/gr-aff3ct_codes/aff3ct-3.0.2_Library_Header_Files/date/islamic.h" line="532" column="20" bodyfile="/home/davem/gr-aff3ct_codes/aff3ct-3.0.2_Library_Header_Files/date/islamic.h" bodystart="2175" bodyend="2180"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-static-func">
+      <memberdef kind="function" id="classislamic_1_1year__month__day_1ad9aafe6bae41b2c34f283d87b655d604" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="date_8h_1a3893ed763f820a91f169a2e9777aa325" kindref="member">CONSTCD14</ref> <ref refid="classislamic_1_1year__month__day" kindref="compound">year_month_day</ref></type>
+        <definition>CONSTCD14 year_month_day islamic::year_month_day::from_days</definition>
+        <argsstring>(days dp) NOEXCEPT</argsstring>
+        <name>from_days</name>
+        <param>
+          <type><ref refid="namespaceislamic_1afd4f3e87bd53251f13fcd8f521c84e74" kindref="member">days</ref></type>
+          <declname>dp</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/davem/gr-aff3ct_codes/aff3ct-3.0.2_Library_Header_Files/date/islamic.h" line="535" column="37" bodyfile="/home/davem/gr-aff3ct_codes/aff3ct-3.0.2_Library_Header_Files/date/islamic.h" bodystart="2252" bodyend="2267"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="classislamic_1_1year__month__day_1a146443f155cea916e304cedf0568729d" prot="private" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="date_8h_1a3893ed763f820a91f169a2e9777aa325" kindref="member">CONSTCD14</ref> <ref refid="namespaceislamic_1afd4f3e87bd53251f13fcd8f521c84e74" kindref="member">days</ref></type>
+        <definition>CONSTCD14 days islamic::year_month_day::to_days</definition>
+        <argsstring>() const NOEXCEPT</argsstring>
+        <name>to_days</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/davem/gr-aff3ct_codes/aff3ct-3.0.2_Library_Header_Files/date/islamic.h" line="536" column="20" bodyfile="/home/davem/gr-aff3ct_codes/aff3ct-3.0.2_Library_Header_Files/date/islamic.h" bodystart="2142" bodyend="2156"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/davem/gr-aff3ct_codes/aff3ct-3.0.2_Library_Header_Files/date/islamic.h" line="507" column="1" bodyfile="/home/davem/gr-aff3ct_codes/aff3ct-3.0.2_Library_Header_Files/date/islamic.h" bodystart="508" bodyend="537"/>
+    <listofallmembers>
+      <member refid="classislamic_1_1year__month__day_1a408dff52f1c3d0e56c807fabdd3ca115" prot="private" virt="non-virtual"><scope>islamic::year_month_day</scope><name>d_</name></member>
+      <member refid="classislamic_1_1year__month__day_1a29ab0ea3c51041da5189f4827be70fec" prot="public" virt="non-virtual"><scope>islamic::year_month_day</scope><name>day</name></member>
+      <member refid="classislamic_1_1year__month__day_1ad9aafe6bae41b2c34f283d87b655d604" prot="private" virt="non-virtual"><scope>islamic::year_month_day</scope><name>from_days</name></member>
+      <member refid="classislamic_1_1year__month__day_1a0a55315077306057b0e28c657d1c58fb" prot="private" virt="non-virtual"><scope>islamic::year_month_day</scope><name>m_</name></member>
+      <member refid="classislamic_1_1year__month__day_1ab7177e275f4754a795cff96b116990c1" prot="public" virt="non-virtual"><scope>islamic::year_month_day</scope><name>month</name></member>
+      <member refid="classislamic_1_1year__month__day_1ae9df99800beb873a0c3100d14cf4aecf" prot="public" virt="non-virtual"><scope>islamic::year_month_day</scope><name>ok</name></member>
+      <member refid="classislamic_1_1year__month__day_1a7c1263463d23dd90a522a769a44fe844" prot="public" virt="non-virtual"><scope>islamic::year_month_day</scope><name>operator local_days</name></member>
+      <member refid="classislamic_1_1year__month__day_1a82314dbb17eb51955a6a611214851f38" prot="public" virt="non-virtual"><scope>islamic::year_month_day</scope><name>operator sys_days</name></member>
+      <member refid="classislamic_1_1year__month__day_1a5e8c416b7cb7c470d887c02016a26f86" prot="public" virt="non-virtual"><scope>islamic::year_month_day</scope><name>operator+=</name></member>
+      <member refid="classislamic_1_1year__month__day_1a1cec344b9034a57d5899ba4e632b549b" prot="public" virt="non-virtual"><scope>islamic::year_month_day</scope><name>operator+=</name></member>
+      <member refid="classislamic_1_1year__month__day_1ae56be6f7399bfa6a70769df68a67dc92" prot="public" virt="non-virtual"><scope>islamic::year_month_day</scope><name>operator-=</name></member>
+      <member refid="classislamic_1_1year__month__day_1a06010eae05bf913697c2dc555799cf9f" prot="public" virt="non-virtual"><scope>islamic::year_month_day</scope><name>operator-=</name></member>
+      <member refid="classislamic_1_1year__month__day_1a146443f155cea916e304cedf0568729d" prot="private" virt="non-virtual"><scope>islamic::year_month_day</scope><name>to_days</name></member>
+      <member refid="classislamic_1_1year__month__day_1ab577a8341bdfd1659e01afb494240d74" prot="private" virt="non-virtual"><scope>islamic::year_month_day</scope><name>y_</name></member>
+      <member refid="classislamic_1_1year__month__day_1aa7de01003cc92faaf8f4455f601bed30" prot="public" virt="non-virtual"><scope>islamic::year_month_day</scope><name>year</name></member>
+      <member refid="classislamic_1_1year__month__day_1aea95d2f6ce7030cf019e60ce9f4f0324" prot="public" virt="non-virtual"><scope>islamic::year_month_day</scope><name>year_month_day</name></member>
+      <member refid="classislamic_1_1year__month__day_1afd359487af951198fefda513bb4d53fd" prot="public" virt="non-virtual"><scope>islamic::year_month_day</scope><name>year_month_day</name></member>
+      <member refid="classislamic_1_1year__month__day_1aee32e9e2fc1dc4e2a29c02f21fa2b988" prot="public" virt="non-virtual"><scope>islamic::year_month_day</scope><name>year_month_day</name></member>
+      <member refid="classislamic_1_1year__month__day_1a1768db3411a7bf1937ea60a802d8f753" prot="public" virt="non-virtual"><scope>islamic::year_month_day</scope><name>year_month_day</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

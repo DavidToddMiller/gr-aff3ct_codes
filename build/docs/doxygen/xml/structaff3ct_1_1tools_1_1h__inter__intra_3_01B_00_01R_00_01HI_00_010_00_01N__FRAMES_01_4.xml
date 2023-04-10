@@ -1,0 +1,61 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="structaff3ct_1_1tools_1_1h__inter__intra_3_01B_00_01R_00_01HI_00_010_00_01N__FRAMES_01_4" kind="struct" language="C++" prot="public">
+    <compoundname>aff3ct::tools::h_inter_intra&lt; B, R, HI, 0, N_FRAMES &gt;</compoundname>
+    <includes refid="functions__polar__inter__intra_8h" local="no">functions_polar_inter_intra.h</includes>
+    <templateparamlist>
+      <param>
+        <type>typename <ref refid="types_8h_1aea10d97f1102e86fa7f1fef5a0eb78ae" kindref="member">B</ref></type>
+      </param>
+      <param>
+        <type>typename <ref refid="types_8h_1ac936a396bcfd78f82a9b140f35dc2c7a" kindref="member">R</ref></type>
+      </param>
+      <param>
+        <type><ref refid="namespaceaff3ct_1_1tools_1affb7c8b1e7740b5409c389ad17e9b889" kindref="member">proto_h_i</ref>&lt; <ref refid="types_8h_1aea10d97f1102e86fa7f1fef5a0eb78ae" kindref="member">B</ref>, <ref refid="types_8h_1ac936a396bcfd78f82a9b140f35dc2c7a" kindref="member">R</ref> &gt;</type>
+        <declname>HI</declname>
+        <defname>HI</defname>
+      </param>
+      <param>
+        <type>int</type>
+        <declname>N_FRAMES</declname>
+        <defname>N_FRAMES</defname>
+      </param>
+    </templateparamlist>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="structaff3ct_1_1tools_1_1h__inter__intra_3_01B_00_01R_00_01HI_00_010_00_01N__FRAMES_01_4_1a4a8b68cba4d1ed37dda6355487e7e17c" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>static void aff3ct::tools::h_inter_intra&lt; B, R, HI, 0, N_FRAMES &gt;::apply</definition>
+        <argsstring>(const R *__restrict l_a, B *__restrict s_a, const int n_elmts=0)</argsstring>
+        <name>apply</name>
+        <param>
+          <type>const <ref refid="types_8h_1ac936a396bcfd78f82a9b140f35dc2c7a" kindref="member">R</ref> *__restrict</type>
+          <declname>l_a</declname>
+        </param>
+        <param>
+          <type><ref refid="types_8h_1aea10d97f1102e86fa7f1fef5a0eb78ae" kindref="member">B</ref> *__restrict</type>
+          <declname>s_a</declname>
+        </param>
+        <param>
+          <type>const int</type>
+          <declname>n_elmts</declname>
+          <defval>0</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/davem/gr-aff3ct_codes/aff3ct-3.0.2_Library_Header_Files/Tools/Code/Polar/API/internal_functions/functions_polar_inter_intra.h" line="111" column="13"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/davem/gr-aff3ct_codes/aff3ct-3.0.2_Library_Header_Files/Tools/Code/Polar/API/internal_functions/functions_polar_inter_intra.h" line="109" column="1" bodyfile="/home/davem/gr-aff3ct_codes/aff3ct-3.0.2_Library_Header_Files/Tools/Code/Polar/API/internal_functions/functions_polar_inter_intra.h" bodystart="110" bodyend="112"/>
+    <listofallmembers>
+      <member refid="structaff3ct_1_1tools_1_1h__inter__intra_3_01B_00_01R_00_01HI_00_010_00_01N__FRAMES_01_4_1a4a8b68cba4d1ed37dda6355487e7e17c" prot="public" virt="non-virtual"><scope>aff3ct::tools::h_inter_intra&lt; B, R, HI, 0, N_FRAMES &gt;</scope><name>apply</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

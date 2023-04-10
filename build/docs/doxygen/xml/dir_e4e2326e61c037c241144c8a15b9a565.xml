@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="dir_e4e2326e61c037c241144c8a15b9a565" kind="dir">
+    <compoundname>aff3ct_codes</compoundname>
+    <innerdir refid="dir_141299b14142eaf916c9e7c9be44d8dc">bindings</innerdir>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/davem/gr-aff3ct_codes/python/aff3ct_codes/"/>
+  </compounddef>
+</doxygen>

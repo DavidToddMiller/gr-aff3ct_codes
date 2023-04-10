@@ -1,0 +1,51 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="Resolve__Phase2_8h" kind="file" language="C++">
+    <compoundname>Resolve_Phase2.h</compoundname>
+    <includes refid="api_8h" local="no">gnuradio/aff3ct_codes/api.h</includes>
+    <includes local="no">gnuradio/block.h</includes>
+    <includedby refid="Resolve__Phase2__impl_8h" local="no">Resolve_Phase2_impl.h</includedby>
+    <incdepgraph>
+      <node id="1">
+        <label>Resolve_Phase2.h</label>
+        <link refid="Resolve__Phase2_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>gnuradio/attributes.h</label>
+      </node>
+      <node id="2">
+        <label>gnuradio/aff3ct_codes/api.h</label>
+        <link refid="api_8h"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>gnuradio/block.h</label>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="1">
+        <label>Resolve_Phase2.h</label>
+        <link refid="Resolve__Phase2_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>Resolve_Phase2_impl.h</label>
+        <link refid="Resolve__Phase2__impl_8h"/>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="classgr_1_1aff3ct__codes_1_1Resolve__Phase2" prot="public">gr::aff3ct_codes::Resolve_Phase2</innerclass>
+    <innernamespace refid="namespacegr">gr</innernamespace>
+    <innernamespace refid="namespacegr_1_1aff3ct__codes">gr::aff3ct_codes</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/davem/gr-aff3ct_codes/include/gnuradio/aff3ct_codes/Resolve_Phase2.h"/>
+  </compounddef>
+</doxygen>

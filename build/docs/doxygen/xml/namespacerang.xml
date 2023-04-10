@@ -1,0 +1,108 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="namespacerang" kind="namespace" language="C++">
+    <compoundname>rang</compoundname>
+      <sectiondef kind="enum">
+      <memberdef kind="enum" id="namespacerang_1ad9384d2826ea832dea3b4d8989bc4a6c" prot="public" static="no" strong="yes">
+        <type></type>
+        <name>tag</name>
+        <enumvalue id="namespacerang_1ad9384d2826ea832dea3b4d8989bc4a6cacb5e100e5a9a3e7f6d1fd97512215282" prot="public">
+          <name>error</name>
+          <initializer>= 0</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespacerang_1ad9384d2826ea832dea3b4d8989bc4a6ca7b83d3f08fa392b79e3f553b585971cd" prot="public">
+          <name>warning</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespacerang_1ad9384d2826ea832dea3b4d8989bc4a6cacaf9b6b99962bf5c2264824231d7a40c" prot="public">
+          <name>info</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespacerang_1ad9384d2826ea832dea3b4d8989bc4a6ca06d4cd63bde972fc66a0aed41d2f5c51" prot="public">
+          <name>comment</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespacerang_1ad9384d2826ea832dea3b4d8989bc4a6ca82082716189f80fd070b89ac716570ba" prot="public">
+          <name>positive</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/davem/gr-aff3ct_codes/aff3ct-3.0.2_Library_Header_Files/Tools/Display/rang_format/rang_format.h" line="15" column="1" bodyfile="/home/davem/gr-aff3ct_codes/aff3ct-3.0.2_Library_Header_Files/Tools/Display/rang_format/rang_format.h" bodystart="15" bodyend="21"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="func">
+      <memberdef kind="function" id="namespacerang_1ac0ea51a011ac380d6e07a3b0c2ff9d79" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>std::ostream &amp;</type>
+        <definition>std::ostream&amp; rang::operator&lt;&lt;</definition>
+        <argsstring>(std::ostream &amp;os, tag f)</argsstring>
+        <name>operator&lt;&lt;</name>
+        <param>
+          <type>std::ostream &amp;</type>
+          <declname>os</declname>
+        </param>
+        <param>
+          <type><ref refid="namespacerang_1ad9384d2826ea832dea3b4d8989bc4a6c" kindref="member">tag</ref></type>
+          <declname>f</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/davem/gr-aff3ct_codes/aff3ct-3.0.2_Library_Header_Files/Tools/Display/rang_format/rang_format.h" line="23" column="1" declfile="/home/davem/gr-aff3ct_codes/aff3ct-3.0.2_Library_Header_Files/Tools/Display/rang_format/rang_format.h" declline="23" declcolumn="1"/>
+      </memberdef>
+      <memberdef kind="function" id="namespacerang_1ab46af40ff03e03853a184b9f8e8daf8d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void rang::format_on_each_line</definition>
+        <argsstring>(std::ostream &amp;os, const std::string &amp;str, tag f)</argsstring>
+        <name>format_on_each_line</name>
+        <param>
+          <type>std::ostream &amp;</type>
+          <declname>os</declname>
+        </param>
+        <param>
+          <type>const std::string &amp;</type>
+          <declname>str</declname>
+        </param>
+        <param>
+          <type><ref refid="namespacerang_1ad9384d2826ea832dea3b4d8989bc4a6c" kindref="member">tag</ref></type>
+          <declname>f</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/davem/gr-aff3ct_codes/aff3ct-3.0.2_Library_Header_Files/Tools/Display/rang_format/rang_format.h" line="25" column="6" declfile="/home/davem/gr-aff3ct_codes/aff3ct-3.0.2_Library_Header_Files/Tools/Display/rang_format/rang_format.h" declline="25" declcolumn="6"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/davem/gr-aff3ct_codes/aff3ct-3.0.2_Library_Header_Files/Tools/Display/rang_format/rang_format.h" line="12" column="1"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,38 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="matrix__utils_8h" kind="file" language="C++">
+    <compoundname>matrix_utils.h</compoundname>
+    <includes local="yes">Tools/Algo/Matrix/Sparse_matrix/Sparse_matrix.hpp</includes>
+    <includes local="yes">Tools/Algo/Matrix/Full_matrix/Full_matrix.hpp</includes>
+    <includes local="yes">Tools/Algo/Matrix/matrix_utils.hxx</includes>
+    <incdepgraph>
+      <node id="3">
+        <label>Tools/Algo/Matrix/Full_matrix/Full_matrix.hpp</label>
+      </node>
+      <node id="4">
+        <label>Tools/Algo/Matrix/matrix_utils.hxx</label>
+      </node>
+      <node id="2">
+        <label>Tools/Algo/Matrix/Sparse_matrix/Sparse_matrix.hpp</label>
+      </node>
+      <node id="1">
+        <label>matrix_utils.h</label>
+        <link refid="matrix__utils_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+      </node>
+    </incdepgraph>
+    <innernamespace refid="namespaceaff3ct">aff3ct</innernamespace>
+    <innernamespace refid="namespaceaff3ct_1_1tools">aff3ct::tools</innernamespace>
+    <briefdescription>
+<para>Functions for matrices. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/davem/gr-aff3ct_codes/aff3ct-3.0.2_Library_Header_Files/Tools/Algo/Matrix/matrix_utils.h"/>
+  </compounddef>
+</doxygen>

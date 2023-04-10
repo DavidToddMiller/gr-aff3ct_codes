@@ -15,5 +15,6 @@ install(FILES
     Tag_FrameASM64_ff.h
     Frame_Extract2.h
     Resolve_Phase2.h
-    CCSDS_Pseudo_Randomizer.h DESTINATION include/gnuradio/aff3ct_codes
+    CCSDS_Pseudo_Randomizer.h
+    Frame_ExtractOQPSK.h DESTINATION include/gnuradio/aff3ct_codes
 )

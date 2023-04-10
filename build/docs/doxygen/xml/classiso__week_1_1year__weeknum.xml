@@ -1,0 +1,146 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="classiso__week_1_1year__weeknum" kind="class" language="C++" prot="public">
+    <compoundname>iso_week::year_weeknum</compoundname>
+    <includes refid="iso__week_8h" local="no">iso_week.h</includes>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classiso__week_1_1year__weeknum_1a3f7df0ee4446c4d5584c33335d21a9ac" prot="private" static="no" mutable="no">
+        <type><ref refid="classiso__week_1_1year" kindref="compound">iso_week::year</ref></type>
+        <definition>iso_week::year iso_week::year_weeknum::y_</definition>
+        <argsstring></argsstring>
+        <name>y_</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/davem/gr-aff3ct_codes/aff3ct-3.0.2_Library_Header_Files/date/iso_week.h" line="215" column="23" bodyfile="/home/davem/gr-aff3ct_codes/aff3ct-3.0.2_Library_Header_Files/date/iso_week.h" bodystart="215" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classiso__week_1_1year__weeknum_1a9544bc517e2d2d0c1ec806ae9fa33a3a" prot="private" static="no" mutable="no">
+        <type><ref refid="classiso__week_1_1weeknum" kindref="compound">iso_week::weeknum</ref></type>
+        <definition>iso_week::weeknum iso_week::year_weeknum::wn_</definition>
+        <argsstring></argsstring>
+        <name>wn_</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/davem/gr-aff3ct_codes/aff3ct-3.0.2_Library_Header_Files/date/iso_week.h" line="216" column="23" bodyfile="/home/davem/gr-aff3ct_codes/aff3ct-3.0.2_Library_Header_Files/date/iso_week.h" bodystart="216" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classiso__week_1_1year__weeknum_1a8ef3747efe31cb6f05c54131f4ebd395" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="date_8h_1a98c025909efef28d356780da89fc44b6" kindref="member">CONSTCD11</ref></type>
+        <definition>CONSTCD11 iso_week::year_weeknum::year_weeknum</definition>
+        <argsstring>(const iso_week::year &amp;y, const iso_week::weeknum &amp;wn) NOEXCEPT</argsstring>
+        <name>year_weeknum</name>
+        <param>
+          <type>const <ref refid="classiso__week_1_1year" kindref="compound">iso_week::year</ref> &amp;</type>
+          <declname>y</declname>
+        </param>
+        <param>
+          <type>const <ref refid="classiso__week_1_1weeknum" kindref="compound">iso_week::weeknum</ref> &amp;</type>
+          <declname>wn</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/davem/gr-aff3ct_codes/aff3ct-3.0.2_Library_Header_Files/date/iso_week.h" line="219" column="15" bodyfile="/home/davem/gr-aff3ct_codes/aff3ct-3.0.2_Library_Header_Files/date/iso_week.h" bodystart="891" bodyend="894"/>
+      </memberdef>
+      <memberdef kind="function" id="classiso__week_1_1year__weeknum_1aa6beee8f58bb9c320b58c164c80326ef" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="date_8h_1a98c025909efef28d356780da89fc44b6" kindref="member">CONSTCD11</ref> <ref refid="classiso__week_1_1year" kindref="compound">iso_week::year</ref></type>
+        <definition>CONSTCD11 year iso_week::year_weeknum::year</definition>
+        <argsstring>() const NOEXCEPT</argsstring>
+        <name>year</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/davem/gr-aff3ct_codes/aff3ct-3.0.2_Library_Header_Files/date/iso_week.h" line="221" column="33" bodyfile="/home/davem/gr-aff3ct_codes/aff3ct-3.0.2_Library_Header_Files/date/iso_week.h" bodystart="896" bodyend="896"/>
+      </memberdef>
+      <memberdef kind="function" id="classiso__week_1_1year__weeknum_1a702453da5bccc239d168e8e23d763ad5" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="date_8h_1a98c025909efef28d356780da89fc44b6" kindref="member">CONSTCD11</ref> <ref refid="classiso__week_1_1weeknum" kindref="compound">iso_week::weeknum</ref></type>
+        <definition>CONSTCD11 weeknum iso_week::year_weeknum::weeknum</definition>
+        <argsstring>() const NOEXCEPT</argsstring>
+        <name>weeknum</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/davem/gr-aff3ct_codes/aff3ct-3.0.2_Library_Header_Files/date/iso_week.h" line="222" column="33" bodyfile="/home/davem/gr-aff3ct_codes/aff3ct-3.0.2_Library_Header_Files/date/iso_week.h" bodystart="897" bodyend="897"/>
+      </memberdef>
+      <memberdef kind="function" id="classiso__week_1_1year__weeknum_1a575b54ef92db59348119aec54a76495a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="classiso__week_1_1year__weeknum" kindref="compound">year_weeknum</ref> &amp;</type>
+        <definition>year_weeknum &amp; iso_week::year_weeknum::operator+=</definition>
+        <argsstring>(const years &amp;dy) NOEXCEPT</argsstring>
+        <name>operator+=</name>
+        <param>
+          <type>const <ref refid="namespaceiso__week_1ab0d916e7f0a5605c6eb379e19063c4f7" kindref="member">years</ref> &amp;</type>
+          <declname>dy</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/davem/gr-aff3ct_codes/aff3ct-3.0.2_Library_Header_Files/date/iso_week.h" line="224" column="18" bodyfile="/home/davem/gr-aff3ct_codes/aff3ct-3.0.2_Library_Header_Files/date/iso_week.h" bodystart="905" bodyend="909"/>
+      </memberdef>
+      <memberdef kind="function" id="classiso__week_1_1year__weeknum_1ab29a2fe603aef7b48432fa2e11de4e71" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="classiso__week_1_1year__weeknum" kindref="compound">year_weeknum</ref> &amp;</type>
+        <definition>year_weeknum &amp; iso_week::year_weeknum::operator-=</definition>
+        <argsstring>(const years &amp;dy) NOEXCEPT</argsstring>
+        <name>operator-=</name>
+        <param>
+          <type>const <ref refid="namespaceiso__week_1ab0d916e7f0a5605c6eb379e19063c4f7" kindref="member">years</ref> &amp;</type>
+          <declname>dy</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/davem/gr-aff3ct_codes/aff3ct-3.0.2_Library_Header_Files/date/iso_week.h" line="225" column="18" bodyfile="/home/davem/gr-aff3ct_codes/aff3ct-3.0.2_Library_Header_Files/date/iso_week.h" bodystart="913" bodyend="917"/>
+      </memberdef>
+      <memberdef kind="function" id="classiso__week_1_1year__weeknum_1a039f436a5a178c812bbb27d7a7bd85fa" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="date_8h_1a98c025909efef28d356780da89fc44b6" kindref="member">CONSTCD11</ref> bool</type>
+        <definition>CONSTCD11 bool iso_week::year_weeknum::ok</definition>
+        <argsstring>() const NOEXCEPT</argsstring>
+        <name>ok</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/davem/gr-aff3ct_codes/aff3ct-3.0.2_Library_Header_Files/date/iso_week.h" line="227" column="20" bodyfile="/home/davem/gr-aff3ct_codes/aff3ct-3.0.2_Library_Header_Files/date/iso_week.h" bodystart="898" bodyend="901"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/davem/gr-aff3ct_codes/aff3ct-3.0.2_Library_Header_Files/date/iso_week.h" line="213" column="1" bodyfile="/home/davem/gr-aff3ct_codes/aff3ct-3.0.2_Library_Header_Files/date/iso_week.h" bodystart="214" bodyend="228"/>
+    <listofallmembers>
+      <member refid="classiso__week_1_1year__weeknum_1a039f436a5a178c812bbb27d7a7bd85fa" prot="public" virt="non-virtual"><scope>iso_week::year_weeknum</scope><name>ok</name></member>
+      <member refid="classiso__week_1_1year__weeknum_1a575b54ef92db59348119aec54a76495a" prot="public" virt="non-virtual"><scope>iso_week::year_weeknum</scope><name>operator+=</name></member>
+      <member refid="classiso__week_1_1year__weeknum_1ab29a2fe603aef7b48432fa2e11de4e71" prot="public" virt="non-virtual"><scope>iso_week::year_weeknum</scope><name>operator-=</name></member>
+      <member refid="classiso__week_1_1year__weeknum_1a702453da5bccc239d168e8e23d763ad5" prot="public" virt="non-virtual"><scope>iso_week::year_weeknum</scope><name>weeknum</name></member>
+      <member refid="classiso__week_1_1year__weeknum_1a9544bc517e2d2d0c1ec806ae9fa33a3a" prot="private" virt="non-virtual"><scope>iso_week::year_weeknum</scope><name>wn_</name></member>
+      <member refid="classiso__week_1_1year__weeknum_1a3f7df0ee4446c4d5584c33335d21a9ac" prot="private" virt="non-virtual"><scope>iso_week::year_weeknum</scope><name>y_</name></member>
+      <member refid="classiso__week_1_1year__weeknum_1aa6beee8f58bb9c320b58c164c80326ef" prot="public" virt="non-virtual"><scope>iso_week::year_weeknum</scope><name>year</name></member>
+      <member refid="classiso__week_1_1year__weeknum_1a8ef3747efe31cb6f05c54131f4ebd395" prot="public" virt="non-virtual"><scope>iso_week::year_weeknum</scope><name>year_weeknum</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

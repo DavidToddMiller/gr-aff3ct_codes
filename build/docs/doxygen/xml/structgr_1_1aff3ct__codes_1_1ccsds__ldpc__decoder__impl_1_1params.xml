@@ -1,0 +1,125 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="structgr_1_1aff3ct__codes_1_1ccsds__ldpc__decoder__impl_1_1params" kind="struct" language="C++" prot="private">
+    <compoundname>gr::aff3ct_codes::ccsds_ldpc_decoder_impl::params</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structgr_1_1aff3ct__codes_1_1ccsds__ldpc__decoder__impl_1_1params_1a7ebeb1954ee7f02e3657a2f45915a7ce" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int gr::aff3ct_codes::ccsds_ldpc_decoder_impl::params::d_K</definition>
+        <argsstring></argsstring>
+        <name>d_K</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/davem/gr-aff3ct_codes/lib/ccsds_ldpc_decoder_impl.h" line="33" column="13" bodyfile="/home/davem/gr-aff3ct_codes/lib/ccsds_ldpc_decoder_impl.h" bodystart="33" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structgr_1_1aff3ct__codes_1_1ccsds__ldpc__decoder__impl_1_1params_1a98021ffab521aef2887fa994c198587a" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int gr::aff3ct_codes::ccsds_ldpc_decoder_impl::params::d_N</definition>
+        <argsstring></argsstring>
+        <name>d_N</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/davem/gr-aff3ct_codes/lib/ccsds_ldpc_decoder_impl.h" line="34" column="13" bodyfile="/home/davem/gr-aff3ct_codes/lib/ccsds_ldpc_decoder_impl.h" bodystart="34" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structgr_1_1aff3ct__codes_1_1ccsds__ldpc__decoder__impl_1_1params_1adf7997f8af810f60f626be6bfdec822e" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int gr::aff3ct_codes::ccsds_ldpc_decoder_impl::params::d_puncturing</definition>
+        <argsstring></argsstring>
+        <name>d_puncturing</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/davem/gr-aff3ct_codes/lib/ccsds_ldpc_decoder_impl.h" line="35" column="13" bodyfile="/home/davem/gr-aff3ct_codes/lib/ccsds_ldpc_decoder_impl.h" bodystart="35" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structgr_1_1aff3ct__codes_1_1ccsds__ldpc__decoder__impl_1_1params_1abbda296d111136c106f8d307d0600153" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int gr::aff3ct_codes::ccsds_ldpc_decoder_impl::params::d_n_ite</definition>
+        <argsstring></argsstring>
+        <name>d_n_ite</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/davem/gr-aff3ct_codes/lib/ccsds_ldpc_decoder_impl.h" line="36" column="13" bodyfile="/home/davem/gr-aff3ct_codes/lib/ccsds_ldpc_decoder_impl.h" bodystart="36" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structgr_1_1aff3ct__codes_1_1ccsds__ldpc__decoder__impl_1_1params_1a20a8979b8d7a01a3290a3313e7138abe" prot="public" static="no" mutable="no">
+        <type>aff3ct::tools::Sparse_matrix</type>
+        <definition>aff3ct::tools::Sparse_matrix gr::aff3ct_codes::ccsds_ldpc_decoder_impl::params::d_H</definition>
+        <argsstring></argsstring>
+        <name>d_H</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/davem/gr-aff3ct_codes/lib/ccsds_ldpc_decoder_impl.h" line="37" column="38" bodyfile="/home/davem/gr-aff3ct_codes/lib/ccsds_ldpc_decoder_impl.h" bodystart="37" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structgr_1_1aff3ct__codes_1_1ccsds__ldpc__decoder__impl_1_1params_1a3586e19a4a3cd2d141f07aaad846d188" prot="public" static="no" mutable="no">
+        <type>std::vector&lt; uint32_t &gt;</type>
+        <definition>std::vector&lt;uint32_t&gt; gr::aff3ct_codes::ccsds_ldpc_decoder_impl::params::d_info_bits_pos</definition>
+        <argsstring></argsstring>
+        <name>d_info_bits_pos</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/davem/gr-aff3ct_codes/lib/ccsds_ldpc_decoder_impl.h" line="38" column="21" bodyfile="/home/davem/gr-aff3ct_codes/lib/ccsds_ldpc_decoder_impl.h" bodystart="38" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structgr_1_1aff3ct__codes_1_1ccsds__ldpc__decoder__impl_1_1params_1a18a42f792cf04e737b2a8e42fed0243d" prot="public" static="no" mutable="no">
+        <type>Update_rule_SPA</type>
+        <definition>Update_rule_SPA gr::aff3ct_codes::ccsds_ldpc_decoder_impl::params::update_rule</definition>
+        <argsstring></argsstring>
+        <name>update_rule</name>
+        <initializer>= aff3ct::tools::Update_rule_SPA&lt;&gt;(6)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/davem/gr-aff3ct_codes/lib/ccsds_ldpc_decoder_impl.h" line="40" column="10" bodyfile="/home/davem/gr-aff3ct_codes/lib/ccsds_ldpc_decoder_impl.h" bodystart="40" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="2">
+        <label>std::vector&lt; uint32_t &gt;</label>
+      </node>
+      <node id="1">
+        <label>gr::aff3ct_codes::ccsds_ldpc_decoder_impl::params</label>
+        <childnode refid="2" relation="usage">
+          <edgelabel>d_info_bits_pos</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/home/davem/gr-aff3ct_codes/lib/ccsds_ldpc_decoder_impl.h" line="32" column="5" bodyfile="/home/davem/gr-aff3ct_codes/lib/ccsds_ldpc_decoder_impl.h" bodystart="32" bodyend="41"/>
+    <listofallmembers>
+      <member refid="structgr_1_1aff3ct__codes_1_1ccsds__ldpc__decoder__impl_1_1params_1a20a8979b8d7a01a3290a3313e7138abe" prot="public" virt="non-virtual"><scope>gr::aff3ct_codes::ccsds_ldpc_decoder_impl::params</scope><name>d_H</name></member>
+      <member refid="structgr_1_1aff3ct__codes_1_1ccsds__ldpc__decoder__impl_1_1params_1a3586e19a4a3cd2d141f07aaad846d188" prot="public" virt="non-virtual"><scope>gr::aff3ct_codes::ccsds_ldpc_decoder_impl::params</scope><name>d_info_bits_pos</name></member>
+      <member refid="structgr_1_1aff3ct__codes_1_1ccsds__ldpc__decoder__impl_1_1params_1a7ebeb1954ee7f02e3657a2f45915a7ce" prot="public" virt="non-virtual"><scope>gr::aff3ct_codes::ccsds_ldpc_decoder_impl::params</scope><name>d_K</name></member>
+      <member refid="structgr_1_1aff3ct__codes_1_1ccsds__ldpc__decoder__impl_1_1params_1a98021ffab521aef2887fa994c198587a" prot="public" virt="non-virtual"><scope>gr::aff3ct_codes::ccsds_ldpc_decoder_impl::params</scope><name>d_N</name></member>
+      <member refid="structgr_1_1aff3ct__codes_1_1ccsds__ldpc__decoder__impl_1_1params_1abbda296d111136c106f8d307d0600153" prot="public" virt="non-virtual"><scope>gr::aff3ct_codes::ccsds_ldpc_decoder_impl::params</scope><name>d_n_ite</name></member>
+      <member refid="structgr_1_1aff3ct__codes_1_1ccsds__ldpc__decoder__impl_1_1params_1adf7997f8af810f60f626be6bfdec822e" prot="public" virt="non-virtual"><scope>gr::aff3ct_codes::ccsds_ldpc_decoder_impl::params</scope><name>d_puncturing</name></member>
+      <member refid="structgr_1_1aff3ct__codes_1_1ccsds__ldpc__decoder__impl_1_1params_1a18a42f792cf04e737b2a8e42fed0243d" prot="public" virt="non-virtual"><scope>gr::aff3ct_codes::ccsds_ldpc_decoder_impl::params</scope><name>update_rule</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

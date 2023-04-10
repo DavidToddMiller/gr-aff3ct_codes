@@ -1,0 +1,112 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="classjulian_1_1month__day" kind="class" language="C++" prot="public">
+    <compoundname>julian::month_day</compoundname>
+    <includes refid="julian_8h" local="no">julian.h</includes>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classjulian_1_1month__day_1a5080c96fa160e9b1d6bcfd958780d58a" prot="private" static="no" mutable="no">
+        <type><ref refid="classjulian_1_1month" kindref="compound">julian::month</ref></type>
+        <definition>julian::month julian::month_day::m_</definition>
+        <argsstring></argsstring>
+        <name>m_</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/davem/gr-aff3ct_codes/aff3ct-3.0.2_Library_Header_Files/date/julian.h" line="409" column="19" bodyfile="/home/davem/gr-aff3ct_codes/aff3ct-3.0.2_Library_Header_Files/date/julian.h" bodystart="409" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classjulian_1_1month__day_1ac789ff265564b8510e138b51bc4baabb" prot="private" static="no" mutable="no">
+        <type><ref refid="classjulian_1_1day" kindref="compound">julian::day</ref></type>
+        <definition>julian::day julian::month_day::d_</definition>
+        <argsstring></argsstring>
+        <name>d_</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/davem/gr-aff3ct_codes/aff3ct-3.0.2_Library_Header_Files/date/julian.h" line="410" column="19" bodyfile="/home/davem/gr-aff3ct_codes/aff3ct-3.0.2_Library_Header_Files/date/julian.h" bodystart="410" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classjulian_1_1month__day_1a26d67e5e0d8071fec035d03061e2aa6e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="date_8h_1a98c025909efef28d356780da89fc44b6" kindref="member">CONSTCD11</ref></type>
+        <definition>CONSTCD11 julian::month_day::month_day</definition>
+        <argsstring>(const julian::month &amp;m, const julian::day &amp;d) NOEXCEPT</argsstring>
+        <name>month_day</name>
+        <param>
+          <type>const <ref refid="classjulian_1_1month" kindref="compound">julian::month</ref> &amp;</type>
+          <declname>m</declname>
+        </param>
+        <param>
+          <type>const <ref refid="classjulian_1_1day" kindref="compound">julian::day</ref> &amp;</type>
+          <declname>d</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/davem/gr-aff3ct_codes/aff3ct-3.0.2_Library_Header_Files/date/julian.h" line="413" column="15" bodyfile="/home/davem/gr-aff3ct_codes/aff3ct-3.0.2_Library_Header_Files/date/julian.h" bodystart="1645" bodyend="1648"/>
+      </memberdef>
+      <memberdef kind="function" id="classjulian_1_1month__day_1a05887bb48061d98c89c856fd2d82b4a3" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="date_8h_1a98c025909efef28d356780da89fc44b6" kindref="member">CONSTCD11</ref> <ref refid="classjulian_1_1month" kindref="compound">julian::month</ref></type>
+        <definition>CONSTCD11 julian::month julian::month_day::month</definition>
+        <argsstring>() const NOEXCEPT</argsstring>
+        <name>month</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/davem/gr-aff3ct_codes/aff3ct-3.0.2_Library_Header_Files/date/julian.h" line="415" column="29" bodyfile="/home/davem/gr-aff3ct_codes/aff3ct-3.0.2_Library_Header_Files/date/julian.h" bodystart="1650" bodyend="1650"/>
+      </memberdef>
+      <memberdef kind="function" id="classjulian_1_1month__day_1a29cf72e7bef60ddaa2955b630ec45278" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="date_8h_1a98c025909efef28d356780da89fc44b6" kindref="member">CONSTCD11</ref> <ref refid="classjulian_1_1day" kindref="compound">julian::day</ref></type>
+        <definition>CONSTCD11 julian::day julian::month_day::day</definition>
+        <argsstring>() const NOEXCEPT</argsstring>
+        <name>day</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/davem/gr-aff3ct_codes/aff3ct-3.0.2_Library_Header_Files/date/julian.h" line="416" column="29" bodyfile="/home/davem/gr-aff3ct_codes/aff3ct-3.0.2_Library_Header_Files/date/julian.h" bodystart="1651" bodyend="1651"/>
+      </memberdef>
+      <memberdef kind="function" id="classjulian_1_1month__day_1a4350b97d4e7614dcb4e81e5e2dd150e7" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="date_8h_1a3893ed763f820a91f169a2e9777aa325" kindref="member">CONSTCD14</ref> bool</type>
+        <definition>CONSTCD14 bool julian::month_day::ok</definition>
+        <argsstring>() const NOEXCEPT</argsstring>
+        <name>ok</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/davem/gr-aff3ct_codes/aff3ct-3.0.2_Library_Header_Files/date/julian.h" line="418" column="20" bodyfile="/home/davem/gr-aff3ct_codes/aff3ct-3.0.2_Library_Header_Files/date/julian.h" bodystart="1656" bodyend="1661"/>
+        <references refid="date_8h_1a1262e7cef5d1d56fb1f1ed2a43bfe4d1" compoundref="date_8h" startline="121">CONSTDATA</references>
+        <references refid="classjulian_1_1day_1a18f002938819197372519715d25a3a86" compoundref="julian_8h" startline="794" endline="794">julian::day::ok</references>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/davem/gr-aff3ct_codes/aff3ct-3.0.2_Library_Header_Files/date/julian.h" line="407" column="1" bodyfile="/home/davem/gr-aff3ct_codes/aff3ct-3.0.2_Library_Header_Files/date/julian.h" bodystart="408" bodyend="419"/>
+    <listofallmembers>
+      <member refid="classjulian_1_1month__day_1ac789ff265564b8510e138b51bc4baabb" prot="private" virt="non-virtual"><scope>julian::month_day</scope><name>d_</name></member>
+      <member refid="classjulian_1_1month__day_1a29cf72e7bef60ddaa2955b630ec45278" prot="public" virt="non-virtual"><scope>julian::month_day</scope><name>day</name></member>
+      <member refid="classjulian_1_1month__day_1a5080c96fa160e9b1d6bcfd958780d58a" prot="private" virt="non-virtual"><scope>julian::month_day</scope><name>m_</name></member>
+      <member refid="classjulian_1_1month__day_1a05887bb48061d98c89c856fd2d82b4a3" prot="public" virt="non-virtual"><scope>julian::month_day</scope><name>month</name></member>
+      <member refid="classjulian_1_1month__day_1a26d67e5e0d8071fec035d03061e2aa6e" prot="public" virt="non-virtual"><scope>julian::month_day</scope><name>month_day</name></member>
+      <member refid="classjulian_1_1month__day_1a4350b97d4e7614dcb4e81e5e2dd150e7" prot="public" virt="non-virtual"><scope>julian::month_day</scope><name>ok</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

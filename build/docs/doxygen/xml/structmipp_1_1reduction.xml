@@ -1,0 +1,149 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="structmipp_1_1reduction" kind="struct" language="C++" prot="public">
+    <compoundname>mipp::reduction</compoundname>
+    <includes refid="mipp_8h" local="no">mipp.h</includes>
+    <templateparamlist>
+      <param>
+        <type>typename T</type>
+      </param>
+      <param>
+        <type><ref refid="namespacemipp_1a98151da8eb1063c2185ae073e3646fcb" kindref="member">red_op</ref>&lt; T &gt;</type>
+        <declname>OP</declname>
+        <defname>OP</defname>
+      </param>
+    </templateparamlist>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="structmipp_1_1reduction_1ad7dbd18bc46fbdcf079d5788a2da4e32" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="namespacemipp_1addc5042f0855594e315f4d96e818bbbd" kindref="member">reg</ref></type>
+        <definition>static reg mipp::reduction&lt; T, OP &gt;::apply</definition>
+        <argsstring>(const reg r)</argsstring>
+        <name>apply</name>
+        <param>
+          <type>const <ref refid="namespacemipp_1addc5042f0855594e315f4d96e818bbbd" kindref="member">reg</ref></type>
+          <declname>r</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/davem/gr-aff3ct_codes/aff3ct-3.0.2_Library_Header_Files/mipp.h" line="1253" column="12" bodyfile="/home/davem/gr-aff3ct_codes/aff3ct-3.0.2_Library_Header_Files/mipp.h" bodystart="1253" bodyend="1256"/>
+        <references refid="structmipp_1_1__reduction_1a1e2f20026136be561597bed36227493e" compoundref="mipp_8h" startline="1231" endline="1234">mipp::_reduction&lt; T, OP &gt;::apply</references>
+        <referencedby refid="structmipp_1_1reduction_1a3cd38b11560870ba779f5e44c11ed08a" compoundref="mipp_8h" startline="1282" endline="1296">mipp::reduction&lt; T, OP &gt;::apply</referencedby>
+        <referencedby refid="structmipp_1_1reduction_1aab3e1d120b07b1f9f2a989f92912d34b" compoundref="mipp_8h" startline="1258" endline="1267">mipp::reduction&lt; T, OP &gt;::sapply</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="structmipp_1_1reduction_1aab3e1d120b07b1f9f2a989f92912d34b" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>T</type>
+        <definition>static T mipp::reduction&lt; T, OP &gt;::sapply</definition>
+        <argsstring>(const reg r)</argsstring>
+        <name>sapply</name>
+        <param>
+          <type>const <ref refid="namespacemipp_1addc5042f0855594e315f4d96e818bbbd" kindref="member">reg</ref></type>
+          <declname>r</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/davem/gr-aff3ct_codes/aff3ct-3.0.2_Library_Header_Files/mipp.h" line="1258" column="10" bodyfile="/home/davem/gr-aff3ct_codes/aff3ct-3.0.2_Library_Header_Files/mipp.h" bodystart="1258" bodyend="1267"/>
+        <references refid="structmipp_1_1reduction_1ad7dbd18bc46fbdcf079d5788a2da4e32" compoundref="mipp_8h" startline="1253" endline="1256">mipp::reduction&lt; T, OP &gt;::apply</references>
+      </memberdef>
+      <memberdef kind="function" id="structmipp_1_1reduction_1a5f660095fa4da85631538f2a56fb98c1" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type><ref refid="namespacemipp_1afe20a1ae17fad90312b6b8e975fe1550" kindref="member">ld_op</ref>&lt; T &gt;</type>
+            <declname>LD</declname>
+            <defname>LD</defname>
+            <defval><ref refid="namespacemipp_1acc444d2f43ead4561cf826ff0063b0c5" kindref="member">mipp::load</ref>&lt;T&gt;</defval>
+          </param>
+        </templateparamlist>
+        <type>T</type>
+        <definition>static T mipp::reduction&lt; T, OP &gt;::apply</definition>
+        <argsstring>(const mipp::vector&lt; T &gt; &amp;data)</argsstring>
+        <name>apply</name>
+        <param>
+          <type>const <ref refid="namespacemipp_1a82143f0b1b866bfdf05205bab7ff145d" kindref="member">mipp::vector</ref>&lt; T &gt; &amp;</type>
+          <declname>data</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/davem/gr-aff3ct_codes/aff3ct-3.0.2_Library_Header_Files/mipp.h" line="1270" column="10" bodyfile="/home/davem/gr-aff3ct_codes/aff3ct-3.0.2_Library_Header_Files/mipp.h" bodystart="1270" bodyend="1273"/>
+      </memberdef>
+      <memberdef kind="function" id="structmipp_1_1reduction_1aef911f88af1b61cbce0203ad509ce7a5" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type><ref refid="namespacemipp_1afe20a1ae17fad90312b6b8e975fe1550" kindref="member">ld_op</ref>&lt; T &gt;</type>
+            <declname>LD</declname>
+            <defname>LD</defname>
+            <defval><ref refid="namespacemipp_1a8b44b17f768819debb271272f471ec31" kindref="member">mipp::loadu</ref>&lt;T&gt;</defval>
+          </param>
+        </templateparamlist>
+        <type>T</type>
+        <definition>static T mipp::reduction&lt; T, OP &gt;::apply</definition>
+        <argsstring>(const std::vector&lt; T &gt; &amp;data)</argsstring>
+        <name>apply</name>
+        <param>
+          <type>const std::vector&lt; T &gt; &amp;</type>
+          <declname>data</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/davem/gr-aff3ct_codes/aff3ct-3.0.2_Library_Header_Files/mipp.h" line="1276" column="10" bodyfile="/home/davem/gr-aff3ct_codes/aff3ct-3.0.2_Library_Header_Files/mipp.h" bodystart="1276" bodyend="1279"/>
+      </memberdef>
+      <memberdef kind="function" id="structmipp_1_1reduction_1a3cd38b11560870ba779f5e44c11ed08a" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type><ref refid="namespacemipp_1afe20a1ae17fad90312b6b8e975fe1550" kindref="member">ld_op</ref>&lt; T &gt;</type>
+            <declname>LD</declname>
+            <defname>LD</defname>
+            <defval><ref refid="namespacemipp_1a8b44b17f768819debb271272f471ec31" kindref="member">mipp::loadu</ref>&lt;T&gt;</defval>
+          </param>
+        </templateparamlist>
+        <type>T</type>
+        <definition>static T mipp::reduction&lt; T, OP &gt;::apply</definition>
+        <argsstring>(const T *data, const uint32_t dataSize)</argsstring>
+        <name>apply</name>
+        <param>
+          <type>const T *</type>
+          <declname>data</declname>
+        </param>
+        <param>
+          <type>const uint32_t</type>
+          <declname>dataSize</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/davem/gr-aff3ct_codes/aff3ct-3.0.2_Library_Header_Files/mipp.h" line="1282" column="10" bodyfile="/home/davem/gr-aff3ct_codes/aff3ct-3.0.2_Library_Header_Files/mipp.h" bodystart="1282" bodyend="1296"/>
+        <references refid="structmipp_1_1reduction_1ad7dbd18bc46fbdcf079d5788a2da4e32" compoundref="mipp_8h" startline="1253" endline="1256">mipp::reduction&lt; T, OP &gt;::apply</references>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/davem/gr-aff3ct_codes/aff3ct-3.0.2_Library_Header_Files/mipp.h" line="1251" column="1" bodyfile="/home/davem/gr-aff3ct_codes/aff3ct-3.0.2_Library_Header_Files/mipp.h" bodystart="1252" bodyend="1297"/>
+    <listofallmembers>
+      <member refid="structmipp_1_1reduction_1ad7dbd18bc46fbdcf079d5788a2da4e32" prot="public" virt="non-virtual"><scope>mipp::reduction</scope><name>apply</name></member>
+      <member refid="structmipp_1_1reduction_1a5f660095fa4da85631538f2a56fb98c1" prot="public" virt="non-virtual"><scope>mipp::reduction</scope><name>apply</name></member>
+      <member refid="structmipp_1_1reduction_1aef911f88af1b61cbce0203ad509ce7a5" prot="public" virt="non-virtual"><scope>mipp::reduction</scope><name>apply</name></member>
+      <member refid="structmipp_1_1reduction_1a3cd38b11560870ba779f5e44c11ed08a" prot="public" virt="non-virtual"><scope>mipp::reduction</scope><name>apply</name></member>
+      <member refid="structmipp_1_1reduction_1aab3e1d120b07b1f9f2a989f92912d34b" prot="public" virt="non-virtual"><scope>mipp::reduction</scope><name>sapply</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

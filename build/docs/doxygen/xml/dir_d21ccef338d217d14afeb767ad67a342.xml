@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="dir_d21ccef338d217d14afeb767ad67a342" kind="dir">
+    <compoundname>bindings</compoundname>
+    <innerfile refid="build_2python_2aff3ct__codes_2bindings_2pydoc__macros_8h">build/python/aff3ct_codes/bindings/pydoc_macros.h</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/davem/gr-aff3ct_codes/build/python/aff3ct_codes/bindings/"/>
+  </compounddef>
+</doxygen>

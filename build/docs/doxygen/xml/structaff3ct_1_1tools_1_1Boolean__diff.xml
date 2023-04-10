@@ -1,0 +1,106 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="structaff3ct_1_1tools_1_1Boolean__diff" kind="struct" language="C++" prot="public">
+    <compoundname>aff3ct::tools::Boolean_diff</compoundname>
+    <includes refid="Boolean__diff_8h" local="no">Boolean_diff.h</includes>
+    <templateparamlist>
+      <param>
+        <type>typename T</type>
+      </param>
+      <param>
+        <type>bool</type>
+        <declname>count_unknown_symbols</declname>
+        <defname>count_unknown_symbols</defname>
+      </param>
+    </templateparamlist>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="structaff3ct_1_1tools_1_1Boolean__diff_1a570867cf3e63b753f0da33aadba06e23" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="classmipp_1_1Reg" kindref="compound">mipp::Reg</ref>&lt; T &gt;</type>
+        <definition>static mipp::Reg&lt;T&gt; aff3ct::tools::Boolean_diff&lt; T, count_unknown_symbols &gt;::apply</definition>
+        <argsstring>(const mipp::Reg&lt; T &gt; &amp;in1, const mipp::Reg&lt; T &gt; &amp;in2)</argsstring>
+        <name>apply</name>
+        <param>
+          <type>const <ref refid="classmipp_1_1Reg" kindref="compound">mipp::Reg</ref>&lt; T &gt; &amp;</type>
+          <declname>in1</declname>
+        </param>
+        <param>
+          <type>const <ref refid="classmipp_1_1Reg" kindref="compound">mipp::Reg</ref>&lt; T &gt; &amp;</type>
+          <declname>in2</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/davem/gr-aff3ct_codes/aff3ct-3.0.2_Library_Header_Files/Tools/Perf/distance/Boolean_diff.h" line="22" column="25"/>
+      </memberdef>
+      <memberdef kind="function" id="structaff3ct_1_1tools_1_1Boolean__diff_1a57015c23e38fa68134f10f44832cec46" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="classmipp_1_1Reg" kindref="compound">mipp::Reg</ref>&lt; T &gt;</type>
+        <definition>static mipp::Reg&lt;T&gt; aff3ct::tools::Boolean_diff&lt; T, count_unknown_symbols &gt;::apply</definition>
+        <argsstring>(const mipp::Reg&lt; T &gt; &amp;in)</argsstring>
+        <name>apply</name>
+        <param>
+          <type>const <ref refid="classmipp_1_1Reg" kindref="compound">mipp::Reg</ref>&lt; T &gt; &amp;</type>
+          <declname>in</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/davem/gr-aff3ct_codes/aff3ct-3.0.2_Library_Header_Files/Tools/Perf/distance/Boolean_diff.h" line="24" column="25"/>
+      </memberdef>
+      <memberdef kind="function" id="structaff3ct_1_1tools_1_1Boolean__diff_1ae49e7771061527ddda3c00bc4071ba35" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>T</type>
+        <definition>static T aff3ct::tools::Boolean_diff&lt; T, count_unknown_symbols &gt;::apply</definition>
+        <argsstring>(const T &amp;in1, const T &amp;in2)</argsstring>
+        <name>apply</name>
+        <param>
+          <type>const T &amp;</type>
+          <declname>in1</declname>
+        </param>
+        <param>
+          <type>const T &amp;</type>
+          <declname>in2</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/davem/gr-aff3ct_codes/aff3ct-3.0.2_Library_Header_Files/Tools/Perf/distance/Boolean_diff.h" line="26" column="17"/>
+      </memberdef>
+      <memberdef kind="function" id="structaff3ct_1_1tools_1_1Boolean__diff_1ac725b26da715270a6be0925c6ffb6c61" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>T</type>
+        <definition>static T aff3ct::tools::Boolean_diff&lt; T, count_unknown_symbols &gt;::apply</definition>
+        <argsstring>(const T &amp;in)</argsstring>
+        <name>apply</name>
+        <param>
+          <type>const T &amp;</type>
+          <declname>in</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/davem/gr-aff3ct_codes/aff3ct-3.0.2_Library_Header_Files/Tools/Perf/distance/Boolean_diff.h" line="28" column="17"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/davem/gr-aff3ct_codes/aff3ct-3.0.2_Library_Header_Files/Tools/Perf/distance/Boolean_diff.h" line="20" column="1" bodyfile="/home/davem/gr-aff3ct_codes/aff3ct-3.0.2_Library_Header_Files/Tools/Perf/distance/Boolean_diff.h" bodystart="21" bodyend="29"/>
+    <listofallmembers>
+      <member refid="structaff3ct_1_1tools_1_1Boolean__diff_1a570867cf3e63b753f0da33aadba06e23" prot="public" virt="non-virtual"><scope>aff3ct::tools::Boolean_diff</scope><name>apply</name></member>
+      <member refid="structaff3ct_1_1tools_1_1Boolean__diff_1a57015c23e38fa68134f10f44832cec46" prot="public" virt="non-virtual"><scope>aff3ct::tools::Boolean_diff</scope><name>apply</name></member>
+      <member refid="structaff3ct_1_1tools_1_1Boolean__diff_1ae49e7771061527ddda3c00bc4071ba35" prot="public" virt="non-virtual"><scope>aff3ct::tools::Boolean_diff</scope><name>apply</name></member>
+      <member refid="structaff3ct_1_1tools_1_1Boolean__diff_1ac725b26da715270a6be0925c6ffb6c61" prot="public" virt="non-virtual"><scope>aff3ct::tools::Boolean_diff</scope><name>apply</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

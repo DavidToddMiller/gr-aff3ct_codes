@@ -1,0 +1,45 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="structdate_1_1detail_1_1make__string_3_01char_00_01Traits_01_4" kind="struct" language="C++" prot="public">
+    <compoundname>date::detail::make_string&lt; char, Traits &gt;</compoundname>
+    <includes refid="date_8h" local="no">date.h</includes>
+    <templateparamlist>
+      <param>
+        <type>class Traits</type>
+      </param>
+    </templateparamlist>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="structdate_1_1detail_1_1make__string_3_01char_00_01Traits_01_4_1a1afcfde960bdcb784f92d7aa082fadb6" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>class Rep</type>
+          </param>
+        </templateparamlist>
+        <type>std::basic_string&lt; char, Traits &gt;</type>
+        <definition>static std::basic_string&lt;char, Traits&gt; date::detail::make_string&lt; char, Traits &gt;::from</definition>
+        <argsstring>(Rep n)</argsstring>
+        <name>from</name>
+        <param>
+          <type>Rep</type>
+          <declname>n</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/davem/gr-aff3ct_codes/aff3ct-3.0.2_Library_Header_Files/date/date.h" line="8145" column="5" bodyfile="/home/davem/gr-aff3ct_codes/aff3ct-3.0.2_Library_Header_Files/date/date.h" bodystart="8145" bodyend="8149"/>
+        <references refid="namespacedate_1_1detail_1aa80ced3cce50147d3e50df4f34b3155f" compoundref="date_8h" startline="7910" endline="7913">date::detail::to_string</references>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/davem/gr-aff3ct_codes/aff3ct-3.0.2_Library_Header_Files/date/date.h" line="8140" column="1" bodyfile="/home/davem/gr-aff3ct_codes/aff3ct-3.0.2_Library_Header_Files/date/date.h" bodystart="8141" bodyend="8150"/>
+    <listofallmembers>
+      <member refid="structdate_1_1detail_1_1make__string_3_01char_00_01Traits_01_4_1a1afcfde960bdcb784f92d7aa082fadb6" prot="public" virt="non-virtual"><scope>date::detail::make_string&lt; char, Traits &gt;</scope><name>from</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

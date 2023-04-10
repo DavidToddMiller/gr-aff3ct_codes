@@ -1,0 +1,45 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="structmipp_1_1regx2" kind="struct" language="C++" prot="public">
+    <compoundname>mipp::regx2</compoundname>
+    <includes refid="mipp_8h" local="no">mipp.h</includes>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structmipp_1_1regx2_1a3e3427d495150dde120a823bf0cb8f32" prot="public" static="no" mutable="no">
+        <type><ref refid="namespacemipp_1addc5042f0855594e315f4d96e818bbbd" kindref="member">reg</ref></type>
+        <definition>reg mipp::regx2::val[2]</definition>
+        <argsstring>[2]</argsstring>
+        <name>val</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/davem/gr-aff3ct_codes/aff3ct-3.0.2_Library_Header_Files/mipp.h" line="416" column="24" bodyfile="/home/davem/gr-aff3ct_codes/aff3ct-3.0.2_Library_Header_Files/mipp.h" bodystart="416" bodyend="-1"/>
+        <referencedby refid="namespacemipp_1a3a13221422697e5cc91ed2bc214ad4b7" compoundref="mipp_8h" startline="877" endline="880">mipp::cadd</referencedby>
+        <referencedby refid="namespacemipp_1a4ea4b0a75d850d6d6eedf41ffa71215e" compoundref="mipp_8h" startline="907" endline="918">mipp::cdiv</referencedby>
+        <referencedby refid="namespacemipp_1a99a1a3027896f62f275d58ef067fb8ad" compoundref="mipp_8h" startline="1402" endline="1413">mipp::cdiv&lt; float &gt;</referencedby>
+        <referencedby refid="namespacemipp_1a9026522d943a223f54c09bc99e077f0f" compoundref="mipp_8h" startline="889" endline="895">mipp::cmul</referencedby>
+        <referencedby refid="namespacemipp_1aaa9fa14bc3595f2b72d70697e81f5549" compoundref="mipp_8h" startline="1384" endline="1390">mipp::cmul&lt; float &gt;</referencedby>
+        <referencedby refid="namespacemipp_1a0b324a853e619b603172aa642ecd085e" compoundref="mipp_8h" startline="898" endline="904">mipp::cmulconj</referencedby>
+        <referencedby refid="namespacemipp_1a54f7ecd82d3487c2e3f4bfe5215dd30d" compoundref="mipp_8h" startline="1393" endline="1399">mipp::cmulconj&lt; float &gt;</referencedby>
+        <referencedby refid="namespacemipp_1a991035bab5f852ce0d3d6866cef19a48" compoundref="mipp_8h" startline="921" endline="925">mipp::conj</referencedby>
+        <referencedby refid="namespacemipp_1ac24280349fc6fa02f90cc5cc007d1a2c" compoundref="mipp_8h" startline="744" endline="749">mipp::cossin</referencedby>
+        <referencedby refid="namespacemipp_1ad6a92f9e33c04cd8ab6c7da36b048f96" compoundref="mipp_8h" startline="883" endline="886">mipp::csub</referencedby>
+        <referencedby refid="namespacemipp_1afa299c5cb5f0d455c16ffa5cbf385938" compoundref="mipp_8h" startline="758" endline="761">mipp::deinterleave</referencedby>
+        <referencedby refid="namespacemipp_1a43e3b20fdff43c2fe67a35a2d4175d4e" compoundref="mipp_8h" startline="752" endline="755">mipp::interleave</referencedby>
+        <referencedby refid="namespacemipp_1ae2b33f161afd926e173020b0b0e9f98e" compoundref="mipp_8h" startline="928" endline="931">mipp::norm</referencedby>
+        <referencedby refid="namespacemipp_1ae884a7086f5ed8cf8ac95760cfae2dcd" compoundref="mipp_8h" startline="1415" endline="1418">mipp::norm&lt; float &gt;</referencedby>
+        <referencedby refid="namespacemipp_1a759109b72771da54a70c889c15071192" compoundref="mipp_8h" startline="736" endline="741">mipp::sincos</referencedby>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/davem/gr-aff3ct_codes/aff3ct-3.0.2_Library_Header_Files/mipp.h" line="416" column="1" bodyfile="/home/davem/gr-aff3ct_codes/aff3ct-3.0.2_Library_Header_Files/mipp.h" bodystart="416" bodyend="416"/>
+    <listofallmembers>
+      <member refid="structmipp_1_1regx2_1a3e3427d495150dde120a823bf0cb8f32" prot="public" virt="non-virtual"><scope>mipp::regx2</scope><name>val</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

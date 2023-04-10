@@ -1,0 +1,45 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="structmipp_1_1__reduction" kind="struct" language="C++" prot="public">
+    <compoundname>mipp::_reduction</compoundname>
+    <includes refid="mipp_8h" local="no">mipp.h</includes>
+    <templateparamlist>
+      <param>
+        <type>typename T</type>
+      </param>
+      <param>
+        <type><ref refid="namespacemipp_1a98151da8eb1063c2185ae073e3646fcb" kindref="member">red_op</ref>&lt; T &gt;</type>
+        <declname>OP</declname>
+        <defname>OP</defname>
+      </param>
+    </templateparamlist>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="structmipp_1_1__reduction_1a1e2f20026136be561597bed36227493e" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="namespacemipp_1addc5042f0855594e315f4d96e818bbbd" kindref="member">reg</ref></type>
+        <definition>static reg mipp::_reduction&lt; T, OP &gt;::apply</definition>
+        <argsstring>(const reg)</argsstring>
+        <name>apply</name>
+        <param>
+          <type>const</type>
+          <declname>reg</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/davem/gr-aff3ct_codes/aff3ct-3.0.2_Library_Header_Files/mipp.h" line="1231" column="12" bodyfile="/home/davem/gr-aff3ct_codes/aff3ct-3.0.2_Library_Header_Files/mipp.h" bodystart="1231" bodyend="1234"/>
+        <referencedby refid="structmipp_1_1reduction_1ad7dbd18bc46fbdcf079d5788a2da4e32" compoundref="mipp_8h" startline="1253" endline="1256">mipp::reduction&lt; T, OP &gt;::apply</referencedby>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/davem/gr-aff3ct_codes/aff3ct-3.0.2_Library_Header_Files/mipp.h" line="1229" column="1" bodyfile="/home/davem/gr-aff3ct_codes/aff3ct-3.0.2_Library_Header_Files/mipp.h" bodystart="1230" bodyend="1235"/>
+    <listofallmembers>
+      <member refid="structmipp_1_1__reduction_1a1e2f20026136be561597bed36227493e" prot="public" virt="non-virtual"><scope>mipp::_reduction</scope><name>apply</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>
