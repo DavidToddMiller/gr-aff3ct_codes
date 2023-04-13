@@ -46,6 +46,7 @@ sudo ldconfig
 There are some build dependencies for this GNU Radio out-of-tree module that must be done before running the above "cmake" and "make" operations that are required to use the MIT AFF3CT Shared Library in a GNU Radio block:
 
   1) The MIT AFF3CT Library (Header Files and Shared Object File) are already available in this repository, but must be placed in other folder locations before compiling/building so that they are found during build and execution.
+
   
                 a) aff3ct-3.0.2_Library_Header_Files (see folder)
                     I placed in root location path and folder usr/include but other options exist
@@ -54,6 +55,7 @@ There are some build dependencies for this GNU Radio out-of-tree module that mus
                     I placed in root location path and folder usr/lib but other options exist   
 
   2) 3 additional changes to cmake already are already in this repository:
+ 
      a) CMakeLists.txt at top level of repository: Added lines 100-103
  
      b) CMakeLists.txt in "lib" folder:  Modified line 30 at end of line
@@ -61,6 +63,7 @@ There are some build dependencies for this GNU Radio out-of-tree module that mus
      c) Added new file at location cmake/Modules: Findlibaff3ct-3.0.2.so.cmake 
   
   3) More information on the MIT AFF3CT Library can be found at the following 2 links if one wants to download AFF3CT files and manuals themselves:
+ 
               
               https://aff3ct.github.io/index.html
               
