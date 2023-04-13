@@ -291,7 +291,7 @@ blocks:
     alias: ''
     begin_tag: pmt.PMT_NIL
     comment: ''
-    file: /home/davem/gr-aff3ct_codes/examples/SQPSK_LDPC_OrionMOON_RF_IQ_1minuteONLY_recording
+    file: /home/davem/gr-aff3ct_codes/examples/AllenAntennaArray1minuteRecordingOnly_QPSK_LDPC_OrionMOON_RF_IQ
     length: '0'
     maxoutbuf: '0'
     minoutbuf: '0'
