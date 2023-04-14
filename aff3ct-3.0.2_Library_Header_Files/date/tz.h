@@ -1600,19 +1600,19 @@ zoned_time<Duration, TimeZonePtr>::operator=(const local_time<Duration>& ut)
     return *this;
 }
 
-template <class Duration, class TimeZonePtr>
-inline
-zoned_time<Duration, TimeZonePtr>::operator local_time<typename zoned_time<Duration, TimeZonePtr>::duration>() const
-{
-    return get_local_time();
-}
+//template <class Duration, class TimeZonePtr>
+//inline
+//zoned_time<Duration, TimeZonePtr>::operator local_time<typename zoned_time<Duration, //TimeZonePtr>::duration>() const
+//{
+//    return get_local_time();
+//}
 
-template <class Duration, class TimeZonePtr>
-inline
-zoned_time<Duration, TimeZonePtr>::operator sys_time<typename zoned_time<Duration, TimeZonePtr>::duration>() const
-{
-    return get_sys_time();
-}
+//template <class Duration, class TimeZonePtr>
+//inline
+//zoned_time<Duration, TimeZonePtr>::operator sys_time<typename zoned_time<Duration, //TimeZonePtr>::duration>() const
+//{
+//    return get_sys_time();
+//}
 
 template <class Duration, class TimeZonePtr>
 inline

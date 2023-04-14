@@ -255,7 +255,7 @@ blocks:
     alias: ''
     append: 'False'
     comment: ''
-    file: /home/davem/gr-aff3ct_codes/examples/Test_LDPC_Sink
+    file: /home/davem/AFF3CT_GithubTest/gr-aff3ct_codes/examples/Test_LDPC_Sink
     type: byte
     unbuffered: 'False'
     vlen: '1'
@@ -273,7 +273,7 @@ blocks:
     alias: ''
     append: 'False'
     comment: ''
-    file: /home/davem/gr-aff3ct_codes/examples/Before_LDPC_Decode_Sink
+    file: /home/davem/AFF3CT_GithubTest/gr-aff3ct_codes/examples/Before_LDPC_Decode_Sink
     type: byte
     unbuffered: 'False'
     vlen: '1'
@@ -291,7 +291,7 @@ blocks:
     alias: ''
     begin_tag: pmt.PMT_NIL
     comment: ''
-    file: /home/davem/gr-aff3ct_codes/examples/AllenAntennaArray1minuteRecordingOnly_QPSK_LDPC_OrionMOON_RF_IQ
+    file: /home/davem/gr-aff3ct_codes/examples/AllenTelescopeArray1minuteRecordingOnly_QPSK_LDPC_OrionMOON_RF_IQ
     length: '0'
     maxoutbuf: '0'
     minoutbuf: '0'

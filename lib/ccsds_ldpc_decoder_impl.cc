@@ -74,8 +74,8 @@ int ccsds_ldpc_decoder_impl::general_work(int noutput_items,
    
       uint64_t n_digested = 20*2048; // 12 frames for frame length 2048 
       uint64_t n_produced = 20*2048/16; // 12 frames for frame length 2048 
-      size_t failed_frames = 0;
-      size_t passed_frames = 0;
+      //size_t failed_frames = 0;
+      //size_t passed_frames = 0;
               // Initialise an array for b.noisy
       float arr[2560];
       float extra0 = 0.0;

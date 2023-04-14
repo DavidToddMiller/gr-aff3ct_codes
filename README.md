@@ -9,7 +9,7 @@ gr-aff3ct_codes is a GNU Radio module set of blocks that incorporates codes from
   3) This repository is associated with the gr-HighDataRate_Modem repository. gr-aff3ct_codes is being kept separate from the gr-HighDataRate_Modem repository because extra steps/dependencies are required to add the MIT AFF3CT library to a GNU Radio block as listed below after cloning this repository.
   
 
-Also, an example SQPSK/LDPC flowgraph that plays back a recorded I/Q file (about 500 frame duration) is located in the “examples” folder of this github repository. The Allen Antenna Array was used to record Orion moon vehicle IQ on the downlink (SQPSK with CCSDS LDPC) as stated at the following link that also provides recorded IQ data files and all the details about the SQPSK/LDPC flowgraph also:
+Also, an example CCSDS SQPSK/LDPC Rate 1/2 flowgraph that plays back a recorded I/Q file (about 500 frame duration repeated in flowgraph) is located in the “examples” folder of this github repository. GNU Radio member(s) not associated with NASA independently used the Allen Telescope Array (ATA) to record Orion moon vehicle RF IQ on the downlink (SQPSK with CCSDS LDPC rate 1/2) as stated at the following link that also provides recorded IQ data files and all the details about a GNU Radio CCSDS SQPSK/LDPC rate 1/2 flowgraph:
 
             https://destevez.net/2022/11/decoding-the-artemis-i-orion-vehicle/
 
