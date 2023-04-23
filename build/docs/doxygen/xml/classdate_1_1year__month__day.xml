@@ -1,0 +1,359 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="classdate_1_1year__month__day" kind="class" language="C++" prot="public">
+    <compoundname>date::year_month_day</compoundname>
+    <includes refid="date_8h" local="no">date.h</includes>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classdate_1_1year__month__day_1a88bca7fdafc312b252589ec80e1362bf" prot="private" static="no" mutable="no">
+        <type><ref refid="classdate_1_1year" kindref="compound">date::year</ref></type>
+        <definition>date::year date::year_month_day::y_</definition>
+        <argsstring></argsstring>
+        <name>y_</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/davem/gr-aff3ct_codes/aff3ct-3.0.2_Library_Header_Files/date/date.h" line="640" column="17" bodyfile="/home/davem/gr-aff3ct_codes/aff3ct-3.0.2_Library_Header_Files/date/date.h" bodystart="640" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classdate_1_1year__month__day_1a442e1743199795d066b45a12bd5f4ab4" prot="private" static="no" mutable="no">
+        <type><ref refid="classdate_1_1month" kindref="compound">date::month</ref></type>
+        <definition>date::month date::year_month_day::m_</definition>
+        <argsstring></argsstring>
+        <name>m_</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/davem/gr-aff3ct_codes/aff3ct-3.0.2_Library_Header_Files/date/date.h" line="641" column="17" bodyfile="/home/davem/gr-aff3ct_codes/aff3ct-3.0.2_Library_Header_Files/date/date.h" bodystart="641" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classdate_1_1year__month__day_1ab53d00e7110f42119162252d8f43845b" prot="private" static="no" mutable="no">
+        <type><ref refid="classdate_1_1day" kindref="compound">date::day</ref></type>
+        <definition>date::day date::year_month_day::d_</definition>
+        <argsstring></argsstring>
+        <name>d_</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/davem/gr-aff3ct_codes/aff3ct-3.0.2_Library_Header_Files/date/date.h" line="642" column="17" bodyfile="/home/davem/gr-aff3ct_codes/aff3ct-3.0.2_Library_Header_Files/date/date.h" bodystart="642" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classdate_1_1year__month__day_1a306b37151fee3efd598de0d78047d701" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>date::year_month_day::year_month_day</definition>
+        <argsstring>()=default</argsstring>
+        <name>year_month_day</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/davem/gr-aff3ct_codes/aff3ct-3.0.2_Library_Header_Files/date/date.h" line="645" column="5"/>
+      </memberdef>
+      <memberdef kind="function" id="classdate_1_1year__month__day_1a0c88822f75cb37f594ebaa3594ff23ea" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="date_8h_1a98c025909efef28d356780da89fc44b6" kindref="member">CONSTCD11</ref></type>
+        <definition>CONSTCD11 date::year_month_day::year_month_day</definition>
+        <argsstring>(const date::year &amp;y, const date::month &amp;m, const date::day &amp;d) NOEXCEPT</argsstring>
+        <name>year_month_day</name>
+        <param>
+          <type>const <ref refid="classdate_1_1year" kindref="compound">date::year</ref> &amp;</type>
+          <declname>y</declname>
+        </param>
+        <param>
+          <type>const <ref refid="classdate_1_1month" kindref="compound">date::month</ref> &amp;</type>
+          <declname>m</declname>
+        </param>
+        <param>
+          <type>const <ref refid="classdate_1_1day" kindref="compound">date::day</ref> &amp;</type>
+          <declname>d</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/davem/gr-aff3ct_codes/aff3ct-3.0.2_Library_Header_Files/date/date.h" line="646" column="15" bodyfile="/home/davem/gr-aff3ct_codes/aff3ct-3.0.2_Library_Header_Files/date/date.h" bodystart="2567" bodyend="2572"/>
+      </memberdef>
+      <memberdef kind="function" id="classdate_1_1year__month__day_1ad5377f13aa834eec9a3f5663dc7d604d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="date_8h_1a3893ed763f820a91f169a2e9777aa325" kindref="member">CONSTCD14</ref></type>
+        <definition>CONSTCD14 date::year_month_day::year_month_day</definition>
+        <argsstring>(const year_month_day_last &amp;ymdl) NOEXCEPT</argsstring>
+        <name>year_month_day</name>
+        <param>
+          <type>const <ref refid="classdate_1_1year__month__day__last" kindref="compound">year_month_day_last</ref> &amp;</type>
+          <declname>ymdl</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/davem/gr-aff3ct_codes/aff3ct-3.0.2_Library_Header_Files/date/date.h" line="648" column="15" bodyfile="/home/davem/gr-aff3ct_codes/aff3ct-3.0.2_Library_Header_Files/date/date.h" bodystart="2576" bodyend="2580"/>
+      </memberdef>
+      <memberdef kind="function" id="classdate_1_1year__month__day_1a3a2e417d191b002f13141b00ca3b6767" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="date_8h_1a3893ed763f820a91f169a2e9777aa325" kindref="member">CONSTCD14</ref></type>
+        <definition>CONSTCD14 date::year_month_day::year_month_day</definition>
+        <argsstring>(sys_days dp) NOEXCEPT</argsstring>
+        <name>year_month_day</name>
+        <param>
+          <type><ref refid="namespacedate_1ae5b7953f5a7367396877454e5a88b809" kindref="member">sys_days</ref></type>
+          <declname>dp</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/davem/gr-aff3ct_codes/aff3ct-3.0.2_Library_Header_Files/date/date.h" line="650" column="15" bodyfile="/home/davem/gr-aff3ct_codes/aff3ct-3.0.2_Library_Header_Files/date/date.h" bodystart="2584" bodyend="2586"/>
+      </memberdef>
+      <memberdef kind="function" id="classdate_1_1year__month__day_1a5a749b0767e8b47a4848b36df1d2d893" prot="public" static="no" const="no" explicit="yes" inline="yes" virt="non-virtual">
+        <type><ref refid="date_8h_1a3893ed763f820a91f169a2e9777aa325" kindref="member">CONSTCD14</ref></type>
+        <definition>CONSTCD14 date::year_month_day::year_month_day</definition>
+        <argsstring>(local_days dp) NOEXCEPT</argsstring>
+        <name>year_month_day</name>
+        <param>
+          <type><ref refid="namespacedate_1a396e62efd18a8a3544e9f09d91ef7eb3" kindref="member">local_days</ref></type>
+          <declname>dp</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/davem/gr-aff3ct_codes/aff3ct-3.0.2_Library_Header_Files/date/date.h" line="651" column="24" bodyfile="/home/davem/gr-aff3ct_codes/aff3ct-3.0.2_Library_Header_Files/date/date.h" bodystart="2590" bodyend="2592"/>
+      </memberdef>
+      <memberdef kind="function" id="classdate_1_1year__month__day_1a3d2b3ac4ed15af18baca50146c9ab336" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="date_8h_1a3893ed763f820a91f169a2e9777aa325" kindref="member">CONSTCD14</ref> <ref refid="classdate_1_1year__month__day" kindref="compound">year_month_day</ref> &amp;</type>
+        <definition>CONSTCD14 year_month_day &amp; date::year_month_day::operator+=</definition>
+        <argsstring>(const months &amp;m) NOEXCEPT</argsstring>
+        <name>operator+=</name>
+        <param>
+          <type>const <ref refid="namespacedate_1a195b2a3fd2c4afb3019ef51e901bdc23" kindref="member">months</ref> &amp;</type>
+          <declname>m</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/davem/gr-aff3ct_codes/aff3ct-3.0.2_Library_Header_Files/date/date.h" line="653" column="30" bodyfile="/home/davem/gr-aff3ct_codes/aff3ct-3.0.2_Library_Header_Files/date/date.h" bodystart="2601" bodyend="2605"/>
+      </memberdef>
+      <memberdef kind="function" id="classdate_1_1year__month__day_1a58ab7c15f5fb00adf8dc8d58e4f7e31f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="date_8h_1a3893ed763f820a91f169a2e9777aa325" kindref="member">CONSTCD14</ref> <ref refid="classdate_1_1year__month__day" kindref="compound">year_month_day</ref> &amp;</type>
+        <definition>CONSTCD14 year_month_day &amp; date::year_month_day::operator-=</definition>
+        <argsstring>(const months &amp;m) NOEXCEPT</argsstring>
+        <name>operator-=</name>
+        <param>
+          <type>const <ref refid="namespacedate_1a195b2a3fd2c4afb3019ef51e901bdc23" kindref="member">months</ref> &amp;</type>
+          <declname>m</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/davem/gr-aff3ct_codes/aff3ct-3.0.2_Library_Header_Files/date/date.h" line="654" column="30" bodyfile="/home/davem/gr-aff3ct_codes/aff3ct-3.0.2_Library_Header_Files/date/date.h" bodystart="2610" bodyend="2614"/>
+      </memberdef>
+      <memberdef kind="function" id="classdate_1_1year__month__day_1a7ee7b9513b13c55d3b5fced8e390e587" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="date_8h_1a3893ed763f820a91f169a2e9777aa325" kindref="member">CONSTCD14</ref> <ref refid="classdate_1_1year__month__day" kindref="compound">year_month_day</ref> &amp;</type>
+        <definition>CONSTCD14 year_month_day &amp; date::year_month_day::operator+=</definition>
+        <argsstring>(const years &amp;y) NOEXCEPT</argsstring>
+        <name>operator+=</name>
+        <param>
+          <type>const <ref refid="namespacedate_1a922cbbac979349ecd4e7e85cc2188aa8" kindref="member">years</ref> &amp;</type>
+          <declname>y</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/davem/gr-aff3ct_codes/aff3ct-3.0.2_Library_Header_Files/date/date.h" line="655" column="30" bodyfile="/home/davem/gr-aff3ct_codes/aff3ct-3.0.2_Library_Header_Files/date/date.h" bodystart="2619" bodyend="2623"/>
+      </memberdef>
+      <memberdef kind="function" id="classdate_1_1year__month__day_1ae0f1ecb32c6412f5eb47f86b2cca148c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="date_8h_1a3893ed763f820a91f169a2e9777aa325" kindref="member">CONSTCD14</ref> <ref refid="classdate_1_1year__month__day" kindref="compound">year_month_day</ref> &amp;</type>
+        <definition>CONSTCD14 year_month_day &amp; date::year_month_day::operator-=</definition>
+        <argsstring>(const years &amp;y) NOEXCEPT</argsstring>
+        <name>operator-=</name>
+        <param>
+          <type>const <ref refid="namespacedate_1a922cbbac979349ecd4e7e85cc2188aa8" kindref="member">years</ref> &amp;</type>
+          <declname>y</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/davem/gr-aff3ct_codes/aff3ct-3.0.2_Library_Header_Files/date/date.h" line="656" column="30" bodyfile="/home/davem/gr-aff3ct_codes/aff3ct-3.0.2_Library_Header_Files/date/date.h" bodystart="2628" bodyend="2632"/>
+      </memberdef>
+      <memberdef kind="function" id="classdate_1_1year__month__day_1a90fe176b8278fa7d049222df6f2d6fcf" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="date_8h_1a98c025909efef28d356780da89fc44b6" kindref="member">CONSTCD11</ref> <ref refid="classdate_1_1year" kindref="compound">date::year</ref></type>
+        <definition>CONSTCD11 year date::year_month_day::year</definition>
+        <argsstring>() const NOEXCEPT</argsstring>
+        <name>year</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/davem/gr-aff3ct_codes/aff3ct-3.0.2_Library_Header_Files/date/date.h" line="658" column="27" bodyfile="/home/davem/gr-aff3ct_codes/aff3ct-3.0.2_Library_Header_Files/date/date.h" bodystart="2594" bodyend="2594"/>
+        <referencedby refid="namespacedate_1a894be523c1eae57a1eda1942f1620ea7" compoundref="date_8h" startline="5997" endline="7211">date::from_stream</referencedby>
+        <referencedby refid="classPosix_1_1time__zone_1a2463fcfb81bdc19589f73d4f54a95678" compoundref="ptz_8h" startline="213" endline="253">Posix::time_zone::get_info</referencedby>
+        <referencedby refid="namespacedate_1a336f0e5a2a894a9c4bcac2f2b2b28fd9" compoundref="date_8h" startline="4582" endline="5594">date::to_stream</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classdate_1_1year__month__day_1ae97c2bc7fccc3e4aec83035fff09e256" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="date_8h_1a98c025909efef28d356780da89fc44b6" kindref="member">CONSTCD11</ref> <ref refid="classdate_1_1month" kindref="compound">date::month</ref></type>
+        <definition>CONSTCD11 month date::year_month_day::month</definition>
+        <argsstring>() const NOEXCEPT</argsstring>
+        <name>month</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/davem/gr-aff3ct_codes/aff3ct-3.0.2_Library_Header_Files/date/date.h" line="659" column="27" bodyfile="/home/davem/gr-aff3ct_codes/aff3ct-3.0.2_Library_Header_Files/date/date.h" bodystart="2595" bodyend="2595"/>
+        <referencedby refid="namespacedate_1_1detail_1a7a6875dc60538c876852d3dc44ec914f" compoundref="date_8h" startline="4380" endline="4389">date::detail::extract_month</referencedby>
+        <referencedby refid="namespacedate_1a894be523c1eae57a1eda1942f1620ea7" compoundref="date_8h" startline="5997" endline="7211">date::from_stream</referencedby>
+        <referencedby refid="namespacedate_1a336f0e5a2a894a9c4bcac2f2b2b28fd9" compoundref="date_8h" startline="4582" endline="5594">date::to_stream</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classdate_1_1year__month__day_1a9f06a363a27cf6aab75b0df5ee57eeff" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="date_8h_1a98c025909efef28d356780da89fc44b6" kindref="member">CONSTCD11</ref> <ref refid="classdate_1_1day" kindref="compound">date::day</ref></type>
+        <definition>CONSTCD11 day date::year_month_day::day</definition>
+        <argsstring>() const NOEXCEPT</argsstring>
+        <name>day</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/davem/gr-aff3ct_codes/aff3ct-3.0.2_Library_Header_Files/date/date.h" line="660" column="27" bodyfile="/home/davem/gr-aff3ct_codes/aff3ct-3.0.2_Library_Header_Files/date/date.h" bodystart="2596" bodyend="2596"/>
+        <referencedby refid="namespacedate_1a894be523c1eae57a1eda1942f1620ea7" compoundref="date_8h" startline="5997" endline="7211">date::from_stream</referencedby>
+        <referencedby refid="namespacedate_1a336f0e5a2a894a9c4bcac2f2b2b28fd9" compoundref="date_8h" startline="4582" endline="5594">date::to_stream</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classdate_1_1year__month__day_1ad5cbef46f987b9041384ca02b5547e60" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="date_8h_1a3893ed763f820a91f169a2e9777aa325" kindref="member">CONSTCD14</ref></type>
+        <definition>CONSTCD14 date::year_month_day::operator sys_days</definition>
+        <argsstring>() const NOEXCEPT</argsstring>
+        <name>operator sys_days</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/davem/gr-aff3ct_codes/aff3ct-3.0.2_Library_Header_Files/date/date.h" line="662" column="15" bodyfile="/home/davem/gr-aff3ct_codes/aff3ct-3.0.2_Library_Header_Files/date/date.h" bodystart="2655" bodyend="2658"/>
+      </memberdef>
+      <memberdef kind="function" id="classdate_1_1year__month__day_1aad54880900b2884e749ffbd63de2b204" prot="public" static="no" const="yes" explicit="yes" inline="yes" virt="non-virtual">
+        <type><ref refid="date_8h_1a3893ed763f820a91f169a2e9777aa325" kindref="member">CONSTCD14</ref></type>
+        <definition>CONSTCD14 date::year_month_day::operator local_days</definition>
+        <argsstring>() const NOEXCEPT</argsstring>
+        <name>operator local_days</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/davem/gr-aff3ct_codes/aff3ct-3.0.2_Library_Header_Files/date/date.h" line="663" column="24" bodyfile="/home/davem/gr-aff3ct_codes/aff3ct-3.0.2_Library_Header_Files/date/date.h" bodystart="2662" bodyend="2665"/>
+      </memberdef>
+      <memberdef kind="function" id="classdate_1_1year__month__day_1a97945fc698a22e803b05e7d75d0eb94a" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="date_8h_1a3893ed763f820a91f169a2e9777aa325" kindref="member">CONSTCD14</ref> bool</type>
+        <definition>CONSTCD14 bool date::year_month_day::ok</definition>
+        <argsstring>() const NOEXCEPT</argsstring>
+        <name>ok</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/davem/gr-aff3ct_codes/aff3ct-3.0.2_Library_Header_Files/date/date.h" line="664" column="20" bodyfile="/home/davem/gr-aff3ct_codes/aff3ct-3.0.2_Library_Header_Files/date/date.h" bodystart="2670" bodyend="2675"/>
+        <references refid="classdate_1_1day_1a13d80b9efb88b988a21e5982151942f0">date::day::day</references>
+        <references refid="classdate_1_1month_1ab6518c7476d05f77ebe10838881e025a" compoundref="date_8h" startline="1397" endline="1397">date::month::ok</references>
+        <references refid="classdate_1_1year_1a4760a74f84a239c906236d957e312432" compoundref="date_8h" startline="1522" endline="1525">date::year::ok</references>
+        <referencedby refid="namespacedate_1_1detail_1a7c3664e1fc8b97a029356a3ee3e40b32" compoundref="date_8h" startline="4354" endline="4376">date::detail::extract_weekday</referencedby>
+        <referencedby refid="namespacedate_1a336f0e5a2a894a9c4bcac2f2b2b28fd9" compoundref="date_8h" startline="4582" endline="5594">date::to_stream</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-static-func">
+      <memberdef kind="function" id="classdate_1_1year__month__day_1aba97bdb95dc360a728fed580121ede2d" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="date_8h_1a3893ed763f820a91f169a2e9777aa325" kindref="member">CONSTCD14</ref> <ref refid="classdate_1_1year__month__day" kindref="compound">year_month_day</ref></type>
+        <definition>CONSTCD14 year_month_day date::year_month_day::from_days</definition>
+        <argsstring>(days dp) NOEXCEPT</argsstring>
+        <name>from_days</name>
+        <param>
+          <type><ref refid="namespacedate_1a399ab4c5166221fd7685cb90f6c81eab" kindref="member">days</ref></type>
+          <declname>dp</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/davem/gr-aff3ct_codes/aff3ct-3.0.2_Library_Header_Files/date/date.h" line="667" column="37" bodyfile="/home/davem/gr-aff3ct_codes/aff3ct-3.0.2_Library_Header_Files/date/date.h" bodystart="2749" bodyend="2765"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="classdate_1_1year__month__day_1a59c07e575506bed2d191933c5346aca4" prot="private" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="date_8h_1a3893ed763f820a91f169a2e9777aa325" kindref="member">CONSTCD14</ref> <ref refid="namespacedate_1a399ab4c5166221fd7685cb90f6c81eab" kindref="member">days</ref></type>
+        <definition>CONSTCD14 days date::year_month_day::to_days</definition>
+        <argsstring>() const NOEXCEPT</argsstring>
+        <name>to_days</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/davem/gr-aff3ct_codes/aff3ct-3.0.2_Library_Header_Files/date/date.h" line="668" column="20" bodyfile="/home/davem/gr-aff3ct_codes/aff3ct-3.0.2_Library_Header_Files/date/date.h" bodystart="2637" bodyend="2651"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/davem/gr-aff3ct_codes/aff3ct-3.0.2_Library_Header_Files/date/date.h" line="638" column="1" bodyfile="/home/davem/gr-aff3ct_codes/aff3ct-3.0.2_Library_Header_Files/date/date.h" bodystart="639" bodyend="669"/>
+    <listofallmembers>
+      <member refid="classdate_1_1year__month__day_1ab53d00e7110f42119162252d8f43845b" prot="private" virt="non-virtual"><scope>date::year_month_day</scope><name>d_</name></member>
+      <member refid="classdate_1_1year__month__day_1a9f06a363a27cf6aab75b0df5ee57eeff" prot="public" virt="non-virtual"><scope>date::year_month_day</scope><name>day</name></member>
+      <member refid="classdate_1_1year__month__day_1aba97bdb95dc360a728fed580121ede2d" prot="private" virt="non-virtual"><scope>date::year_month_day</scope><name>from_days</name></member>
+      <member refid="classdate_1_1year__month__day_1a442e1743199795d066b45a12bd5f4ab4" prot="private" virt="non-virtual"><scope>date::year_month_day</scope><name>m_</name></member>
+      <member refid="classdate_1_1year__month__day_1ae97c2bc7fccc3e4aec83035fff09e256" prot="public" virt="non-virtual"><scope>date::year_month_day</scope><name>month</name></member>
+      <member refid="classdate_1_1year__month__day_1a97945fc698a22e803b05e7d75d0eb94a" prot="public" virt="non-virtual"><scope>date::year_month_day</scope><name>ok</name></member>
+      <member refid="classdate_1_1year__month__day_1aad54880900b2884e749ffbd63de2b204" prot="public" virt="non-virtual"><scope>date::year_month_day</scope><name>operator local_days</name></member>
+      <member refid="classdate_1_1year__month__day_1ad5cbef46f987b9041384ca02b5547e60" prot="public" virt="non-virtual"><scope>date::year_month_day</scope><name>operator sys_days</name></member>
+      <member refid="classdate_1_1year__month__day_1a3d2b3ac4ed15af18baca50146c9ab336" prot="public" virt="non-virtual"><scope>date::year_month_day</scope><name>operator+=</name></member>
+      <member refid="classdate_1_1year__month__day_1a7ee7b9513b13c55d3b5fced8e390e587" prot="public" virt="non-virtual"><scope>date::year_month_day</scope><name>operator+=</name></member>
+      <member refid="classdate_1_1year__month__day_1a58ab7c15f5fb00adf8dc8d58e4f7e31f" prot="public" virt="non-virtual"><scope>date::year_month_day</scope><name>operator-=</name></member>
+      <member refid="classdate_1_1year__month__day_1ae0f1ecb32c6412f5eb47f86b2cca148c" prot="public" virt="non-virtual"><scope>date::year_month_day</scope><name>operator-=</name></member>
+      <member refid="classdate_1_1year__month__day_1a59c07e575506bed2d191933c5346aca4" prot="private" virt="non-virtual"><scope>date::year_month_day</scope><name>to_days</name></member>
+      <member refid="classdate_1_1year__month__day_1a88bca7fdafc312b252589ec80e1362bf" prot="private" virt="non-virtual"><scope>date::year_month_day</scope><name>y_</name></member>
+      <member refid="classdate_1_1year__month__day_1a90fe176b8278fa7d049222df6f2d6fcf" prot="public" virt="non-virtual"><scope>date::year_month_day</scope><name>year</name></member>
+      <member refid="classdate_1_1year__month__day_1a306b37151fee3efd598de0d78047d701" prot="public" virt="non-virtual"><scope>date::year_month_day</scope><name>year_month_day</name></member>
+      <member refid="classdate_1_1year__month__day_1a0c88822f75cb37f594ebaa3594ff23ea" prot="public" virt="non-virtual"><scope>date::year_month_day</scope><name>year_month_day</name></member>
+      <member refid="classdate_1_1year__month__day_1ad5377f13aa834eec9a3f5663dc7d604d" prot="public" virt="non-virtual"><scope>date::year_month_day</scope><name>year_month_day</name></member>
+      <member refid="classdate_1_1year__month__day_1a3a2e417d191b002f13141b00ca3b6767" prot="public" virt="non-virtual"><scope>date::year_month_day</scope><name>year_month_day</name></member>
+      <member refid="classdate_1_1year__month__day_1a5a749b0767e8b47a4848b36df1d2d893" prot="public" virt="non-virtual"><scope>date::year_month_day</scope><name>year_month_day</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

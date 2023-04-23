@@ -1,0 +1,41 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="structdate_1_1detail_1_1make__string_3_01wchar__t_01_4" kind="struct" language="C++" prot="public">
+    <compoundname>date::detail::make_string&lt; wchar_t &gt;</compoundname>
+    <includes refid="date_8h" local="no">date.h</includes>
+    <templateparamlist>
+    </templateparamlist>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="structdate_1_1detail_1_1make__string_3_01wchar__t_01_4_1a75f544188c68059e9607095303d7402e" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>class Rep</type>
+          </param>
+        </templateparamlist>
+        <type>std::wstring</type>
+        <definition>static std::wstring date::detail::make_string&lt; wchar_t &gt;::from</definition>
+        <argsstring>(Rep n)</argsstring>
+        <name>from</name>
+        <param>
+          <type>Rep</type>
+          <declname>n</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/davem/gr-aff3ct_codes/aff3ct-3.0.2_Library_Header_Files/date/date.h" line="8158" column="5" bodyfile="/home/davem/gr-aff3ct_codes/aff3ct-3.0.2_Library_Header_Files/date/date.h" bodystart="8158" bodyend="8161"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/davem/gr-aff3ct_codes/aff3ct-3.0.2_Library_Header_Files/date/date.h" line="8153" column="1" bodyfile="/home/davem/gr-aff3ct_codes/aff3ct-3.0.2_Library_Header_Files/date/date.h" bodystart="8154" bodyend="8162"/>
+    <listofallmembers>
+      <member refid="structdate_1_1detail_1_1make__string_3_01wchar__t_01_4_1a75f544188c68059e9607095303d7402e" prot="public" virt="non-virtual"><scope>date::detail::make_string&lt; wchar_t &gt;</scope><name>from</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

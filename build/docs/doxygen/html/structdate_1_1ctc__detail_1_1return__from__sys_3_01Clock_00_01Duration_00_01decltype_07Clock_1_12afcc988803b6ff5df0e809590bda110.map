@@ -1,0 +1,4 @@
+<map id="date::ctc_detail::return_from_sys&lt; Clock, Duration, decltype(Clock::from_sys(declval&lt; time_point&lt; system_clock, Duration &gt; const &amp; &gt;()), void()) &gt;" name="date::ctc_detail::return_from_sys&lt; Clock, Duration, decltype(Clock::from_sys(declval&lt; time_point&lt; system_clock, Duration &gt; const &amp; &gt;()), void()) &gt;">
+<area shape="rect" id="node1" title=" " alt="" coords="284,5,507,105"/>
+<area shape="rect" id="node2" href="$structdate_1_1ctc__detail_1_1return__clock__time.html" title=" " alt="" coords="5,13,236,98"/>
+</map>

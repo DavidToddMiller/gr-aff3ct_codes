@@ -1,0 +1,216 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="classdate_1_1leap" kind="class" language="C++" prot="public">
+    <compoundname>date::leap</compoundname>
+    <includes refid="tz_8h" local="no">tz.h</includes>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classdate_1_1leap_1aaacc98c5d1702efcfc3ef06d773fb008" prot="private" static="no" mutable="no">
+        <type><ref refid="namespacedate_1adcbf0401c4632c85be5cae32930ae631" kindref="member">sys_seconds</ref></type>
+        <definition>sys_seconds date::leap::date_</definition>
+        <argsstring></argsstring>
+        <name>date_</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/davem/gr-aff3ct_codes/aff3ct-3.0.2_Library_Header_Files/date/tz.h" line="995" column="17" bodyfile="/home/davem/gr-aff3ct_codes/aff3ct-3.0.2_Library_Header_Files/date/tz.h" bodystart="995" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classdate_1_1leap_1a8893486e6fd80080940c21614c72e311" prot="public" static="no" const="no" explicit="yes" inline="no" virt="non-virtual">
+        <type><ref refid="tz_8h_1ac4062cebd0795135da516b9d2280d4af" kindref="member">DATE_API</ref></type>
+        <definition>DATE_API date::leap::leap</definition>
+        <argsstring>(const std::string &amp;s, detail::undocumented)</argsstring>
+        <name>leap</name>
+        <param>
+          <type>const std::string &amp;</type>
+          <declname>s</declname>
+        </param>
+        <param>
+          <type>detail::undocumented</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/davem/gr-aff3ct_codes/aff3ct-3.0.2_Library_Header_Files/date/tz.h" line="1001" column="23"/>
+      </memberdef>
+      <memberdef kind="function" id="classdate_1_1leap_1ae9402abdb01c6264713d3a5dd22b5f4f" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="namespacedate_1adcbf0401c4632c85be5cae32930ae631" kindref="member">sys_seconds</ref></type>
+        <definition>sys_seconds date::leap::date</definition>
+        <argsstring>() const</argsstring>
+        <name>date</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/davem/gr-aff3ct_codes/aff3ct-3.0.2_Library_Header_Files/date/tz.h" line="1004" column="17" bodyfile="/home/davem/gr-aff3ct_codes/aff3ct-3.0.2_Library_Header_Files/date/tz.h" bodystart="1004" bodyend="1004"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="friend">
+      <memberdef kind="friend" id="classdate_1_1leap_1a12d3f555babfcbfa8176836a5ee30445" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool operator==</definition>
+        <argsstring>(const leap &amp;x, const leap &amp;y)</argsstring>
+        <name>operator==</name>
+        <param>
+          <type>const <ref refid="classdate_1_1leap" kindref="compound">leap</ref> &amp;</type>
+          <declname>x</declname>
+        </param>
+        <param>
+          <type>const <ref refid="classdate_1_1leap" kindref="compound">leap</ref> &amp;</type>
+          <declname>y</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/davem/gr-aff3ct_codes/aff3ct-3.0.2_Library_Header_Files/date/tz.h" line="1006" column="17" bodyfile="/home/davem/gr-aff3ct_codes/aff3ct-3.0.2_Library_Header_Files/date/tz.h" bodystart="1006" bodyend="1006"/>
+      </memberdef>
+      <memberdef kind="friend" id="classdate_1_1leap_1ae589f02cf5d7a4d39007fe8582bd1acd" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool operator&lt;</definition>
+        <argsstring>(const leap &amp;x, const leap &amp;y)</argsstring>
+        <name>operator&lt;</name>
+        <param>
+          <type>const <ref refid="classdate_1_1leap" kindref="compound">leap</ref> &amp;</type>
+          <declname>x</declname>
+        </param>
+        <param>
+          <type>const <ref refid="classdate_1_1leap" kindref="compound">leap</ref> &amp;</type>
+          <declname>y</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/davem/gr-aff3ct_codes/aff3ct-3.0.2_Library_Header_Files/date/tz.h" line="1007" column="12" bodyfile="/home/davem/gr-aff3ct_codes/aff3ct-3.0.2_Library_Header_Files/date/tz.h" bodystart="1007" bodyend="1007"/>
+      </memberdef>
+      <memberdef kind="friend" id="classdate_1_1leap_1ae5ee2c07833695edcf8e106cb7ac35d5" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>class Duration</type>
+          </param>
+        </templateparamlist>
+        <type>bool</type>
+        <definition>bool operator==</definition>
+        <argsstring>(const leap &amp;x, const sys_time&lt; Duration &gt; &amp;y)</argsstring>
+        <name>operator==</name>
+        <param>
+          <type>const <ref refid="classdate_1_1leap" kindref="compound">leap</ref> &amp;</type>
+          <declname>x</declname>
+        </param>
+        <param>
+          <type>const <ref refid="namespacedate_1a79aceba3594c9da2a7f09b0b992be3e2" kindref="member">sys_time</ref>&lt; Duration &gt; &amp;</type>
+          <declname>y</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/davem/gr-aff3ct_codes/aff3ct-3.0.2_Library_Header_Files/date/tz.h" line="1012" column="5" bodyfile="/home/davem/gr-aff3ct_codes/aff3ct-3.0.2_Library_Header_Files/date/tz.h" bodystart="1012" bodyend="1015"/>
+      </memberdef>
+      <memberdef kind="friend" id="classdate_1_1leap_1ac1b8637ff36933b47f99eaff5d36c70c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>class Duration</type>
+          </param>
+        </templateparamlist>
+        <type>bool</type>
+        <definition>bool operator&lt;</definition>
+        <argsstring>(const leap &amp;x, const sys_time&lt; Duration &gt; &amp;y)</argsstring>
+        <name>operator&lt;</name>
+        <param>
+          <type>const <ref refid="classdate_1_1leap" kindref="compound">leap</ref> &amp;</type>
+          <declname>x</declname>
+        </param>
+        <param>
+          <type>const <ref refid="namespacedate_1a79aceba3594c9da2a7f09b0b992be3e2" kindref="member">sys_time</ref>&lt; Duration &gt; &amp;</type>
+          <declname>y</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/davem/gr-aff3ct_codes/aff3ct-3.0.2_Library_Header_Files/date/tz.h" line="1019" column="5" bodyfile="/home/davem/gr-aff3ct_codes/aff3ct-3.0.2_Library_Header_Files/date/tz.h" bodystart="1020" bodyend="1023"/>
+      </memberdef>
+      <memberdef kind="friend" id="classdate_1_1leap_1a877389a9bde0618a07edef4d812bb074" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>class Duration</type>
+          </param>
+        </templateparamlist>
+        <type>bool</type>
+        <definition>bool operator&lt;</definition>
+        <argsstring>(const sys_time&lt; Duration &gt; &amp;x, const leap &amp;y)</argsstring>
+        <name>operator&lt;</name>
+        <param>
+          <type>const <ref refid="namespacedate_1a79aceba3594c9da2a7f09b0b992be3e2" kindref="member">sys_time</ref>&lt; Duration &gt; &amp;</type>
+          <declname>x</declname>
+        </param>
+        <param>
+          <type>const <ref refid="classdate_1_1leap" kindref="compound">leap</ref> &amp;</type>
+          <declname>y</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/davem/gr-aff3ct_codes/aff3ct-3.0.2_Library_Header_Files/date/tz.h" line="1027" column="5" bodyfile="/home/davem/gr-aff3ct_codes/aff3ct-3.0.2_Library_Header_Files/date/tz.h" bodystart="1028" bodyend="1031"/>
+      </memberdef>
+      <memberdef kind="friend" id="classdate_1_1leap_1ae989054cf4205e033ea402a9c2e7617a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="tz_8h_1ac4062cebd0795135da516b9d2280d4af" kindref="member">DATE_API</ref> std::ostream &amp;</type>
+        <definition>DATE_API std::ostream&amp; operator&lt;&lt;</definition>
+        <argsstring>(std::ostream &amp;os, const leap &amp;x)</argsstring>
+        <name>operator&lt;&lt;</name>
+        <param>
+          <type>std::ostream &amp;</type>
+          <declname>os</declname>
+        </param>
+        <param>
+          <type>const <ref refid="classdate_1_1leap" kindref="compound">leap</ref> &amp;</type>
+          <declname>x</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/davem/gr-aff3ct_codes/aff3ct-3.0.2_Library_Header_Files/date/tz.h" line="1033" column="21"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/davem/gr-aff3ct_codes/aff3ct-3.0.2_Library_Header_Files/date/tz.h" line="992" column="1" bodyfile="/home/davem/gr-aff3ct_codes/aff3ct-3.0.2_Library_Header_Files/date/tz.h" bodystart="993" bodyend="1034"/>
+    <listofallmembers>
+      <member refid="classdate_1_1leap_1ae9402abdb01c6264713d3a5dd22b5f4f" prot="public" virt="non-virtual"><scope>date::leap</scope><name>date</name></member>
+      <member refid="classdate_1_1leap_1aaacc98c5d1702efcfc3ef06d773fb008" prot="private" virt="non-virtual"><scope>date::leap</scope><name>date_</name></member>
+      <member refid="classdate_1_1leap_1a8893486e6fd80080940c21614c72e311" prot="public" virt="non-virtual"><scope>date::leap</scope><name>leap</name></member>
+      <member refid="classdate_1_1leap_1ae589f02cf5d7a4d39007fe8582bd1acd" prot="public" virt="non-virtual"><scope>date::leap</scope><name>operator&lt;</name></member>
+      <member refid="classdate_1_1leap_1ac1b8637ff36933b47f99eaff5d36c70c" prot="public" virt="non-virtual"><scope>date::leap</scope><name>operator&lt;</name></member>
+      <member refid="classdate_1_1leap_1a877389a9bde0618a07edef4d812bb074" prot="public" virt="non-virtual"><scope>date::leap</scope><name>operator&lt;</name></member>
+      <member refid="classdate_1_1leap_1ae989054cf4205e033ea402a9c2e7617a" prot="public" virt="non-virtual"><scope>date::leap</scope><name>operator&lt;&lt;</name></member>
+      <member refid="classdate_1_1leap_1a12d3f555babfcbfa8176836a5ee30445" prot="public" virt="non-virtual"><scope>date::leap</scope><name>operator==</name></member>
+      <member refid="classdate_1_1leap_1ae5ee2c07833695edcf8e106cb7ac35d5" prot="public" virt="non-virtual"><scope>date::leap</scope><name>operator==</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,44 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="structdate_1_1clock__time__conversion_3_01DstClock_00_01std_1_1chrono_1_1system__clock_01_4" kind="struct" language="C++" prot="public">
+    <compoundname>date::clock_time_conversion&lt; DstClock, std::chrono::system_clock &gt;</compoundname>
+    <includes refid="tz_8h" local="no">tz.h</includes>
+    <templateparamlist>
+      <param>
+        <type>class DstClock</type>
+      </param>
+    </templateparamlist>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="structdate_1_1clock__time__conversion_3_01DstClock_00_01std_1_1chrono_1_1system__clock_01_4_1a893ad904845bd71276c92c0dab4b92a4" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>class Duration</type>
+          </param>
+        </templateparamlist>
+        <type><ref refid="structdate_1_1ctc__detail_1_1return__from__sys" kindref="compound">ctc_detail::return_from_sys</ref>&lt; DstClock, Duration &gt;::type</type>
+        <definition>ctc_detail::return_from_sys&lt;DstClock, Duration&gt;::type date::clock_time_conversion&lt; DstClock, std::chrono::system_clock &gt;::operator()</definition>
+        <argsstring>(const sys_time&lt; Duration &gt; &amp;st) const</argsstring>
+        <name>operator()</name>
+        <param>
+          <type>const <ref refid="namespacedate_1a79aceba3594c9da2a7f09b0b992be3e2" kindref="member">sys_time</ref>&lt; Duration &gt; &amp;</type>
+          <declname>st</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/davem/gr-aff3ct_codes/aff3ct-3.0.2_Library_Header_Files/date/tz.h" line="2370" column="5" bodyfile="/home/davem/gr-aff3ct_codes/aff3ct-3.0.2_Library_Header_Files/date/tz.h" bodystart="2370" bodyend="2373"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/davem/gr-aff3ct_codes/aff3ct-3.0.2_Library_Header_Files/date/tz.h" line="2366" column="1" bodyfile="/home/davem/gr-aff3ct_codes/aff3ct-3.0.2_Library_Header_Files/date/tz.h" bodystart="2367" bodyend="2374"/>
+    <listofallmembers>
+      <member refid="structdate_1_1clock__time__conversion_3_01DstClock_00_01std_1_1chrono_1_1system__clock_01_4_1a893ad904845bd71276c92c0dab4b92a4" prot="public" virt="non-virtual"><scope>date::clock_time_conversion&lt; DstClock, std::chrono::system_clock &gt;</scope><name>operator()</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

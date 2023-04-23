@@ -1,0 +1,87 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="ccsds__ldpc__decoder__impl_8h" kind="file" language="C++">
+    <compoundname>ccsds_ldpc_decoder_impl.h</compoundname>
+    <includes refid="ccsds__ldpc__decoder_8h" local="no">gnuradio/aff3ct_codes/ccsds_ldpc_decoder.h</includes>
+    <includes local="no">cstdio</includes>
+    <includes local="no">iostream</includes>
+    <includes local="no">memory</includes>
+    <includes local="no">string</includes>
+    <includes local="no">vector</includes>
+    <includes local="no">fstream</includes>
+    <includes local="no">aff3ct.hpp</includes>
+    <incdepgraph>
+      <node id="9">
+        <label>string</label>
+      </node>
+      <node id="4">
+        <label>gnuradio/attributes.h</label>
+      </node>
+      <node id="11">
+        <label>fstream</label>
+      </node>
+      <node id="12">
+        <label>aff3ct.hpp</label>
+      </node>
+      <node id="3">
+        <label>gnuradio/aff3ct_codes/api.h</label>
+        <link refid="api_8h"/>
+        <childnode refid="4" relation="include">
+        </childnode>
+      </node>
+      <node id="6">
+        <label>cstdio</label>
+      </node>
+      <node id="10">
+        <label>vector</label>
+      </node>
+      <node id="5">
+        <label>gnuradio/block.h</label>
+      </node>
+      <node id="7">
+        <label>iostream</label>
+      </node>
+      <node id="1">
+        <label>ccsds_ldpc_decoder_impl.h</label>
+        <link refid="ccsds__ldpc__decoder__impl_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="8" relation="include">
+        </childnode>
+        <childnode refid="9" relation="include">
+        </childnode>
+        <childnode refid="10" relation="include">
+        </childnode>
+        <childnode refid="11" relation="include">
+        </childnode>
+        <childnode refid="12" relation="include">
+        </childnode>
+      </node>
+      <node id="8">
+        <label>memory</label>
+      </node>
+      <node id="2">
+        <label>gnuradio/aff3ct_codes/ccsds_ldpc_decoder.h</label>
+        <link refid="ccsds__ldpc__decoder_8h"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+      </node>
+    </incdepgraph>
+    <innerclass refid="classgr_1_1aff3ct__codes_1_1ccsds__ldpc__decoder__impl" prot="public">gr::aff3ct_codes::ccsds_ldpc_decoder_impl</innerclass>
+    <innerclass refid="structgr_1_1aff3ct__codes_1_1ccsds__ldpc__decoder__impl_1_1modules" prot="private">gr::aff3ct_codes::ccsds_ldpc_decoder_impl::modules</innerclass>
+    <innerclass refid="structgr_1_1aff3ct__codes_1_1ccsds__ldpc__decoder__impl_1_1buffers" prot="private">gr::aff3ct_codes::ccsds_ldpc_decoder_impl::buffers</innerclass>
+    <innernamespace refid="namespacegr">gr</innernamespace>
+    <innernamespace refid="namespacegr_1_1aff3ct__codes">gr::aff3ct_codes</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/davem/gr-aff3ct_codes/lib/ccsds_ldpc_decoder_impl.h"/>
+  </compounddef>
+</doxygen>

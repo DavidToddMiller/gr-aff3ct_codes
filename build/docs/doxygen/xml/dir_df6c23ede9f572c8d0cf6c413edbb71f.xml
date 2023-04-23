@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="dir_df6c23ede9f572c8d0cf6c413edbb71f" kind="dir">
+    <compoundname>Math</compoundname>
+    <innerfile refid="binaryop_8h">binaryop.h</innerfile>
+    <innerfile refid="interpolation_8h">interpolation.h</innerfile>
+    <innerfile refid="matrix_8h">matrix.h</innerfile>
+    <innerfile refid="max_8h">max.h</innerfile>
+    <innerfile refid="numerical__integration_8h">numerical_integration.h</innerfile>
+    <innerfile refid="unaryop_8h">unaryop.h</innerfile>
+    <innerfile refid="utils_8h">utils.h</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/davem/gr-aff3ct_codes/aff3ct-3.0.2_Library_Header_Files/Tools/Math/"/>
+  </compounddef>
+</doxygen>

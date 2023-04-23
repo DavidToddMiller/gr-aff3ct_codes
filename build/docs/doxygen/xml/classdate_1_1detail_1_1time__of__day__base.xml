@@ -1,0 +1,217 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="classdate_1_1detail_1_1time__of__day__base" kind="class" language="C++" prot="public">
+    <compoundname>date::detail::time_of_day_base</compoundname>
+    <derivedcompoundref refid="classdate_1_1detail_1_1time__of__day__storage_3_01std_1_1chrono_1_1duration_3_01Rep_00_01Period_e04421575e68972b67dc6c5130edf814" prot="private" virt="non-virtual">date::detail::time_of_day_storage&lt; std::chrono::duration&lt; Rep, Period &gt;, detail::classify::hour &gt;</derivedcompoundref>
+    <derivedcompoundref refid="classdate_1_1detail_1_1time__of__day__storage_3_01std_1_1chrono_1_1duration_3_01Rep_00_01Period_f2584e46b5dce74236c208f17bb6e58c" prot="private" virt="non-virtual">date::detail::time_of_day_storage&lt; std::chrono::duration&lt; Rep, Period &gt;, detail::classify::minute &gt;</derivedcompoundref>
+    <derivedcompoundref refid="classdate_1_1detail_1_1time__of__day__storage_3_01std_1_1chrono_1_1duration_3_01Rep_00_01Period_eb61018323bf96c03a0f8628804ff31f" prot="private" virt="non-virtual">date::detail::time_of_day_storage&lt; std::chrono::duration&lt; Rep, Period &gt;, detail::classify::second &gt;</derivedcompoundref>
+    <derivedcompoundref refid="classdate_1_1detail_1_1time__of__day__storage_3_01std_1_1chrono_1_1duration_3_01Rep_00_01Period_8c019a4707fe95599e064c7b7698ce63" prot="private" virt="non-virtual">date::detail::time_of_day_storage&lt; std::chrono::duration&lt; Rep, Period &gt;, detail::classify::subsecond &gt;</derivedcompoundref>
+    <includes refid="date_8h" local="no">date.h</includes>
+      <sectiondef kind="protected-type">
+      <memberdef kind="enum" id="classdate_1_1detail_1_1time__of__day__base_1aed6557d24bc8ecbd09e2d85b175520ce" prot="protected" static="no" strong="no">
+        <type></type>
+        <name>@1</name>
+        <enumvalue id="classdate_1_1detail_1_1time__of__day__base_1aed6557d24bc8ecbd09e2d85b175520cea3dad84f902a973289d38df1b3ca18fdb" prot="protected">
+          <name>is24hr</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/davem/gr-aff3ct_codes/aff3ct-3.0.2_Library_Header_Files/date/date.h" line="3758" column="5" bodyfile="/home/davem/gr-aff3ct_codes/aff3ct-3.0.2_Library_Header_Files/date/date.h" bodystart="3758" bodyend="3758"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="protected-attrib">
+      <memberdef kind="variable" id="classdate_1_1detail_1_1time__of__day__base_1a3f7973f5fe189833d0afaa4e1640b315" prot="protected" static="no" mutable="no">
+        <type>std::chrono::hours</type>
+        <definition>std::chrono::hours date::detail::time_of_day_base::h_</definition>
+        <argsstring></argsstring>
+        <name>h_</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/davem/gr-aff3ct_codes/aff3ct-3.0.2_Library_Header_Files/date/date.h" line="3754" column="26" bodyfile="/home/davem/gr-aff3ct_codes/aff3ct-3.0.2_Library_Header_Files/date/date.h" bodystart="3754" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classdate_1_1detail_1_1time__of__day__base_1a182ead7b323a818a756587e2b1b7393c" prot="protected" static="no" mutable="no">
+        <type>unsigned char</type>
+        <definition>unsigned char date::detail::time_of_day_base::mode_</definition>
+        <argsstring></argsstring>
+        <name>mode_</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/davem/gr-aff3ct_codes/aff3ct-3.0.2_Library_Header_Files/date/date.h" line="3755" column="19" bodyfile="/home/davem/gr-aff3ct_codes/aff3ct-3.0.2_Library_Header_Files/date/date.h" bodystart="3755" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classdate_1_1detail_1_1time__of__day__base_1a7ca30fb656cd24de968e6643751c2301" prot="protected" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool date::detail::time_of_day_base::neg_</definition>
+        <argsstring></argsstring>
+        <name>neg_</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/davem/gr-aff3ct_codes/aff3ct-3.0.2_Library_Header_Files/date/date.h" line="3756" column="19" bodyfile="/home/davem/gr-aff3ct_codes/aff3ct-3.0.2_Library_Header_Files/date/date.h" bodystart="3756" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="protected-func">
+      <memberdef kind="function" id="classdate_1_1detail_1_1time__of__day__base_1a33379261ea04487d8e0693af0b3e3568" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="date_8h_1a98c025909efef28d356780da89fc44b6" kindref="member">CONSTCD11</ref></type>
+        <definition>CONSTCD11 date::detail::time_of_day_base::time_of_day_base</definition>
+        <argsstring>() NOEXCEPT</argsstring>
+        <name>time_of_day_base</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/davem/gr-aff3ct_codes/aff3ct-3.0.2_Library_Header_Files/date/date.h" line="3760" column="15" bodyfile="/home/davem/gr-aff3ct_codes/aff3ct-3.0.2_Library_Header_Files/date/date.h" bodystart="3760" bodyend="3764"/>
+      </memberdef>
+      <memberdef kind="function" id="classdate_1_1detail_1_1time__of__day__base_1ac93402ed980599512227243bd9bc634f" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="date_8h_1a98c025909efef28d356780da89fc44b6" kindref="member">CONSTCD11</ref></type>
+        <definition>CONSTCD11 date::detail::time_of_day_base::time_of_day_base</definition>
+        <argsstring>(std::chrono::hours h, bool neg, unsigned m) NOEXCEPT</argsstring>
+        <name>time_of_day_base</name>
+        <param>
+          <type>std::chrono::hours</type>
+          <declname>h</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>neg</declname>
+        </param>
+        <param>
+          <type>unsigned</type>
+          <declname>m</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/davem/gr-aff3ct_codes/aff3ct-3.0.2_Library_Header_Files/date/date.h" line="3767" column="15" bodyfile="/home/davem/gr-aff3ct_codes/aff3ct-3.0.2_Library_Header_Files/date/date.h" bodystart="3767" bodyend="3771"/>
+      </memberdef>
+      <memberdef kind="function" id="classdate_1_1detail_1_1time__of__day__base_1ab9b1b3509f4f2f154db8672b532c5d54" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="date_8h_1a3893ed763f820a91f169a2e9777aa325" kindref="member">CONSTCD14</ref> void</type>
+        <definition>CONSTCD14 void date::detail::time_of_day_base::make24</definition>
+        <argsstring>() NOEXCEPT</argsstring>
+        <name>make24</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/davem/gr-aff3ct_codes/aff3ct-3.0.2_Library_Header_Files/date/date.h" line="3773" column="20" bodyfile="/home/davem/gr-aff3ct_codes/aff3ct-3.0.2_Library_Header_Files/date/date.h" bodystart="3807" bodyend="3811"/>
+      </memberdef>
+      <memberdef kind="function" id="classdate_1_1detail_1_1time__of__day__base_1a543c15a26b9b5d0894376bd1499fa74e" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="date_8h_1a3893ed763f820a91f169a2e9777aa325" kindref="member">CONSTCD14</ref> void</type>
+        <definition>CONSTCD14 void date::detail::time_of_day_base::make12</definition>
+        <argsstring>() NOEXCEPT</argsstring>
+        <name>make12</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/davem/gr-aff3ct_codes/aff3ct-3.0.2_Library_Header_Files/date/date.h" line="3774" column="20" bodyfile="/home/davem/gr-aff3ct_codes/aff3ct-3.0.2_Library_Header_Files/date/date.h" bodystart="3816" bodyend="3834"/>
+        <references refid="namespacedate_1a175fea3ee38ed788cb7789dcbcd72e32a98cdabe1cc8baf888e526f082fe82fcb" compoundref="date_8h" startline="3544">date::am</references>
+        <references refid="date_8h_1a1262e7cef5d1d56fb1f1ed2a43bfe4d1" compoundref="date_8h" startline="121">CONSTDATA</references>
+        <references refid="namespacedate_1a175fea3ee38ed788cb7789dcbcd72e32aef22e7ac395adaceea83678779f98b1a" compoundref="date_8h" startline="3544">date::pm</references>
+      </memberdef>
+      <memberdef kind="function" id="classdate_1_1detail_1_1time__of__day__base_1a9471b2a4091b673cf8a5cc656d221ede" prot="protected" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="date_8h_1a3893ed763f820a91f169a2e9777aa325" kindref="member">CONSTCD14</ref> std::chrono::hours</type>
+        <definition>CONSTCD14 std::chrono::hours date::detail::time_of_day_base::to24hr</definition>
+        <argsstring>() const</argsstring>
+        <name>to24hr</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/davem/gr-aff3ct_codes/aff3ct-3.0.2_Library_Header_Files/date/date.h" line="3776" column="34" bodyfile="/home/davem/gr-aff3ct_codes/aff3ct-3.0.2_Library_Header_Files/date/date.h" bodystart="3787" bodyend="3802"/>
+        <references refid="namespacedate_1a175fea3ee38ed788cb7789dcbcd72e32a98cdabe1cc8baf888e526f082fe82fcb" compoundref="date_8h" startline="3544">date::am</references>
+        <references refid="date_8h_1a1262e7cef5d1d56fb1f1ed2a43bfe4d1" compoundref="date_8h" startline="121">CONSTDATA</references>
+        <references refid="namespacedate_1a175fea3ee38ed788cb7789dcbcd72e32aef22e7ac395adaceea83678779f98b1a" compoundref="date_8h" startline="3544">date::pm</references>
+      </memberdef>
+      <memberdef kind="function" id="classdate_1_1detail_1_1time__of__day__base_1a79c8fc9925a2451ee3951769b3730e02" prot="protected" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="date_8h_1a98c025909efef28d356780da89fc44b6" kindref="member">CONSTCD11</ref> bool</type>
+        <definition>CONSTCD11 bool date::detail::time_of_day_base::in_conventional_range</definition>
+        <argsstring>() const NOEXCEPT</argsstring>
+        <name>in_conventional_range</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/davem/gr-aff3ct_codes/aff3ct-3.0.2_Library_Header_Files/date/date.h" line="3778" column="20" bodyfile="/home/davem/gr-aff3ct_codes/aff3ct-3.0.2_Library_Header_Files/date/date.h" bodystart="3778" bodyend="3781"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>date::detail::time_of_day_storage&lt; std::chrono::duration&lt; Rep, Period &gt;, detail::classify::hour &gt;</label>
+        <link refid="classdate_1_1detail_1_1time__of__day__storage_3_01std_1_1chrono_1_1duration_3_01Rep_00_01Period_e04421575e68972b67dc6c5130edf814"/>
+        <childnode refid="1" relation="private-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>date::detail::time_of_day_storage&lt; std::chrono::duration&lt; Rep, Period &gt;, detail::classify::minute &gt;</label>
+        <link refid="classdate_1_1detail_1_1time__of__day__storage_3_01std_1_1chrono_1_1duration_3_01Rep_00_01Period_f2584e46b5dce74236c208f17bb6e58c"/>
+        <childnode refid="1" relation="private-inheritance">
+        </childnode>
+      </node>
+      <node id="5">
+        <label>date::detail::time_of_day_storage&lt; std::chrono::duration&lt; Rep, Period &gt;, detail::classify::subsecond &gt;</label>
+        <link refid="classdate_1_1detail_1_1time__of__day__storage_3_01std_1_1chrono_1_1duration_3_01Rep_00_01Period_8c019a4707fe95599e064c7b7698ce63"/>
+        <childnode refid="1" relation="private-inheritance">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>date::detail::time_of_day_storage&lt; std::chrono::duration&lt; Rep, Period &gt;, detail::classify::second &gt;</label>
+        <link refid="classdate_1_1detail_1_1time__of__day__storage_3_01std_1_1chrono_1_1duration_3_01Rep_00_01Period_eb61018323bf96c03a0f8628804ff31f"/>
+        <childnode refid="1" relation="private-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>date::detail::time_of_day_base</label>
+        <link refid="classdate_1_1detail_1_1time__of__day__base"/>
+      </node>
+    </inheritancegraph>
+    <location file="/home/davem/gr-aff3ct_codes/aff3ct-3.0.2_Library_Header_Files/date/date.h" line="3751" column="1" bodyfile="/home/davem/gr-aff3ct_codes/aff3ct-3.0.2_Library_Header_Files/date/date.h" bodystart="3752" bodyend="3782"/>
+    <listofallmembers>
+      <member refid="classdate_1_1detail_1_1time__of__day__base_1a3f7973f5fe189833d0afaa4e1640b315" prot="protected" virt="non-virtual"><scope>date::detail::time_of_day_base</scope><name>h_</name></member>
+      <member refid="classdate_1_1detail_1_1time__of__day__base_1a79c8fc9925a2451ee3951769b3730e02" prot="protected" virt="non-virtual"><scope>date::detail::time_of_day_base</scope><name>in_conventional_range</name></member>
+      <member refid="classdate_1_1detail_1_1time__of__day__base_1aed6557d24bc8ecbd09e2d85b175520cea3dad84f902a973289d38df1b3ca18fdb" prot="protected" virt="non-virtual"><scope>date::detail::time_of_day_base</scope><name>is24hr</name></member>
+      <member refid="classdate_1_1detail_1_1time__of__day__base_1a543c15a26b9b5d0894376bd1499fa74e" prot="protected" virt="non-virtual"><scope>date::detail::time_of_day_base</scope><name>make12</name></member>
+      <member refid="classdate_1_1detail_1_1time__of__day__base_1ab9b1b3509f4f2f154db8672b532c5d54" prot="protected" virt="non-virtual"><scope>date::detail::time_of_day_base</scope><name>make24</name></member>
+      <member refid="classdate_1_1detail_1_1time__of__day__base_1a182ead7b323a818a756587e2b1b7393c" prot="protected" virt="non-virtual"><scope>date::detail::time_of_day_base</scope><name>mode_</name></member>
+      <member refid="classdate_1_1detail_1_1time__of__day__base_1a7ca30fb656cd24de968e6643751c2301" prot="protected" virt="non-virtual"><scope>date::detail::time_of_day_base</scope><name>neg_</name></member>
+      <member refid="classdate_1_1detail_1_1time__of__day__base_1a33379261ea04487d8e0693af0b3e3568" prot="protected" virt="non-virtual"><scope>date::detail::time_of_day_base</scope><name>time_of_day_base</name></member>
+      <member refid="classdate_1_1detail_1_1time__of__day__base_1ac93402ed980599512227243bd9bc634f" prot="protected" virt="non-virtual"><scope>date::detail::time_of_day_base</scope><name>time_of_day_base</name></member>
+      <member refid="classdate_1_1detail_1_1time__of__day__base_1a9471b2a4091b673cf8a5cc656d221ede" prot="protected" virt="non-virtual"><scope>date::detail::time_of_day_base</scope><name>to24hr</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

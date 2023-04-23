@@ -1,0 +1,221 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="classdate_1_1detail_1_1decimal__format__seconds_3_01Duration_00_010_01_4" kind="class" language="C++" prot="public">
+    <compoundname>date::detail::decimal_format_seconds&lt; Duration, 0 &gt;</compoundname>
+    <includes refid="date_8h" local="no">date.h</includes>
+    <templateparamlist>
+      <param>
+        <type>class Duration</type>
+      </param>
+    </templateparamlist>
+      <sectiondef kind="public-type">
+      <memberdef kind="typedef" id="classdate_1_1detail_1_1decimal__format__seconds_3_01Duration_00_010_01_4_1a9faa9e8891872ba8e7eb19a43047cf94" prot="public" static="no">
+        <type>typename std::common_type&lt; Duration, std::chrono::seconds &gt;::type::rep</type>
+        <definition>using date::detail::decimal_format_seconds&lt; Duration, 0 &gt;::rep =  typename std::common_type&lt;Duration, std::chrono::seconds&gt;::type::rep</definition>
+        <argsstring></argsstring>
+        <name>rep</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/davem/gr-aff3ct_codes/aff3ct-3.0.2_Library_Header_Files/date/date.h" line="3664" column="5" bodyfile="/home/davem/gr-aff3ct_codes/aff3ct-3.0.2_Library_Header_Files/date/date.h" bodystart="3664" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="classdate_1_1detail_1_1decimal__format__seconds_3_01Duration_00_010_01_4_1a13ada956d373bc69ec395ae5ce535752" prot="public" static="no">
+        <type>std::chrono::duration&lt; <ref refid="classdate_1_1detail_1_1decimal__format__seconds_3_01Duration_00_010_01_4_1a9faa9e8891872ba8e7eb19a43047cf94" kindref="member">rep</ref> &gt;</type>
+        <definition>using date::detail::decimal_format_seconds&lt; Duration, 0 &gt;::precision =  std::chrono::duration&lt;rep&gt;</definition>
+        <argsstring></argsstring>
+        <name>precision</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/davem/gr-aff3ct_codes/aff3ct-3.0.2_Library_Header_Files/date/date.h" line="3665" column="5" bodyfile="/home/davem/gr-aff3ct_codes/aff3ct-3.0.2_Library_Header_Files/date/date.h" bodystart="3665" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-static-attrib">
+      <memberdef kind="variable" id="classdate_1_1detail_1_1decimal__format__seconds_3_01Duration_00_010_01_4_1a7641ae2380358d261abb7593fb5bfe87" prot="private" static="yes" mutable="no">
+        <type><ref refid="date_8h_1a1262e7cef5d1d56fb1f1ed2a43bfe4d1" kindref="member">CONSTDATA</ref> unsigned</type>
+        <definition>CONSTDATA unsigned date::detail::decimal_format_seconds&lt; Duration, 0 &gt;::w</definition>
+        <argsstring></argsstring>
+        <name>w</name>
+        <initializer>= 0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/davem/gr-aff3ct_codes/aff3ct-3.0.2_Library_Header_Files/date/date.h" line="3662" column="31" bodyfile="/home/davem/gr-aff3ct_codes/aff3ct-3.0.2_Library_Header_Files/date/date.h" bodystart="3662" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="classdate_1_1detail_1_1decimal__format__seconds_3_01Duration_00_010_01_4_1a7ccac22168f44ff462d785414bf072fb" prot="public" static="yes" mutable="no">
+        <type>auto <ref refid="date_8h_1a1262e7cef5d1d56fb1f1ed2a43bfe4d1" kindref="member">CONSTDATA</ref></type>
+        <definition>auto CONSTDATA date::detail::decimal_format_seconds&lt; Duration, 0 &gt;::width</definition>
+        <argsstring></argsstring>
+        <name>width</name>
+        <initializer>= <ref refid="structdate_1_1detail_1_1make__precision" kindref="compound">make_precision</ref>&lt;<ref refid="classdate_1_1detail_1_1decimal__format__seconds_3_01Duration_00_010_01_4_1a9faa9e8891872ba8e7eb19a43047cf94" kindref="member">rep</ref>, w&gt;::<ref refid="structdate_1_1detail_1_1width" kindref="compound">width</ref></initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/davem/gr-aff3ct_codes/aff3ct-3.0.2_Library_Header_Files/date/date.h" line="3666" column="27" bodyfile="/home/davem/gr-aff3ct_codes/aff3ct-3.0.2_Library_Header_Files/date/date.h" bodystart="3666" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classdate_1_1detail_1_1decimal__format__seconds_3_01Duration_00_010_01_4_1a7a28be41bb63ff55821f0104301fd94e" prot="private" static="no" mutable="no">
+        <type>std::chrono::seconds</type>
+        <definition>std::chrono::seconds date::detail::decimal_format_seconds&lt; Duration, 0 &gt;::s_</definition>
+        <argsstring></argsstring>
+        <name>s_</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/davem/gr-aff3ct_codes/aff3ct-3.0.2_Library_Header_Files/date/date.h" line="3669" column="26" bodyfile="/home/davem/gr-aff3ct_codes/aff3ct-3.0.2_Library_Header_Files/date/date.h" bodystart="3669" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classdate_1_1detail_1_1decimal__format__seconds_3_01Duration_00_010_01_4_1a7a8ba4c227f72fd1c6ee12a79cac5f41" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="date_8h_1a98c025909efef28d356780da89fc44b6" kindref="member">CONSTCD11</ref></type>
+        <definition>CONSTCD11 date::detail::decimal_format_seconds&lt; Duration, 0 &gt;::decimal_format_seconds</definition>
+        <argsstring>()</argsstring>
+        <name>decimal_format_seconds</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/davem/gr-aff3ct_codes/aff3ct-3.0.2_Library_Header_Files/date/date.h" line="3672" column="15" bodyfile="/home/davem/gr-aff3ct_codes/aff3ct-3.0.2_Library_Header_Files/date/date.h" bodystart="3672" bodyend="3672"/>
+      </memberdef>
+      <memberdef kind="function" id="classdate_1_1detail_1_1decimal__format__seconds_3_01Duration_00_010_01_4_1a5cf1e39cedc1e2ba7577cd441f33bb8d" prot="public" static="no" const="no" explicit="yes" inline="yes" virt="non-virtual">
+        <type><ref refid="date_8h_1a98c025909efef28d356780da89fc44b6" kindref="member">CONSTCD11</ref></type>
+        <definition>CONSTCD11 date::detail::decimal_format_seconds&lt; Duration, 0 &gt;::decimal_format_seconds</definition>
+        <argsstring>(const precision &amp;s) NOEXCEPT</argsstring>
+        <name>decimal_format_seconds</name>
+        <param>
+          <type>const <ref refid="classdate_1_1detail_1_1decimal__format__seconds_3_01Duration_00_010_01_4_1a13ada956d373bc69ec395ae5ce535752" kindref="member">precision</ref> &amp;</type>
+          <declname>s</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/davem/gr-aff3ct_codes/aff3ct-3.0.2_Library_Header_Files/date/date.h" line="3673" column="24" bodyfile="/home/davem/gr-aff3ct_codes/aff3ct-3.0.2_Library_Header_Files/date/date.h" bodystart="3673" bodyend="3675"/>
+      </memberdef>
+      <memberdef kind="function" id="classdate_1_1detail_1_1decimal__format__seconds_3_01Duration_00_010_01_4_1a9ed55bcbe3f5d3d4ff7e61aeca69df3b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="date_8h_1a3893ed763f820a91f169a2e9777aa325" kindref="member">CONSTCD14</ref> std::chrono::seconds &amp;</type>
+        <definition>CONSTCD14 std::chrono::seconds&amp; date::detail::decimal_format_seconds&lt; Duration, 0 &gt;::seconds</definition>
+        <argsstring>() NOEXCEPT</argsstring>
+        <name>seconds</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/davem/gr-aff3ct_codes/aff3ct-3.0.2_Library_Header_Files/date/date.h" line="3677" column="36" bodyfile="/home/davem/gr-aff3ct_codes/aff3ct-3.0.2_Library_Header_Files/date/date.h" bodystart="3677" bodyend="3677"/>
+      </memberdef>
+      <memberdef kind="function" id="classdate_1_1detail_1_1decimal__format__seconds_3_01Duration_00_010_01_4_1af1935871a72d124c8a0e5de41fda11a5" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="date_8h_1a98c025909efef28d356780da89fc44b6" kindref="member">CONSTCD11</ref> std::chrono::seconds</type>
+        <definition>CONSTCD11 std::chrono::seconds date::detail::decimal_format_seconds&lt; Duration, 0 &gt;::seconds</definition>
+        <argsstring>() const NOEXCEPT</argsstring>
+        <name>seconds</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/davem/gr-aff3ct_codes/aff3ct-3.0.2_Library_Header_Files/date/date.h" line="3678" column="36" bodyfile="/home/davem/gr-aff3ct_codes/aff3ct-3.0.2_Library_Header_Files/date/date.h" bodystart="3678" bodyend="3678"/>
+      </memberdef>
+      <memberdef kind="function" id="classdate_1_1detail_1_1decimal__format__seconds_3_01Duration_00_010_01_4_1a4e5f3be269c8f018151a9fa41da3134a" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="date_8h_1a3893ed763f820a91f169a2e9777aa325" kindref="member">CONSTCD14</ref> <ref refid="classdate_1_1detail_1_1decimal__format__seconds_3_01Duration_00_010_01_4_1a13ada956d373bc69ec395ae5ce535752" kindref="member">precision</ref></type>
+        <definition>CONSTCD14 precision date::detail::decimal_format_seconds&lt; Duration, 0 &gt;::to_duration</definition>
+        <argsstring>() const NOEXCEPT</argsstring>
+        <name>to_duration</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/davem/gr-aff3ct_codes/aff3ct-3.0.2_Library_Header_Files/date/date.h" line="3679" column="25" bodyfile="/home/davem/gr-aff3ct_codes/aff3ct-3.0.2_Library_Header_Files/date/date.h" bodystart="3679" bodyend="3679"/>
+      </memberdef>
+      <memberdef kind="function" id="classdate_1_1detail_1_1decimal__format__seconds_3_01Duration_00_010_01_4_1a7ebc8fef32e55ec4ed899e6ee4eab2b7" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="date_8h_1a98c025909efef28d356780da89fc44b6" kindref="member">CONSTCD11</ref> bool</type>
+        <definition>CONSTCD11 bool date::detail::decimal_format_seconds&lt; Duration, 0 &gt;::in_conventional_range</definition>
+        <argsstring>() const NOEXCEPT</argsstring>
+        <name>in_conventional_range</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/davem/gr-aff3ct_codes/aff3ct-3.0.2_Library_Header_Files/date/date.h" line="3681" column="20" bodyfile="/home/davem/gr-aff3ct_codes/aff3ct-3.0.2_Library_Header_Files/date/date.h" bodystart="3681" bodyend="3685"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="friend">
+      <memberdef kind="friend" id="classdate_1_1detail_1_1decimal__format__seconds_3_01Duration_00_010_01_4_1afec5c6bb3e79700c56a3b8d9a6c525a5" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>class CharT</type>
+          </param>
+          <param>
+            <type>class Traits</type>
+          </param>
+        </templateparamlist>
+        <type>std::basic_ostream&lt; CharT, Traits &gt; &amp;</type>
+        <definition>std::basic_ostream&lt;CharT, Traits&gt;&amp; operator&lt;&lt;</definition>
+        <argsstring>(std::basic_ostream&lt; CharT, Traits &gt; &amp;os, const decimal_format_seconds &amp;x)</argsstring>
+        <name>operator&lt;&lt;</name>
+        <param>
+          <type>std::basic_ostream&lt; CharT, Traits &gt; &amp;</type>
+          <declname>os</declname>
+        </param>
+        <param>
+          <type>const <ref refid="classdate_1_1detail_1_1decimal__format__seconds" kindref="compound">decimal_format_seconds</ref> &amp;</type>
+          <declname>x</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/davem/gr-aff3ct_codes/aff3ct-3.0.2_Library_Header_Files/date/date.h" line="3688" column="5" bodyfile="/home/davem/gr-aff3ct_codes/aff3ct-3.0.2_Library_Header_Files/date/date.h" bodystart="3690" bodyend="3698"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/davem/gr-aff3ct_codes/aff3ct-3.0.2_Library_Header_Files/date/date.h" line="3660" column="1" bodyfile="/home/davem/gr-aff3ct_codes/aff3ct-3.0.2_Library_Header_Files/date/date.h" bodystart="3661" bodyend="3699"/>
+    <listofallmembers>
+      <member refid="classdate_1_1detail_1_1decimal__format__seconds_3_01Duration_00_010_01_4_1a7a8ba4c227f72fd1c6ee12a79cac5f41" prot="public" virt="non-virtual"><scope>date::detail::decimal_format_seconds&lt; Duration, 0 &gt;</scope><name>decimal_format_seconds</name></member>
+      <member refid="classdate_1_1detail_1_1decimal__format__seconds_3_01Duration_00_010_01_4_1a5cf1e39cedc1e2ba7577cd441f33bb8d" prot="public" virt="non-virtual"><scope>date::detail::decimal_format_seconds&lt; Duration, 0 &gt;</scope><name>decimal_format_seconds</name></member>
+      <member refid="classdate_1_1detail_1_1decimal__format__seconds_3_01Duration_00_010_01_4_1a7ebc8fef32e55ec4ed899e6ee4eab2b7" prot="public" virt="non-virtual"><scope>date::detail::decimal_format_seconds&lt; Duration, 0 &gt;</scope><name>in_conventional_range</name></member>
+      <member refid="classdate_1_1detail_1_1decimal__format__seconds_3_01Duration_00_010_01_4_1afec5c6bb3e79700c56a3b8d9a6c525a5" prot="public" virt="non-virtual"><scope>date::detail::decimal_format_seconds&lt; Duration, 0 &gt;</scope><name>operator&lt;&lt;</name></member>
+      <member refid="classdate_1_1detail_1_1decimal__format__seconds_3_01Duration_00_010_01_4_1a13ada956d373bc69ec395ae5ce535752" prot="public" virt="non-virtual"><scope>date::detail::decimal_format_seconds&lt; Duration, 0 &gt;</scope><name>precision</name></member>
+      <member refid="classdate_1_1detail_1_1decimal__format__seconds_3_01Duration_00_010_01_4_1a9faa9e8891872ba8e7eb19a43047cf94" prot="public" virt="non-virtual"><scope>date::detail::decimal_format_seconds&lt; Duration, 0 &gt;</scope><name>rep</name></member>
+      <member refid="classdate_1_1detail_1_1decimal__format__seconds_3_01Duration_00_010_01_4_1a7a28be41bb63ff55821f0104301fd94e" prot="private" virt="non-virtual"><scope>date::detail::decimal_format_seconds&lt; Duration, 0 &gt;</scope><name>s_</name></member>
+      <member refid="classdate_1_1detail_1_1decimal__format__seconds_3_01Duration_00_010_01_4_1a9ed55bcbe3f5d3d4ff7e61aeca69df3b" prot="public" virt="non-virtual"><scope>date::detail::decimal_format_seconds&lt; Duration, 0 &gt;</scope><name>seconds</name></member>
+      <member refid="classdate_1_1detail_1_1decimal__format__seconds_3_01Duration_00_010_01_4_1af1935871a72d124c8a0e5de41fda11a5" prot="public" virt="non-virtual"><scope>date::detail::decimal_format_seconds&lt; Duration, 0 &gt;</scope><name>seconds</name></member>
+      <member refid="classdate_1_1detail_1_1decimal__format__seconds_3_01Duration_00_010_01_4_1a4e5f3be269c8f018151a9fa41da3134a" prot="public" virt="non-virtual"><scope>date::detail::decimal_format_seconds&lt; Duration, 0 &gt;</scope><name>to_duration</name></member>
+      <member refid="classdate_1_1detail_1_1decimal__format__seconds_3_01Duration_00_010_01_4_1a7641ae2380358d261abb7593fb5bfe87" prot="private" virt="non-virtual"><scope>date::detail::decimal_format_seconds&lt; Duration, 0 &gt;</scope><name>w</name></member>
+      <member refid="classdate_1_1detail_1_1decimal__format__seconds_3_01Duration_00_010_01_4_1a7ccac22168f44ff462d785414bf072fb" prot="public" virt="non-virtual"><scope>date::detail::decimal_format_seconds&lt; Duration, 0 &gt;</scope><name>width</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

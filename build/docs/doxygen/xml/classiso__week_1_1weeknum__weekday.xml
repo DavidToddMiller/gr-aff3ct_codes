@@ -1,0 +1,110 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="classiso__week_1_1weeknum__weekday" kind="class" language="C++" prot="public">
+    <compoundname>iso_week::weeknum_weekday</compoundname>
+    <includes refid="iso__week_8h" local="no">iso_week.h</includes>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classiso__week_1_1weeknum__weekday_1ac81410550d591840a5fba80d2e69afa8" prot="private" static="no" mutable="no">
+        <type><ref refid="classiso__week_1_1weeknum" kindref="compound">iso_week::weeknum</ref></type>
+        <definition>iso_week::weeknum iso_week::weeknum_weekday::wn_</definition>
+        <argsstring></argsstring>
+        <name>wn_</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/davem/gr-aff3ct_codes/aff3ct-3.0.2_Library_Header_Files/date/iso_week.h" line="282" column="23" bodyfile="/home/davem/gr-aff3ct_codes/aff3ct-3.0.2_Library_Header_Files/date/iso_week.h" bodystart="282" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classiso__week_1_1weeknum__weekday_1ac298e6e92eb116dd6c4a72f9dffef22f" prot="private" static="no" mutable="no">
+        <type><ref refid="classiso__week_1_1weekday" kindref="compound">iso_week::weekday</ref></type>
+        <definition>iso_week::weekday iso_week::weeknum_weekday::wd_</definition>
+        <argsstring></argsstring>
+        <name>wd_</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/davem/gr-aff3ct_codes/aff3ct-3.0.2_Library_Header_Files/date/iso_week.h" line="283" column="23" bodyfile="/home/davem/gr-aff3ct_codes/aff3ct-3.0.2_Library_Header_Files/date/iso_week.h" bodystart="283" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classiso__week_1_1weeknum__weekday_1aa06abba1be5f775bfbc51b0823a6844a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="date_8h_1a98c025909efef28d356780da89fc44b6" kindref="member">CONSTCD11</ref></type>
+        <definition>CONSTCD11 iso_week::weeknum_weekday::weeknum_weekday</definition>
+        <argsstring>(const iso_week::weeknum &amp;wn, const iso_week::weekday &amp;wd) NOEXCEPT</argsstring>
+        <name>weeknum_weekday</name>
+        <param>
+          <type>const <ref refid="classiso__week_1_1weeknum" kindref="compound">iso_week::weeknum</ref> &amp;</type>
+          <declname>wn</declname>
+        </param>
+        <param>
+          <type>const <ref refid="classiso__week_1_1weekday" kindref="compound">iso_week::weekday</ref> &amp;</type>
+          <declname>wd</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/davem/gr-aff3ct_codes/aff3ct-3.0.2_Library_Header_Files/date/iso_week.h" line="286" column="15" bodyfile="/home/davem/gr-aff3ct_codes/aff3ct-3.0.2_Library_Header_Files/date/iso_week.h" bodystart="1125" bodyend="1129"/>
+      </memberdef>
+      <memberdef kind="function" id="classiso__week_1_1weeknum__weekday_1a1bacfbe9b5576853635126426a9996ef" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="date_8h_1a98c025909efef28d356780da89fc44b6" kindref="member">CONSTCD11</ref> <ref refid="classiso__week_1_1weeknum" kindref="compound">iso_week::weeknum</ref></type>
+        <definition>CONSTCD11 weeknum iso_week::weeknum_weekday::weeknum</definition>
+        <argsstring>() const NOEXCEPT</argsstring>
+        <name>weeknum</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/davem/gr-aff3ct_codes/aff3ct-3.0.2_Library_Header_Files/date/iso_week.h" line="289" column="33" bodyfile="/home/davem/gr-aff3ct_codes/aff3ct-3.0.2_Library_Header_Files/date/iso_week.h" bodystart="1131" bodyend="1131"/>
+      </memberdef>
+      <memberdef kind="function" id="classiso__week_1_1weeknum__weekday_1acdac8e067396723226002037908aa75c" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="date_8h_1a98c025909efef28d356780da89fc44b6" kindref="member">CONSTCD11</ref> <ref refid="classiso__week_1_1weekday" kindref="compound">iso_week::weekday</ref></type>
+        <definition>CONSTCD11 weekday iso_week::weeknum_weekday::weekday</definition>
+        <argsstring>() const NOEXCEPT</argsstring>
+        <name>weekday</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/davem/gr-aff3ct_codes/aff3ct-3.0.2_Library_Header_Files/date/iso_week.h" line="290" column="33" bodyfile="/home/davem/gr-aff3ct_codes/aff3ct-3.0.2_Library_Header_Files/date/iso_week.h" bodystart="1132" bodyend="1132"/>
+      </memberdef>
+      <memberdef kind="function" id="classiso__week_1_1weeknum__weekday_1a847e7b6c7c756cc80e432f62e5ea10e3" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="date_8h_1a3893ed763f820a91f169a2e9777aa325" kindref="member">CONSTCD14</ref> bool</type>
+        <definition>CONSTCD14 bool iso_week::weeknum_weekday::ok</definition>
+        <argsstring>() const NOEXCEPT</argsstring>
+        <name>ok</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/davem/gr-aff3ct_codes/aff3ct-3.0.2_Library_Header_Files/date/iso_week.h" line="292" column="20" bodyfile="/home/davem/gr-aff3ct_codes/aff3ct-3.0.2_Library_Header_Files/date/iso_week.h" bodystart="1137" bodyend="1140"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/davem/gr-aff3ct_codes/aff3ct-3.0.2_Library_Header_Files/date/iso_week.h" line="280" column="1" bodyfile="/home/davem/gr-aff3ct_codes/aff3ct-3.0.2_Library_Header_Files/date/iso_week.h" bodystart="281" bodyend="293"/>
+    <listofallmembers>
+      <member refid="classiso__week_1_1weeknum__weekday_1a847e7b6c7c756cc80e432f62e5ea10e3" prot="public" virt="non-virtual"><scope>iso_week::weeknum_weekday</scope><name>ok</name></member>
+      <member refid="classiso__week_1_1weeknum__weekday_1ac298e6e92eb116dd6c4a72f9dffef22f" prot="private" virt="non-virtual"><scope>iso_week::weeknum_weekday</scope><name>wd_</name></member>
+      <member refid="classiso__week_1_1weeknum__weekday_1acdac8e067396723226002037908aa75c" prot="public" virt="non-virtual"><scope>iso_week::weeknum_weekday</scope><name>weekday</name></member>
+      <member refid="classiso__week_1_1weeknum__weekday_1a1bacfbe9b5576853635126426a9996ef" prot="public" virt="non-virtual"><scope>iso_week::weeknum_weekday</scope><name>weeknum</name></member>
+      <member refid="classiso__week_1_1weeknum__weekday_1aa06abba1be5f775bfbc51b0823a6844a" prot="public" virt="non-virtual"><scope>iso_week::weeknum_weekday</scope><name>weeknum_weekday</name></member>
+      <member refid="classiso__week_1_1weeknum__weekday_1ac81410550d591840a5fba80d2e69afa8" prot="private" virt="non-virtual"><scope>iso_week::weeknum_weekday</scope><name>wn_</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

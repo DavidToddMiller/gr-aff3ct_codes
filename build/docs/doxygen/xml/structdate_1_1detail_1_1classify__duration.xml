@@ -1,0 +1,45 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="structdate_1_1detail_1_1classify__duration" kind="struct" language="C++" prot="public">
+    <compoundname>date::detail::classify_duration</compoundname>
+    <includes refid="date_8h" local="no">date.h</includes>
+    <templateparamlist>
+      <param>
+        <type>class Duration</type>
+      </param>
+    </templateparamlist>
+      <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="structdate_1_1detail_1_1classify__duration_1a4125a52c076b499e6e1dfa0b257f8fa8" prot="public" static="yes" mutable="no">
+        <type><ref refid="date_8h_1a1262e7cef5d1d56fb1f1ed2a43bfe4d1" kindref="member">CONSTDATA</ref> <ref refid="namespacedate_1_1detail_1aac75d20e6362fd00d7c741621c74054a" kindref="member">classify</ref></type>
+        <definition>CONSTDATA classify date::detail::classify_duration&lt; Duration &gt;::value</definition>
+        <argsstring></argsstring>
+        <name>value</name>
+        <initializer>=
+        std::is_convertible&lt;Duration, std::chrono::hours&gt;::value
+                ? <ref refid="namespacedate_1_1detail_1aac75d20e6362fd00d7c741621c74054aa896c55cc5e46fab38ce9f51ebf7bfcd3" kindref="member">classify::hour</ref> :
+        std::is_convertible&lt;Duration, std::chrono::minutes&gt;::value
+                ? <ref refid="namespacedate_1_1detail_1aac75d20e6362fd00d7c741621c74054aa0a7d55be9d12a369a6a8da0fb517fba4" kindref="member">classify::minute</ref> :
+        std::is_convertible&lt;Duration, std::chrono::seconds&gt;::value
+                ? <ref refid="namespacedate_1_1detail_1aac75d20e6362fd00d7c741621c74054aaa9f0e61a137d86aa9db53465e0801612" kindref="member">classify::second</ref> :
+        std::chrono::treat_as_floating_point&lt;typename Duration::rep&gt;::value
+                ? <ref refid="namespacedate_1_1detail_1aac75d20e6362fd00d7c741621c74054aa435099c73c46c8112e828474018f53dd" kindref="member">classify::not_valid</ref> :
+                <ref refid="namespacedate_1_1detail_1aac75d20e6362fd00d7c741621c74054aaa8f4bf00b07926ad56626ae52019abda" kindref="member">classify::subsecond</ref></initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/davem/gr-aff3ct_codes/aff3ct-3.0.2_Library_Header_Files/date/date.h" line="3713" column="31" bodyfile="/home/davem/gr-aff3ct_codes/aff3ct-3.0.2_Library_Header_Files/date/date.h" bodystart="3713" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/davem/gr-aff3ct_codes/aff3ct-3.0.2_Library_Header_Files/date/date.h" line="3711" column="1" bodyfile="/home/davem/gr-aff3ct_codes/aff3ct-3.0.2_Library_Header_Files/date/date.h" bodystart="3712" bodyend="3723"/>
+    <listofallmembers>
+      <member refid="structdate_1_1detail_1_1classify__duration_1a4125a52c076b499e6e1dfa0b257f8fa8" prot="public" virt="non-virtual"><scope>date::detail::classify_duration</scope><name>value</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

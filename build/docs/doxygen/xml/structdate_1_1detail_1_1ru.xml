@@ -1,0 +1,61 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="structdate_1_1detail_1_1ru" kind="struct" language="C++" prot="public">
+    <compoundname>date::detail::ru</compoundname>
+    <includes refid="date_8h" local="no">date.h</includes>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structdate_1_1detail_1_1ru_1aeea3c9b51ae9be996593ea6e07ddf922" prot="public" static="no" mutable="no">
+        <type>int &amp;</type>
+        <definition>int&amp; date::detail::ru::i</definition>
+        <argsstring></argsstring>
+        <name>i</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/davem/gr-aff3ct_codes/aff3ct-3.0.2_Library_Header_Files/date/date.h" line="5877" column="9" bodyfile="/home/davem/gr-aff3ct_codes/aff3ct-3.0.2_Library_Header_Files/date/date.h" bodystart="5877" bodyend="-1"/>
+        <referencedby refid="namespacedate_1_1detail_1aecb203889c8250f8a1f58dc59c7ad504" compoundref="date_8h" startline="5951" endline="5958">date::detail::read</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="structdate_1_1detail_1_1ru_1a41002680bd9cc3deb36ae1254b500c9a" prot="public" static="no" mutable="no">
+        <type>unsigned</type>
+        <definition>unsigned date::detail::ru::m</definition>
+        <argsstring></argsstring>
+        <name>m</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/davem/gr-aff3ct_codes/aff3ct-3.0.2_Library_Header_Files/date/date.h" line="5878" column="14" bodyfile="/home/davem/gr-aff3ct_codes/aff3ct-3.0.2_Library_Header_Files/date/date.h" bodystart="5878" bodyend="-1"/>
+        <referencedby refid="namespacedate_1_1detail_1aecb203889c8250f8a1f58dc59c7ad504" compoundref="date_8h" startline="5951" endline="5958">date::detail::read</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="structdate_1_1detail_1_1ru_1a87aad385edc91f06c76650d5996739c0" prot="public" static="no" mutable="no">
+        <type>unsigned</type>
+        <definition>unsigned date::detail::ru::M</definition>
+        <argsstring></argsstring>
+        <name>M</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/davem/gr-aff3ct_codes/aff3ct-3.0.2_Library_Header_Files/date/date.h" line="5879" column="14" bodyfile="/home/davem/gr-aff3ct_codes/aff3ct-3.0.2_Library_Header_Files/date/date.h" bodystart="5879" bodyend="-1"/>
+        <referencedby refid="namespacedate_1_1detail_1aecb203889c8250f8a1f58dc59c7ad504" compoundref="date_8h" startline="5951" endline="5958">date::detail::read</referencedby>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/davem/gr-aff3ct_codes/aff3ct-3.0.2_Library_Header_Files/date/date.h" line="5875" column="1" bodyfile="/home/davem/gr-aff3ct_codes/aff3ct-3.0.2_Library_Header_Files/date/date.h" bodystart="5876" bodyend="5880"/>
+    <listofallmembers>
+      <member refid="structdate_1_1detail_1_1ru_1aeea3c9b51ae9be996593ea6e07ddf922" prot="public" virt="non-virtual"><scope>date::detail::ru</scope><name>i</name></member>
+      <member refid="structdate_1_1detail_1_1ru_1a41002680bd9cc3deb36ae1254b500c9a" prot="public" virt="non-virtual"><scope>date::detail::ru</scope><name>m</name></member>
+      <member refid="structdate_1_1detail_1_1ru_1a87aad385edc91f06c76650d5996739c0" prot="public" virt="non-virtual"><scope>date::detail::ru</scope><name>M</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

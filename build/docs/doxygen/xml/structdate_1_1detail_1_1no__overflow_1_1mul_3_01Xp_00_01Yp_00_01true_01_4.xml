@@ -1,0 +1,42 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="structdate_1_1detail_1_1no__overflow_1_1mul_3_01Xp_00_01Yp_00_01true_01_4" kind="struct" language="C++" prot="private">
+    <compoundname>date::detail::no_overflow::mul&lt; Xp, Yp, true &gt;</compoundname>
+    <templateparamlist>
+      <param>
+        <type>std::intmax_t</type>
+        <declname>Xp</declname>
+        <defname>Xp</defname>
+      </param>
+      <param>
+        <type>std::intmax_t</type>
+        <declname>Yp</declname>
+        <defname>Yp</defname>
+      </param>
+    </templateparamlist>
+      <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="structdate_1_1detail_1_1no__overflow_1_1mul_3_01Xp_00_01Yp_00_01true_01_4_1afe5f43be8af4fce192cdf0d54668843b" prot="public" static="yes" mutable="no">
+        <type>const std::intmax_t</type>
+        <definition>const std::intmax_t date::detail::no_overflow&lt; R1, R2 &gt;::mul&lt; Xp, Yp, true &gt;::value</definition>
+        <argsstring></argsstring>
+        <name>value</name>
+        <initializer>= 1</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/davem/gr-aff3ct_codes/aff3ct-3.0.2_Library_Header_Files/date/date.h" line="1074" column="36" bodyfile="/home/davem/gr-aff3ct_codes/aff3ct-3.0.2_Library_Header_Files/date/date.h" bodystart="1074" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/davem/gr-aff3ct_codes/aff3ct-3.0.2_Library_Header_Files/date/date.h" line="1072" column="5" bodyfile="/home/davem/gr-aff3ct_codes/aff3ct-3.0.2_Library_Header_Files/date/date.h" bodystart="1073" bodyend="1075"/>
+    <listofallmembers>
+      <member refid="structdate_1_1detail_1_1no__overflow_1_1mul_3_01Xp_00_01Yp_00_01true_01_4_1afe5f43be8af4fce192cdf0d54668843b" prot="public" virt="non-virtual"><scope>date::detail::no_overflow::mul&lt; Xp, Yp, true &gt;</scope><name>value</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

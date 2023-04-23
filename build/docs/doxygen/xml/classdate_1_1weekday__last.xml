@@ -1,0 +1,78 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="classdate_1_1weekday__last" kind="class" language="C++" prot="public">
+    <compoundname>date::weekday_last</compoundname>
+    <includes refid="date_8h" local="no">date.h</includes>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classdate_1_1weekday__last_1ab1d53acbcad3351cf71b366600ffe6c0" prot="private" static="no" mutable="no">
+        <type><ref refid="classdate_1_1weekday" kindref="compound">date::weekday</ref></type>
+        <definition>date::weekday date::weekday_last::wd_</definition>
+        <argsstring></argsstring>
+        <name>wd_</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/davem/gr-aff3ct_codes/aff3ct-3.0.2_Library_Header_Files/date/date.h" line="477" column="19" bodyfile="/home/davem/gr-aff3ct_codes/aff3ct-3.0.2_Library_Header_Files/date/date.h" bodystart="477" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classdate_1_1weekday__last_1ad9e1e53786e471b2aba2ea086c47b089" prot="public" static="no" const="no" explicit="yes" inline="yes" virt="non-virtual">
+        <type><ref refid="date_8h_1a98c025909efef28d356780da89fc44b6" kindref="member">CONSTCD11</ref></type>
+        <definition>CONSTCD11 date::weekday_last::weekday_last</definition>
+        <argsstring>(const date::weekday &amp;wd) NOEXCEPT</argsstring>
+        <name>weekday_last</name>
+        <param>
+          <type>const <ref refid="classdate_1_1weekday" kindref="compound">date::weekday</ref> &amp;</type>
+          <declname>wd</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/davem/gr-aff3ct_codes/aff3ct-3.0.2_Library_Header_Files/date/date.h" line="480" column="24" bodyfile="/home/davem/gr-aff3ct_codes/aff3ct-3.0.2_Library_Header_Files/date/date.h" bodystart="1910" bodyend="1910"/>
+      </memberdef>
+      <memberdef kind="function" id="classdate_1_1weekday__last_1af4e5e91f1cb790211be795acde4957d4" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="date_8h_1a98c025909efef28d356780da89fc44b6" kindref="member">CONSTCD11</ref> <ref refid="classdate_1_1weekday" kindref="compound">date::weekday</ref></type>
+        <definition>CONSTCD11 date::weekday date::weekday_last::weekday</definition>
+        <argsstring>() const NOEXCEPT</argsstring>
+        <name>weekday</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/davem/gr-aff3ct_codes/aff3ct-3.0.2_Library_Header_Files/date/date.h" line="482" column="29" bodyfile="/home/davem/gr-aff3ct_codes/aff3ct-3.0.2_Library_Header_Files/date/date.h" bodystart="1908" bodyend="1908"/>
+      </memberdef>
+      <memberdef kind="function" id="classdate_1_1weekday__last_1a09ff0fdc5388ff6332de5ee1d8b29e8c" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="date_8h_1a98c025909efef28d356780da89fc44b6" kindref="member">CONSTCD11</ref> bool</type>
+        <definition>CONSTCD11 bool date::weekday_last::ok</definition>
+        <argsstring>() const NOEXCEPT</argsstring>
+        <name>ok</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/davem/gr-aff3ct_codes/aff3ct-3.0.2_Library_Header_Files/date/date.h" line="483" column="20" bodyfile="/home/davem/gr-aff3ct_codes/aff3ct-3.0.2_Library_Header_Files/date/date.h" bodystart="1909" bodyend="1909"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/davem/gr-aff3ct_codes/aff3ct-3.0.2_Library_Header_Files/date/date.h" line="475" column="1" bodyfile="/home/davem/gr-aff3ct_codes/aff3ct-3.0.2_Library_Header_Files/date/date.h" bodystart="476" bodyend="484"/>
+    <listofallmembers>
+      <member refid="classdate_1_1weekday__last_1a09ff0fdc5388ff6332de5ee1d8b29e8c" prot="public" virt="non-virtual"><scope>date::weekday_last</scope><name>ok</name></member>
+      <member refid="classdate_1_1weekday__last_1ab1d53acbcad3351cf71b366600ffe6c0" prot="private" virt="non-virtual"><scope>date::weekday_last</scope><name>wd_</name></member>
+      <member refid="classdate_1_1weekday__last_1af4e5e91f1cb790211be795acde4957d4" prot="public" virt="non-virtual"><scope>date::weekday_last</scope><name>weekday</name></member>
+      <member refid="classdate_1_1weekday__last_1ad9e1e53786e471b2aba2ea086c47b089" prot="public" virt="non-virtual"><scope>date::weekday_last</scope><name>weekday_last</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

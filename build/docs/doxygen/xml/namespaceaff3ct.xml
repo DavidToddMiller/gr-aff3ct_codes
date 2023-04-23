@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="namespaceaff3ct" kind="namespace" language="C++">
+    <compoundname>aff3ct</compoundname>
+    <innernamespace refid="namespaceaff3ct_1_1tools">aff3ct::tools</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/davem/gr-aff3ct_codes/aff3ct-3.0.2_Library_Header_Files/Tools/Algo/Matrix/matrix_utils.h" line="11" column="1"/>
+  </compounddef>
+</doxygen>

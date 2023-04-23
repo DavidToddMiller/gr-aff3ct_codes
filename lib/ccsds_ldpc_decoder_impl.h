@@ -29,28 +29,20 @@ private:
       size_t d_failed_frames;
       size_t d_passed_frames;
 
-    struct params {
-        int d_K;           // number of information bits
-        int d_N;     // codeword size
-        int d_puncturing;   // number of punctured bits
-        int d_n_ite;        // number of decoder iterations
-        aff3ct::tools::Sparse_matrix d_H; // parity check matrix
-        std::vector<uint32_t> d_info_bits_pos;
-        // The maximum check-node degree for the AR4JA code used is 6
-        Update_rule_SPA<> update_rule = aff3ct::tools::Update_rule_SPA<>(6);
-    };
-
-    struct params d_p;
-    //const char* alist_path;
-    std::ifstream alist_file;  //set file name object for in-out
-    //alist_file.open("ccsds_ar4ja_r1_2_k1024.alist", std::ifstream::in);
-    //p.H = aff3ct::tools::AList::read(alist_file);
+      int d_K;
+      int d_N;     // codeword size
+      int d_puncturing;   // number of punctured bits
+      int d_n_ite;        // number of decoder iterations
+      Update_rule_SPA<> d_update_rule = aff3ct::tools::Update_rule_SPA<>(6);
+      std::vector<uint32_t> d_info_bits_pos;
+      aff3ct::tools::Sparse_matrix d_H; // parity check matrix
+      std::ifstream d_alist_file;  //set file name object for in-out
 
     struct modules {
         std::unique_ptr<aff3ct::module::Modem_BPSK<>> d_modem;
         std::unique_ptr<aff3ct::module::Decoder_LDPC_BP_flooding<>> d_decoder;
     };
-    struct params d_m;
+    struct modules d_m;
 
     struct buffers {
         std::vector<float> d_sigma;

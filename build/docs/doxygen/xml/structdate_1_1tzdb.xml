@@ -1,0 +1,259 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="structdate_1_1tzdb" kind="struct" language="C++" prot="public">
+    <compoundname>date::tzdb</compoundname>
+    <includes refid="tz_8h" local="no">tz.h</includes>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structdate_1_1tzdb_1ab1b6b0c851b8319ac9fa165ff5037fd7" prot="public" static="no" mutable="no">
+        <type>std::string</type>
+        <definition>std::string date::tzdb::version</definition>
+        <argsstring></argsstring>
+        <name>version</name>
+        <initializer>= &quot;unknown&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/davem/gr-aff3ct_codes/aff3ct-3.0.2_Library_Header_Files/date/tz.h" line="1155" column="31" bodyfile="/home/davem/gr-aff3ct_codes/aff3ct-3.0.2_Library_Header_Files/date/tz.h" bodystart="1155" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structdate_1_1tzdb_1a366d075f6581f95dd8901d5bb9d61094" prot="public" static="no" mutable="no">
+        <type>std::vector&lt; <ref refid="classdate_1_1time__zone" kindref="compound">time_zone</ref> &gt;</type>
+        <definition>std::vector&lt;time_zone&gt; date::tzdb::zones</definition>
+        <argsstring></argsstring>
+        <name>zones</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/davem/gr-aff3ct_codes/aff3ct-3.0.2_Library_Header_Files/date/tz.h" line="1156" column="20" bodyfile="/home/davem/gr-aff3ct_codes/aff3ct-3.0.2_Library_Header_Files/date/tz.h" bodystart="1156" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structdate_1_1tzdb_1a8ec252905954fdaaca337356802424d9" prot="public" static="no" mutable="no">
+        <type>std::vector&lt; <ref refid="classdate_1_1link" kindref="compound">link</ref> &gt;</type>
+        <definition>std::vector&lt;link&gt; date::tzdb::links</definition>
+        <argsstring></argsstring>
+        <name>links</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/davem/gr-aff3ct_codes/aff3ct-3.0.2_Library_Header_Files/date/tz.h" line="1158" column="25" bodyfile="/home/davem/gr-aff3ct_codes/aff3ct-3.0.2_Library_Header_Files/date/tz.h" bodystart="1158" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structdate_1_1tzdb_1a25a1c613d229ec0089f4b6045844dc99" prot="public" static="no" mutable="no">
+        <type>std::vector&lt; <ref refid="classdate_1_1leap" kindref="compound">leap</ref> &gt;</type>
+        <definition>std::vector&lt;leap&gt; date::tzdb::leaps</definition>
+        <argsstring></argsstring>
+        <name>leaps</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/davem/gr-aff3ct_codes/aff3ct-3.0.2_Library_Header_Files/date/tz.h" line="1161" column="25" bodyfile="/home/davem/gr-aff3ct_codes/aff3ct-3.0.2_Library_Header_Files/date/tz.h" bodystart="1161" bodyend="-1"/>
+        <referencedby refid="classdate_1_1utc__clock_1aec0d22fd02a0ef351103e0ddfbc1f41c" compoundref="tz_8h" startline="1855" endline="1862">date::utc_clock::from_sys</referencedby>
+        <referencedby refid="namespacedate_1a5b06563bbd1fb6ab821b050d2adec475" compoundref="tz_8h" startline="1869" endline="1891">date::is_leap_second</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="structdate_1_1tzdb_1a6596f98cfc325c7c388800efe0e83087" prot="public" static="no" mutable="no">
+        <type>std::vector&lt; <ref refid="classdate_1_1detail_1_1Rule" kindref="compound">detail::Rule</ref> &gt;</type>
+        <definition>std::vector&lt;detail::Rule&gt; date::tzdb::rules</definition>
+        <argsstring></argsstring>
+        <name>rules</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/davem/gr-aff3ct_codes/aff3ct-3.0.2_Library_Header_Files/date/tz.h" line="1164" column="17" bodyfile="/home/davem/gr-aff3ct_codes/aff3ct-3.0.2_Library_Header_Files/date/tz.h" bodystart="1164" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structdate_1_1tzdb_1a96a9e8a8d38063da39b9abf9d592f1c0" prot="public" static="no" mutable="no">
+        <type><ref refid="structdate_1_1tzdb" kindref="compound">tzdb</ref> *</type>
+        <definition>tzdb* date::tzdb::next</definition>
+        <argsstring></argsstring>
+        <name>next</name>
+        <initializer>= nullptr</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/davem/gr-aff3ct_codes/aff3ct-3.0.2_Library_Header_Files/date/tz.h" line="1169" column="10" bodyfile="/home/davem/gr-aff3ct_codes/aff3ct-3.0.2_Library_Header_Files/date/tz.h" bodystart="1169" bodyend="-1"/>
+        <referencedby refid="classdate_1_1tzdb__list_1_1const__iterator_1afd2b742be306d3b6fee500573b512f65" compoundref="tz_8h" startline="1256" endline="1256">date::tzdb_list::const_iterator::operator++</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="structdate_1_1tzdb_1aec4b0cc679c19008a895bd52b418d11d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>date::tzdb::tzdb</definition>
+        <argsstring>()=default</argsstring>
+        <name>tzdb</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/davem/gr-aff3ct_codes/aff3ct-3.0.2_Library_Header_Files/date/tz.h" line="1171" column="5"/>
+      </memberdef>
+      <memberdef kind="function" id="structdate_1_1tzdb_1af2f5d638e97ac87ed92f7cb701c8012b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>date::tzdb::tzdb</definition>
+        <argsstring>(tzdb &amp;&amp;)=default</argsstring>
+        <name>tzdb</name>
+        <param>
+          <type><ref refid="structdate_1_1tzdb" kindref="compound">tzdb</ref> &amp;&amp;</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/davem/gr-aff3ct_codes/aff3ct-3.0.2_Library_Header_Files/date/tz.h" line="1173" column="5"/>
+      </memberdef>
+      <memberdef kind="function" id="structdate_1_1tzdb_1ab83216bedb1aa423f53b78fe1a609f9e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="structdate_1_1tzdb" kindref="compound">tzdb</ref> &amp;</type>
+        <definition>tzdb&amp; date::tzdb::operator=</definition>
+        <argsstring>(tzdb &amp;&amp;)=default</argsstring>
+        <name>operator=</name>
+        <param>
+          <type><ref refid="structdate_1_1tzdb" kindref="compound">tzdb</ref> &amp;&amp;</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/davem/gr-aff3ct_codes/aff3ct-3.0.2_Library_Header_Files/date/tz.h" line="1174" column="10"/>
+      </memberdef>
+      <memberdef kind="function" id="structdate_1_1tzdb_1aaf2dc2b287cd199a05244de66286f6de" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>const <ref refid="classdate_1_1time__zone" kindref="compound">time_zone</ref> *</type>
+        <definition>const time_zone* date::tzdb::locate_zone</definition>
+        <argsstring>(const std::string &amp;tz_name) const</argsstring>
+        <name>locate_zone</name>
+        <param>
+          <type>const std::string &amp;</type>
+          <declname>tz_name</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/davem/gr-aff3ct_codes/aff3ct-3.0.2_Library_Header_Files/date/tz.h" line="1200" column="21"/>
+      </memberdef>
+      <memberdef kind="function" id="structdate_1_1tzdb_1ad13672c99a50a6964992c7e2f98d7074" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>const <ref refid="classdate_1_1time__zone" kindref="compound">time_zone</ref> *</type>
+        <definition>const time_zone* date::tzdb::current_zone</definition>
+        <argsstring>() const</argsstring>
+        <name>current_zone</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/davem/gr-aff3ct_codes/aff3ct-3.0.2_Library_Header_Files/date/tz.h" line="1202" column="21"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="4">
+        <label>std::vector&lt; date::leap &gt;</label>
+        <childnode refid="5" relation="usage">
+          <edgelabel>elements</edgelabel>
+        </childnode>
+      </node>
+      <node id="3">
+        <label>date::link</label>
+        <link refid="classdate_1_1link"/>
+      </node>
+      <node id="10">
+        <label>std::vector&lt; date::detail::Rule &gt;</label>
+        <childnode refid="11" relation="usage">
+          <edgelabel>elements</edgelabel>
+        </childnode>
+      </node>
+      <node id="11">
+        <label>date::detail::Rule</label>
+        <link refid="classdate_1_1detail_1_1Rule"/>
+      </node>
+      <node id="9">
+        <label>std::basic_string&lt; Char &gt;</label>
+      </node>
+      <node id="1">
+        <label>date::tzdb</label>
+        <link refid="structdate_1_1tzdb"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>links</edgelabel>
+        </childnode>
+        <childnode refid="4" relation="usage">
+          <edgelabel>leaps</edgelabel>
+        </childnode>
+        <childnode refid="6" relation="usage">
+          <edgelabel>zones</edgelabel>
+        </childnode>
+        <childnode refid="1" relation="usage">
+          <edgelabel>next</edgelabel>
+        </childnode>
+        <childnode refid="8" relation="usage">
+          <edgelabel>version</edgelabel>
+        </childnode>
+        <childnode refid="10" relation="usage">
+          <edgelabel>rules</edgelabel>
+        </childnode>
+      </node>
+      <node id="7">
+        <label>date::time_zone</label>
+        <link refid="classdate_1_1time__zone"/>
+      </node>
+      <node id="5">
+        <label>date::leap</label>
+        <link refid="classdate_1_1leap"/>
+      </node>
+      <node id="2">
+        <label>std::vector&lt; date::link &gt;</label>
+        <childnode refid="3" relation="usage">
+          <edgelabel>elements</edgelabel>
+        </childnode>
+      </node>
+      <node id="6">
+        <label>std::vector&lt; date::time_zone &gt;</label>
+        <childnode refid="7" relation="usage">
+          <edgelabel>elements</edgelabel>
+        </childnode>
+      </node>
+      <node id="8">
+        <label>std::string</label>
+        <childnode refid="9" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/home/davem/gr-aff3ct_codes/aff3ct-3.0.2_Library_Header_Files/date/tz.h" line="1153" column="1" bodyfile="/home/davem/gr-aff3ct_codes/aff3ct-3.0.2_Library_Header_Files/date/tz.h" bodystart="1154" bodyend="1203"/>
+    <listofallmembers>
+      <member refid="structdate_1_1tzdb_1ad13672c99a50a6964992c7e2f98d7074" prot="public" virt="non-virtual"><scope>date::tzdb</scope><name>current_zone</name></member>
+      <member refid="structdate_1_1tzdb_1a25a1c613d229ec0089f4b6045844dc99" prot="public" virt="non-virtual"><scope>date::tzdb</scope><name>leaps</name></member>
+      <member refid="structdate_1_1tzdb_1a8ec252905954fdaaca337356802424d9" prot="public" virt="non-virtual"><scope>date::tzdb</scope><name>links</name></member>
+      <member refid="structdate_1_1tzdb_1aaf2dc2b287cd199a05244de66286f6de" prot="public" virt="non-virtual"><scope>date::tzdb</scope><name>locate_zone</name></member>
+      <member refid="structdate_1_1tzdb_1a96a9e8a8d38063da39b9abf9d592f1c0" prot="public" virt="non-virtual"><scope>date::tzdb</scope><name>next</name></member>
+      <member refid="structdate_1_1tzdb_1ab83216bedb1aa423f53b78fe1a609f9e" prot="public" virt="non-virtual"><scope>date::tzdb</scope><name>operator=</name></member>
+      <member refid="structdate_1_1tzdb_1a6596f98cfc325c7c388800efe0e83087" prot="public" virt="non-virtual"><scope>date::tzdb</scope><name>rules</name></member>
+      <member refid="structdate_1_1tzdb_1aec4b0cc679c19008a895bd52b418d11d" prot="public" virt="non-virtual"><scope>date::tzdb</scope><name>tzdb</name></member>
+      <member refid="structdate_1_1tzdb_1af2f5d638e97ac87ed92f7cb701c8012b" prot="public" virt="non-virtual"><scope>date::tzdb</scope><name>tzdb</name></member>
+      <member refid="structdate_1_1tzdb_1ab1b6b0c851b8319ac9fa165ff5037fd7" prot="public" virt="non-virtual"><scope>date::tzdb</scope><name>version</name></member>
+      <member refid="structdate_1_1tzdb_1a366d075f6581f95dd8901d5bb9d61094" prot="public" virt="non-virtual"><scope>date::tzdb</scope><name>zones</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

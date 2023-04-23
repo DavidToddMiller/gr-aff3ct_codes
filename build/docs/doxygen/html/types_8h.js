@@ -1,0 +1,25 @@
+var types_8h =
+[
+    [ "types_from_prec", "structaff3ct_1_1tools_1_1types__from__prec.html", null ],
+    [ "types_from_prec< 8 >", "structaff3ct_1_1tools_1_1types__from__prec_3_018_01_4.html", "structaff3ct_1_1tools_1_1types__from__prec_3_018_01_4" ],
+    [ "types_from_prec< 16 >", "structaff3ct_1_1tools_1_1types__from__prec_3_0116_01_4.html", "structaff3ct_1_1tools_1_1types__from__prec_3_0116_01_4" ],
+    [ "types_from_prec< 32 >", "structaff3ct_1_1tools_1_1types__from__prec_3_0132_01_4.html", "structaff3ct_1_1tools_1_1types__from__prec_3_0132_01_4" ],
+    [ "types_from_prec< 64 >", "structaff3ct_1_1tools_1_1types__from__prec_3_0164_01_4.html", "structaff3ct_1_1tools_1_1types__from__prec_3_0164_01_4" ],
+    [ "matching_types", "structaff3ct_1_1tools_1_1matching__types.html", null ],
+    [ "AFF3CT_32BIT_PREC", "types_8h.html#a9c4974c55f69623d6b6d100bd01e9c8e", null ],
+    [ "B", "types_8h.html#aea10d97f1102e86fa7f1fef5a0eb78ae", null ],
+    [ "B_16", "types_8h.html#a6c4ebcfca45233bed20e409acc722b3f", null ],
+    [ "B_32", "types_8h.html#a98686438e1c139e589c06d3c2280b473", null ],
+    [ "B_64", "types_8h.html#a4e664127f4126d34958e814d96e4f0b0", null ],
+    [ "B_8", "types_8h.html#adf70b4ce268f32933b7f6a7c0bc4a006", null ],
+    [ "Q", "types_8h.html#af4fdd7a82738e0896fd8499626b25369", null ],
+    [ "Q_16", "types_8h.html#a4d5da46c2eb728a4c9adf578df0df6a0", null ],
+    [ "Q_32", "types_8h.html#adaa21c3233798fcc04cc34540964a837", null ],
+    [ "Q_64", "types_8h.html#a9f9896ed361fabd09d7b52e8295ae2a9", null ],
+    [ "Q_8", "types_8h.html#aa371e52399ddae804e04a7a4ae94f966", null ],
+    [ "R", "types_8h.html#ac936a396bcfd78f82a9b140f35dc2c7a", null ],
+    [ "R_16", "types_8h.html#af5d574204bd7c513b9c9710a1bc42e57", null ],
+    [ "R_32", "types_8h.html#a637248b5ae0b8a51fd232bdb16392b7d", null ],
+    [ "R_64", "types_8h.html#a65a1fe4508b852bab0f446a3f6cb1a18", null ],
+    [ "R_8", "types_8h.html#a6b3dde37c96087f59c17f44d5e473dd1", null ]
+];

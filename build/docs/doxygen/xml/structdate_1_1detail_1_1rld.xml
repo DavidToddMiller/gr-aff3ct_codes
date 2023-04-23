@@ -1,0 +1,61 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="structdate_1_1detail_1_1rld" kind="struct" language="C++" prot="public">
+    <compoundname>date::detail::rld</compoundname>
+    <includes refid="date_8h" local="no">date.h</includes>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structdate_1_1detail_1_1rld_1aa25e0e79bbb95a2c99d1537ad98ea0cb" prot="public" static="no" mutable="no">
+        <type>long double &amp;</type>
+        <definition>long double&amp; date::detail::rld::i</definition>
+        <argsstring></argsstring>
+        <name>i</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/davem/gr-aff3ct_codes/aff3ct-3.0.2_Library_Header_Files/date/date.h" line="5884" column="17" bodyfile="/home/davem/gr-aff3ct_codes/aff3ct-3.0.2_Library_Header_Files/date/date.h" bodystart="5884" bodyend="-1"/>
+        <referencedby refid="namespacedate_1_1detail_1aa89ac456067c9bb381b2aa1cc131980a" compoundref="date_8h" startline="5984" endline="5991">date::detail::read</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="structdate_1_1detail_1_1rld_1a376391510721f5f3af2feae746452f3c" prot="public" static="no" mutable="no">
+        <type>unsigned</type>
+        <definition>unsigned date::detail::rld::m</definition>
+        <argsstring></argsstring>
+        <name>m</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/davem/gr-aff3ct_codes/aff3ct-3.0.2_Library_Header_Files/date/date.h" line="5885" column="14" bodyfile="/home/davem/gr-aff3ct_codes/aff3ct-3.0.2_Library_Header_Files/date/date.h" bodystart="5885" bodyend="-1"/>
+        <referencedby refid="namespacedate_1_1detail_1aa89ac456067c9bb381b2aa1cc131980a" compoundref="date_8h" startline="5984" endline="5991">date::detail::read</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="structdate_1_1detail_1_1rld_1aed8160fcd23293e24eaf82ae6d7b0363" prot="public" static="no" mutable="no">
+        <type>unsigned</type>
+        <definition>unsigned date::detail::rld::M</definition>
+        <argsstring></argsstring>
+        <name>M</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/davem/gr-aff3ct_codes/aff3ct-3.0.2_Library_Header_Files/date/date.h" line="5886" column="14" bodyfile="/home/davem/gr-aff3ct_codes/aff3ct-3.0.2_Library_Header_Files/date/date.h" bodystart="5886" bodyend="-1"/>
+        <referencedby refid="namespacedate_1_1detail_1aa89ac456067c9bb381b2aa1cc131980a" compoundref="date_8h" startline="5984" endline="5991">date::detail::read</referencedby>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/davem/gr-aff3ct_codes/aff3ct-3.0.2_Library_Header_Files/date/date.h" line="5882" column="1" bodyfile="/home/davem/gr-aff3ct_codes/aff3ct-3.0.2_Library_Header_Files/date/date.h" bodystart="5883" bodyend="5887"/>
+    <listofallmembers>
+      <member refid="structdate_1_1detail_1_1rld_1aa25e0e79bbb95a2c99d1537ad98ea0cb" prot="public" virt="non-virtual"><scope>date::detail::rld</scope><name>i</name></member>
+      <member refid="structdate_1_1detail_1_1rld_1a376391510721f5f3af2feae746452f3c" prot="public" virt="non-virtual"><scope>date::detail::rld</scope><name>m</name></member>
+      <member refid="structdate_1_1detail_1_1rld_1aed8160fcd23293e24eaf82ae6d7b0363" prot="public" virt="non-virtual"><scope>date::detail::rld</scope><name>M</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

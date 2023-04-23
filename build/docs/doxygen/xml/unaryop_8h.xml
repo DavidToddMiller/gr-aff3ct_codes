@@ -1,0 +1,25 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="unaryop_8h" kind="file" language="C++">
+    <compoundname>unaryop.h</compoundname>
+    <includes local="yes">Tools/Math/unaryop.hxx</includes>
+    <incdepgraph>
+      <node id="1">
+        <label>unaryop.h</label>
+        <link refid="unaryop_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>Tools/Math/unaryop.hxx</label>
+      </node>
+    </incdepgraph>
+    <innernamespace refid="namespaceaff3ct">aff3ct</innernamespace>
+    <innernamespace refid="namespaceaff3ct_1_1tools">aff3ct::tools</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/davem/gr-aff3ct_codes/aff3ct-3.0.2_Library_Header_Files/Tools/Math/unaryop.h"/>
+  </compounddef>
+</doxygen>

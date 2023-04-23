@@ -1,0 +1,621 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="classdate_1_1detail_1_1Rule" kind="class" language="C++" prot="public">
+    <compoundname>date::detail::Rule</compoundname>
+    <includes refid="tz__private_8h" local="no">tz_private.h</includes>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classdate_1_1detail_1_1Rule_1a08cd9407ec3a4d02b59044712975c745" prot="private" static="no" mutable="no">
+        <type>std::string</type>
+        <definition>std::string date::detail::Rule::name_</definition>
+        <argsstring></argsstring>
+        <name>name_</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/davem/gr-aff3ct_codes/aff3ct-3.0.2_Library_Header_Files/date/tz_private.h" line="151" column="26" bodyfile="/home/davem/gr-aff3ct_codes/aff3ct-3.0.2_Library_Header_Files/date/tz_private.h" bodystart="151" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classdate_1_1detail_1_1Rule_1a61d6fbe3064b2ac08dbdfcd20b1c9c7c" prot="private" static="no" mutable="no">
+        <type><ref refid="classdate_1_1year" kindref="compound">date::year</ref></type>
+        <definition>date::year date::detail::Rule::starting_year_</definition>
+        <argsstring></argsstring>
+        <name>starting_year_</name>
+        <initializer>{0}</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/davem/gr-aff3ct_codes/aff3ct-3.0.2_Library_Header_Files/date/tz_private.h" line="152" column="26" bodyfile="/home/davem/gr-aff3ct_codes/aff3ct-3.0.2_Library_Header_Files/date/tz_private.h" bodystart="152" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classdate_1_1detail_1_1Rule_1a3b5ae12f52ae622ea3a5746752278c93" prot="private" static="no" mutable="no">
+        <type><ref refid="classdate_1_1year" kindref="compound">date::year</ref></type>
+        <definition>date::year date::detail::Rule::ending_year_</definition>
+        <argsstring></argsstring>
+        <name>ending_year_</name>
+        <initializer>{0}</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/davem/gr-aff3ct_codes/aff3ct-3.0.2_Library_Header_Files/date/tz_private.h" line="153" column="26" bodyfile="/home/davem/gr-aff3ct_codes/aff3ct-3.0.2_Library_Header_Files/date/tz_private.h" bodystart="153" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classdate_1_1detail_1_1Rule_1a10a89e93b256f9ce96cce79889c59f82" prot="private" static="no" mutable="no">
+        <type><ref refid="classdate_1_1detail_1_1MonthDayTime" kindref="compound">MonthDayTime</ref></type>
+        <definition>MonthDayTime date::detail::Rule::starting_at_</definition>
+        <argsstring></argsstring>
+        <name>starting_at_</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/davem/gr-aff3ct_codes/aff3ct-3.0.2_Library_Header_Files/date/tz_private.h" line="154" column="26" bodyfile="/home/davem/gr-aff3ct_codes/aff3ct-3.0.2_Library_Header_Files/date/tz_private.h" bodystart="154" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classdate_1_1detail_1_1Rule_1ad85b9c492bc7f10ed2fedc154f226787" prot="private" static="no" mutable="no">
+        <type>std::chrono::minutes</type>
+        <definition>std::chrono::minutes date::detail::Rule::save_</definition>
+        <argsstring></argsstring>
+        <name>save_</name>
+        <initializer>{0}</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/davem/gr-aff3ct_codes/aff3ct-3.0.2_Library_Header_Files/date/tz_private.h" line="155" column="26" bodyfile="/home/davem/gr-aff3ct_codes/aff3ct-3.0.2_Library_Header_Files/date/tz_private.h" bodystart="155" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classdate_1_1detail_1_1Rule_1af7a93a2423aeaef7d9b6459d5b6e9c4f" prot="private" static="no" mutable="no">
+        <type>std::string</type>
+        <definition>std::string date::detail::Rule::abbrev_</definition>
+        <argsstring></argsstring>
+        <name>abbrev_</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/davem/gr-aff3ct_codes/aff3ct-3.0.2_Library_Header_Files/date/tz_private.h" line="156" column="26" bodyfile="/home/davem/gr-aff3ct_codes/aff3ct-3.0.2_Library_Header_Files/date/tz_private.h" bodystart="156" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classdate_1_1detail_1_1Rule_1ae8b840ed6ddd54a98524105ca706f182" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>date::detail::Rule::Rule</definition>
+        <argsstring>()=default</argsstring>
+        <name>Rule</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/davem/gr-aff3ct_codes/aff3ct-3.0.2_Library_Header_Files/date/tz_private.h" line="159" column="5"/>
+      </memberdef>
+      <memberdef kind="function" id="classdate_1_1detail_1_1Rule_1ae48f2f111d6163fd4e8f10b490a68307" prot="public" static="no" const="no" explicit="yes" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>date::detail::Rule::Rule</definition>
+        <argsstring>(const std::string &amp;s)</argsstring>
+        <name>Rule</name>
+        <param>
+          <type>const std::string &amp;</type>
+          <declname>s</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/davem/gr-aff3ct_codes/aff3ct-3.0.2_Library_Header_Files/date/tz_private.h" line="160" column="14"/>
+      </memberdef>
+      <memberdef kind="function" id="classdate_1_1detail_1_1Rule_1a78d9875f246c360d2059a4789058ba0c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>date::detail::Rule::Rule</definition>
+        <argsstring>(const Rule &amp;r, date::year starting_year, date::year ending_year)</argsstring>
+        <name>Rule</name>
+        <param>
+          <type>const <ref refid="classdate_1_1detail_1_1Rule" kindref="compound">Rule</ref> &amp;</type>
+          <declname>r</declname>
+        </param>
+        <param>
+          <type><ref refid="classdate_1_1year" kindref="compound">date::year</ref></type>
+          <declname>starting_year</declname>
+        </param>
+        <param>
+          <type><ref refid="classdate_1_1year" kindref="compound">date::year</ref></type>
+          <declname>ending_year</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/davem/gr-aff3ct_codes/aff3ct-3.0.2_Library_Header_Files/date/tz_private.h" line="161" column="5"/>
+      </memberdef>
+      <memberdef kind="function" id="classdate_1_1detail_1_1Rule_1add47c2ce12aba02e9798e6670e6aab7e" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>const std::string &amp;</type>
+        <definition>const std::string&amp; date::detail::Rule::name</definition>
+        <argsstring>() const</argsstring>
+        <name>name</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/davem/gr-aff3ct_codes/aff3ct-3.0.2_Library_Header_Files/date/tz_private.h" line="163" column="23" bodyfile="/home/davem/gr-aff3ct_codes/aff3ct-3.0.2_Library_Header_Files/date/tz_private.h" bodystart="163" bodyend="163"/>
+      </memberdef>
+      <memberdef kind="function" id="classdate_1_1detail_1_1Rule_1ae65b08db24f34ff989cd82b08dd2efb1" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>const std::string &amp;</type>
+        <definition>const std::string&amp; date::detail::Rule::abbrev</definition>
+        <argsstring>() const</argsstring>
+        <name>abbrev</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/davem/gr-aff3ct_codes/aff3ct-3.0.2_Library_Header_Files/date/tz_private.h" line="164" column="23" bodyfile="/home/davem/gr-aff3ct_codes/aff3ct-3.0.2_Library_Header_Files/date/tz_private.h" bodystart="164" bodyend="164"/>
+      </memberdef>
+      <memberdef kind="function" id="classdate_1_1detail_1_1Rule_1a1c24f804c381a7a888d18257e2667bd7" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>const <ref refid="classdate_1_1detail_1_1MonthDayTime" kindref="compound">MonthDayTime</ref> &amp;</type>
+        <definition>const MonthDayTime&amp; date::detail::Rule::mdt</definition>
+        <argsstring>() const</argsstring>
+        <name>mdt</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/davem/gr-aff3ct_codes/aff3ct-3.0.2_Library_Header_Files/date/tz_private.h" line="166" column="32" bodyfile="/home/davem/gr-aff3ct_codes/aff3ct-3.0.2_Library_Header_Files/date/tz_private.h" bodystart="166" bodyend="166"/>
+      </memberdef>
+      <memberdef kind="function" id="classdate_1_1detail_1_1Rule_1a5ef4e22b26acd8904991cb07502ddeb8" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>const <ref refid="classdate_1_1year" kindref="compound">date::year</ref> &amp;</type>
+        <definition>const date::year&amp; date::detail::Rule::starting_year</definition>
+        <argsstring>() const</argsstring>
+        <name>starting_year</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/davem/gr-aff3ct_codes/aff3ct-3.0.2_Library_Header_Files/date/tz_private.h" line="167" column="32" bodyfile="/home/davem/gr-aff3ct_codes/aff3ct-3.0.2_Library_Header_Files/date/tz_private.h" bodystart="167" bodyend="167"/>
+      </memberdef>
+      <memberdef kind="function" id="classdate_1_1detail_1_1Rule_1a2b8413c2b403fcd520d0699e7f719039" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>const <ref refid="classdate_1_1year" kindref="compound">date::year</ref> &amp;</type>
+        <definition>const date::year&amp; date::detail::Rule::ending_year</definition>
+        <argsstring>() const</argsstring>
+        <name>ending_year</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/davem/gr-aff3ct_codes/aff3ct-3.0.2_Library_Header_Files/date/tz_private.h" line="168" column="32" bodyfile="/home/davem/gr-aff3ct_codes/aff3ct-3.0.2_Library_Header_Files/date/tz_private.h" bodystart="168" bodyend="168"/>
+      </memberdef>
+      <memberdef kind="function" id="classdate_1_1detail_1_1Rule_1a212798c10c295577cf2e37a9db8beafe" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>const std::chrono::minutes &amp;</type>
+        <definition>const std::chrono::minutes&amp; date::detail::Rule::save</definition>
+        <argsstring>() const</argsstring>
+        <name>save</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/davem/gr-aff3ct_codes/aff3ct-3.0.2_Library_Header_Files/date/tz_private.h" line="169" column="32" bodyfile="/home/davem/gr-aff3ct_codes/aff3ct-3.0.2_Library_Header_Files/date/tz_private.h" bodystart="169" bodyend="169"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classdate_1_1detail_1_1Rule_1ae3425914103a2646727fa632c6607e9e" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>static void date::detail::Rule::split_overlaps</definition>
+        <argsstring>(std::vector&lt; Rule &gt; &amp;rules)</argsstring>
+        <name>split_overlaps</name>
+        <param>
+          <type>std::vector&lt; <ref refid="classdate_1_1detail_1_1Rule" kindref="compound">Rule</ref> &gt; &amp;</type>
+          <declname>rules</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/davem/gr-aff3ct_codes/aff3ct-3.0.2_Library_Header_Files/date/tz_private.h" line="171" column="17"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="friend">
+      <memberdef kind="friend" id="classdate_1_1detail_1_1Rule_1a9d6c7c10c712bd37e993c217568c34d5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool operator==</definition>
+        <argsstring>(const Rule &amp;x, const Rule &amp;y)</argsstring>
+        <name>operator==</name>
+        <param>
+          <type>const <ref refid="classdate_1_1detail_1_1Rule" kindref="compound">Rule</ref> &amp;</type>
+          <declname>x</declname>
+        </param>
+        <param>
+          <type>const <ref refid="classdate_1_1detail_1_1Rule" kindref="compound">Rule</ref> &amp;</type>
+          <declname>y</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/davem/gr-aff3ct_codes/aff3ct-3.0.2_Library_Header_Files/date/tz_private.h" line="173" column="17"/>
+      </memberdef>
+      <memberdef kind="friend" id="classdate_1_1detail_1_1Rule_1a4389469008992ef3f5973eb9f894977c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool operator&lt;</definition>
+        <argsstring>(const Rule &amp;x, const Rule &amp;y)</argsstring>
+        <name>operator&lt;</name>
+        <param>
+          <type>const <ref refid="classdate_1_1detail_1_1Rule" kindref="compound">Rule</ref> &amp;</type>
+          <declname>x</declname>
+        </param>
+        <param>
+          <type>const <ref refid="classdate_1_1detail_1_1Rule" kindref="compound">Rule</ref> &amp;</type>
+          <declname>y</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/davem/gr-aff3ct_codes/aff3ct-3.0.2_Library_Header_Files/date/tz_private.h" line="174" column="12"/>
+      </memberdef>
+      <memberdef kind="friend" id="classdate_1_1detail_1_1Rule_1a37a398c21804e2fe57ae9eeef15da39e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool operator==</definition>
+        <argsstring>(const Rule &amp;x, const date::year &amp;y)</argsstring>
+        <name>operator==</name>
+        <param>
+          <type>const <ref refid="classdate_1_1detail_1_1Rule" kindref="compound">Rule</ref> &amp;</type>
+          <declname>x</declname>
+        </param>
+        <param>
+          <type>const <ref refid="classdate_1_1year" kindref="compound">date::year</ref> &amp;</type>
+          <declname>y</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/davem/gr-aff3ct_codes/aff3ct-3.0.2_Library_Header_Files/date/tz_private.h" line="175" column="17"/>
+      </memberdef>
+      <memberdef kind="friend" id="classdate_1_1detail_1_1Rule_1afc2021f6f32984a2322f311e5b4aa14e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool operator&lt;</definition>
+        <argsstring>(const Rule &amp;x, const date::year &amp;y)</argsstring>
+        <name>operator&lt;</name>
+        <param>
+          <type>const <ref refid="classdate_1_1detail_1_1Rule" kindref="compound">Rule</ref> &amp;</type>
+          <declname>x</declname>
+        </param>
+        <param>
+          <type>const <ref refid="classdate_1_1year" kindref="compound">date::year</ref> &amp;</type>
+          <declname>y</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/davem/gr-aff3ct_codes/aff3ct-3.0.2_Library_Header_Files/date/tz_private.h" line="176" column="12"/>
+      </memberdef>
+      <memberdef kind="friend" id="classdate_1_1detail_1_1Rule_1a85a267747f98bf627605b40e10012af6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool operator==</definition>
+        <argsstring>(const date::year &amp;x, const Rule &amp;y)</argsstring>
+        <name>operator==</name>
+        <param>
+          <type>const <ref refid="classdate_1_1year" kindref="compound">date::year</ref> &amp;</type>
+          <declname>x</declname>
+        </param>
+        <param>
+          <type>const <ref refid="classdate_1_1detail_1_1Rule" kindref="compound">Rule</ref> &amp;</type>
+          <declname>y</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/davem/gr-aff3ct_codes/aff3ct-3.0.2_Library_Header_Files/date/tz_private.h" line="177" column="17"/>
+      </memberdef>
+      <memberdef kind="friend" id="classdate_1_1detail_1_1Rule_1ab882aaa9a3149587354f1ea4ab922a29" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool operator&lt;</definition>
+        <argsstring>(const date::year &amp;x, const Rule &amp;y)</argsstring>
+        <name>operator&lt;</name>
+        <param>
+          <type>const <ref refid="classdate_1_1year" kindref="compound">date::year</ref> &amp;</type>
+          <declname>x</declname>
+        </param>
+        <param>
+          <type>const <ref refid="classdate_1_1detail_1_1Rule" kindref="compound">Rule</ref> &amp;</type>
+          <declname>y</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/davem/gr-aff3ct_codes/aff3ct-3.0.2_Library_Header_Files/date/tz_private.h" line="178" column="12"/>
+      </memberdef>
+      <memberdef kind="friend" id="classdate_1_1detail_1_1Rule_1a744c803c61ba0e17575b709df5547a1c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool operator==</definition>
+        <argsstring>(const Rule &amp;x, const std::string &amp;y)</argsstring>
+        <name>operator==</name>
+        <param>
+          <type>const <ref refid="classdate_1_1detail_1_1Rule" kindref="compound">Rule</ref> &amp;</type>
+          <declname>x</declname>
+        </param>
+        <param>
+          <type>const std::string &amp;</type>
+          <declname>y</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/davem/gr-aff3ct_codes/aff3ct-3.0.2_Library_Header_Files/date/tz_private.h" line="179" column="17"/>
+      </memberdef>
+      <memberdef kind="friend" id="classdate_1_1detail_1_1Rule_1abb27bafbbd1d90740dc503866dd8c469" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool operator&lt;</definition>
+        <argsstring>(const Rule &amp;x, const std::string &amp;y)</argsstring>
+        <name>operator&lt;</name>
+        <param>
+          <type>const <ref refid="classdate_1_1detail_1_1Rule" kindref="compound">Rule</ref> &amp;</type>
+          <declname>x</declname>
+        </param>
+        <param>
+          <type>const std::string &amp;</type>
+          <declname>y</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/davem/gr-aff3ct_codes/aff3ct-3.0.2_Library_Header_Files/date/tz_private.h" line="180" column="12"/>
+      </memberdef>
+      <memberdef kind="friend" id="classdate_1_1detail_1_1Rule_1ad7c57281542a4f6c15b8180613d82cae" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool operator==</definition>
+        <argsstring>(const std::string &amp;x, const Rule &amp;y)</argsstring>
+        <name>operator==</name>
+        <param>
+          <type>const std::string &amp;</type>
+          <declname>x</declname>
+        </param>
+        <param>
+          <type>const <ref refid="classdate_1_1detail_1_1Rule" kindref="compound">Rule</ref> &amp;</type>
+          <declname>y</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/davem/gr-aff3ct_codes/aff3ct-3.0.2_Library_Header_Files/date/tz_private.h" line="181" column="17"/>
+      </memberdef>
+      <memberdef kind="friend" id="classdate_1_1detail_1_1Rule_1a203cbcbc6fb959d0d04505e7b0c12c55" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool operator&lt;</definition>
+        <argsstring>(const std::string &amp;x, const Rule &amp;y)</argsstring>
+        <name>operator&lt;</name>
+        <param>
+          <type>const std::string &amp;</type>
+          <declname>x</declname>
+        </param>
+        <param>
+          <type>const <ref refid="classdate_1_1detail_1_1Rule" kindref="compound">Rule</ref> &amp;</type>
+          <declname>y</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/davem/gr-aff3ct_codes/aff3ct-3.0.2_Library_Header_Files/date/tz_private.h" line="182" column="12"/>
+      </memberdef>
+      <memberdef kind="friend" id="classdate_1_1detail_1_1Rule_1ab54e23cccb10058b95965a2fbae5a3e6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>std::ostream &amp;</type>
+        <definition>std::ostream&amp; operator&lt;&lt;</definition>
+        <argsstring>(std::ostream &amp;os, const Rule &amp;r)</argsstring>
+        <name>operator&lt;&lt;</name>
+        <param>
+          <type>std::ostream &amp;</type>
+          <declname>os</declname>
+        </param>
+        <param>
+          <type>const <ref refid="classdate_1_1detail_1_1Rule" kindref="compound">Rule</ref> &amp;</type>
+          <declname>r</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/davem/gr-aff3ct_codes/aff3ct-3.0.2_Library_Header_Files/date/tz_private.h" line="184" column="12"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="classdate_1_1detail_1_1Rule_1a84c8ead73a67c449fcb83133fd6c57be" prot="private" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classdate_1_1day" kindref="compound">date::day</ref></type>
+        <definition>date::day date::detail::Rule::day</definition>
+        <argsstring>() const</argsstring>
+        <name>day</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/davem/gr-aff3ct_codes/aff3ct-3.0.2_Library_Header_Files/date/tz_private.h" line="187" column="15"/>
+      </memberdef>
+      <memberdef kind="function" id="classdate_1_1detail_1_1Rule_1acf2fe505ddf8b3b5001dceb1103ec8fc" prot="private" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classdate_1_1month" kindref="compound">date::month</ref></type>
+        <definition>date::month date::detail::Rule::month</definition>
+        <argsstring>() const</argsstring>
+        <name>month</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/davem/gr-aff3ct_codes/aff3ct-3.0.2_Library_Header_Files/date/tz_private.h" line="188" column="17"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-static-func">
+      <memberdef kind="function" id="classdate_1_1detail_1_1Rule_1a50f313076e2df742f01b824f33f5459e" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>static void date::detail::Rule::split_overlaps</definition>
+        <argsstring>(std::vector&lt; Rule &gt; &amp;rules, std::size_t i, std::size_t &amp;e)</argsstring>
+        <name>split_overlaps</name>
+        <param>
+          <type>std::vector&lt; <ref refid="classdate_1_1detail_1_1Rule" kindref="compound">Rule</ref> &gt; &amp;</type>
+          <declname>rules</declname>
+        </param>
+        <param>
+          <type>std::size_t</type>
+          <declname>i</declname>
+        </param>
+        <param>
+          <type>std::size_t &amp;</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/davem/gr-aff3ct_codes/aff3ct-3.0.2_Library_Header_Files/date/tz_private.h" line="189" column="17"/>
+      </memberdef>
+      <memberdef kind="function" id="classdate_1_1detail_1_1Rule_1a37c722f3d0b56b27e3e1938bc64917c7" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>static bool date::detail::Rule::overlaps</definition>
+        <argsstring>(const Rule &amp;x, const Rule &amp;y)</argsstring>
+        <name>overlaps</name>
+        <param>
+          <type>const <ref refid="classdate_1_1detail_1_1Rule" kindref="compound">Rule</ref> &amp;</type>
+          <declname>x</declname>
+        </param>
+        <param>
+          <type>const <ref refid="classdate_1_1detail_1_1Rule" kindref="compound">Rule</ref> &amp;</type>
+          <declname>y</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/davem/gr-aff3ct_codes/aff3ct-3.0.2_Library_Header_Files/date/tz_private.h" line="190" column="17"/>
+      </memberdef>
+      <memberdef kind="function" id="classdate_1_1detail_1_1Rule_1a32fda949285e18bca7b83bc0a1c72a9b" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>static void date::detail::Rule::split</definition>
+        <argsstring>(std::vector&lt; Rule &gt; &amp;rules, std::size_t i, std::size_t k, std::size_t &amp;e)</argsstring>
+        <name>split</name>
+        <param>
+          <type>std::vector&lt; <ref refid="classdate_1_1detail_1_1Rule" kindref="compound">Rule</ref> &gt; &amp;</type>
+          <declname>rules</declname>
+        </param>
+        <param>
+          <type>std::size_t</type>
+          <declname>i</declname>
+        </param>
+        <param>
+          <type>std::size_t</type>
+          <declname>k</declname>
+        </param>
+        <param>
+          <type>std::size_t &amp;</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/davem/gr-aff3ct_codes/aff3ct-3.0.2_Library_Header_Files/date/tz_private.h" line="191" column="17"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/davem/gr-aff3ct_codes/aff3ct-3.0.2_Library_Header_Files/date/tz_private.h" line="148" column="1" bodyfile="/home/davem/gr-aff3ct_codes/aff3ct-3.0.2_Library_Header_Files/date/tz_private.h" bodystart="149" bodyend="193"/>
+    <listofallmembers>
+      <member refid="classdate_1_1detail_1_1Rule_1ae65b08db24f34ff989cd82b08dd2efb1" prot="public" virt="non-virtual"><scope>date::detail::Rule</scope><name>abbrev</name></member>
+      <member refid="classdate_1_1detail_1_1Rule_1af7a93a2423aeaef7d9b6459d5b6e9c4f" prot="private" virt="non-virtual"><scope>date::detail::Rule</scope><name>abbrev_</name></member>
+      <member refid="classdate_1_1detail_1_1Rule_1a84c8ead73a67c449fcb83133fd6c57be" prot="private" virt="non-virtual"><scope>date::detail::Rule</scope><name>day</name></member>
+      <member refid="classdate_1_1detail_1_1Rule_1a2b8413c2b403fcd520d0699e7f719039" prot="public" virt="non-virtual"><scope>date::detail::Rule</scope><name>ending_year</name></member>
+      <member refid="classdate_1_1detail_1_1Rule_1a3b5ae12f52ae622ea3a5746752278c93" prot="private" virt="non-virtual"><scope>date::detail::Rule</scope><name>ending_year_</name></member>
+      <member refid="classdate_1_1detail_1_1Rule_1a1c24f804c381a7a888d18257e2667bd7" prot="public" virt="non-virtual"><scope>date::detail::Rule</scope><name>mdt</name></member>
+      <member refid="classdate_1_1detail_1_1Rule_1acf2fe505ddf8b3b5001dceb1103ec8fc" prot="private" virt="non-virtual"><scope>date::detail::Rule</scope><name>month</name></member>
+      <member refid="classdate_1_1detail_1_1Rule_1add47c2ce12aba02e9798e6670e6aab7e" prot="public" virt="non-virtual"><scope>date::detail::Rule</scope><name>name</name></member>
+      <member refid="classdate_1_1detail_1_1Rule_1a08cd9407ec3a4d02b59044712975c745" prot="private" virt="non-virtual"><scope>date::detail::Rule</scope><name>name_</name></member>
+      <member refid="classdate_1_1detail_1_1Rule_1a4389469008992ef3f5973eb9f894977c" prot="public" virt="non-virtual"><scope>date::detail::Rule</scope><name>operator&lt;</name></member>
+      <member refid="classdate_1_1detail_1_1Rule_1afc2021f6f32984a2322f311e5b4aa14e" prot="public" virt="non-virtual"><scope>date::detail::Rule</scope><name>operator&lt;</name></member>
+      <member refid="classdate_1_1detail_1_1Rule_1ab882aaa9a3149587354f1ea4ab922a29" prot="public" virt="non-virtual"><scope>date::detail::Rule</scope><name>operator&lt;</name></member>
+      <member refid="classdate_1_1detail_1_1Rule_1abb27bafbbd1d90740dc503866dd8c469" prot="public" virt="non-virtual"><scope>date::detail::Rule</scope><name>operator&lt;</name></member>
+      <member refid="classdate_1_1detail_1_1Rule_1a203cbcbc6fb959d0d04505e7b0c12c55" prot="public" virt="non-virtual"><scope>date::detail::Rule</scope><name>operator&lt;</name></member>
+      <member refid="classdate_1_1detail_1_1Rule_1ab54e23cccb10058b95965a2fbae5a3e6" prot="public" virt="non-virtual"><scope>date::detail::Rule</scope><name>operator&lt;&lt;</name></member>
+      <member refid="classdate_1_1detail_1_1Rule_1a9d6c7c10c712bd37e993c217568c34d5" prot="public" virt="non-virtual"><scope>date::detail::Rule</scope><name>operator==</name></member>
+      <member refid="classdate_1_1detail_1_1Rule_1a37a398c21804e2fe57ae9eeef15da39e" prot="public" virt="non-virtual"><scope>date::detail::Rule</scope><name>operator==</name></member>
+      <member refid="classdate_1_1detail_1_1Rule_1a85a267747f98bf627605b40e10012af6" prot="public" virt="non-virtual"><scope>date::detail::Rule</scope><name>operator==</name></member>
+      <member refid="classdate_1_1detail_1_1Rule_1a744c803c61ba0e17575b709df5547a1c" prot="public" virt="non-virtual"><scope>date::detail::Rule</scope><name>operator==</name></member>
+      <member refid="classdate_1_1detail_1_1Rule_1ad7c57281542a4f6c15b8180613d82cae" prot="public" virt="non-virtual"><scope>date::detail::Rule</scope><name>operator==</name></member>
+      <member refid="classdate_1_1detail_1_1Rule_1a37c722f3d0b56b27e3e1938bc64917c7" prot="private" virt="non-virtual"><scope>date::detail::Rule</scope><name>overlaps</name></member>
+      <member refid="classdate_1_1detail_1_1Rule_1ae8b840ed6ddd54a98524105ca706f182" prot="public" virt="non-virtual"><scope>date::detail::Rule</scope><name>Rule</name></member>
+      <member refid="classdate_1_1detail_1_1Rule_1ae48f2f111d6163fd4e8f10b490a68307" prot="public" virt="non-virtual"><scope>date::detail::Rule</scope><name>Rule</name></member>
+      <member refid="classdate_1_1detail_1_1Rule_1a78d9875f246c360d2059a4789058ba0c" prot="public" virt="non-virtual"><scope>date::detail::Rule</scope><name>Rule</name></member>
+      <member refid="classdate_1_1detail_1_1Rule_1a212798c10c295577cf2e37a9db8beafe" prot="public" virt="non-virtual"><scope>date::detail::Rule</scope><name>save</name></member>
+      <member refid="classdate_1_1detail_1_1Rule_1ad85b9c492bc7f10ed2fedc154f226787" prot="private" virt="non-virtual"><scope>date::detail::Rule</scope><name>save_</name></member>
+      <member refid="classdate_1_1detail_1_1Rule_1a32fda949285e18bca7b83bc0a1c72a9b" prot="private" virt="non-virtual"><scope>date::detail::Rule</scope><name>split</name></member>
+      <member refid="classdate_1_1detail_1_1Rule_1ae3425914103a2646727fa632c6607e9e" prot="public" virt="non-virtual"><scope>date::detail::Rule</scope><name>split_overlaps</name></member>
+      <member refid="classdate_1_1detail_1_1Rule_1a50f313076e2df742f01b824f33f5459e" prot="private" virt="non-virtual"><scope>date::detail::Rule</scope><name>split_overlaps</name></member>
+      <member refid="classdate_1_1detail_1_1Rule_1a10a89e93b256f9ce96cce79889c59f82" prot="private" virt="non-virtual"><scope>date::detail::Rule</scope><name>starting_at_</name></member>
+      <member refid="classdate_1_1detail_1_1Rule_1a5ef4e22b26acd8904991cb07502ddeb8" prot="public" virt="non-virtual"><scope>date::detail::Rule</scope><name>starting_year</name></member>
+      <member refid="classdate_1_1detail_1_1Rule_1a61d6fbe3064b2ac08dbdfcd20b1c9c7c" prot="private" virt="non-virtual"><scope>date::detail::Rule</scope><name>starting_year_</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

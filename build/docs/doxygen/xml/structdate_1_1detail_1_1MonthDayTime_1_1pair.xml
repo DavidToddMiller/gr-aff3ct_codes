@@ -1,0 +1,62 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="structdate_1_1detail_1_1MonthDayTime_1_1pair" kind="struct" language="C++" prot="private">
+    <compoundname>date::detail::MonthDayTime::pair</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structdate_1_1detail_1_1MonthDayTime_1_1pair_1a4798aee1c65a0267ceba72cf10e97bef" prot="public" static="no" mutable="no">
+        <type><ref refid="classdate_1_1month__day" kindref="compound">date::month_day</ref></type>
+        <definition>date::month_day date::detail::MonthDayTime::pair::month_day_</definition>
+        <argsstring></argsstring>
+        <name>month_day_</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/davem/gr-aff3ct_codes/aff3ct-3.0.2_Library_Header_Files/date/tz_private.h" line="65" column="25" bodyfile="/home/davem/gr-aff3ct_codes/aff3ct-3.0.2_Library_Header_Files/date/tz_private.h" bodystart="65" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structdate_1_1detail_1_1MonthDayTime_1_1pair_1a2117ea931192f84a0f6b2a6d388b119f" prot="public" static="no" mutable="no">
+        <type><ref refid="classdate_1_1weekday" kindref="compound">date::weekday</ref></type>
+        <definition>date::weekday date::detail::MonthDayTime::pair::weekday_</definition>
+        <argsstring></argsstring>
+        <name>weekday_</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/davem/gr-aff3ct_codes/aff3ct-3.0.2_Library_Header_Files/date/tz_private.h" line="66" column="25" bodyfile="/home/davem/gr-aff3ct_codes/aff3ct-3.0.2_Library_Header_Files/date/tz_private.h" bodystart="66" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="3">
+        <label>date::weekday</label>
+        <link refid="classdate_1_1weekday"/>
+      </node>
+      <node id="1">
+        <label>date::detail::MonthDayTime::pair</label>
+        <childnode refid="2" relation="usage">
+          <edgelabel>month_day_</edgelabel>
+        </childnode>
+        <childnode refid="3" relation="usage">
+          <edgelabel>weekday_</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>date::month_day</label>
+        <link refid="classdate_1_1month__day"/>
+      </node>
+    </collaborationgraph>
+    <location file="/home/davem/gr-aff3ct_codes/aff3ct-3.0.2_Library_Header_Files/date/tz_private.h" line="56" column="5" bodyfile="/home/davem/gr-aff3ct_codes/aff3ct-3.0.2_Library_Header_Files/date/tz_private.h" bodystart="57" bodyend="67"/>
+    <listofallmembers>
+      <member refid="structdate_1_1detail_1_1MonthDayTime_1_1pair_1a4798aee1c65a0267ceba72cf10e97bef" prot="public" virt="non-virtual"><scope>date::detail::MonthDayTime::pair</scope><name>month_day_</name></member>
+      <member refid="structdate_1_1detail_1_1MonthDayTime_1_1pair_1a2117ea931192f84a0f6b2a6d388b119f" prot="public" virt="non-virtual"><scope>date::detail::MonthDayTime::pair</scope><name>weekday_</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

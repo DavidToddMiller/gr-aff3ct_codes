@@ -1,0 +1,112 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="classdate_1_1month__weekday" kind="class" language="C++" prot="public">
+    <compoundname>date::month_weekday</compoundname>
+    <includes refid="date_8h" local="no">date.h</includes>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classdate_1_1month__weekday_1ad86977f68175209e36338d9faeaec25b" prot="private" static="no" mutable="no">
+        <type><ref refid="classdate_1_1month" kindref="compound">date::month</ref></type>
+        <definition>date::month date::month_weekday::m_</definition>
+        <argsstring></argsstring>
+        <name>m_</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/davem/gr-aff3ct_codes/aff3ct-3.0.2_Library_Header_Files/date/date.h" line="591" column="27" bodyfile="/home/davem/gr-aff3ct_codes/aff3ct-3.0.2_Library_Header_Files/date/date.h" bodystart="591" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classdate_1_1month__weekday_1ac1d833dca46798f71d650931d291972d" prot="private" static="no" mutable="no">
+        <type><ref refid="classdate_1_1weekday__indexed" kindref="compound">date::weekday_indexed</ref></type>
+        <definition>date::weekday_indexed date::month_weekday::wdi_</definition>
+        <argsstring></argsstring>
+        <name>wdi_</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/davem/gr-aff3ct_codes/aff3ct-3.0.2_Library_Header_Files/date/date.h" line="592" column="27" bodyfile="/home/davem/gr-aff3ct_codes/aff3ct-3.0.2_Library_Header_Files/date/date.h" bodystart="592" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classdate_1_1month__weekday_1a99e32650eba86c9e064703f994a37b81" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="date_8h_1a98c025909efef28d356780da89fc44b6" kindref="member">CONSTCD11</ref></type>
+        <definition>CONSTCD11 date::month_weekday::month_weekday</definition>
+        <argsstring>(const date::month &amp;m, const date::weekday_indexed &amp;wdi) NOEXCEPT</argsstring>
+        <name>month_weekday</name>
+        <param>
+          <type>const <ref refid="classdate_1_1month" kindref="compound">date::month</ref> &amp;</type>
+          <declname>m</declname>
+        </param>
+        <param>
+          <type>const <ref refid="classdate_1_1weekday__indexed" kindref="compound">date::weekday_indexed</ref> &amp;</type>
+          <declname>wdi</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/davem/gr-aff3ct_codes/aff3ct-3.0.2_Library_Header_Files/date/date.h" line="594" column="15" bodyfile="/home/davem/gr-aff3ct_codes/aff3ct-3.0.2_Library_Header_Files/date/date.h" bodystart="2262" bodyend="2266"/>
+      </memberdef>
+      <memberdef kind="function" id="classdate_1_1month__weekday_1aee496dec1d5eef3ccbd43eae2548ad33" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="date_8h_1a98c025909efef28d356780da89fc44b6" kindref="member">CONSTCD11</ref> <ref refid="classdate_1_1month" kindref="compound">date::month</ref></type>
+        <definition>CONSTCD11 month date::month_weekday::month</definition>
+        <argsstring>() const NOEXCEPT</argsstring>
+        <name>month</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/davem/gr-aff3ct_codes/aff3ct-3.0.2_Library_Header_Files/date/date.h" line="597" column="37" bodyfile="/home/davem/gr-aff3ct_codes/aff3ct-3.0.2_Library_Header_Files/date/date.h" bodystart="2268" bodyend="2268"/>
+      </memberdef>
+      <memberdef kind="function" id="classdate_1_1month__weekday_1acc93f76b3a096d5f40b61fc46f377fb1" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="date_8h_1a98c025909efef28d356780da89fc44b6" kindref="member">CONSTCD11</ref> <ref refid="classdate_1_1weekday__indexed" kindref="compound">date::weekday_indexed</ref></type>
+        <definition>CONSTCD11 weekday_indexed date::month_weekday::weekday_indexed</definition>
+        <argsstring>() const NOEXCEPT</argsstring>
+        <name>weekday_indexed</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/davem/gr-aff3ct_codes/aff3ct-3.0.2_Library_Header_Files/date/date.h" line="598" column="37" bodyfile="/home/davem/gr-aff3ct_codes/aff3ct-3.0.2_Library_Header_Files/date/date.h" bodystart="2273" bodyend="2276"/>
+      </memberdef>
+      <memberdef kind="function" id="classdate_1_1month__weekday_1ae300acb90f2a931979a5f61521fefd52" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="date_8h_1a98c025909efef28d356780da89fc44b6" kindref="member">CONSTCD11</ref> bool</type>
+        <definition>CONSTCD11 bool date::month_weekday::ok</definition>
+        <argsstring>() const NOEXCEPT</argsstring>
+        <name>ok</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/davem/gr-aff3ct_codes/aff3ct-3.0.2_Library_Header_Files/date/date.h" line="600" column="20" bodyfile="/home/davem/gr-aff3ct_codes/aff3ct-3.0.2_Library_Header_Files/date/date.h" bodystart="2281" bodyend="2284"/>
+        <references refid="classdate_1_1month_1ab6518c7476d05f77ebe10838881e025a" compoundref="date_8h" startline="1397" endline="1397">date::month::ok</references>
+        <references refid="classdate_1_1weekday__indexed_1a9fd7c06cd1190bb5bf32c69316a1100b" compoundref="date_8h" startline="1849" endline="1852">date::weekday_indexed::ok</references>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/davem/gr-aff3ct_codes/aff3ct-3.0.2_Library_Header_Files/date/date.h" line="589" column="1" bodyfile="/home/davem/gr-aff3ct_codes/aff3ct-3.0.2_Library_Header_Files/date/date.h" bodystart="590" bodyend="601"/>
+    <listofallmembers>
+      <member refid="classdate_1_1month__weekday_1ad86977f68175209e36338d9faeaec25b" prot="private" virt="non-virtual"><scope>date::month_weekday</scope><name>m_</name></member>
+      <member refid="classdate_1_1month__weekday_1aee496dec1d5eef3ccbd43eae2548ad33" prot="public" virt="non-virtual"><scope>date::month_weekday</scope><name>month</name></member>
+      <member refid="classdate_1_1month__weekday_1a99e32650eba86c9e064703f994a37b81" prot="public" virt="non-virtual"><scope>date::month_weekday</scope><name>month_weekday</name></member>
+      <member refid="classdate_1_1month__weekday_1ae300acb90f2a931979a5f61521fefd52" prot="public" virt="non-virtual"><scope>date::month_weekday</scope><name>ok</name></member>
+      <member refid="classdate_1_1month__weekday_1ac1d833dca46798f71d650931d291972d" prot="private" virt="non-virtual"><scope>date::month_weekday</scope><name>wdi_</name></member>
+      <member refid="classdate_1_1month__weekday_1acc93f76b3a096d5f40b61fc46f377fb1" prot="public" virt="non-virtual"><scope>date::month_weekday</scope><name>weekday_indexed</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>
