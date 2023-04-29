@@ -47,13 +47,17 @@ There are some build dependencies for this GNU Radio out-of-tree module that mus
 
   1) The MIT AFF3CT Library (Header Files and Shared Object File) are already available in this repository, but must be placed in other folder locations before compiling/building so that they are found during build and execution.
 
+               a) aff3ct-3.0.2_Library_Shared_Object_File (see folder): libaff3ct-3.0.2.so Shared Object
+                    I placed in root location path and folder usr/lib    
   
-                a) aff3ct-3.0.2_Library_Header_Files (see folder)
-                    I placed in root location path and folder usr/include but other options exist
-                     
-                b) aff3ct-3.0.2_Library_Shared_Object_File (see folder): libaff3ct-3.0.2.so Shared Object
-                    I placed in root location path and folder usr/lib but other options exist   
-
+               b) aff3ct-3.0.2_Library_Header_Files (see folder)
+                    I placed inside ubuntu root location path and folder "usr/include" the following:  
+  
+                        Folders: date, Factory, Maps, math, Module, Ranges, Splitter, Tools, Types
+                    
+                        Files: cli.hpp, mipp.h, mipp_impl_AVX.hxx, mipp_impl_AVX512.hxx, mipp_impl_NEON.hxx, mipp_Impl_SSE.hxx, mipp_object.hxx, mipp_scalar_op.h, mipp_scalar_op.hxx, rang.hpp
+                    
+ 
   2) 3 additional changes to cmake already are already in this repository:
  
      a) CMakeLists.txt at top level of repository: Added lines 100-103
