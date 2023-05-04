@@ -16,7 +16,7 @@ Also, an example CCSDS SQPSK/LDPC Rate 1/2 flowgraph that plays back a recorded 
 
                                INSTALLATION FROM SOURCE
 
-The installation procedure of gr-aff3ct_codes source code includes the usual procedure for a GNU Radio out-of-tree (OOT) module. The detailed instructions are as follows for building from source in a system where GNU Radio 3.10 (should work with GNU Radio version 3.9 also) has already been installed with Ubuntu 22.04:
+The installation procedure of gr-aff3ct_codes source code includes the usual procedure for a GNU Radio out-of-tree (OOT) module. The detailed instructions are as follows for building from source in a system where GNU Radio 3.10 has already been installed with Ubuntu 22.04:
 
 
                                   DOWNLOADING
