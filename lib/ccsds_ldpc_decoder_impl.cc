@@ -56,7 +56,7 @@ ccsds_ldpc_decoder_impl::ccsds_ldpc_decoder_impl(int code_rate,
 
       // Construct LDPC H Matrix via alist
       //d_alist_file;  //set file name object for in-out
-      d_alist_file.open("ccsds_ar4ja_r1_2_k1024.alist", std::ifstream::in);
+      d_alist_file.open("H_matrix_ccsds_ar4ja_r1_2_k1024.alist", std::ifstream::in);
       d_H = aff3ct::tools::AList::read(d_alist_file);
 
 

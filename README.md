@@ -2,17 +2,18 @@
 
 gr-aff3ct_codes is a GNU Radio module set of blocks that incorporates codes from the Massachusetts Institute of Technology (MIT)"A Fast Forward Error Correction Toolbox" (AFF3CT) library:
  
-  1) Current Repository Status (April 2023): Initially, a CCSDS rate 1/2 LDPC decoder GNU Radio block has been built with the MIT AFF3CT library to demonstrate that a library not originally built and designed for GNU Radio can be incorporated into a GNU Radio module/block (with .so shared library and associated .h header files).
+  1) CCSDS rate 1/2 LDPC Decoder: Current Repository Status (June 2023): A CCSDS rate 1/2 LDPC decoder GNU Radio Out-Of-Tree (OOT) block has been built with the MIT AFF3CT library to demonstrate that a library not originally built and designed for GNU Radio can be incorporated into a GNU Radio module/block (with .so shared library and associated .h header files). Specifically, this repository implements the (2048,1024) rate 1/2 LDPC code in the CCSDS document "TM SYNCHRONIZATION AND CHANNEL CODING", CCSDS 131.0-B-4, Blue Book. The H matrix (Parity Check MAtrix) for the code is included in the main directory of this repository (H_matrix_ccsds_ar4ja_r1_2_k1024.alist).
 
-  2) Future: Add additional codes from MIT AFF3CT library into GNU Radio OOT decoder and encoder blocks.
+  2) Encoder:  A CCSDS (2048,1024) rate 1/2 LDPC encoder with just the In-Tree GNU Radio FEC blocks is included in the transmit/receive flowgraph in the "examples" folder. The associated Generator matrix (G_matrix_ccsds_ar4ja_r1_2_k1024.alist) for the encoder is included in the main directory of this repository.
   
   3) This repository is associated with the gr-HighDataRate_Modem repository. gr-aff3ct_codes is being kept separate from the gr-HighDataRate_Modem repository because extra steps/dependencies are required to add the MIT AFF3CT library to a GNU Radio block as listed below after cloning this repository.
   
 
-Also, an example CCSDS SQPSK/LDPC Rate 1/2 flowgraph that plays back a recorded I/Q file (about 500 frame duration repeated in flowgraph) is located in the “examples” folder of this github repository. GNU Radio member(s) not associated with NASA independently used the Allen Telescope Array (ATA) to record Orion moon vehicle RF IQ on the downlink (SQPSK with CCSDS LDPC rate 1/2) as stated at the following link that also provides recorded IQ data files and all the details about a GNU Radio CCSDS SQPSK/LDPC rate 1/2 flowgraph:
+An example CCSDS SQPSK/LDPC Rate 1/2 flowgraph that plays back a recorded I/Q file (about 500 frame duration repeated in flowgraph) is located in the “examples” folder of this github repository (SQPSK_LDPC_RateOneHalf_Orion_RCVonly.grc). GNU Radio member(s) not associated with NASA independently used the Allen Telescope Array (ATA) to record Orion moon vehicle RF IQ on the downlink (SQPSK with CCSDS LDPC rate 1/2) as stated at the following link that also provides recorded IQ data files and all the details about a GNU Radio CCSDS SQPSK/LDPC rate 1/2 flowgraph:
 
             https://destevez.net/2022/11/decoding-the-artemis-i-orion-vehicle/
 
+The other flowgraph in the examples folder (CCSDS_BPSK_LDPC_Simulation_TX_RCV.grc) provides a simulation BPSK transmit/Receive loop with both the CCSDS rate 1/2 LDPC Decoder and CCSDS rate 1/2 LDPC Encoder. Each test frame for the loop is 1024 bits in length and starts with 4501 Hexadecimal.
 
                                INSTALLATION FROM SOURCE
 
@@ -43,7 +44,7 @@ sudo ldconfig
 
                                DEPENDENCIES for MIT AFF3CT Shared Library
 
-There are some build dependencies for this GNU Radio out-of-tree module that must be done before running the above "cmake" and "make" operations that are required to use the MIT AFF3CT Shared Library in a GNU Radio block:
+There are some build dependencies for these GNU Radio out-of-tree modules that must be done before running the above "cmake" and "make" operations that are required to use the MIT AFF3CT Shared Library in a GNU Radio block:
 
   1) The MIT AFF3CT Library (Header Files and Shared Object File) are already available in this repository, but must be placed in other folder locations before compiling/building so that they are found during build and execution.
 
@@ -76,13 +77,12 @@ There are some build dependencies for this GNU Radio out-of-tree module that mus
 
                          RUNNING THE .grc FLOWGRAPHS
 
-The .py generated file in the GNU Radio Companion should be run from the Ubuntu terminal when in the gr-aff3ct_codes level of terminal (so alist file is seen during execution). For example cd gr-aff3ct_codes)
+The .py generated file in the GNU Radio Companion should be run from the Ubuntu terminal when in the gr-aff3ct_codes level of terminal (so that alist files are seen during execution). For example cd gr-aff3ct_codes)
 
 
                                          FUTURE WORK   
 
-1. Expand Capabilities by adding other codes in AA3CT library to GNU Radio blocks. 
-2. Add Encoders and and additional Decoders (emphasizing CCSDS codes)  
+1. Expand Capabilities by adding other codes in AFF3CT library to GNU Radio blocks. 
 
 
 

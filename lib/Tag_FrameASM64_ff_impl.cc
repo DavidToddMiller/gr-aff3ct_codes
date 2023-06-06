@@ -118,10 +118,8 @@ int Tag_FrameASM64_ff_impl::work(int noutput_items,
     uint64_t abs_out_sample_cnt = nitems_written(0);
 
    //use int d_waveform = 1 if BPSK and d_waveform = 2 if QPSK
-    switch(d_len + d_waveform) //{   /
-    {   // bracket for "d_waveform" switch
-
-      case 65:        //BPSK Waveform - 64 bits ASM
+    if(d_waveform == 1)  //BPSK
+    {  
       for (int i = 0; i < noutput_items; i++) {
         out[i] = in[i];
 
@@ -149,12 +147,13 @@ int Tag_FrameASM64_ff_impl::work(int noutput_items,
                          d_me                    // block src id
             );
         }
-
       }  // END of FOR loop for i
             // GR_LOG_DEBUG(d_logger, boost::format("Case 1 %llu") % (d_waveform));
-      break; //  break for CASE 1 32 bits ASM waveform BPSK
+    } // End of IF statement for BPSK 
 
-      case 66:        //QPSK Waveform - 64 bits ASM
+
+    if(d_waveform == 2)  //QPSK
+    {  
       for (int i = 0; i < noutput_items; i++) {
         out[i] = in[i];
 
@@ -188,9 +187,8 @@ int Tag_FrameASM64_ff_impl::work(int noutput_items,
         }
 
       }  // END of FOR loop for i
-      break;//  break for CASE 32 bits ASM waveform QPSK
 
-    } // END of SWITCH function for BPSK and QPSK cases
+    } // END of IF statement for QPSK cases
 
 
     // Tell runtime system how many output items we produced.
