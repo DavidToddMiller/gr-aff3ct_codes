@@ -9,9 +9,9 @@ gr-aff3ct_codes is a GNU Radio module set of blocks that incorporates codes from
   3) This repository is associated with the gr-HighDataRate_Modem repository. gr-aff3ct_codes is being kept separate from the gr-HighDataRate_Modem repository because extra steps/dependencies are required to add the MIT AFF3CT library to a GNU Radio block as listed below after cloning this repository.
   
 
-An example CCSDS SQPSK/LDPC Rate 1/2 flowgraph that plays back a recorded I/Q file (about 500 frame duration repeated in flowgraph) is located in the “examples” folder of this github repository (SQPSK_LDPC_RateOneHalf_Orion_RCVonly.grc). GNU Radio member(s) not associated with NASA independently used the Allen Telescope Array (ATA) to record Orion moon vehicle RF IQ on the downlink (SQPSK with CCSDS LDPC rate 1/2) as stated at the following link that also provides recorded IQ data files and all the details about a GNU Radio CCSDS SQPSK/LDPC rate 1/2 flowgraph:
+An example CCSDS SQPSK/LDPC Rate 1/2 flowgraph that plays back and decodes a recorded I/Q file (about 500 frame duration repeated in flowgraph) is located in the “examples” folder of this github repository (SQPSK_LDPC_RateOneHalf_Orion_RCVonly.grc). The SETI Institute used the Allen Telescope Array (ATA) and GNU Radio to record NASA Orion moon vehicle RF IQ on the downlink (SQPSK with CCSDS LDPC rate 1/2) as stated at the following link (following link also provides an additional link to the ATA recorded Orion IQ data files):
 
-            https://destevez.net/2022/11/decoding-the-artemis-i-orion-vehicle/
+            https://www.seti.org/to-the-moon
 
 The other flowgraph in the examples folder (CCSDS_BPSK_LDPC_Simulation_TX_RCV.grc) provides a simulation BPSK transmit/Receive loop with both the CCSDS rate 1/2 LDPC Decoder and CCSDS rate 1/2 LDPC Encoder. Each test frame for the loop is 1024 bits in length and starts with 4501 Hexadecimal.
 
