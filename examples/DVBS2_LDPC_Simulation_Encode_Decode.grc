@@ -160,7 +160,7 @@ blocks:
     alias: ''
     append: 'False'
     comment: ''
-    file: /home/davem/AFF3CT_GithubTest/gr-aff3ct_codes/examples/Sink_After Decode_DVBS2_test1
+    file: /home/davem/gr-aff3ct_codes/examples/Sink_After Decode_DVBS2_test1
     type: byte
     unbuffered: 'False'
     vlen: '1'
@@ -178,7 +178,7 @@ blocks:
     alias: ''
     append: 'False'
     comment: ''
-    file: /home/davem/AFF3CT_GithubTest/gr-aff3ct_codes/examples/Sink_BEFORE_ Decode_DVBS2_test1
+    file: /home/davem/gr-aff3ct_codes/examples/Sink_BEFORE_ Decode_DVBS2_test1
     type: byte
     unbuffered: 'False'
     vlen: '1'
@@ -196,7 +196,7 @@ blocks:
     alias: ''
     begin_tag: pmt.PMT_NIL
     comment: ''
-    file: /home/davem/AFF3CT_GithubTest/gr-aff3ct_codes/examples/10_CCSDSframes_Before_LDPC_Encode
+    file: /home/davem/gr-aff3ct_codes/examples/10_CCSDSframes_Before_LDPC_Encode
     length: '0'
     maxoutbuf: '0'
     minoutbuf: '0'
