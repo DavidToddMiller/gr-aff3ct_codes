@@ -27,6 +27,7 @@ namespace py = pybind11;
     void bind_Resolve_Phase2(py::module& m);
     void bind_CCSDS_Pseudo_Randomizer(py::module& m);
     void bind_Frame_ExtractOQPSK(py::module& m);
+    void bind_dvbs2_ldpc_decoder(py::module& m);
 // ) END BINDING_FUNCTION_PROTOTYPES
 
 
@@ -61,5 +62,6 @@ PYBIND11_MODULE(aff3ct_codes_python, m)
     bind_Resolve_Phase2(m);
     bind_CCSDS_Pseudo_Randomizer(m);
     bind_Frame_ExtractOQPSK(m);
+    bind_dvbs2_ldpc_decoder(m);
     // ) END BINDING_FUNCTION_CALLS
 }

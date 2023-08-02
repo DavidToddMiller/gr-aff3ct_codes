@@ -34,7 +34,8 @@ list(APPEND aff3ct_codes_python_files
     Frame_Extract2_python.cc
     Resolve_Phase2_python.cc
     CCSDS_Pseudo_Randomizer_python.cc
-    Frame_ExtractOQPSK_python.cc python_bindings.cc)
+    Frame_ExtractOQPSK_python.cc
+    dvbs2_ldpc_decoder_python.cc python_bindings.cc)
 
 GR_PYBIND_MAKE_OOT(aff3ct_codes
    ../../..

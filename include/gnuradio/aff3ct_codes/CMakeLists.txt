@@ -16,5 +16,6 @@ install(FILES
     Frame_Extract2.h
     Resolve_Phase2.h
     CCSDS_Pseudo_Randomizer.h
-    Frame_ExtractOQPSK.h DESTINATION include/gnuradio/aff3ct_codes
+    Frame_ExtractOQPSK.h
+    dvbs2_ldpc_decoder.h DESTINATION include/gnuradio/aff3ct_codes
 )

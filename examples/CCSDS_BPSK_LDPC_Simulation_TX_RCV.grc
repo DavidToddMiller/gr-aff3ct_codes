@@ -424,13 +424,15 @@ blocks:
     coordinate: [960, 668.0]
     rotation: 0
     state: true
-- name: blocks_throttle_0_0
-  id: blocks_throttle
+- name: blocks_throttle2_0
+  id: blocks_throttle2
   parameters:
     affinity: ''
     alias: ''
     comment: ''
     ignoretag: 'True'
+    limit: auto
+    maximum: '0.1'
     maxoutbuf: '0'
     minoutbuf: '0'
     samples_per_second: samp_rate
@@ -440,9 +442,9 @@ blocks:
     bus_sink: false
     bus_source: false
     bus_structure: null
-    coordinate: [80, 324.0]
+    coordinate: [88, 316.0]
     rotation: 180
-    state: enabled
+    state: true
 - name: blocks_unpack_k_bits_bb_0
   id: blocks_unpack_k_bits_bb
   parameters:
@@ -640,7 +642,7 @@ connections:
 - [aff3ct_codes_ccsds_ldpc_decoder_0, '0', blocks_file_sink_0_0, '0']
 - [analog_const_source_x_0, '0', aff3ct_codes_Frame_ExtractOQPSK_0, '1']
 - [analog_noise_source_x_0, '0', blocks_add_xx_0, '1']
-- [blocks_add_xx_0, '0', blocks_throttle_0_0, '0']
+- [blocks_add_xx_0, '0', blocks_throttle2_0, '0']
 - [blocks_complex_to_real_0, '0', aff3ct_codes_Tag_FrameASM64_ff_0, '0']
 - [blocks_file_source_0_0_0_0_0, '0', blocks_stream_mux_0, '0']
 - [blocks_file_source_0_0_0_0_0_0, '0', blocks_unpack_k_bits_bb_0, '0']
@@ -651,7 +653,7 @@ connections:
 - [blocks_stream_demux_0, '1', aff3ct_codes_ccsds_ldpc_decoder_0, '0']
 - [blocks_stream_mux_0, '0', blocks_pack_k_bits_bb_0, '0']
 - [blocks_tag_gate_1, '0', blocks_multiply_const_vxx_2_0, '0']
-- [blocks_throttle_0_0, '0', blocks_multiply_const_vxx_2, '0']
+- [blocks_throttle2_0, '0', blocks_multiply_const_vxx_2, '0']
 - [blocks_unpack_k_bits_bb_0, '0', fec_extended_encoder_0_0, '0']
 - [digital_constellation_modulator_0_0, '0', blocks_add_xx_0, '0']
 - [digital_costas_loop_cc_0_0, '0', blocks_tag_gate_1, '0']
@@ -661,4 +663,4 @@ connections:
 
 metadata:
   file_format: 1
-  grc_version: 3.10.5.1
+  grc_version: 3.10.7.0

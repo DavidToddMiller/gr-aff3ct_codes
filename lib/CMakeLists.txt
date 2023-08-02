@@ -18,6 +18,7 @@ list(APPEND aff3ct_codes_sources
     Resolve_Phase2_impl.cc
     CCSDS_Pseudo_Randomizer_impl.cc
     Frame_ExtractOQPSK_impl.cc
+    dvbs2_ldpc_decoder_impl.cc
 )
 
 set(aff3ct_codes_sources "${aff3ct_codes_sources}" PARENT_SCOPE)
