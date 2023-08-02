@@ -243,7 +243,7 @@ blocks:
     alias: ''
     append: 'False'
     comment: ''
-    file: /home/davem/gr-aff3ct_codes/examples/CCSDS_LDPC_SINK
+    file: /home/davem/AFF3CT_GithubTest/gr-aff3ct_codes/examples/CCSDS_LDPC_SINK
     type: byte
     unbuffered: 'False'
     vlen: '1'
@@ -261,7 +261,7 @@ blocks:
     alias: ''
     begin_tag: pmt.PMT_NIL
     comment: ''
-    file: /home/davem/gr-aff3ct_codes/examples/64_BIT_ASM_CCSDS_LDPC
+    file: /home/davem/AFF3CT_GithubTest/gr-aff3ct_codes/examples/64_BIT_ASM_CCSDS_LDPC
     length: '0'
     maxoutbuf: '0'
     minoutbuf: '0'
@@ -283,7 +283,7 @@ blocks:
     alias: ''
     begin_tag: pmt.PMT_NIL
     comment: ''
-    file: /home/davem/gr-aff3ct_codes/examples/10_CCSDSframes_Before_LDPC_Encode
+    file: /home/davem/AFF3CT_GithubTest/gr-aff3ct_codes/examples/10_CCSDSframes_Before_LDPC_Encode
     length: '0'
     maxoutbuf: '0'
     minoutbuf: '0'
